@@ -1,0 +1,50 @@
+# host | what it serves | access route
+# Archive web services and APIs
+mast.stsci.edu | MAST portal and API (Kepler, K2, TESS, Pan-STARRS, HST) | api
+archive.stsci.edu | MAST legacy archive and TESS bulk downloads | api
+catalogs.mast.stsci.edu | MAST catalogue API (Pan-STARRS, TIC) | api
+irsa.ipac.caltech.edu | IRSA (ZTF light-curve API, WISE/NEOWISE, TAP) | api
+ned.ipac.caltech.edu | NASA/IPAC Extragalactic Database | api
+gea.esac.esa.int | ESA Gaia archive (TAP) | api
+simbad.cds.unistra.fr | SIMBAD object database | api
+vizier.cds.unistra.fr | VizieR catalogue service | api
+heasarc.gsfc.nasa.gov | HEASARC (Swift, NICER, MAXI, Fermi GBM) | api
+fermi.gsfc.nasa.gov | Fermi Science Support Center (LAT Light Curve Repository) | api
+skyserver.sdss.org | SDSS SkyServer SQL | api
+data.sdss.org | SDSS science archive files | api
+data.desi.lbl.gov | DESI public data releases | api
+api.alerce.online | ALeRCE alert broker API | api
+api.fink-portal.org | Fink alert broker API | api
+lasair-ztf.lsst.ac.uk | Lasair alert broker | api
+antares.noirlab.edu | ANTARES alert broker | api
+datalab.noirlab.edu | NOIRLab Astro Data Lab | api
+data.lsst.cloud | Rubin Science Platform | api
+seti.berkeley.edu | Breakthrough Listen open data portal | api
+breakthroughinitiatives.org | Breakthrough Listen open data search | api
+bldata.berkeley.edu | Breakthrough Listen data server | api
+www.atnf.csiro.au | ATNF Pulsar Catalogue | api
+data.csiro.au | CSIRO Data Access Portal (Parkes pulsar data) | api
+www.chime-frb.ca | CHIME/FRB catalogues | api
+www.wis-tns.org | Transient Name Server | api
+gwosc.org | Gravitational Wave Open Science Center | api
+icecube.wisc.edu | IceCube public data releases | api
+asas-sn.ifa.hawaii.edu | ASAS-SN Sky Patrol | api
+fallingstar-data.com | ATLAS forced-photometry server | api
+ogle.astrouw.edu.pl | OGLE photometry archive | api
+nanograv.org | NANOGrav data releases | api
+api.adsabs.harvard.edu | NASA ADS literature API | api
+arxiv.org | arXiv preprints | api
+zenodo.org | Zenodo data deposits | api
+data.lsdb.io | LSDB-hosted HATS catalogues | api
+# Public cloud copies of the same data
+stpubdata.s3.amazonaws.com | STScI public bucket (TESS, Kepler, K2, Gaia DR3, Pan-STARRS, SDSS DR7 spectra, HST, JWST) | cloud
+ipac-irsa-ztf.s3.amazonaws.com | IRSA ZTF bucket (DR23 and DR24 light curves and objects, HATS format) | cloud
+nasa-irsa-wise.s3.amazonaws.com | IRSA WISE bucket (AllWISE, NEOWISE single exposures, unWISE) | cloud
+nasa-irsa-spherex.s3.amazonaws.com | IRSA SPHEREx bucket | cloud
+nasa-heasarc.s3.amazonaws.com | HEASARC bucket (Fermi, Swift, NICER, MAXI, RXTE, XMM, Chandra and more) | cloud
+storage.googleapis.com | Google Cloud Storage (Breakthrough Listen sample files) | cloud
+# Code and packages
+github.com | Source repositories | code
+raw.githubusercontent.com | Raw files from repositories | code
+pypi.org | Python packages | code
+conda.anaconda.org | Conda packages | code

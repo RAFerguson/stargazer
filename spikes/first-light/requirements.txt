@@ -1,0 +1,10 @@
+# Versions the first-light scripts were run with on 2026-11-14 (Python 3.13).
+aiohttp==3.14.5
+astropy==8.0.2
+fsspec==2026.9.0
+hats==0.11.2
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.1.1
+pyarrow==26.0.1
+scipy==1.18.1

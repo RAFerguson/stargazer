@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local data caches (downloaded archive data is never committed)
+.stargazer/
+cache/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
