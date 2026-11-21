@@ -1,1718 +1,3098 @@
 {
  "0706.0797": {
-  "abstract": "",
   "first_author": "F. Aharonian",
+  "min_shared_words": 2,
   "published": "2007-06-06",
   "title": "An Exceptional VHE Gamma-Ray Flare of PKS 2155-304"
  },
  "0706.3838": {
-  "abstract": "",
   "first_author": "Rob Fender",
+  "min_shared_words": 7,
   "published": "2007-06-26",
   "title": "Eight powers of ten: similarities in black hole accretion on all mass scales"
  },
  "0708.2505": {
-  "abstract": "",
   "first_author": "T. H. Hankins",
+  "min_shared_words": 1,
   "published": "2007-08-18",
   "title": "Radio Emission Signatures in the Crab Pulsar"
  },
  "0710.1021": {
-  "abstract": "",
   "first_author": "A. Melatos",
+  "min_shared_words": 6,
   "published": "2007-10-04",
   "title": "Avalanche dynamics of radio pulsar glitches"
  },
+ "0711.2368": {
+  "first_author": "Zaitsev, Alexander",
+  "min_shared_words": 2,
+  "published": "2007-11-15",
+  "title": "Sending and Searching for Interstellar Messages"
+ },
  "0807.1899": {
-  "abstract": "",
   "first_author": "Marek Gierlinski",
+  "min_shared_words": 3,
   "published": "2008-07-11",
   "title": "A ~1-hour X-ray periodicity in an active galaxy RE J1034+396"
  },
+ "0807.4518": {
+  "first_author": "Lemarchand, Guillermo A.",
+  "min_shared_words": 10,
+  "published": "2008-07-28",
+  "title": "Counting on Beauty: The role of aesthetic, ethical, and physical universal principles for interstellar communication"
+ },
  "0809.0339": {
-  "abstract": "",
   "first_author": "John G. Learned",
+  "min_shared_words": 6,
   "published": "2008-09-02",
   "title": "The Cepheid Galactic Internet"
  },
  "0809.1394": {
-  "abstract": "",
   "first_author": "A. J. Drake",
+  "min_shared_words": 7,
   "published": "2008-09-08",
   "title": "First Results from the Catalina Real-time Transient Survey"
  },
  "0810.3964": {
-  "abstract": "",
   "first_author": "James Benford",
+  "min_shared_words": 4,
   "published": "2008-10-22",
   "title": "Messaging with Cost Optimized Interstellar Beacons"
  },
  "0810.3966": {
-  "abstract": "",
   "first_author": "Gregory Benford",
+  "min_shared_words": 4,
   "published": "2008-10-22",
   "title": "Searching for Cost Optimized Interstellar Beacons"
  },
  "0811.3046": {
-  "abstract": "",
   "first_author": "Andrew Siemion",
+  "min_shared_words": 8,
   "published": "2008-11-19",
   "title": "New SETI Sky Surveys for Radio Pulses"
  },
  "0901.2573": {
-  "abstract": "",
   "first_author": "M. Zechmeister",
+  "min_shared_words": 5,
   "published": "2009-01-16",
   "title": "The generalised Lomb-Scargle periodogram. A new formalism for the floating-mean and Keplerian periodograms"
  },
  "0903.5315": {
-  "abstract": "",
   "first_author": "Brandon C. Kelly",
+  "min_shared_words": 10,
   "published": "2009-03-30",
   "title": "Are the Variations in Quasar Optical Flux Driven by Thermal Fluctuations?"
  },
  "0909.1326": {
-  "abstract": "",
   "first_author": "Szymon Kozlowski",
+  "min_shared_words": 1,
   "published": "2009-09-07",
   "title": "Quantifying Quasar Variability As Part of a General Approach To Classifying Continuously Varying Sources"
  },
  "0910.2706": {
-  "abstract": "",
   "first_author": "S. Vaughan",
+  "min_shared_words": 3,
   "published": "2009-10-14",
   "title": "A Bayesian test for periodic signals in red noise"
  },
  "0910.5365": {
-  "abstract": "",
   "first_author": "I. E. Papadakis",
+  "min_shared_words": 5,
   "published": "2009-10-28",
   "title": "A correlation between the spectral and timing properties of AGN"
  },
+ "0911.3976": {
+  "first_author": "Busch, Michael W.",
+  "min_shared_words": 1,
+  "published": "2009-11-20",
+  "title": "Testing SETI Message Designs"
+ },
  "0912.4537": {
-  "abstract": "",
   "first_author": "G. Hobbs",
+  "min_shared_words": 5,
   "published": "2009-12-22",
   "title": "An analysis of the timing irregularities for 366 pulsars"
  },
+ "1003.5938": {
+  "first_author": "Benford, James",
+  "min_shared_words": 7,
+  "published": "2010-03-30",
+  "title": "How can we distinguish transient pulsars from SETI beacons?"
+ },
  "1004.0276": {
-  "abstract": "",
   "first_author": "C. L. MacLeod",
+  "min_shared_words": 2,
   "published": "2010-04-02",
   "title": "Modeling the Time Variability of SDSS Stripe 82 Quasars as a Damped Random Walk"
  },
+ "1005.1891": {
+  "first_author": "Gross, Eilam",
+  "min_shared_words": 7,
+  "published": "2010-05-11",
+  "title": "Trial factors for the look elsewhere effect in high energy physics"
+ },
+ "1005.4415": {
+  "first_author": "Eastman, Jason",
+  "min_shared_words": 4,
+  "published": "2010-05-24",
+  "title": "Achieving better than 1 minute accuracy in the Heliocentric and Barycentric Julian Dates"
+ },
  "1006.5184": {
-  "abstract": "",
   "first_author": "Andrew Lyne",
+  "min_shared_words": 11,
   "published": "2010-06-27",
   "title": "Switched magnetospheric regulation of pulsar spin-down"
  },
  "1008.0641": {
-  "abstract": "",
   "first_author": "Ying Zu",
+  "min_shared_words": 3,
   "published": "2010-08-03",
   "title": "An Alternative Approach To Measuring Reverberation Lags in Active Galactic Nuclei"
  },
  "1102.1743": {
-  "abstract": "",
   "first_author": "Cristobal M. Espinoza",
+  "min_shared_words": 4,
   "published": "2011-02-08",
   "title": "A study of 315 glitches in the rotation of 102 pulsars"
  },
  "1105.5746": {
-  "abstract": "",
   "first_author": "G. Hobbs",
+  "min_shared_words": 10,
   "published": "2011-05-29",
   "title": "The Parkes Observatory Pulsar Data Archive"
  },
+ "1111.0547": {
+  "first_author": "Messerschmitt, David G.",
+  "min_shared_words": 9,
+  "published": "2011-11-02",
+  "title": "Interstellar Communication: The Case for Spread Spectrum"
+ },
  "1112.0065": {
-  "abstract": "",
   "first_author": "Benjamin R. Barsdell",
+  "min_shared_words": 1,
   "published": "2011-12-01",
   "title": "Spotting Radio Transients with the help of GPUs"
  },
  "1112.5519": {
-  "abstract": "",
   "first_author": "Makoto Inoue",
+  "min_shared_words": 4,
   "published": "2011-12-23",
   "title": "Type III Dyson Sphere of Highly Advanced Civilizations around a Super Massive Black Hole"
  },
  "1201.5380": {
-  "abstract": "",
   "first_author": "Benjamin R. Barsdell",
+  "min_shared_words": 1,
   "published": "2012-01-25",
   "title": "Accelerating incoherent dedispersion"
  },
  "1202.3783": {
-  "abstract": "",
   "first_author": "Ying Zu",
+  "min_shared_words": 5,
   "published": "2012-02-16",
   "title": "Is Quasar Optical Variability a Damped Random Walk?"
  },
  "1203.6068": {
-  "abstract": "",
   "first_author": "S. Burke-Spolaor",
+  "min_shared_words": 7,
   "published": "2012-03-27",
   "title": "The High Time Resolution Universe Survey - V: Single-pulse energetics and modulation properties of 315 pulsars"
  },
  "1205.2550": {
-  "abstract": "",
   "first_author": "Vishal Gajjar",
+  "min_shared_words": 6,
   "published": "2012-05-11",
   "title": "A survey of nulling pulsars using the Giant Meterwave Radio Telescope"
  },
+ "1211.6470": {
+  "first_author": "Harp, G. R.",
+  "min_shared_words": 8,
+  "published": "2012-11-27",
+  "title": "A new class of SETI beacons that contain information (22-aug-2010)"
+ },
+ "1303.0347": {
+  "first_author": "Amancio, Diego R.",
+  "min_shared_words": 16,
+  "published": "2013-03-02",
+  "title": "Probing the statistical properties of unknown texts: application to the Voynich Manuscript"
+ },
  "1305.0304": {
-  "abstract": "",
   "first_author": "D. Emmanoulopoulos",
+  "min_shared_words": 7,
   "published": "2013-05-01",
   "title": "Generating artificial light curves: Revisited and updated"
  },
+ "1305.4684": {
+  "first_author": "Messerschmitt, David G.",
+  "min_shared_words": 28,
+  "published": "2013-05-21",
+  "title": "End-to-end interstellar communication system design for power efficiency"
+ },
  "1309.0776": {
-  "abstract": "",
   "first_author": "W. W. Zhu",
+  "min_shared_words": 8,
   "published": "2013-09-03",
   "title": "Searching for pulsars using image pattern recognition"
  },
  "1311.4608": {
-  "abstract": "",
   "first_author": "Jayanth Chennamangalam",
+  "min_shared_words": 4,
   "published": "2013-11-19",
   "title": "Jumping the energetics queue: Modulation of pulsar signals by extraterrestrial civilizations"
  },
  "1312.3966": {
-  "abstract": "",
   "first_author": "Zeljko Ivezic",
+  "min_shared_words": 2,
   "published": "2013-12-13",
   "title": "Optical variability of quasars: a damped random walk"
  },
+ "1401.1240": {
+  "first_author": "Coughlin, Jeffrey L.",
+  "min_shared_words": 10,
+  "published": "2014-01-06",
+  "title": "Contamination in the Kepler Field. Identification of 685 KOIs as False Positives Via Ephemeris Matching Based On Q1-Q12 Data"
+ },
  "1402.5978": {
-  "abstract": "",
   "first_author": "Brandon C. Kelly",
+  "min_shared_words": 3,
   "published": "2014-02-24",
   "title": "Flexible and Scalable Methods for Quantifying Stochastic Variability in the Era of Massive Time-Domain Astronomical Data Sets"
  },
  "1405.4290": {
-  "abstract": "",
   "first_author": "A. J. Drake",
+  "min_shared_words": 9,
   "published": "2014-05-16",
   "title": "The Catalina Surveys Periodic Variable Star Catalog"
  },
  "1406.3627": {
-  "abstract": "",
   "first_author": "V. Morello",
+  "min_shared_words": 6,
   "published": "2014-06-13",
   "title": "SPINN: a straightforward machine learning solution to the pulsar candidate selection problem"
  },
  "1407.1907": {
-  "abstract": "",
   "first_author": "E. Breedt",
+  "min_shared_words": 4,
   "published": "2014-07-07",
   "title": "One thousand cataclysmic variables from the Catalina Real-time Transient Survey"
  },
+ "1407.3442": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 13,
+  "published": "2014-07-13",
+  "title": "Square root two period ratios in Cepheid and RR Lyrae variable stars"
+ },
  "1408.1134": {
-  "abstract": "",
   "first_author": "J. T. Wright",
+  "min_shared_words": 4,
   "published": "2014-08-05",
   "title": "The \u011c Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. II. Framework, Strategy, and First Result"
  },
  "1409.1265": {
-  "abstract": "",
   "first_author": "Michael Hippke",
+  "min_shared_words": 9,
   "published": "2014-09-03",
   "title": "Pulsation period variations in the RRc Lyrae star KIC 5520878"
  },
+ "1409.4774": {
+  "first_author": "Wright, J. T.",
+  "min_shared_words": 5,
+  "published": "2014-09-16",
+  "title": "Barycentric Corrections at 1 cm/s for precise Doppler velocities"
+ },
  "1411.5373": {
-  "abstract": "",
   "first_author": "Barak Zackay",
+  "min_shared_words": 1,
   "published": "2014-11-19",
   "title": "An accurate and efficient algorithm for detection of radio bursts with an unknown dispersion measure, for single dish telescopes and interferometers"
  },
  "1412.4936": {
-  "abstract": "",
   "first_author": " MAGIC Collaboration",
+  "min_shared_words": 3,
   "published": "2014-12-16",
   "title": "Black hole lightning due to particle acceleration at subhorizon scales"
  },
  "1501.01375": {
-  "abstract": "",
   "first_author": "Matthew J. Graham",
+  "min_shared_words": 4,
   "published": "2015-01-07",
   "title": "A possible close supermassive black-hole binary in a quasar with optical periodicity"
  },
+ "1501.03715": {
+  "first_author": "Tixier, Audrey",
+  "min_shared_words": 4,
+  "published": "2015-01-15",
+  "title": "Blind identification of an unknown interleaved convolutional code"
+ },
+ "1502.06197": {
+  "first_author": "Javanmard, Adel",
+  "min_shared_words": 8,
+  "published": "2015-02-22",
+  "title": "On Online Control of False Discovery Rate"
+ },
  "1503.01509": {
-  "abstract": "",
   "first_author": "Brian C. Lacki",
+  "min_shared_words": 6,
   "published": "2015-03-05",
   "title": "SETI at Planck Energy: When Particle Physicists Become Cosmic Engineers"
  },
  "1503.02083": {
-  "abstract": "",
   "first_author": "Tingting Liu",
+  "min_shared_words": 2,
   "published": "2015-03-06",
   "title": "A Periodically Varying Luminous Quasar at z=2 from the Pan-STARRS1 Medium Deep Survey: A Candidate Supermassive Black Hole Binary in the Gravitational Wave-Driven Regime"
  },
  "1503.05245": {
-  "abstract": "",
   "first_author": "Michael Hippke",
+  "min_shared_words": 4,
   "published": "2015-03-17",
   "title": "Discrete steps in dispersion measures of Fast Radio Bursts"
  },
  "1503.06676": {
-  "abstract": "",
   "first_author": "S D Connolly",
+  "min_shared_words": 7,
   "published": "2015-03-23",
   "title": "A Python Code for the Emmanoulopoulos et al. [arXiv:1305.0304] Light Curve Simulation Algorithm"
  },
  "1504.02165": {
-  "abstract": "",
   "first_author": "E. Petroff",
+  "min_shared_words": 6,
   "published": "2015-04-09",
   "title": "Identifying the source of perytons at the Parkes radio telescope"
  },
+ "1504.03418": {
+  "first_author": "Griffith, Roger L.",
+  "min_shared_words": 2,
+  "published": "2015-04-14",
+  "title": "The \\^G Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. III. The Reddest Extended Sources in WISE"
+ },
  "1507.07603": {
-  "abstract": "",
   "first_author": "Matthew J. Graham",
+  "min_shared_words": 3,
   "published": "2015-07-27",
   "title": "A systematic search for close supermassive black hole binaries in the Catalina Real-Time Transient Survey"
  },
  "1508.02406": {
-  "abstract": "",
   "first_author": "E. Zackrisson",
+  "min_shared_words": 3,
   "published": "2015-08-10",
   "title": "Extragalactic SETI: The Tully-Fisher relation as a probe of Dysonian astroengineering in disk galaxies"
  },
  "1508.02624": {
-  "abstract": "",
   "first_author": "Michael Garrett",
+  "min_shared_words": 6,
   "published": "2015-08-11",
   "title": "The application of the Mid-IR radio correlation to the $\\hat{G}$ sample and the search for advanced extraterrestrial civilisations"
  },
+ "1509.00689": {
+  "first_author": "Borbely, Rebecca Schuller",
+  "min_shared_words": 2,
+  "published": "2015-09-02",
+  "title": "On Normalized Compression Distance and Large Malware"
+ },
+ "1509.03622": {
+  "first_author": "Boyajian, T. S.",
+  "min_shared_words": 3,
+  "published": "2015-09-11",
+  "title": "Planet Hunters X. KIC 8462852 - Where's the Flux?"
+ },
  "1509.04301": {
-  "abstract": "",
   "first_author": "Daniel J. D'Orazio",
+  "min_shared_words": 3,
   "published": "2015-09-14",
   "title": "Relativistic boost as the cause of periodicity in a massive black-hole binary candidate"
  },
+ "1510.04606": {
+  "first_author": "Wright, Jason T.",
+  "min_shared_words": 8,
+  "published": "2015-10-15",
+  "title": "The \\^G Search for Extraterrestrial Civilizations with Large Energy Supplies. IV. The Signatures and Information Content of Transiting Megastructures"
+ },
+ "1511.07908": {
+  "first_author": "Marengo, Massimo",
+  "min_shared_words": 3,
+  "published": "2015-11-24",
+  "title": "KIC 8462852 - The Infrared Flux"
+ },
+ "1602.00987": {
+  "first_author": "Abeysekara, A. U.",
+  "min_shared_words": 9,
+  "published": "2016-02-02",
+  "title": "A Search for Brief Optical Flashes Associated with the SETI Target KIC 8462852"
+ },
+ "1602.04105": {
+  "first_author": "O'Shea, Timothy J",
+  "min_shared_words": 3,
+  "published": "2016-02-12",
+  "title": "Convolutional Radio Modulation Recognition Networks"
+ },
  "1603.04171": {
-  "abstract": "",
   "first_author": "M. J. Valtonen",
+  "min_shared_words": 6,
   "published": "2016-03-14",
   "title": "Primary black hole spin in OJ287 as determined by the General Relativity centenary flare"
  },
  "1603.05166": {
-  "abstract": "",
   "first_author": "R. J. Lyon",
+  "min_shared_words": 5,
   "published": "2016-03-16",
   "title": "Fifty Years of Pulsar Candidate Selection: From simple filters to a new principled real-time classification approach"
  },
+ "1603.09000": {
+  "first_author": "Javanmard, Adel",
+  "min_shared_words": 9,
+  "published": "2016-03-29",
+  "title": "Online Rules for Control of False Discovery Rate and False Discovery Exceedance"
+ },
  "1604.01020": {
-  "abstract": "",
   "first_author": "M. Charisi",
+  "min_shared_words": 4,
   "published": "2016-04-04",
   "title": "A Population of Short-Period Variable Quasars from PTF as Supermassive Black Hole Binary Candidates"
  },
  "1604.07844": {
-  "abstract": "",
   "first_author": "Brian C. Lacki",
+  "min_shared_words": 3,
   "published": "2016-04-26",
   "title": "Type III Societies (Apparently) Do Not Exist"
  },
  "1605.05324": {
-  "abstract": "",
   "first_author": "The Fermi-LAT Collaboration",
+  "min_shared_words": 3,
   "published": "2016-05-17",
   "title": "Minute-Timescale >100 MeV gamma-ray variability during the giant outburst of quasar 3C 279 observed by Fermi-LAT in 2015 June"
  },
  "1606.02620": {
-  "abstract": "",
   "first_author": "S. Vaughan",
+  "min_shared_words": 2,
   "published": "2016-06-08",
   "title": "False periodicities in quasar time-domain surveys"
  },
+ "1606.06737": {
+  "first_author": "Lin, Henry W.",
+  "min_shared_words": 12,
+  "published": "2016-06-21",
+  "title": "Criticality in Formal Languages and Statistical Physics"
+ },
  "1607.08265": {
-  "abstract": "",
   "first_author": "T. R. Marsh",
+  "min_shared_words": 5,
   "published": "2016-07-27",
   "title": "A radio pulsing white dwarf binary star"
  },
+ "1607.08818": {
+  "first_author": "Tingay, S. J.",
+  "min_shared_words": 4,
+  "published": "2016-07-29",
+  "title": "An Opportunistic Search for ExtraTerrestrial Intelligence (SETI) with the Murchison Widefield Array"
+ },
+ "1608.01316": {
+  "first_author": "Montet, Benjamin T.",
+  "min_shared_words": 7,
+  "published": "2016-08-03",
+  "title": "KIC 8462852 Faded Throughout the Kepler Mission"
+ },
+ "1609.00110": {
+  "first_author": "Zenil, Hector",
+  "min_shared_words": 3,
+  "published": "2016-09-01",
+  "title": "A Decomposition Method for Global Evaluation of Shannon Entropy and Local Estimations of Algorithmic Complexity"
+ },
  "1609.09503": {
-  "abstract": "",
   "first_author": "T. Liu",
+  "min_shared_words": 6,
   "published": "2016-09-29",
   "title": "A Systematic Search for Periodically Varying Quasars in Pan-STARRS1: An Extended Baseline Test in Medium Deep Survey Field MD09"
  },
  "1610.03031": {
-  "abstract": "",
   "first_author": "E. F. Borra",
+  "min_shared_words": 4,
   "published": "2016-10-10",
   "title": "Discovery of peculiar periodic spectral modulations in a small fraction of solar type stars"
  },
  "1701.01109": {
-  "abstract": "",
   "first_author": "Manasvi Lingam",
+  "min_shared_words": 10,
   "published": "2017-01-02",
   "title": "Fast Radio Bursts from Extragalactic Light Sails"
  },
  "1703.09710": {
-  "abstract": "",
   "first_author": "Daniel Foreman-Mackey",
+  "min_shared_words": 5,
   "published": "2017-03-28",
   "title": "Fast and scalable Gaussian process modeling with applications to astronomical time series"
  },
  "1703.09824": {
-  "abstract": "",
   "first_author": "Jacob T. VanderPlas",
+  "min_shared_words": 2,
   "published": "2017-03-28",
   "title": "Understanding the Lomb-Scargle Periodogram"
  },
  "1703.10611": {
-  "abstract": "",
   "first_author": "A. Sesana",
+  "min_shared_words": 5,
   "published": "2017-03-30",
   "title": "Testing the binary hypothesis: pulsar timing constraints on supermassive black hole binary candidates"
  },
+ "1704.02535": {
+  "first_author": "Tellis, Nathaniel K.",
+  "min_shared_words": 5,
+  "published": "2017-04-08",
+  "title": "A Search for Laser Emission with Megawatt Thresholds from 5600 FGKM Stars"
+ },
  "1704.03316": {
-  "abstract": "",
   "first_author": "Clement Vidal",
+  "min_shared_words": 21,
   "published": "2017-04-05",
   "title": "Pulsar Positioning System: A quest for evidence of extraterrestrial engineering"
  },
  "1705.04881": {
-  "abstract": "",
   "first_author": "Niels Opperman",
+  "min_shared_words": 5,
   "published": "2017-05-13",
   "title": "On the non-Poissonian repetition pattern of FRB121102"
  },
+ "1706.00653": {
+  "first_author": "Heller, Ren\u00e9",
+  "min_shared_words": 2,
+  "published": "2017-06-02",
+  "title": "Decryption of Messages from Extraterrestrial Intelligence Using the Power of Social Media - The SETI Decrypt Challenge"
+ },
+ "1706.04642": {
+  "first_author": "Paris, Antonio",
+  "min_shared_words": 4,
+  "published": "2017-06-14",
+  "title": "Hydrogen Clouds from Comets 266P Christensen and P2008 Y2 (Gibbs) are Candidates for the Source of the 1977 WOW!Signal"
+ },
+ "1706.05570": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 8,
+  "published": "2017-06-17",
+  "title": "Interstellar communication. II. Application to the solar gravitational lens"
+ },
  "1706.07875": {
-  "abstract": "",
   "first_author": "Nick Rumbaugh",
+  "min_shared_words": 4,
   "published": "2017-06-23",
   "title": "Extreme variability quasars from the Sloan Digital Sky Survey and the Dark Energy Survey"
  },
+ "1708.07556": {
+  "first_author": "Meng, Huan Y. A.",
+  "min_shared_words": 7,
+  "published": "2017-08-24",
+  "title": "Extinction and the Dimming of KIC 8462852"
+ },
+ "1708.07822": {
+  "first_author": "Simon, Joshua D.",
+  "min_shared_words": 6,
+  "published": "2017-08-25",
+  "title": "Where Is the Flux Going? The Long-Term Photometric Variability of Boyajian's Star"
+ },
+ "1709.03491": {
+  "first_author": "Enriquez, J. Emilio",
+  "min_shared_words": 1,
+  "published": "2017-09-11",
+  "title": "The Breakthrough Listen Search for Intelligent Life: 1.1-1.9 GHz observations of 692 Nearby Stars"
+ },
  "1709.05271": {
-  "abstract": "",
   "first_author": "Hengxiao Guo",
+  "min_shared_words": 2,
   "published": "2017-09-15",
   "title": "How far is quasar UV/optical variability from damped random walk at low frequency?"
  },
+ "1710.04087": {
+  "first_author": "Conneau, Alexis",
+  "min_shared_words": 18,
+  "published": "2017-10-11",
+  "title": "Word Translation Without Parallel Data"
+ },
+ "1710.06758": {
+  "first_author": "Thompson, Susan E.",
+  "min_shared_words": 11,
+  "published": "2017-10-18",
+  "title": "Planetary Candidates Observed by Kepler. VIII. A Fully Automated Catalog With Measured Completeness and Reliability Based on Data Release 25"
+ },
+ "1710.11041": {
+  "first_author": "Artetxe, Mikel",
+  "min_shared_words": 5,
+  "published": "2017-10-30",
+  "title": "Unsupervised Neural Machine Translation"
+ },
+ "1711.00043": {
+  "first_author": "Lample, Guillaume",
+  "min_shared_words": 8,
+  "published": "2017-10-31",
+  "title": "Unsupervised Machine Translation Using Monolingual Corpora Only"
+ },
+ "1711.07962": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 11,
+  "published": "2017-11-21",
+  "title": "Interstellar communication. IV. Benchmarking information carriers"
+ },
+ "1712.04578": {
+  "first_author": "O'Shea, Timothy J.",
+  "min_shared_words": 9,
+  "published": "2017-12-13",
+  "title": "Over the Air Deep Learning Based Radio Signal Classification"
+ },
+ "1801.00732": {
+  "first_author": "Boyajian, Tabetha S.",
+  "min_shared_words": 14,
+  "published": "2018-01-02",
+  "title": "The First Post-Kepler Brightness Dips of KIC 8462852"
+ },
  "1801.06189": {
-  "abstract": "",
   "first_author": "M. Charisi",
+  "min_shared_words": 9,
   "published": "2018-01-18",
   "title": "Testing the relativistic Doppler boost hypothesis for supermassive black hole binary candidates"
  },
  "1803.03084": {
-  "abstract": "",
   "first_author": "Liam Connor",
+  "min_shared_words": 7,
   "published": "2018-03-08",
   "title": "Applying Deep Learning to Fast Radio Burst Classification"
  },
+ "1803.03299": {
+  "first_author": "Clemens, Dan P.",
+  "min_shared_words": 5,
+  "published": "2018-03-08",
+  "title": "Proper Motion of the Faint Star near KIC 8462852 (Boyajian's Star) - Not a Binary System"
+ },
  "1803.05448": {
-  "abstract": "",
   "first_author": "Tingting Liu",
+  "min_shared_words": 4,
   "published": "2018-03-14",
   "title": "Did ASAS-SN Kill the Supermassive Black Hole Binary Candidate PG1302-102?"
  },
  "1803.06436": {
-  "abstract": "",
   "first_author": "Krista Lynne Smith",
+  "min_shared_words": 3,
   "published": "2018-03-17",
   "title": "The Kepler Light Curves of AGN: A Detailed Analysis"
  },
  "1803.11235": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 1,
   "published": "2018-03-29",
   "title": "The CHIME Fast Radio Burst Project: System Overview"
  },
+ "1804.01249": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 6,
+  "published": "2018-04-04",
+  "title": "Interstellar communication. X. The colors of optical SETI"
+ },
  "1804.04101": {
-  "abstract": "",
   "first_author": "V. Gajjar",
+  "min_shared_words": 4,
   "published": "2018-04-11",
   "title": "Highest-frequency detection of FRB 121102 at 4-8 GHz using the Breakthrough Listen Digital Backend at the Green Bank Telescope"
  },
+ "1805.03620": {
+  "first_author": "S\u00f8gaard, Anders",
+  "min_shared_words": 20,
+  "published": "2018-05-09",
+  "title": "On the Limitations of Unsupervised Bilingual Dictionary Induction"
+ },
+ "1805.06297": {
+  "first_author": "Artetxe, Mikel",
+  "min_shared_words": 12,
+  "published": "2018-05-16",
+  "title": "A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings"
+ },
  "1805.09348": {
-  "abstract": "",
   "first_author": "Robert Main",
+  "min_shared_words": 8,
   "published": "2018-05-23",
   "title": "Pulsar emission amplified and resolved by plasma lensing in an eclipsing binary"
  },
+ "1806.08842": {
+  "first_author": "Bodman, Eva",
+  "min_shared_words": 5,
+  "published": "2018-06-22",
+  "title": "The Variable Wavelength Dependence of the Dipping event of KIC 8462852"
+ },
  "1806.11111": {
-  "abstract": "",
   "first_author": "A. Miguel Holgado",
+  "min_shared_words": 6,
   "published": "2018-06-28",
   "title": "Pulsar Timing Constraints on the Fermi Massive Black-Hole Binary Blazar Population"
  },
  "1807.07900": {
-  "abstract": "",
   "first_author": "Bridget C. Andersen",
+  "min_shared_words": 2,
   "published": "2018-07-19",
   "title": "A Fourier Domain \"Jerk\" Search for Binary Pulsars"
  },
  "1808.05772": {
-  "abstract": "",
   "first_author": "Shelley A. Wright",
+  "min_shared_words": 6,
   "published": "2018-08-17",
   "title": "Panoramic optical and near-infrared SETI instrument: overall specifications and science program"
  },
+ "1808.07232": {
+  "first_author": "Wang, Kun",
+  "min_shared_words": 2,
+  "published": "2018-08-22",
+  "title": "Semidefinite Relaxation Based Blind Equalization using Constant Modulus Criterion"
+ },
+ "1809.00013": {
+  "first_author": "Alvarez-Melis, David",
+  "min_shared_words": 12,
+  "published": "2018-08-31",
+  "title": "Gromov-Wasserstein Alignment of Word Embedding Spaces"
+ },
  "1809.03043": {
-  "abstract": "",
   "first_author": "Yunfan Gerry Zhang",
+  "min_shared_words": 6,
   "published": "2018-09-09",
   "title": "Fast Radio Burst 121102 Pulse Detection and Periodicity: A Machine Learning Approach"
  },
+ "1809.06857": {
+  "first_author": "Wright, Jason T.",
+  "min_shared_words": 12,
+  "published": "2018-09-18",
+  "title": "Recommendations from the Ad Hoc Committee on SETI Nomenclature"
+ },
+ "1809.07252": {
+  "first_author": "Wright, Jason T.",
+  "min_shared_words": 19,
+  "published": "2018-09-19",
+  "title": "How Much SETI Has Been Done? Finding Needles in the n-Dimensional Cosmic Haystack"
+ },
  "1810.02409": {
-  "abstract": "",
   "first_author": "Stefano Covino",
+  "min_shared_words": 5,
   "published": "2018-10-04",
   "title": "Gamma-ray quasi-periodicities of blazars. A cautious approach"
  },
+ "1812.07156": {
+  "first_author": "Giles, Daniel",
+  "min_shared_words": 1,
+  "published": "2018-12-18",
+  "title": "Systematic Serendipity: A Test of Unsupervised Machine Learning as a Method for Anomaly Detection"
+ },
  "1812.08681": {
-  "abstract": "",
   "first_author": "NASA Technosignatures Workshop Participants",
+  "min_shared_words": 3,
   "published": "2018-12-20",
   "title": "NASA and the Search for Technosignatures: A Report from the NASA Technosignatures Workshop"
  },
+ "1812.10161": {
+  "first_author": "Lipman, David",
+  "min_shared_words": 5,
+  "published": "2018-12-25",
+  "title": "The Breakthrough Listen Search for Intelligent Life: Searching Boyajian's Star for Laser Line Emission"
+ },
+ "1902.02426": {
+  "first_author": "Harp, G. R.",
+  "min_shared_words": 8,
+  "published": "2019-02-06",
+  "title": "Machine Vision and Deep Learning for Classification of Radio SETI Signals"
+ },
  "1902.06343": {
-  "abstract": "",
   "first_author": "Devansh Agarwal",
+  "min_shared_words": 16,
   "published": "2019-02-17",
   "title": "FETCH: A deep-learning based classifier for fast transient classification"
  },
  "1903.05920": {
-  "abstract": "",
   "first_author": "M. A. Gorbachev",
+  "min_shared_words": 3,
   "published": "2019-03-14",
   "title": "Flares activity of selected stars from GTSh10 catalog by CRTS data"
  },
+ "1903.09213": {
+  "first_author": "Wheeler, Adam",
+  "min_shared_words": 13,
+  "published": "2019-03-21",
+  "title": "The Weird Detector: Flagging periodic, coherent signals of arbitrary shape in time series photometry"
+ },
+ "1904.00536": {
+  "first_author": "Seto, Naoki",
+  "min_shared_words": 8,
+  "published": "2019-04-01",
+  "title": "Possibility of a coordinated signaling scheme in the Galaxy and SETI experiments"
+ },
+ "1904.03876": {
+  "first_author": "Ondel, Lucas",
+  "min_shared_words": 3,
+  "published": "2019-04-08",
+  "title": "Bayesian Subspace Hidden Markov Model for Acoustic Unit Discovery"
+ },
  "1904.05922": {
-  "abstract": "",
   "first_author": "J. Nordin",
+  "min_shared_words": 6,
   "published": "2019-04-11",
   "title": "Transient processing and analysis using $\\texttt{AMPEL}$: Alert Management, Photometry and Evaluation of Lightcurves"
  },
+ "1905.00421": {
+  "first_author": "Yu, Yufeng",
+  "min_shared_words": 3,
+  "published": "2019-05-01",
+  "title": "A Novel Trend Symbolic Aggregate Approximation for Time Series"
+ },
  "1905.02262": {
-  "abstract": "",
   "first_author": "Matthew J. Graham",
+  "min_shared_words": 7,
   "published": "2019-05-06",
   "title": "Understanding extreme quasar optical variability with CRTS: II. Changing-state quasars"
  },
  "1905.03225": {
-  "abstract": "",
   "first_author": "Lev M. Gindilis",
+  "min_shared_words": 2,
   "published": "2019-05-07",
   "title": "SETI in Russia, USSR and the post-Soviet space: a century of research"
  },
+ "1905.11516": {
+  "first_author": "Pruzhinskaya, Maria V.",
+  "min_shared_words": 16,
+  "published": "2019-05-27",
+  "title": "Anomaly Detection in the Open Supernova Catalog"
+ },
+ "1906.06718": {
+  "first_author": "Luo, Jiaming",
+  "min_shared_words": 2,
+  "published": "2019-06-16",
+  "title": "Neural Decipherment via Minimum-Cost Flow: from Ugaritic to Linear B"
+ },
  "1906.07391": {
-  "abstract": "",
   "first_author": "Matthew Lebofsky",
+  "min_shared_words": 4,
   "published": "2019-06-18",
   "title": "The Breakthrough Listen Search for Intelligent Life: Public Data, Formats, Reduction and Archiving"
  },
+ "1906.07750": {
+  "first_author": "Price, Danny C.",
+  "min_shared_words": 1,
+  "published": "2019-06-18",
+  "title": "The Breakthrough Listen Search for Intelligent Life: Observations of 1327 Nearby Stars over 1.10-3.45 GHz"
+ },
  "1906.08315": {
-  "abstract": "",
   "first_author": "T. Liu",
+  "min_shared_words": 13,
   "published": "2019-06-19",
   "title": "Supermassive Black Hole Binary Candidates from the Pan-STARRS1 Medium Deep Survey"
  },
+ "1907.01981": {
+  "first_author": "Lacy, M.",
+  "min_shared_words": 5,
+  "published": "2019-07-03",
+  "title": "The Karl G. Jansky Very Large Array Sky Survey (VLASS). Science case and survey design"
+ },
+ "1907.04443": {
+  "first_author": "Davenport, James. R. A.",
+  "min_shared_words": 3,
+  "published": "2019-07-09",
+  "title": "SETI in the Spatio-Temporal Survey Domain"
+ },
  "1907.06676": {
-  "abstract": "",
   "first_author": "Hengxiao Guo",
+  "min_shared_words": 8,
   "published": "2019-07-15",
   "title": "Spectral Energy Distributions of Candidate Periodically-Variable Quasars: Testing the Binary Black Hole Hypothesis"
  },
  "1907.11246": {
-  "abstract": "",
   "first_author": "Chengcheng Xin",
+  "min_shared_words": 4,
   "published": "2019-07-25",
   "title": "Testing the relativistic Doppler boost hypothesis for the binary candidate quasar PG1302-102 with multi-band Swift data"
  },
+ "1908.00991": {
+  "first_author": "Tronsgaard, Ren\u00e9",
+  "min_shared_words": 7,
+  "published": "2019-08-02",
+  "title": "Photon-weighted barycentric correction and its importance for precise radial velocities"
+ },
+ "1908.02683": {
+  "first_author": "Sheikh, Sofia Z.",
+  "min_shared_words": 3,
+  "published": "2019-07-31",
+  "title": "The Nine Axes of Merit for Technosignature Searches"
+ },
+ "1908.07251": {
+  "first_author": "Netzel, Henryka",
+  "min_shared_words": 12,
+  "published": "2019-08-20",
+  "title": "The census of non-radial pulsation in first-overtone RR Lyrae stars of the OGLE Galactic bulge collection"
+ },
  "1909.04693": {
-  "abstract": "",
   "first_author": "G. Miniutti",
+  "min_shared_words": 3,
   "published": "2019-09-10",
   "title": "Nine-hour X-ray quasi-periodic eruptions from a low-mass black hole galactic nucleus"
  },
+ "1909.13260": {
+  "first_author": "Ishida, Emille E. O.",
+  "min_shared_words": 12,
+  "published": "2019-09-29",
+  "title": "Active Anomaly Detection for time-domain discoveries"
+ },
+ "1910.01148": {
+  "first_author": "Sheikh, Sofia Z.",
+  "min_shared_words": 1,
+  "published": "2019-10-02",
+  "title": "Choosing a Maximum Drift Rate in a SETI Search: Astrophysical Considerations"
+ },
  "1910.05348": {
-  "abstract": "",
   "first_author": "Betty X. Hu",
+  "min_shared_words": 5,
   "published": "2019-10-11",
   "title": "Spikey: Self-Lensing Flares from Eccentric SMBH Binaries"
  },
  "1911.05068": {
-  "abstract": "",
   "first_author": "Beatriz Villarroel",
+  "min_shared_words": 4,
   "published": "2019-11-12",
   "title": "The Vanishing & Appearing Sources during a Century of Observations project: I. USNO objects missing in modern sky surveys and follow-up observations of a \"missing star\""
  },
  "1912.00560": {
-  "abstract": "",
   "first_author": "Zihao Song",
+  "min_shared_words": 8,
   "published": "2019-12-02",
   "title": "Testing the relativistic Doppler boost hypothesis for supermassive binary black holes candidates via broad emission line profiles"
  },
+ "1912.02616": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 9,
+  "published": "2019-12-02",
+  "title": "Interstellar communication network. I. Overview and assumptions"
+ },
+ "1912.06116": {
+  "first_author": "Vovk, Vladimir",
+  "min_shared_words": 7,
+  "published": "2019-12-12",
+  "title": "E-values: Calibration, combination, and applications"
+ },
+ "2001.01692": {
+  "first_author": "Elgenedy, Mahmoud",
+  "min_shared_words": 16,
+  "published": "2020-01-06",
+  "title": "A Family of Blind Symbol Rate Estimators using Zero Crossing Detection over Unknown Multipath Fading Channels"
+ },
+ "2001.11102": {
+  "first_author": "Gao, Yifeng",
+  "min_shared_words": 5,
+  "published": "2020-01-29",
+  "title": "Ensemble Grammar Induction For Detecting Anomalies in Time Series"
+ },
+ "2002.03391": {
+  "first_author": "Kleber, Stephan",
+  "min_shared_words": 2,
+  "published": "2020-02-09",
+  "title": "Message Type Identification of Binary Network Protocols using Continuous Segment Similarity"
+ },
  "2002.08967": {
-  "abstract": "",
   "first_author": "Margherita Giustini",
+  "min_shared_words": 8,
   "published": "2020-02-20",
   "title": "X-ray quasi-periodic eruptions from the galactic nucleus of RX J1301.9+2747"
  },
+ "2003.00109": {
+  "first_author": "Giles, Daniel",
+  "min_shared_words": 15,
+  "published": "2020-02-28",
+  "title": "Density Based Outlier Scoring on Kepler Data"
+ },
  "2004.03701": {
-  "abstract": "",
   "first_author": "V. Morello",
+  "min_shared_words": 13,
   "published": "2020-04-07",
   "title": "Optimal periodicity searching: Revisiting the Fast Folding Algorithm for large-scale pulsar surveys"
  },
  "2004.10944": {
-  "abstract": "",
   "first_author": "Xing-Jiang Zhu",
+  "min_shared_words": 4,
   "published": "2020-04-23",
   "title": "Toward the unambiguous identification of supermassive binary black holes through Bayesian inference"
  },
+ "2005.09409": {
+  "first_author": "van Niekerk, Benjamin",
+  "min_shared_words": 1,
+  "published": "2020-05-19",
+  "title": "Vector-quantized neural networks for acoustic unit discovery in the ZeroSpeech 2020 challenge"
+ },
  "2005.10324": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 4,
   "published": "2020-05-20",
   "title": "A bright millisecond-duration radio burst from a Galactic magnetar"
  },
  "2005.10828": {
-  "abstract": "",
   "first_author": "Christopher D. Bochenek",
+  "min_shared_words": 5,
   "published": "2020-05-21",
   "title": "A fast radio burst associated with a Galactic magnetar"
  },
+ "2006.04362": {
+  "first_author": "Brzycki, Bryan",
+  "min_shared_words": 3,
+  "published": "2020-06-08",
+  "title": "Narrow-Band Signal Localization for SETI on Noisy Synthetic Spectrogram Data"
+ },
  "2006.11304": {
-  "abstract": "",
   "first_author": "Brian C. Lacki",
+  "min_shared_words": 11,
   "published": "2020-06-19",
   "title": "One of Everything: The Breakthrough Listen Exotica Catalog"
  },
  "2008.03303": {
-  "abstract": "",
   "first_author": "F. F\u00f6rster",
+  "min_shared_words": 11,
   "published": "2020-08-07",
   "title": "The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker"
  },
  "2008.03311": {
-  "abstract": "",
   "first_author": "P. S\u00e1nchez-S\u00e1ez",
+  "min_shared_words": 8,
   "published": "2020-08-07",
   "title": "Alert Classification for the ALeRCE Broker System: The Light Curve Classifier"
  },
  "2008.12329": {
-  "abstract": "",
   "first_author": "Yu-Ching Chen",
+  "min_shared_words": 2,
   "published": "2020-08-27",
   "title": "Candidate Periodically Variable Quasars from the Dark Energy Survey and the Sloan Digital Sky Survey"
  },
+ "2009.02824": {
+  "first_author": "Wang, Ruodu",
+  "min_shared_words": 16,
+  "published": "2020-09-06",
+  "title": "False discovery rate control with e-values"
+ },
+ "2009.03267": {
+  "first_author": "Tremblay, Chenoa D.",
+  "min_shared_words": 5,
+  "published": "2020-09-04",
+  "title": "A SETI Survey of the Vela Region using the Murchison Widefield Array: Orders of Magnitude Expansion in Search Space"
+ },
  "2009.03321": {
-  "abstract": "",
   "first_author": "Anna V. Payne",
+  "min_shared_words": 3,
   "published": "2020-09-07",
   "title": "ASASSN-14ko is a Periodic Nuclear Transient in ESO 253-G003"
  },
+ "2009.06760": {
+  "first_author": "Mart\u00ednez-Galarza, Juan Rafael",
+  "min_shared_words": 4,
+  "published": "2020-09-14",
+  "title": "A method for finding anomalous astronomical light curves and their analogs"
+ },
+ "2009.07774": {
+  "first_author": "Dehdashtian, Sepehr",
+  "min_shared_words": 2,
+  "published": "2020-09-16",
+  "title": "Deep-Learning Based Blind Recognition of Channel Code Parameters over Candidate Sets under AWGN and Multi-Path Fading Conditions"
+ },
  "2009.10185": {
-  "abstract": "",
   "first_author": "Anais M\u00f6ller",
+  "min_shared_words": 4,
   "published": "2020-09-21",
   "title": "Fink, a new generation of broker for the LSST community"
  },
+ "2010.00730": {
+  "first_author": "Fuad, Muhammad Marwan Muhammad",
+  "min_shared_words": 5,
+  "published": "2020-10-02",
+  "title": "Modifying the Symbolic Aggregate Approximation Method to Capture Segment Trend Information"
+ },
+ "2010.11054": {
+  "first_author": "Luo, Jiaming",
+  "min_shared_words": 25,
+  "published": "2020-10-21",
+  "title": "Deciphering Undersegmented Ancient Scripts Using Phonetic Prior"
+ },
  "2010.11202": {
-  "abstract": "",
   "first_author": "Michelle Lochner",
+  "min_shared_words": 12,
   "published": "2020-10-21",
   "title": "Astronomaly: Personalised Active Anomaly Detection in Astronomical Data"
  },
+ "2011.03497": {
+  "first_author": "Nir, Guy",
+  "min_shared_words": 7,
+  "published": "2020-11-06",
+  "title": "A high-rate foreground of sub-second flares from geosynchronous satellites"
+ },
+ "2011.05265": {
+  "first_author": "Margot, Jean-Luc",
+  "min_shared_words": 26,
+  "published": "2020-11-10",
+  "title": "A Search for Technosignatures Around 31 Sun-like Stars with the Green Bank Telescope at 1.15-1.73 GHz"
+ },
+ "2011.11588": {
+  "first_author": "Nguyen, Tu Anh",
+  "min_shared_words": 3,
+  "published": "2020-11-23",
+  "title": "The Zero Resource Speech Benchmark 2021: Metrics and baselines for unsupervised spoken language modeling"
+ },
  "2012.00074": {
-  "abstract": "",
   "first_author": "Jing Luo",
+  "min_shared_words": 5,
   "published": "2020-11-30",
   "title": "PINT: A Modern Software Package for Pulsar Timing"
  },
+ "2012.00747": {
+  "first_author": "McConnell, D.",
+  "min_shared_words": 8,
+  "published": "2020-12-01",
+  "title": "The Rapid ASKAP Continuum Survey I: Design and First Results"
+ },
+ "2012.01419": {
+  "first_author": "Malanchev, K. L.",
+  "min_shared_words": 3,
+  "published": "2020-12-02",
+  "title": "Anomaly detection in the Zwicky Transient Facility DR3"
+ },
  "2012.08348": {
-  "abstract": "",
   "first_author": "In\u00e9s Pastor-Marazuela",
+  "min_shared_words": 19,
   "published": "2020-12-15",
   "title": "Chromatic periodic activity down to 120 MHz in a Fast Radio Burst"
  },
  "2012.14452": {
-  "abstract": "",
   "first_author": "Jackeline Moreno",
+  "min_shared_words": 3,
   "published": "2020-12-28",
   "title": "Properties of a Previously Unidentified Instrumental Signature in $\\textit{Kepler/K2}$ that was Confused for AGN Variability"
  },
+ "2012.15229": {
+  "first_author": "Aldarrab, Nada",
+  "min_shared_words": 11,
+  "published": "2020-12-30",
+  "title": "Can Sequence-to-Sequence Models Crack Substitution Ciphers?"
+ },
+ "2103.01536": {
+  "first_author": "Socas-Navarro, Hector",
+  "min_shared_words": 5,
+  "published": "2021-03-02",
+  "title": "Concepts for future missions to search for technosignatures"
+ },
+ "2104.08614": {
+  "first_author": "Andreas, Jacob",
+  "min_shared_words": 11,
+  "published": "2021-04-17",
+  "title": "Cetacean Translation Initiative: a roadmap to deciphering the communication of sperm whales"
+ },
+ "2104.09564": {
+  "first_author": "Hippke, Michael",
+  "min_shared_words": 9,
+  "published": "2021-04-19",
+  "title": "Interstellar communication network. III. Locating deep space nodes"
+ },
  "2104.14148": {
-  "abstract": "",
   "first_author": "Vishal Gajjar",
+  "min_shared_words": 9,
   "published": "2021-04-29",
   "title": "The Breakthrough Listen Search For Intelligent Life Near the Galactic Center I"
  },
+ "2106.00737": {
+  "first_author": "Li, Belinda Z.",
+  "min_shared_words": 17,
+  "published": "2021-06-01",
+  "title": "Implicit Representations of Meaning in Neural Language Models"
+ },
  "2106.04352": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 3,
   "published": "2021-06-08",
   "title": "The First CHIME/FRB Fast Radio Burst Catalog"
  },
+ "2106.07447": {
+  "first_author": "Hsu, Wei-Ning",
+  "min_shared_words": 8,
+  "published": "2021-06-14",
+  "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units"
+ },
  "2106.15181": {
-  "abstract": "",
   "first_author": "Tiger Yu-Yang Hsiao",
+  "min_shared_words": 13,
   "published": "2021-06-29",
   "title": "A Dyson Sphere around a black hole"
  },
+ "2107.05381": {
+  "first_author": "Hromada, Daniel Devatman",
+  "min_shared_words": 14,
+  "published": "2021-07-07",
+  "title": "Can Evolutionary Computation Help us to Crib the Voynich Manuscript ?"
+ },
+ "2107.07283": {
+  "first_author": "Wright, Jason T.",
+  "min_shared_words": 5,
+  "published": "2021-07-15",
+  "title": "Strategies and Advice for the Search for Extraterrestrial Intelligence"
+ },
  "2107.08205": {
-  "abstract": "",
   "first_author": "D. Li",
+  "min_shared_words": 3,
   "published": "2021-07-17",
   "title": "A bimodal burst energy distribution of a repeating fast radio burst source"
  },
  "2107.08463": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 9,
   "published": "2021-07-18",
   "title": "Sub-second periodicity in a fast radio burst"
  },
  "2108.05389": {
-  "abstract": "",
   "first_author": "Colin J. Burke",
+  "min_shared_words": 0,
   "published": "2021-08-11",
   "title": "A characteristic optical variability timescale in astrophysical accretion disks"
  },
+ "2108.06039": {
+  "first_author": "Murphy, Tara",
+  "min_shared_words": 6,
+  "published": "2021-08-13",
+  "title": "The ASKAP Variables and Slow Transients (VAST) Pilot Survey"
+ },
  "2109.03896": {
-  "abstract": "",
   "first_author": "Szymon Koz\u0142owski",
+  "min_shared_words": 0,
   "published": "2021-09-08",
   "title": "A Survey Length for AGN Variability Studies"
  },
  "2110.05542": {
-  "abstract": "",
   "first_author": "Michelle Kunimoto",
+  "min_shared_words": 10,
   "published": "2021-10-11",
   "title": "Quick-Look Pipeline Lightcurves for 9.1 Million Stars Observed Over the First Year of the TESS Extended Mission"
  },
  "2110.07465": {
-  "abstract": "",
   "first_author": "Caitlin A. Witt",
+  "min_shared_words": 3,
   "published": "2021-10-14",
   "title": "Quasars with Periodic Variability: Capabilities and Limitations of Bayesian Searches for Supermassive Black Hole Binaries in Time-Domain Surveys"
  },
+ "2110.15217": {
+  "first_author": "Villarroel, Beatriz",
+  "min_shared_words": 8,
+  "published": "2021-10-06",
+  "title": "A glint in the eye: photographic plate archive searches for non-terrestrial artefacts"
+ },
  "2111.02436": {
-  "abstract": "",
   "first_author": "S. O'Neill",
+  "min_shared_words": 12,
   "published": "2021-11-03",
   "title": "The Unanticipated Phenomenology of the Blazar PKS~2131$-$021: A Unique Super-Massive Black Hole Binary Candidate"
  },
  "2111.06350": {
-  "abstract": "",
   "first_author": "Sofia Z. Sheikh",
+  "min_shared_words": 4,
   "published": "2021-11-11",
   "title": "Analysis of the Breakthrough Listen signal of interest blc1 with a technosignature verification framework"
  },
+ "2111.08007": {
+  "first_author": "Smith, Shane",
+  "min_shared_words": 1,
+  "published": "2021-11-15",
+  "title": "A radio technosignature search towards Proxima Centauri resulting in a signal-of-interest"
+ },
+ "2111.11175": {
+  "first_author": "Grassberger, Peter",
+  "min_shared_words": 8,
+  "published": "2021-11-18",
+  "title": "On Generalized Sch\\\"urmann Entropy Estimators"
+ },
  "2112.03306": {
-  "abstract": "",
   "first_author": "H. S. Chan",
+  "min_shared_words": 9,
   "published": "2021-12-06",
   "title": "Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars"
  },
  "2201.02762": {
-  "abstract": "",
   "first_author": "Zachary Stone",
+  "min_shared_words": 7,
   "published": "2022-01-08",
   "title": "Optical Variability of Quasars with 20-Year Photometric Light Curves"
  },
  "2201.08943": {
-  "abstract": "",
   "first_author": "Weixiang Yu",
+  "min_shared_words": 9,
   "published": "2022-01-22",
   "title": "Examining AGN UV/optical Variability Beyond the Simple Damped Random Walk"
  },
+ "2201.10189": {
+  "first_author": "Lochner, Michelle",
+  "min_shared_words": 11,
+  "published": "2022-01-25",
+  "title": "A Hitchhiker's Guide to Anomaly Detection with Astronomaly"
+ },
+ "2201.11123": {
+  "first_author": "Suazo, Mat\u00edas",
+  "min_shared_words": 14,
+  "published": "2022-01-26",
+  "title": "Project Hephaistos I. Upper limits on partial Dyson spheres in the Milky Way"
+ },
  "2201.11633": {
-  "abstract": "",
   "first_author": "Ning Jiang",
+  "min_shared_words": 7,
   "published": "2022-01-27",
   "title": "Tick-Tock: The Imminent Merger of a Supermassive Black Hole Binary"
  },
+ "2202.03699": {
+  "first_author": "Bartlett, Stuart",
+  "min_shared_words": 4,
+  "published": "2022-02-08",
+  "title": "Assessing Planetary Complexity and Potential Agnostic Biosignatures using Epsilon Machines"
+ },
+ "2202.11733": {
+  "first_author": "Shimwell, T. W.",
+  "min_shared_words": 3,
+  "published": "2022-02-23",
+  "title": "The LOFAR Two-metre Sky Survey -- V. Second data release"
+ },
  "2203.04890": {
-  "abstract": "",
   "first_author": "Maura Pilia",
+  "min_shared_words": 5,
   "published": "2022-03-09",
   "title": "The Low Frequency Perspective on Fast Radio Bursts"
  },
+ "2204.06091": {
+  "first_author": "Villarroel, Beatriz",
+  "min_shared_words": 7,
+  "published": "2022-04-12",
+  "title": "Is there a background population of high-albedo objects in geosynchronous orbits around Earth?"
+ },
+ "2204.14259": {
+  "first_author": "Clement, Matthew S.",
+  "min_shared_words": 7,
+  "published": "2022-04-29",
+  "title": "Mathematical encoding within multi-resonant planetary systems as SETI beacons"
+ },
  "2205.02964": {
-  "abstract": "",
   "first_author": "Vishal Gajjar",
+  "min_shared_words": 0,
   "published": "2022-05-06",
   "title": "Searching for broadband pulsed beacons from 1883 stars using neural networks"
  },
  "2205.06275": {
-  "abstract": "",
   "first_author": "Massimo Dotti",
+  "min_shared_words": 14,
   "published": "2022-05-12",
   "title": "Optical follow-up of the tick-tock massive black hole binary candidate"
  },
  "2206.00907": {
-  "abstract": "",
   "first_author": "E. Solano",
+  "min_shared_words": 4,
   "published": "2022-06-02",
   "title": "Discovering vanishing objects in POSS I red images using the Virtual Observatory"
  },
  "2206.01346": {
-  "abstract": "",
   "first_author": "Manisha Caleb",
+  "min_shared_words": 2,
   "published": "2022-06-03",
   "title": "Discovery of a radio emitting neutron star with an ultra-long spin period of 76 seconds"
  },
+ "2206.04092": {
+  "first_author": "Davenport, James R. A.",
+  "min_shared_words": 1,
+  "published": "2022-06-08",
+  "title": "Searching the SETI Ellipsoid with Gaia"
+ },
  "2206.05681": {
-  "abstract": "",
   "first_author": " Gaia Collaboration",
+  "min_shared_words": 5,
   "published": "2022-06-12",
   "title": "Gaia Data Release 3: The extragalactic content"
  },
+ "2206.08374": {
+  "first_author": "Kipping, David",
+  "min_shared_words": 5,
+  "published": "2022-06-16",
+  "title": "Could the \"Wow\" signal have originated from a stochastic repeating beacon?"
+ },
  "2206.11278": {
-  "abstract": "",
   "first_author": "Anna V. Payne",
+  "min_shared_words": 8,
   "published": "2022-06-22",
   "title": "Chandra, HST/STIS, NICER, Swift, and TESS Detail the Flare Evolution of the Repeating Nuclear Transient ASASSN-14ko"
  },
  "2206.11497": {
-  "abstract": "",
   "first_author": "Yong-Jie Chen",
+  "min_shared_words": 5,
   "published": "2022-06-23",
   "title": "Searching for quasar candidates with periodic variations from the Zwicky Transient Facility: results and implications"
  },
+ "2206.12853": {
+  "first_author": "Netzel, H.",
+  "min_shared_words": 10,
+  "published": "2022-06-26",
+  "title": "Asteroseismology of RR Lyrae stars with non-radial modes"
+ },
  "2207.06849": {
-  "abstract": "",
   "first_author": "Maria I. Carnerero",
+  "min_shared_words": 1,
   "published": "2022-07-14",
   "title": "Gaia Data Release 3: The first Gaia catalogue of variable AGN"
  },
  "2208.03508": {
-  "abstract": "",
   "first_author": "Apostolos Spanakis-Misirlis",
+  "min_shared_words": 4,
   "published": "2022-08-06",
   "title": "FRBSTATS: A web-based platform for visualization of fast radio burst properties"
  },
+ "2208.13561": {
+  "first_author": "Marcy, Geoffrey W.",
+  "min_shared_words": 6,
+  "published": "2022-08-26",
+  "title": "A Search for Monochromatic Light Toward the Galactic Centre"
+ },
+ "2210.01356": {
+  "first_author": "Maire, J\u00e9r\u00f4me",
+  "min_shared_words": 16,
+  "published": "2022-10-04",
+  "title": "Panoramic SETI: Program Update and High-Energy Astrophysics Applications"
+ },
+ "2210.01948": {
+  "first_author": "Ramdas, Aaditya",
+  "min_shared_words": 13,
+  "published": "2022-10-04",
+  "title": "Game-theoretic statistics and safe anytime-valid inference"
+ },
+ "2210.12300": {
+  "first_author": "Hagiwara, Masato",
+  "min_shared_words": 12,
+  "published": "2022-10-21",
+  "title": "BEANS: The Benchmark of Animal Sounds"
+ },
+ "2210.13382": {
+  "first_author": "Li, Kenneth",
+  "min_shared_words": 8,
+  "published": "2022-10-24",
+  "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task"
+ },
+ "2210.14493": {
+  "first_author": "Hagiwara, Masato",
+  "min_shared_words": 9,
+  "published": "2022-10-26",
+  "title": "AVES: Animal Vocalization Encoder based on Self-Supervision"
+ },
+ "2211.11081": {
+  "first_author": "Goldwasser, Shafi",
+  "min_shared_words": 1,
+  "published": "2022-11-20",
+  "title": "A Theory of Unsupervised Translation Motivated by Understanding Animal Communication"
+ },
  "2212.04648": {
-  "abstract": "",
   "first_author": "Matthew T. Miles",
+  "min_shared_words": 4,
   "published": "2022-12-09",
   "title": "The MeerKAT Pulsar Timing Array: First Data Release"
  },
  "2301.01607": {
-  "abstract": "",
   "first_author": "S. Abdollahi",
+  "min_shared_words": 2,
   "published": "2023-01-04",
   "title": "The Fermi-LAT Light Curve Repository"
  },
+ "2301.06971": {
+  "first_author": "Zuckerman, Anna",
+  "min_shared_words": 4,
+  "published": "2023-01-17",
+  "title": "The Breakthrough Listen Search for Intelligent Life: A Laser Search Pipeline for the Automated Planet Finder"
+ },
  "2301.10264": {
-  "abstract": "",
   "first_author": "Dennis A. Crake",
+  "min_shared_words": 13,
   "published": "2023-01-24",
   "title": "Linking Anomalous Behaviour with Stellar Properties: An Unsupervised Exploration of TESS Light Curves"
  },
  "2301.12670": {
-  "abstract": "",
   "first_author": "Peter Xiangyuan Ma",
+  "min_shared_words": 7,
   "published": "2023-01-30",
   "title": "A deep-learning search for technosignatures of 820 nearby stars"
  },
  "2302.06446": {
-  "abstract": "",
   "first_author": "K. I. Kellermann",
+  "min_shared_words": 0,
   "published": "2023-02-13",
   "title": "The Search for Extraterrestrial Civilizations: A Scientific, Technical, Political, Social, and Cultural Adventure"
  },
  "2302.11646": {
-  "abstract": "",
   "first_author": "S. Komossa",
+  "min_shared_words": 18,
   "published": "2023-02-22",
   "title": "Absence of the predicted 2022 October outburst of OJ 287 and implications for binary SMBH scenarios"
  },
+ "2303.16045": {
+  "first_author": "Zenil, Hector",
+  "min_shared_words": 0,
+  "published": "2023-03-28",
+  "title": "An Optimal, Universal and Agnostic Decoding Method for Message Reconstruction, Bio and Technosignature Detection"
+ },
  "2303.16231": {
-  "abstract": "",
   "first_author": "Itai Linial",
+  "min_shared_words": 5,
   "published": "2023-03-28",
   "title": "EMRI + TDE = QPE: Periodic X-ray Flares from Star-Disk Collisions in Galactic Nuclei"
  },
  "2303.17279": {
-  "abstract": "",
   "first_author": "D. J. Zhou",
+  "min_shared_words": 2,
   "published": "2023-03-30",
   "title": "The FAST Galactic Plane Pulsar Snapshot Survey: II. Discovery of 76 Galactic rotating radio transients and their enigma"
  },
+ "2304.02756": {
+  "first_author": "Uno, Yuri",
+  "min_shared_words": 3,
+  "published": "2023-04-05",
+  "title": "Upper limits on transmitter rate of extragalactic civilizations placed by Breakthrough Listen observations"
+ },
  "2304.03791": {
-  "abstract": "",
   "first_author": "K. Hart",
+  "min_shared_words": 10,
   "published": "2023-04-07",
   "title": "ASAS-SN Sky Patrol V2.0"
  },
  "2305.01014": {
-  "abstract": "",
   "first_author": "Yue Shen",
+  "min_shared_words": 5,
   "published": "2023-05-01",
   "title": "The Sloan Digital Sky Survey Reverberation Mapping Project: Key Results"
  },
+ "2305.11781": {
+  "first_author": "Shi, Qingkai",
+  "min_shared_words": 3,
+  "published": "2023-05-19",
+  "title": "Lifting Network Protocol Implementation to Precise Format Specification with Security Applications"
+ },
  "2305.18527": {
-  "abstract": "",
   "first_author": "Akshay Suresh",
+  "min_shared_words": 0,
   "published": "2023-05-29",
   "title": "A 4-8 GHz Galactic Center Search for Periodic Technosignatures"
  },
+ "2306.03118": {
+  "first_author": "Davenport, James R. A.",
+  "min_shared_words": 6,
+  "published": "2023-06-05",
+  "title": "Real-Time Technosignature Strategies with SN 2023ixf"
+ },
  "2306.04053": {
-  "abstract": "",
   "first_author": "Geraint F. Lewis",
+  "min_shared_words": 5,
   "published": "2023-06-06",
   "title": "Detection of the Cosmological Time Dilation of High Redshift Quasars"
  },
  "2306.07585": {
-  "abstract": "",
   "first_author": "Yu Sang",
+  "min_shared_words": 4,
   "published": "2023-06-13",
   "title": "The temporally evolving energy and waiting time statistics of two repeating fast radio bursts"
  },
+ "2306.10151": {
+  "first_author": "Hehir, Colin",
+  "min_shared_words": 4,
+  "published": "2023-06-16",
+  "title": "Calculating the matrix profile from noisy data"
+ },
  "2306.16213": {
-  "abstract": "",
   "first_author": "Gabriella Agazie",
+  "min_shared_words": 3,
   "published": "2023-06-28",
   "title": "The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background"
  },
  "2306.16222": {
-  "abstract": "",
   "first_author": "Gabriella Agazie",
+  "min_shared_words": 9,
   "published": "2023-06-28",
   "title": "The NANOGrav 15-year Data Set: Bayesian Limits on Gravitational Waves from Individual Supermassive Black Hole Binaries"
  },
  "2306.16224": {
-  "abstract": "",
   "first_author": "J. Antoniadis",
+  "min_shared_words": 4,
   "published": "2023-06-28",
   "title": "The second data release from the European Pulsar Timing Array I. The dataset and timing analysis"
  },
  "2306.16230": {
-  "abstract": "",
   "first_author": "Andrew Zic",
+  "min_shared_words": 11,
   "published": "2023-06-28",
   "title": "The Parkes Pulsar Timing Array Third Data Release"
  },
+ "2306.17680": {
+  "first_author": "Acharyya, Atreya",
+  "min_shared_words": 8,
+  "published": "2023-06-30",
+  "title": "A VERITAS/Breakthrough Listen Search for Optical Technosignatures"
+ },
  "2306.17749": {
-  "abstract": "",
   "first_author": "Kate Storey-Fisher",
+  "min_shared_words": 4,
   "published": "2023-06-30",
   "title": "Quaia, the Gaia-unWISE Quasar Catalog: An All-Sky Spectroscopic Quasar Sample"
  },
+ "2307.02316": {
+  "first_author": "Di Vruno, F.",
+  "min_shared_words": 9,
+  "published": "2023-07-05",
+  "title": "Unintended electromagnetic radiation from Starlink satellites detected with LOFAR between 110 and 188 MHz"
+ },
  "2307.03344": {
-  "abstract": "",
   "first_author": "C. J. Law",
+  "min_shared_words": 0,
   "published": "2023-07-07",
   "title": "Deep Synoptic Array Science: First FRB and Host Galaxy Catalog"
  },
+ "2307.04721": {
+  "first_author": "Mirchandani, Suvir",
+  "min_shared_words": 14,
+  "published": "2023-07-10",
+  "title": "Large Language Models as General Pattern Machines"
+ },
  "2307.05838": {
-  "abstract": "",
   "first_author": "Silke Britzen",
+  "min_shared_words": 2,
   "published": "2023-07-11",
   "title": "Precession-induced Variability in AGN Jets and OJ 287"
  },
+ "2307.08793": {
+  "first_author": "Brzycki, Bryan",
+  "min_shared_words": 7,
+  "published": "2023-07-17",
+  "title": "On Detecting Interstellar Scintillation in Narrowband Radio SETI"
+ },
+ "2308.02712": {
+  "first_author": "Margot, Jean-Luc",
+  "min_shared_words": 0,
+  "published": "2023-08-04",
+  "title": "A Search for Technosignatures Around 11,680 Stars with the Green Bank Telescope at 1.15-1.73 GHz"
+ },
  "2308.06813": {
-  "abstract": "",
   "first_author": "Myles B. Sherman",
+  "min_shared_words": 1,
   "published": "2023-08-13",
   "title": "Deep Synoptic Array Science: Polarimetry of 25 New Fast Radio Bursts Provides Insights into their Origins"
  },
  "2308.12709": {
-  "abstract": "",
   "first_author": "Janeth Valverde",
+  "min_shared_words": 15,
   "published": "2023-08-24",
   "title": "The Fermi-LAT Light Curve Repository: A resource for the time-domain and multi-messenger communities"
  },
  "2309.02544": {
-  "abstract": "",
   "first_author": "Yunpeng Men",
+  "min_shared_words": 14,
   "published": "2023-09-05",
   "title": "PulsarX: a new pulsar searching package -I. A high performance folding program for pulsar surveys"
  },
+ "2309.08660": {
+  "first_author": "Etsebeth, Verlon",
+  "min_shared_words": 15,
+  "published": "2023-09-15",
+  "title": "Astronomaly at scale: searching for anomalies amongst 4 million galaxies"
+ },
+ "2309.10668": {
+  "first_author": "Del\u00e9tang, Gr\u00e9goire",
+  "min_shared_words": 3,
+  "published": "2023-09-19",
+  "title": "Language Modeling Is Compression"
+ },
+ "2309.15672": {
+  "first_author": "Grigg, Dylan",
+  "min_shared_words": 3,
+  "published": "2023-09-27",
+  "title": "Detection of intended and unintended emissions from Starlink satellites in the SKA-Low frequency range, at the SKA-Low site, with an SKA-Low station analog"
+ },
+ "2309.16575": {
+  "first_author": "Tanzer, Garrett",
+  "min_shared_words": 13,
+  "published": "2023-09-28",
+  "title": "A Benchmark for Learning to Translate a New Language from One Grammar Book"
+ },
  "2310.08631": {
-  "abstract": "",
   "first_author": "Krista Lynne Smith",
+  "min_shared_words": 2,
   "published": "2023-10-12",
   "title": "The Rapid Optical Variability of the Nearby Radio-Loud AGN Pictor A: Introducing the Quaver Pipeline for AGN Science with TESS"
  },
+ "2310.09035": {
+  "first_author": "Solano, Enrique",
+  "min_shared_words": 5,
+  "published": "2023-10-13",
+  "title": "A bright triple transient that vanished within 50 minutes"
+ },
  "2310.09414": {
-  "abstract": "",
   "first_author": "Chenoa D. Tremblay",
+  "min_shared_words": 11,
   "published": "2023-10-13",
   "title": "COSMIC: An Ethernet-based Commensal, Multimode Digital Backend on the Karl G. Jansky Very Large Array for the Search for Extraterrestrial Intelligence"
  },
  "2310.12704": {
-  "abstract": "",
   "first_author": "Yuming Fu",
+  "min_shared_words": 6,
   "published": "2023-10-19",
   "title": "CatNorth: An Improved Gaia DR3 Quasar Candidate Catalog with Pan-STARRS1 and CatWISE"
  },
  "2310.15704": {
-  "abstract": "",
   "first_author": "Owen A. Johnson",
+  "min_shared_words": 3,
   "published": "2023-10-24",
   "title": "A Simultaneous Dual-site Technosignature Search Using International LOFAR Stations"
  },
  "2310.16307": {
-  "abstract": "",
   "first_author": "Hao-Tian Lan",
+  "min_shared_words": 2,
   "published": "2023-10-25",
   "title": "The physical origin of the periodic activity for FRB 20180916B"
  },
  "2310.16896": {
-  "abstract": "",
   "first_author": "Daniel J. D'Orazio",
+  "min_shared_words": 0,
   "published": "2023-10-25",
   "title": "Observational Signatures of Supermassive Black Hole Binaries"
  },
  "2311.00111": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 6,
   "published": "2023-10-31",
   "title": "Updating the first CHIME/FRB catalog of fast radio bursts with baseband data"
  },
  "2311.09201": {
-  "abstract": "",
   "first_author": "D. Vohl",
+  "min_shared_words": 4,
   "published": "2023-11-15",
   "title": "Topology of Pulsar Profiles (ToPP). I. Graph theory method and classification of the EPN"
  },
  "2311.10851": {
-  "abstract": "",
   "first_author": "Megan C. Davis",
+  "min_shared_words": 7,
   "published": "2023-11-17",
   "title": "Reliable Identification of Binary Supermassive Black Holes from Rubin Observatory Time-Domain Monitoring"
  },
  "2312.03943": {
-  "abstract": "",
   "first_author": "Carmen Choza",
+  "min_shared_words": 7,
   "published": "2023-12-06",
   "title": "The Breakthrough Listen Search for Intelligent Life: Technosignature Search of 97 Nearby Galaxies"
  },
  "2312.14144": {
-  "abstract": "",
   "first_author": "Ashutosh Tripathi",
+  "min_shared_words": 8,
   "published": "2023-12-21",
   "title": "Optical Quasi-periodic Oscillations in the TESS light curves of three blazars"
  },
  "2401.04926": {
-  "abstract": "",
   "first_author": "Ruisong Xia",
+  "min_shared_words": 2,
   "published": "2024-01-10",
   "title": "First Observational Evidence for an Interconnected Evolution between Time Lag and QPO Frequency among AGNs"
  },
  "2401.13834": {
-  "abstract": "",
   "first_author": "Yunpeng Men",
+  "min_shared_words": 5,
   "published": "2024-01-24",
   "title": "TransientX: A high performance single pulse search package"
  },
  "2401.17275": {
-  "abstract": "",
   "first_author": "R. Arcodia",
+  "min_shared_words": 2,
   "published": "2024-01-30",
   "title": "The more the merrier: SRG/eROSITA discovers two further galaxies showing X-ray quasi-periodic eruptions"
  },
  "2401.17318": {
-  "abstract": "",
   "first_author": "Atsushi Hoshi",
+  "min_shared_words": 16,
   "published": "2024-01-24",
   "title": "The Variability of the Broad Line Profiles of SDSS J1430+2303"
  },
+ "2402.00497": {
+  "first_author": "Hambly, Nigel",
+  "min_shared_words": 7,
+  "published": "2024-02-01",
+  "title": "On the nature of apparent transient sources on the National Geographic Society-Palomar Observatory Sky Survey glass copy plates"
+ },
  "2402.04352": {
-  "abstract": "",
   "first_author": "Ashutosh Tripathi",
+  "min_shared_words": 7,
   "published": "2024-02-06",
   "title": "Search for Quasi-Periodic Oscillations in TESS light curves of bright Fermi Blazars"
  },
+ "2402.10601": {
+  "first_author": "Handa, Divij",
+  "min_shared_words": 10,
+  "published": "2024-02-16",
+  "title": "When \"Competency\" in Reasoning Opens the Door to Vulnerability: Jailbreaking LLMs via Novel Complex Ciphers"
+ },
+ "2402.11037": {
+  "first_author": "Cabrales, B\u00e1rbara",
+  "min_shared_words": 4,
+  "published": "2024-02-16",
+  "title": "Searching the SN 1987A SETI Ellipsoid with TESS"
+ },
+ "2403.05530": {
+  "first_author": "Gemini Team",
+  "min_shared_words": 9,
+  "published": "2024-03-08",
+  "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+ },
+ "2403.07815": {
+  "first_author": "Ansari, Abdul Fatir",
+  "min_shared_words": 12,
+  "published": "2024-03-12",
+  "title": "Chronos: Learning the Language of Time Series"
+ },
+ "2403.18941": {
+  "first_author": "Contardo, Gabriella",
+  "min_shared_words": 3,
+  "published": "2024-03-27",
+  "title": "A Data-Driven Search For Mid-Infrared Excesses Among Five Million Main-Sequence FGK Stars"
+ },
+ "2404.07812": {
+  "first_author": "Voloshina, A. S.",
+  "min_shared_words": 10,
+  "published": "2024-04-11",
+  "title": "SNAD catalogue of M-dwarf flares from the Zwicky Transient Facility"
+ },
+ "2404.14373": {
+  "first_author": "Netzel, H.",
+  "min_shared_words": 7,
+  "published": "2024-04-22",
+  "title": "On the incidence rate of RR Lyrae stars with non-radial modes"
+ },
  "2404.15395": {
-  "abstract": "",
   "first_author": "Sean M. O'Brien",
+  "min_shared_words": 4,
   "published": "2024-04-23",
   "title": "Planet Hunters NGTS: New Planet Candidates from a Citizen Science Search of the Next Generation Transit Survey Public Data"
  },
+ "2405.00736": {
+  "first_author": "Xing, Huijun",
+  "min_shared_words": 6,
+  "published": "2024-04-29",
+  "title": "Joint Signal Detection and Automatic Modulation Classification via Deep Learning"
+ },
  "2405.01977": {
-  "abstract": "",
   "first_author": "Abhimanyu Susobhanan",
+  "min_shared_words": 4,
   "published": "2024-05-03",
   "title": "PINT: Maximum-likelihood estimation of pulsar timing noise parameters"
  },
+ "2405.02927": {
+  "first_author": "Suazo, Mat\u00edas",
+  "min_shared_words": 5,
+  "published": "2024-05-05",
+  "title": "Project Hephaistos - II. Dyson sphere candidates from Gaia DR3, 2MASS, and WISE"
+ },
  "2405.03721": {
-  "abstract": "",
   "first_author": "J. I. Katz",
+  "min_shared_words": 4,
   "published": "2024-05-05",
   "title": "Orbital and Precession Periods in Repeating FRB 20121102A"
  },
  "2405.08627": {
-  "abstract": "",
   "first_author": "Mauri J. Valtonen",
+  "min_shared_words": 14,
   "published": "2024-05-14",
   "title": "Evidence of jet activity from the secondary black hole in the OJ287 binary system"
  },
  "2405.14921": {
-  "abstract": "",
   "first_author": "Tongtian Ren",
+  "min_shared_words": 5,
   "published": "2024-05-23",
   "title": "Background Contamination of the Project Hephaistos Dyson Spheres Candidates"
  },
  "2406.03675": {
-  "abstract": "",
   "first_author": "Ananya Bandopadhyay",
+  "min_shared_words": 11,
   "published": "2024-06-06",
   "title": "Repeating nuclear transients from repeating partial tidal disruption events: reproducing ASASSN-14ko and AT2020vdq"
  },
+ "2406.07231": {
+  "first_author": "Lee, Grandee",
+  "min_shared_words": 14,
+  "published": "2024-06-11",
+  "title": "Decipherment-Aware Multilingual Learning in Jointly Trained Language Models"
+ },
  "2406.15558": {
-  "abstract": "",
   "first_author": "Krista Lynne Smith",
+  "min_shared_words": 1,
   "published": "2024-06-21",
   "title": "Rapid multi-band space-based optical timing: revolutionizing accretion physics"
  },
+ "2407.01687": {
+  "first_author": "Prabhakar, Akshara",
+  "min_shared_words": 13,
+  "published": "2024-07-01",
+  "title": "Deciphering the Factors Influencing the Efficacy of Chain-of-Thought: Probability, Memorization, and Noisy Reasoning"
+ },
  "2407.09647": {
-  "abstract": "",
   "first_author": "S. Kiehlmann",
+  "min_shared_words": 3,
   "published": "2024-07-12",
   "title": "PKS 2131-021 -- Discovery of Strong Coherent Sinusoidal Variations from Radio to Optical Frequencies: Compelling Evidence for a Blazar Supermassive Black Hole Binary"
  },
  "2407.17565": {
-  "abstract": "",
   "first_author": "Jakob Robnik",
+  "min_shared_words": 10,
   "published": "2024-07-24",
   "title": "Periodicity significance testing with null-signal templates: reassessment of PTF's SMBH binary candidates"
  },
+ "2407.21070": {
+  "first_author": "Guerzhoy, Michael",
+  "min_shared_words": 5,
+  "published": "2024-07-28",
+  "title": "Occam's Razor and Bender and Koller's Octopus"
+ },
  "2408.00089": {
-  "abstract": "",
   "first_author": "S. Komossa",
+  "min_shared_words": 4,
   "published": "2024-07-31",
   "title": "The extremes of AGN variability: outbursts, deep fades, changing looks, exceptional spectral states, and semi-periodicities"
  },
  "2408.02083": {
-  "abstract": "",
   "first_author": "R. M. Shannon",
+  "min_shared_words": 12,
   "published": "2024-08-04",
   "title": "The Commensal Real-time ASKAP Fast Transient incoherent-sum survey"
  },
  "2408.02203": {
-  "abstract": "",
   "first_author": "Yu Sang",
+  "min_shared_words": 6,
   "published": "2024-08-05",
   "title": "Quantifying the randomness and scale invariance of the repeating fast radio bursts"
  },
  "2408.07101": {
-  "abstract": "",
   "first_author": "Arindam Mal",
+  "min_shared_words": 8,
   "published": "2024-08-12",
   "title": "Quantized Redshift and its significance for recent observations"
  },
+ "2408.08513": {
+  "first_author": "M\u00e9ndez, Abel",
+  "min_shared_words": 1,
+  "published": "2024-08-16",
+  "title": "Arecibo Wow! I: An Astrophysical Explanation for the Wow! Signal"
+ },
  "2408.09795": {
-  "abstract": "",
   "first_author": "Iuliana Nitu",
+  "min_shared_words": 3,
   "published": "2024-08-19",
   "title": "Periodicity search in the timing of the 25 millisecond pulsars from the second data release of the European Pulsar Timing Array"
  },
  "2408.11536": {
-  "abstract": "",
   "first_author": "I. de Ruiter",
+  "min_shared_words": 6,
   "published": "2024-08-21",
   "title": "Sporadic radio pulses from a white dwarf binary at the orbital period"
  },
  "2408.12567": {
-  "abstract": "",
   "first_author": "C. A. Braga",
+  "min_shared_words": 8,
   "published": "2024-08-22",
   "title": "FRB 20121102A monitoring: Updated periodicity in the L band"
  },
+ "2408.14390": {
+  "first_author": "van Niekerk, Benjamin",
+  "min_shared_words": 5,
+  "published": "2024-08-26",
+  "title": "Spoken-Term Discovery using Discrete Speech Units"
+ },
+ "2409.01994": {
+  "first_author": "Jiang, Jiayi",
+  "min_shared_words": 5,
+  "published": "2024-09-03",
+  "title": "BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering"
+ },
  "2409.02181": {
-  "abstract": "",
   "first_author": "M. Nicholl",
+  "min_shared_words": 5,
   "published": "2024-09-03",
   "title": "Quasi-periodic X-ray eruptions years after a nearby tidal disruption event"
  },
+ "2409.06109": {
+  "first_author": "Yeh, Sung-Lin",
+  "min_shared_words": 3,
+  "published": "2024-09-09",
+  "title": "Estimating the Completeness of Discrete Speech Units"
+ },
+ "2409.10256": {
+  "first_author": "Semenikhin, T. A.",
+  "min_shared_words": 7,
+  "published": "2024-09-16",
+  "title": "Real-bogus scores for active anomaly detection"
+ },
  "2409.13247": {
-  "abstract": "",
   "first_author": "Qin Wu",
+  "min_shared_words": 1,
   "published": "2024-09-20",
   "title": "Statistical properties and cosmological applications of fast radio bursts"
  },
+ "2409.19151": {
+  "first_author": "Aycock, Seth",
+  "min_shared_words": 14,
+  "published": "2024-09-27",
+  "title": "Can LLMs Really Learn to Translate a Low-Resource Language from One Grammar Book?"
+ },
  "2410.12905": {
-  "abstract": "",
   "first_author": "Joshua N. Winn",
+  "min_shared_words": 2,
   "published": "2024-10-16",
   "title": "The Transiting Exoplanet Survey Satellite"
  },
+ "2410.15280": {
+  "first_author": "Hurwitz, John",
+  "min_shared_words": 3,
+  "published": "2024-10-20",
+  "title": "Neural Normalized Compression Distance and the Disconnect Between Compression and Classification"
+ },
  "2410.17142": {
-  "abstract": "",
   "first_author": "M. V. Kornilov",
+  "min_shared_words": 2,
   "published": "2024-10-22",
   "title": "Coniferest: a complete active anomaly detection framework"
  },
+ "2410.23614": {
+  "first_author": "Ramdas, Aaditya",
+  "min_shared_words": 1,
+  "published": "2024-10-31",
+  "title": "Hypothesis testing with e-values"
+ },
  "2411.02859": {
-  "abstract": "",
   "first_author": "Xuerong Guo",
+  "min_shared_words": 1,
   "published": "2024-11-05",
   "title": "Accelerating FRB Search: Dataset and Methods"
  },
+ "2411.04188": {
+  "first_author": "Lochner, Michelle",
+  "min_shared_words": 10,
+  "published": "2024-11-06",
+  "title": "Astronomaly Protege: Discovery Through Human-Machine Collaboration"
+ },
+ "2411.07186": {
+  "first_author": "Robinson, David",
+  "min_shared_words": 14,
+  "published": "2024-11-11",
+  "title": "NatureLM-audio: an Audio-Language Foundation Model for Bioacoustics"
+ },
+ "2411.09790": {
+  "first_author": "Palencia-Torres, Kelby D.",
+  "min_shared_words": 0,
+  "published": "2024-11-14",
+  "title": "The Last Arecibo Message"
+ },
  "2411.15961": {
-  "abstract": "",
   "first_author": "J. L. Han",
+  "min_shared_words": 11,
   "published": "2024-11-24",
   "title": "The FAST Galactic Plane Pulsar Snapshot survey: VI. The discovery of 473 new pulsars"
  },
+ "2411.16556": {
+  "first_author": "Jacobson-Bell, Ben",
+  "min_shared_words": 4,
+  "published": "2024-11-25",
+  "title": "Anomaly Detection and Radio-frequency Interference Classification with Unsupervised Learning in Narrowband Radio Technosignature Searches"
+ },
  "2411.16606": {
-  "abstract": "",
   "first_author": "Ziteng Wang",
+  "min_shared_words": 8,
   "published": "2024-11-25",
   "title": "Detection of X-ray Emission from a Bright Long-Period Radio Transient"
  },
  "2412.01148": {
-  "abstract": "",
   "first_author": "Matthew T. Miles",
+  "min_shared_words": 3,
   "published": "2024-12-02",
   "title": "The MeerKAT Pulsar Timing Array: The $4.5$-year data release and the noise and stochastic signals of the millisecond pulsar population"
  },
+ "2412.02540": {
+  "first_author": "Yang, Junhai",
+  "min_shared_words": 13,
+  "published": "2024-12-03",
+  "title": "Automatic State Machine Inference for Binary Protocol Reverse Engineering"
+ },
  "2412.02744": {
-  "abstract": "",
   "first_author": "Laurent Eyer",
+  "min_shared_words": 4,
   "published": "2024-12-03",
   "title": "The Variable Sources in the Gaia archive"
  },
  "2412.05786": {
-  "abstract": "",
   "first_author": "Caleb Painter",
+  "min_shared_words": 4,
   "published": "2024-12-08",
   "title": "A Novel Technosignature Search in the Breakthrough Listen Green Bank Telescope Archive"
  },
  "2501.01581": {
-  "abstract": "",
   "first_author": "Megan Masterson",
+  "min_shared_words": 1,
   "published": "2025-01-03",
   "title": "Millihertz Oscillations Near the Innermost Orbit of a Supermassive Black Hole"
  },
  "2501.02103": {
-  "abstract": "",
   "first_author": "Neven Caplar",
+  "min_shared_words": 1,
   "published": "2025-01-03",
   "title": "Using LSDB to enable large-scale catalog distribution, cross-matching, and analytics"
  },
  "2501.03315": {
-  "abstract": "",
   "first_author": "Antonio C. Rodriguez",
+  "min_shared_words": 8,
   "published": "2025-01-06",
   "title": "Spectroscopic Detection of a 2.9-hour Orbit in a Long Period Radio Transient"
  },
+ "2501.04249": {
+  "first_author": "Goyal, Satyam",
+  "min_shared_words": 8,
+  "published": "2025-01-08",
+  "title": "IOLBENCH: Benchmarking LLMs on Linguistic Reasoning"
+ },
  "2501.17997": {
-  "abstract": "",
   "first_author": "Chenoa D. Tremblay",
+  "min_shared_words": 13,
   "published": "2025-01-29",
   "title": "COSMIC's Large-Scale Search for Technosignatures during the VLA sky Survey: Survey Description and First Results"
  },
  "2502.11215": {
-  "abstract": "",
   "first_author": "Arpan Pal",
+  "min_shared_words": 3,
   "published": "2025-02-16",
   "title": "A Possible Four-Month Periodicity in the Activity of FRB 20240209A"
  },
  "2502.13792": {
-  "abstract": "",
   "first_author": "Joel Hartman",
+  "min_shared_words": 10,
   "published": "2025-02-19",
   "title": "The T16 Project: Image Subtraction Light Curves from TESS Cycle 1 Full-Frame Images for Stars with T < 16"
  },
+ "2502.20419": {
+  "first_author": "Luan, Xiao-Hang",
+  "min_shared_words": 2,
+  "published": "2025-02-27",
+  "title": "Multibeam SETI Observations toward Nearby M dwarfs with FAST"
+ },
+ "2503.09108": {
+  "first_author": "Filipovi\u0107, M. D.",
+  "min_shared_words": 1,
+  "published": "2025-03-12",
+  "title": "ASKAP and VLASS search for a radio-continuum counterpart of ultra-high-energy neutrino event KM3-230213A"
+ },
+ "2503.14745": {
+  "first_author": "DESI Collaboration",
+  "min_shared_words": 9,
+  "published": "2025-03-18",
+  "title": "Data Release 1 of the Dark Energy Spectroscopic Instrument"
+ },
  "2503.17609": {
-  "abstract": "",
   "first_author": "Ning Jiang",
+  "min_shared_words": 3,
   "published": "2025-03-22",
   "title": "Embers of Active Galactic Nuclei: Tidal Disruption Events and Quasiperiodic Eruptions"
  },
  "2503.22791": {
-  "abstract": "",
   "first_author": "Erin Kara",
+  "min_shared_words": 3,
   "published": "2025-03-28",
   "title": "Supermassive Black Holes in X-rays: From Standard Accretion to Extreme Transients"
  },
  "2503.24047": {
-  "abstract": "",
   "first_author": "Shuo Ren",
+  "min_shared_words": 4,
   "published": "2025-03-31",
   "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents"
  },
  "2504.10308": {
-  "abstract": "",
   "first_author": "P. Pe\u00f1il",
+  "min_shared_words": 4,
   "published": "2025-04-14",
   "title": "Search for Kink Events in Variable Fermi-LAT Blazars"
  },
+ "2504.19395": {
+  "first_author": "Fang, Zhouxiang",
+  "min_shared_words": 11,
+  "published": "2025-04-28",
+  "title": "ICL CIPHERS: Quantifying \"Learning\" in In-Context Learning via Substitution Ciphers"
+ },
  "2504.21456": {
-  "abstract": "",
   "first_author": "Andrew Mummery",
+  "min_shared_words": 1,
   "published": "2025-04-30",
   "title": "Collisions with tidal disruption event disks: implications for quasi-periodic X-ray eruptions"
  },
  "2505.06656": {
-  "abstract": "",
   "first_author": "Vincent Foustoul",
+  "min_shared_words": 0,
   "published": "2025-05-10",
   "title": "A catalogue of candidate milli-parsec separation massive black hole binaries from long term optical photometric monitoring"
  },
  "2505.14778": {
-  "abstract": "",
   "first_author": "Allison Lin",
+  "min_shared_words": 3,
   "published": "2025-05-20",
   "title": "Lomb-Scargle periodograms struggle with non-sinusoidal supermassive BH binary signatures in quasar lightcurves"
  },
  "2505.16884": {
-  "abstract": "",
   "first_author": "Pablo Huijse",
+  "min_shared_words": 1,
   "published": "2025-05-22",
   "title": "A search for periodic AGN variability in $\\textit{Gaia}$ Data Release 3"
  },
+ "2505.17230": {
+  "first_author": "Dey, Arjun",
+  "min_shared_words": 3,
+  "published": "2025-05-22",
+  "title": "The Backup Program of the Dark Energy Spectroscopic Instrument's Milky Way Survey"
+ },
  "2505.17497": {
-  "abstract": "",
   "first_author": "D. R. Scott",
+  "min_shared_words": 7,
   "published": "2025-05-23",
   "title": "High-time-resolution properties of 35 fast radio bursts detected by the Commensal Real-time ASKAP Fast Transients Survey"
  },
+ "2506.02831": {
+  "first_author": "Grigg, Dylan",
+  "min_shared_words": 10,
+  "published": "2025-06-03",
+  "title": "The Growing Impact of Unintended Starlink Broadband Emission on Radio Astronomy in the SKA-Low Frequency Range"
+ },
  "2506.05517": {
-  "abstract": "",
   "first_author": "Wen-Long Xu",
+  "min_shared_words": 3,
   "published": "2025-06-05",
   "title": "A possible origin of the overlapping light curve of eRO-QPE1"
  },
  "2506.10961": {
-  "abstract": "",
   "first_author": "Alice P. Curtin",
+  "min_shared_words": 2,
   "published": "2025-06-12",
   "title": "Discovery and Localization of the Swift-Observed FRB 20241228A in a Star-forming Host Galaxy"
  },
+ "2506.13459": {
+  "first_author": "Barrett, R.",
+  "min_shared_words": 3,
+  "published": "2025-06-16",
+  "title": "Breakthrough Listen: A Technosignature Search Around 27 Eclipsing Exoplanets Selected from the Transiting Exoplanet Survey Satellite Catalogue"
+ },
  "2506.14417": {
-  "abstract": "",
   "first_author": "A. J. Goodwin",
+  "min_shared_words": 6,
   "published": "2025-06-17",
   "title": "The radio properties of quasi-periodic X-ray eruption sources"
  },
  "2506.14718": {
-  "abstract": "",
   "first_author": "Eric J. Korpela",
+  "min_shared_words": 5,
   "published": "2025-06-17",
   "title": "SETI@home: Data Acquisition and Front-End Processing"
  },
  "2506.14737": {
-  "abstract": "",
   "first_author": "David P. Anderson",
+  "min_shared_words": 4,
   "published": "2025-06-17",
   "title": "SETI@home: Data Analysis and Findings"
  },
  "2506.14744": {
-  "abstract": "",
   "first_author": "Eleanor M. Gallay",
+  "min_shared_words": 3,
   "published": "2025-06-17",
   "title": "Technosignature Searches with Real-time Alert Brokers"
  },
+ "2506.21101": {
+  "first_author": "Li, Caoshuo",
+  "min_shared_words": 9,
+  "published": "2025-06-26",
+  "title": "OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography"
+ },
  "2506.23899": {
-  "abstract": "",
   "first_author": "Maurizio Paolillo",
+  "min_shared_words": 4,
   "published": "2025-06-30",
   "title": "Continuum optical-UV and X-ray variability of AGN: current results and future challenges"
  },
  "2506.23955": {
-  "abstract": "",
   "first_author": "Konstantin Malanchev",
+  "min_shared_words": 5,
   "published": "2025-06-30",
   "title": "Variability-finding in Rubin Data Preview 1 with LSDB"
  },
  "2507.05139": {
-  "abstract": "",
   "first_author": "Fengqiu Adam Dong",
+  "min_shared_words": 5,
   "published": "2025-07-07",
   "title": "CHIME/FRB Discovery of an Unusual Circularly Polarized Long-Period Radio Transient with an Accelerating Spin Period"
  },
  "2507.05982": {
-  "abstract": "",
   "first_author": "In\u00e9s Pastor-Marazuela",
+  "min_shared_words": 7,
   "published": "2025-07-08",
   "title": "Localisation and host galaxy identification of new Fast Radio Bursts with MeerKAT"
  },
+ "2507.06176": {
+  "first_author": "Zegarelli, Angela",
+  "min_shared_words": 14,
+  "published": "2025-07-08",
+  "title": "IceCat-2: Updated IceCube Event Catalog of Alert Tracks"
+ },
  "2507.06217": {
-  "abstract": "",
   "first_author": "Maria V. Pruzhinskaya",
+  "min_shared_words": 6,
   "published": "2025-07-08",
   "title": "What ZTF Saw Where Rubin Looked: Anomaly Hunting in DR23"
  },
  "2507.07257": {
-  "abstract": "",
   "first_author": "Licong Xu",
+  "min_shared_words": 12,
   "published": "2025-07-09",
   "title": "Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery"
  },
  "2507.11587": {
-  "abstract": "",
   "first_author": "Kate Genevieve",
+  "min_shared_words": 6,
   "published": "2025-07-15",
   "title": "SETI Post-Detection Futures: Directions for Technosignature Research and Readiness"
  },
  "2507.13173": {
-  "abstract": "",
   "first_author": "Ruisong Xia",
+  "min_shared_words": 5,
   "published": "2025-07-17",
   "title": "First Evidence for a QPO Triplet and Its Relativistic Precession Origin in RE J1034+396"
  },
  "2507.14708": {
-  "abstract": "",
   "first_author": "Dengke Zhou",
+  "min_shared_words": 3,
   "published": "2025-07-19",
   "title": "A comprehensive search for Long and Short Periodic Features from an Extremely Active Cycle of FRB 20240114A"
  },
  "2507.15352": {
-  "abstract": "",
   "first_author": "Csan\u00e1d Horv\u00e1th",
+  "min_shared_words": 5,
   "published": "2025-07-21",
   "title": "A binary model of long period radio transients and white dwarf pulsars"
  },
  "2507.15790": {
-  "abstract": "",
   "first_author": "P. Wang",
+  "min_shared_words": 3,
   "published": "2025-07-21",
   "title": "Decadal evolution of a repeating fast radio burst source"
  },
+ "2507.15896": {
+  "first_author": "Villarroel, Beatriz",
+  "min_shared_words": 12,
+  "published": "2025-07-21",
+  "title": "On the Image Profiles of Transients in the Palomar Sky Survey"
+ },
  "2508.05548": {
-  "abstract": "",
   "first_author": "Nikolas Korzoun",
+  "min_shared_words": 16,
   "published": "2025-08-07",
   "title": "Development of PANOSETI Telescopes for Ultra-High-Energy Gamma-Ray Astronomy"
  },
  "2508.05961": {
-  "abstract": "",
   "first_author": "Kevin B. Stevenson",
+  "min_shared_words": 2,
   "published": "2025-08-08",
   "title": "K2-18b Does Not Meet The Standards of Evidence For Life"
  },
+ "2508.08628": {
+  "first_author": "Fields, Benjamin",
+  "min_shared_words": 12,
+  "published": "2025-08-12",
+  "title": "A 2821 Star Optical SETI Survey using ESO HARPS archival data"
+ },
+ "2508.10113": {
+  "first_author": "Peng, Kaixin",
+  "min_shared_words": 12,
+  "published": "2025-08-13",
+  "title": "Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs"
+ },
+ "2508.10657": {
+  "first_author": "M\u00e9ndez, Abel",
+  "min_shared_words": 1,
+  "published": "2025-08-14",
+  "title": "Arecibo Wow! II: Revised Properties of the Wow! Signal from Archival Ohio SETI Data"
+ },
+ "2508.11260": {
+  "first_author": "Choudhary, Mukund",
+  "min_shared_words": 16,
+  "published": "2025-08-15",
+  "title": "UNVEILING: What Makes Linguistics Olympiad Puzzles Tricky for LLMs?"
+ },
  "2508.12076": {
-  "abstract": "",
   "first_author": "Weixiang Yu",
+  "min_shared_words": 3,
   "published": "2025-08-16",
   "title": "Examining AGN UV/Optical Variability Beyond the Simple Damped Random Walk. II. Insights from 22 Years Observations of SDSS, PS1 and ZTF"
  },
  "2508.14742": {
-  "abstract": "",
   "first_author": "Li-Wen Tian",
+  "min_shared_words": 3,
   "published": "2025-08-20",
   "title": "Targeted search for an individual SMBHB in NANOGrav 15-year and EPTA DR2 data sets"
  },
  "2508.16534": {
-  "abstract": "",
   "first_author": "Nikita Agarwal",
+  "min_shared_words": 10,
   "published": "2025-08-22",
   "title": "The NANOGrav 15 yr Data Set: Targeted Searches for Supermassive Black Hole Binaries"
  },
+ "2508.18079": {
+  "first_author": "The LIGO Scientific Collaboration",
+  "min_shared_words": 3,
+  "published": "2025-08-25",
+  "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run"
+ },
+ "2508.20193": {
+  "first_author": "Ahmadi, Hossein",
+  "min_shared_words": 2,
+  "published": "2025-08-27",
+  "title": "Enhancing Automatic Modulation Recognition With a Reconstruction-Driven Vision Transformer Under Limited Labels"
+ },
+ "2509.06310": {
+  "first_author": "Song, Guang-Yuan",
+  "min_shared_words": 1,
+  "published": "2025-09-08",
+  "title": "A Deep SETI Search for Technosignatures in the TRAPPIST-1 System with FAST"
+ },
+ "2509.09654": {
+  "first_author": "Li, Jian-Kang",
+  "min_shared_words": 4,
+  "published": "2025-09-11",
+  "title": "Dual-Backend Multibeam Position Switching Targeted SETI Observations toward Nearby Active Planet-Hosting Systems with FAST"
+ },
  "2509.10601": {
-  "abstract": "",
   "first_author": "Kareem El-Badry",
+  "min_shared_words": 0,
   "published": "2025-09-12",
   "title": "Active galactic nuclei do not exhibit strictly sinusoidal brightness variations"
  },
+ "2509.20718": {
+  "first_author": "Seto, Naoki",
+  "min_shared_words": 14,
+  "published": "2025-09-25",
+  "title": "Hybrid Strategy for Coordinated Interstellar Signaling: Linking the Galactic Center and Extragalactic Bursts"
+ },
+ "2509.21820": {
+  "first_author": "Majmudar, Neh",
+  "min_shared_words": 13,
+  "published": "2025-09-26",
+  "title": "Can LLMs Generate and Solve Linguistic Olympiad Puzzles?"
+ },
  "2510.06931": {
-  "abstract": "",
   "first_author": "Fiorenzo Stoppa",
+  "min_shared_words": 9,
   "published": "2025-10-08",
   "title": "Textual interpretation of transient image classifications from large language models"
  },
  "2510.10713": {
-  "abstract": "",
   "first_author": "Yuan-Sen Ting",
+  "min_shared_words": 5,
   "published": "2025-10-12",
   "title": "Deep Learning in Astrophysics"
  },
  "2510.14506": {
-  "abstract": "",
   "first_author": "Michael A. Garrett",
+  "min_shared_words": 12,
   "published": "2025-10-16",
   "title": "SETI Post-Detection Protocols: Progress Towards a New Version"
  },
  "2510.26887": {
-  "abstract": "",
   "first_author": "Francisco Villaescusa-Navarro",
+  "min_shared_words": 11,
   "published": "2025-10-30",
   "title": "The Denario project: Deep knowledge AI agents for scientific discovery"
  },
  "2511.00164": {
-  "abstract": "",
   "first_author": "Theophile Jegou du Laz",
+  "min_shared_words": 3,
   "published": "2025-10-31",
   "title": "BOOM and Babamul: a real-time, multi-survey, optical alert broker system operating at scale"
  },
  "2511.17564": {
-  "abstract": "",
   "first_author": "Guilherme Grancho D. Fernandes",
+  "min_shared_words": 6,
   "published": "2025-11-13",
   "title": "Classification of Transient Astronomical Object Light Curves Using LSTM Neural Networks"
  },
  "2511.17797": {
-  "abstract": "",
   "first_author": "L. J. M. Houben",
+  "min_shared_words": 4,
   "published": "2025-11-21",
   "title": "The Northern High Time Resolution Universe pulsar survey: II. Single-pulse search set-up and simulations"
  },
  "2511.18975": {
-  "abstract": "",
   "first_author": "Claudia M. Raiteri",
+  "min_shared_words": 0,
   "published": "2025-11-24",
   "title": "The variability of blazars throughout the electromagnetic spectrum"
  },
+ "2511.20231": {
+  "first_author": "Mason, Louisa A.",
+  "min_shared_words": 2,
+  "published": "2025-11-25",
+  "title": "Simulating the Stellar Bycatch: Constraining the Prevalence of Extraterrestrial Transmitters within Radio SETI Surveys"
+ },
  "2511.22702": {
-  "abstract": "",
   "first_author": "Lawrence Toomey",
+  "min_shared_words": 5,
   "published": "2025-11-27",
   "title": "The Parkes Observatory Pulsar Data Archive"
  },
  "2512.00398": {
-  "abstract": "",
   "first_author": "Bingzheng Xia",
+  "min_shared_words": 5,
   "published": "2025-11-29",
   "title": "Heimdall++: Optimizing GPU Utilization and Pipeline Parallelism for Efficient Single-Pulse Detection"
  },
+ "2512.02206": {
+  "first_author": "Paradise, Orr",
+  "min_shared_words": 24,
+  "published": "2025-12-01",
+  "title": "WhAM: Towards A Translative Model of Sperm Whale Vocalization"
+ },
  "2512.07924": {
-  "abstract": "",
   "first_author": "Shant Baghram",
+  "min_shared_words": 9,
   "published": "2025-12-08",
   "title": "Microlensing Signatures of Dyson Sphere-like Structures around Primordial Black Holes as Technosignatures of Extraterrestrial Advanced Civilizations"
  },
  "2512.10533": {
-  "abstract": "",
   "first_author": "Ashutosh Tripathi",
+  "min_shared_words": 4,
   "published": "2025-12-11",
   "title": "Application of time-series analysis methods to a multiple-sector TESS observations: the case of the radio-loud blazar 3C 371"
  },
  "2512.11266": {
-  "abstract": "",
   "first_author": "Ashutosh Tripathi",
+  "min_shared_words": 6,
   "published": "2025-12-12",
   "title": "Probable Quasi-Periodic Oscillations in the {\\tt TESS} observations of blazars in the Swift X-ray Survey"
  },
  "2512.16156": {
-  "abstract": "",
   "first_author": "L. Levin",
+  "min_shared_words": 4,
   "published": "2025-12-18",
   "title": "Understanding the Neutron Star Population with the SKAO telescopes"
  },
+ "2512.18142": {
+  "first_author": "Sheikh, Sofia Z.",
+  "min_shared_words": 2,
+  "published": "2025-12-19",
+  "title": "A Search for Radio Technosignatures from Interstellar Object 3I/ATLAS with the Allen Telescope Array"
+ },
+ "2512.18903": {
+  "first_author": "Ivanov, Valenitn D.",
+  "min_shared_words": 1,
+  "published": "2025-12-21",
+  "title": "Optical SETI at ESO in the 2040s"
+ },
+ "2512.19763": {
+  "first_author": "Jacobson-Bell, Ben",
+  "min_shared_words": 1,
+  "published": "2025-12-20",
+  "title": "Breakthrough Listen Observations of 3I/ATLAS with the Green Bank Telescope at 1-12 GHz"
+ },
  "2512.24936": {
-  "abstract": "",
   "first_author": "J. I. Katz",
+  "min_shared_words": 5,
   "published": "2025-12-31",
   "title": "Searching for Periodicity in FRB 20240114A"
  },
  "2601.01912": {
-  "abstract": "",
   "first_author": "Shi-Jie Gao",
+  "min_shared_words": 2,
   "published": "2026-01-05",
   "title": "Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at $|b|<5\u00b0$ and Decl.$<-5\u00b0$"
  },
  "2601.09399": {
-  "abstract": "",
   "first_author": "The CHIME/FRB Collaboration",
+  "min_shared_words": 4,
   "published": "2026-01-14",
   "title": "The Second CHIME/FRB Catalog of Fast Radio Bursts"
  },
  "2601.10393": {
-  "abstract": "",
   "first_author": "Nanda Rea",
+  "min_shared_words": 0,
   "published": "2026-01-15",
   "title": "Long Period Transients (LPTs): a comprehensive review"
  },
  "2601.14235": {
-  "abstract": "",
   "first_author": " LSST Dark Energy Science Collaboration",
+  "min_shared_words": 6,
   "published": "2026-01-20",
   "title": "Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration"
  },
  "2601.15379": {
-  "abstract": "",
   "first_author": "Sebastian Banaszak",
+  "min_shared_words": 2,
   "published": "2026-01-21",
   "title": "Optimizing Optical Searches for Supermassive Black Hole Binaries in AGN Light Curves: Fourier versus Bayesian Periodicity Detection"
  },
+ "2601.15903": {
+  "first_author": "Singh, Pramod",
+  "min_shared_words": 17,
+  "published": "2026-01-22",
+  "title": "Blind Identification of Channel Codes: A Subspace-Coding Approach"
+ },
  "2601.16048": {
-  "abstract": "",
   "first_author": "Wan-Peng Sun",
+  "min_shared_words": 4,
   "published": "2026-01-22",
   "title": "Unveiling the spectral morphological division of fast radio bursts with CHIME/FRB Catalog 2"
  },
  "2601.16828": {
-  "abstract": "",
   "first_author": "Zhecheng Hu",
+  "min_shared_words": 0,
   "published": "2026-01-23",
   "title": "Six New Circumbinary Disk Occultation (CBO) Candidates from the Zwicky Transient Facility"
  },
+ "2601.21946": {
+  "first_author": "Watters, Wesley Andr\u00e9s",
+  "min_shared_words": 0,
+  "published": "2026-01-29",
+  "title": "Critical Evaluation of Studies Alleging Evidence for Technosignatures in the POSS1-E Photographic Plates"
+ },
  "2602.03932": {
-  "abstract": "",
   "first_author": "Pietro Baldini",
+  "min_shared_words": 10,
   "published": "2026-02-03",
   "title": "Discovery of crested quasi-periodic eruptions following the most luminous SRG/eROSITA tidal disruption event"
  },
  "2602.14014": {
-  "abstract": "",
   "first_author": "Kuo Liu",
+  "min_shared_words": 0,
   "published": "2026-02-15",
   "title": "Pulsar Timing Array in the past decade"
  },
  "2602.15171": {
-  "abstract": "",
   "first_author": "Beatriz Villarroel",
+  "min_shared_words": 5,
   "published": "2026-02-16",
   "title": "A Response to paper Critical Evaluation of Studies Alleging Evidence for Technosignatures in the POSS1-E Photographic Plates by Watters et al. (2026)"
  },
  "2602.16776": {
-  "abstract": "",
   "first_author": "Joheen Chakraborty",
+  "min_shared_words": 3,
   "published": "2026-02-18",
   "title": "A positive period derivative in the quasi-periodic eruptions of ZTF19acnskyy"
  },
+ "2602.22739": {
+  "first_author": "de Ruiter, Iris",
+  "min_shared_words": 3,
+  "published": "2026-02-26",
+  "title": "The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey - Data Release 1"
+ },
  "2603.02517": {
-  "abstract": "",
   "first_author": "Hengxiao Guo",
+  "min_shared_words": 7,
   "published": "2026-03-03",
   "title": "Evidence for a Delayed UV Counterpart to X-ray Quasi-periodic Eruptions in Ansky"
  },
  "2603.04527": {
-  "abstract": "",
   "first_author": "Elena Madero",
+  "min_shared_words": 3,
   "published": "2026-03-04",
   "title": "Coexistence of Chromatic Flares and an Achromatic QPO in the Gamma-ray Blazar PG 1553+113"
  },
+ "2603.09762": {
+  "first_author": "A., Semenikhin T.",
+  "min_shared_words": 6,
+  "published": "2026-03-10",
+  "title": "Supernova scores for active anomaly detection"
+ },
+ "2603.17741": {
+  "first_author": "Haqq-Misra, Jacob",
+  "min_shared_words": 8,
+  "published": "2026-03-18",
+  "title": "Framing the Possibility Space for Technosignature Searches"
+ },
+ "2603.19023": {
+  "first_author": "Li, Jian-Kang",
+  "min_shared_words": 1,
+  "published": "2026-03-19",
+  "title": "Narrowband Radio Technosignature Search toward 3I/ATLAS with FAST"
+ },
  "2603.20407": {
-  "abstract": "",
   "first_author": "Ivo Busko",
+  "min_shared_words": 6,
   "published": "2026-03-20",
   "title": "Searching for Fast Astronomical Transients in Archival Photographic Plates"
  },
  "2603.23786": {
-  "abstract": "",
   "first_author": " Vera C Rubin Observatory Team",
+  "min_shared_words": 4,
   "published": "2026-03-24",
   "title": "The Vera C. Rubin Observatory Data Preview 1"
  },
  "2604.00056": {
-  "abstract": "",
   "first_author": "Brian Doherty",
+  "min_shared_words": 9,
   "published": "2026-03-31",
   "title": "Independent Replication of Nuclear Test-Transient Correlations and Earth Shadow Deficit in POSS-I Photographic Plates"
  },
  "2604.01203": {
-  "abstract": "",
   "first_author": "Devansh Agarwal",
+  "min_shared_words": 5,
   "published": "2026-04-01",
   "title": "The RRATalog: a Galactic census of rotating radio transients"
  },
  "2604.04810": {
-  "abstract": "",
   "first_author": "Zachary Hayes",
+  "min_shared_words": 7,
   "published": "2026-04-06",
   "title": "Independent Recovery of Vanishing Sources on POSS-I Photographic Plates Using Automated Source Detection and Cross-Epoch Matching"
  },
+ "2604.04950": {
+  "first_author": "Cann, Kevin",
+  "min_shared_words": 10,
+  "published": "2026-04-02",
+  "title": "Geomagnetic storm suppression of photographic plate transient detections in the POSS-I archive: an independent physical variable strengthening the nuclear test correlation"
+ },
  "2604.05453": {
-  "abstract": "",
   "first_author": "Ben Jacobson-Bell",
+  "min_shared_words": 6,
   "published": "2026-04-07",
   "title": "The NANOGrav 15 yr and 20 yr Datasets: Timing Events and Pulse Shape Changes"
  },
+ "2604.06234": {
+  "first_author": "Cann, Kevin",
+  "min_shared_words": 8,
+  "published": "2026-04-04",
+  "title": "Storm-Driven Suppression and Post-Storm Enhancement of Photographic Plate Transient Detections at Geosynchronous Altitude: Empirical Evidence and a Candidate Dusty Plasma Mechanism"
+ },
+ "2604.17770": {
+  "first_author": "Gajjar, Pranshav",
+  "min_shared_words": 2,
+  "published": "2026-04-20",
+  "title": "LLM-AUG: Robust Wireless Data Augmentation with In-Context Learning in Large Language Models"
+ },
+ "2604.17828": {
+  "first_author": "Nair, Ashish",
+  "min_shared_words": 7,
+  "published": "2026-04-20",
+  "title": "How Non-Linguistic Is the Indus Sign System? A Synthetic-Baseline Scorecard"
+ },
+ "2604.18799": {
+  "first_author": "Bruehl, Stephen",
+  "min_shared_words": 0,
+  "published": "2026-04-20",
+  "title": "Machine Learning Supports Existence of Previously Unrecognized Transient Astronomical Phenomena in Historical Observatory Images"
+ },
  "2604.21886": {
-  "abstract": "",
   "first_author": "Olivia Curtis",
+  "min_shared_words": 20,
   "published": "2026-04-23",
   "title": "The Dyson Minds 2025 Workshop: SETI around Black Holes"
  },
+ "2605.01190": {
+  "first_author": "Doherty, Brian",
+  "min_shared_words": 0,
+  "published": "2026-05-02",
+  "title": "Statistically Significant Linear Alignments Among High-Confidence Transient Candidates on POSS-I Photographic Plates"
+ },
  "2605.12098": {
-  "abstract": "",
   "first_author": "Rui-Nan Li",
+  "min_shared_words": 2,
   "published": "2026-05-12",
   "title": "Periodic Emission Frequency Modulation in a Hyperactive Fast Radio Burst"
  },
+ "2605.13331": {
+  "first_author": "Tu, Changwei",
+  "min_shared_words": 14,
+  "published": "2026-05-13",
+  "title": "Blind Recognition of Polar Codes Using Successive Cancellation List Decoding"
+ },
+ "2605.19040": {
+  "first_author": "Abbasi, R.",
+  "min_shared_words": 18,
+  "published": "2026-05-18",
+  "title": "IceCube Second Track Data Release IceTracks-DR2: Data from 2008-2022 for Neutrino Source Searches"
+ },
  "2605.19653": {
-  "abstract": "",
   "first_author": "Huan Zhou",
+  "min_shared_words": 2,
   "published": "2026-05-19",
   "title": "Evidence for Intermediate-Mass Black Holes From Microlensing Signatures in CHIME/FRB catalog 2"
  },
  "2605.21093": {
-  "abstract": "",
   "first_author": "Cl\u00e9ment Vidal",
+  "min_shared_words": 4,
   "published": "2026-05-20",
   "title": "The Search for Technosignatures: a Review of Possibilities"
  },
+ "2605.23739": {
+  "first_author": "Li, Zi-Qi",
+  "min_shared_words": 4,
+  "published": "2026-05-22",
+  "title": "A Wavelet-Integrated Search Pipeline for Narrowband Technosignatures in FAST Observations of 33 Exoplanet Systems"
+ },
+ "2605.27090": {
+  "first_author": "The LIGO Scientific Collaboration",
+  "min_shared_words": 3,
+  "published": "2026-05-26",
+  "title": "Open Data from LIGO, Virgo, and KAGRA through the Second Part of the Fourth Observing Run"
+ },
+ "2606.04304": {
+  "first_author": "Kosogorov, Nikita",
+  "min_shared_words": 3,
+  "published": "2026-06-03",
+  "title": "All-Sky Ultra-Narrowband Spectral Imaging with the OVRO-LWA: Technosignature Constraints and Axion-Like Particle Prospects"
+ },
+ "2606.05078": {
+  "first_author": "Bruton, Micaella",
+  "min_shared_words": 13,
+  "published": "2026-06-03",
+  "title": "Attention-Augmented LSTMs for Automatic Homophonic Ciphertext Decipherment"
+ },
  "2606.05285": {
-  "abstract": "",
   "first_author": "C. R. Bom",
+  "min_shared_words": 9,
   "published": "2026-06-03",
   "title": "Toward decision-aware AI for LSST-scale time-domain astronomy"
  },
+ "2606.17705": {
+  "first_author": "Tu, Changwei",
+  "min_shared_words": 3,
+  "published": "2026-06-16",
+  "title": "A Hypothesis-Testing Analysis of Blind Recognition for Polar Codes"
+ },
  "2606.18108": {
-  "abstract": "",
   "first_author": "P. A. Estevez",
+  "min_shared_words": 7,
   "published": "2026-06-16",
   "title": "Querying an astronomical database using large language models: the ALeRCE text-to-SQL system"
  },
  "2606.26572": {
-  "abstract": "",
   "first_author": "Manisha Caleb",
+  "min_shared_words": 14,
   "published": "2026-06-25",
   "title": "Long-Period Transients as a new frontier in time-domain astronomy"
  },
  "2606.28645": {
-  "abstract": "",
   "first_author": "Monika Soraisam",
+  "min_shared_words": 10,
   "published": "2026-06-26",
   "title": "GOATS: The next generation software infrastructure for time-domain astronomy at Gemini/NOIRLab. Application to alerts from Vera C. Rubin Observatory's Legacy Survey of Space and Time"
  },
+ "2607.03619": {
+  "first_author": "Ren, Tongtian",
+  "min_shared_words": 0,
+  "published": "2026-07-03",
+  "title": "Archival Diagnostics for Potential Background Contaminantsof Project Hephaistos Dyson Sphere Candidates"
+ },
  "2607.07182": {
-  "abstract": "",
   "first_author": "Chenoa D. Tremblay",
+  "min_shared_words": 7,
   "published": "2026-07-08",
   "title": "A search for narrowband technosignatures from LTT 3780 with the Allen Telescope Array and the Karl G. Jansky Very Large Array"
  },
+ "2607.09460": {
+  "first_author": "Zackrisson, Erik",
+  "min_shared_words": 0,
+  "published": "2026-07-10",
+  "title": "Project Hephaistos -- IV. James Webb Space Telescope Observations of Two Dyson Sphere Candidates"
+ },
  "2607.13148": {
-  "abstract": "",
   "first_author": "Bo Lin Fan",
+  "min_shared_words": 2,
   "published": "2026-07-14",
   "title": "Semi-supervised morphological classification of fast radio bursts from the second CHIME/FRB catalogue"
  },
+ "2607.14421": {
+  "first_author": "Kimpson, Tom",
+  "min_shared_words": 9,
+  "published": "2026-07-15",
+  "title": "Temporal Memory in Repeating Fast Radio Bursts: Epsilon-Machine Reconstruction of Causal Structure in Burst Timing"
+ },
  "2607.15359": {
-  "abstract": "",
   "first_author": "Thomas Wevers",
+  "min_shared_words": 2,
   "published": "2026-07-16",
   "title": "Observations of X-ray quasi-periodic eruptions"
  },
+ "2607.17480": {
+  "first_author": "Tu, Changwei",
+  "min_shared_words": 2,
+  "published": "2026-07-20",
+  "title": "Critical-Set-Aided Simplified Blind SCL Recognition of Polar Codes"
+ },
+ "2607.23014": {
+  "first_author": "Huang, Wei",
+  "min_shared_words": 4,
+  "published": "2026-07-25",
+  "title": "AI Empowered Communication and Radar Modulation Recognition: A Survey"
+ },
+ "2607.23651": {
+  "first_author": "Czech, Daniel J.",
+  "min_shared_words": 2,
+  "published": "2026-07-26",
+  "title": "Breakthrough Listen's Automated Commensal Technosignature Survey with MeerKAT"
+ },
+ "2607.25701": {
+  "first_author": "Korn, Andreas J.",
+  "min_shared_words": 0,
+  "published": "2026-07-28",
+  "title": "Project Hephaistos -- III. Characterizing anomalous infrared sources identified as Dyson-sphere candidates"
+ },
+ "2607.26149": {
+  "first_author": "SDSS Collaboration",
+  "min_shared_words": 0,
+  "published": "2026-07-28",
+  "title": "The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper"
+ },
  "2607.27772": {
-  "abstract": "",
   "first_author": "M. E. Ramos-Ceja",
+  "min_shared_words": 13,
   "published": "2026-07-30",
   "title": "The SRG/eROSITA All-Sky Survey DR2: Cumulative X-ray catalogues from the first three surveys and multi-wavelength counterparts in the western Galactic hemisphere"
  },
+ "2608.02999": {
+  "first_author": "Raghavendra, Nikhil",
+  "min_shared_words": 6,
+  "published": "2026-08-04",
+  "title": "On the Non-Specificity of Statistical Measures Used in Script Decipherment"
+ },
+ "2608.05793": {
+  "first_author": "Zhou, Jinchao",
+  "min_shared_words": 11,
+  "published": "2026-08-06",
+  "title": "Radio-FM: A Foundation Model for Radio Signal Representation Learning and Its Applications"
+ },
+ "2608.12999": {
+  "first_author": "Indermuehle, Balthasar",
+  "min_shared_words": 13,
+  "published": "2026-08-13",
+  "title": "SNIFFLES I: Intended Emission, Unwanted Emission, and Unintended Radiation from Low-Earth Orbiting Satellites Impacting Radio Astronomy from 1-26 GHz"
+ },
+ "2608.17096": {
+  "first_author": "Rozanova, Liudmila",
+  "min_shared_words": 12,
+  "published": "2026-08-17",
+  "title": "A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space: What the Units of Voynichese Are Not"
+ },
  "2608.18275": {
-  "abstract": "",
   "first_author": "Talon Myburgh",
+  "min_shared_words": 11,
   "published": "2026-08-18",
   "title": "The VLA and High-Frequency SETI: Expanding the Search for Life"
  },
  "2608.19713": {
-  "abstract": "",
   "first_author": "Wen-Long Zhang",
+  "min_shared_words": 7,
   "published": "2026-08-20",
   "title": "Multi-scale Memory and Regime Shift in the Hyperactive Repeating FRB 20240114A"
  },
+ "2608.26371": {
+  "first_author": "Yang, Jun",
+  "min_shared_words": 0,
+  "published": "2026-08-26",
+  "title": "Microscopy assessment of two multiple-transient candidates"
+ },
  "2609.04118": {
-  "abstract": "",
   "first_author": "S. Paine",
+  "min_shared_words": 4,
   "published": "2026-09-03",
   "title": "A targeted search for fast radio bursts from magnetars in elliptical galaxies"
  },
  "2609.04998": {
-  "abstract": "",
   "first_author": "Mauri J. Valtonen",
+  "min_shared_words": 5,
   "published": "2026-09-04",
   "title": "The October 2022 flare in OJ 287 and the mass of its primary black hole"
  },
+ "2609.05105": {
+  "first_author": "Villarroel, Beatriz",
+  "min_shared_words": 5,
+  "published": "2026-09-04",
+  "title": "Modelling Palomar Transients: Constraints from Reflection Geometry and Orbital Altitude"
+ },
+ "2609.09461": {
+  "first_author": "Bruehl, Stephen",
+  "min_shared_words": 3,
+  "published": "2026-09-08",
+  "title": "Earth-Projected Clustering of Historical Optical Transients in the Palomar Observatory Sky Survey-I (POSS-I)"
+ },
+ "2609.20835": {
+  "first_author": "Turenne, Nicolas",
+  "min_shared_words": 8,
+  "published": "2026-07-28",
+  "title": "A Generative Grammar Underlying the Voynich Manuscript, the Pastiche Hypothesis: Evidence from Large Language Models"
+ },
  "2609.25810": {
-  "abstract": "",
   "first_author": "Yu Sang",
+  "min_shared_words": 2,
   "published": "2026-09-22",
   "title": "A Brief Review on the Statistical Properties of Fast Radio Bursts"
+ },
+ "2609.28758": {
+  "first_author": "Subedi, Prakriti",
+  "min_shared_words": 10,
+  "published": "2026-09-23",
+  "title": "BiMamba2 Masked Discrete-Unit Prediction for Multilingual Speech Representation for Unsupervised Speech in the Wild Challenge"
+ },
+ "2610.04126": {
+  "first_author": "Taylor, Craig A.",
+  "min_shared_words": 3,
+  "published": "2026-10-02",
+  "title": "LoFreq-SETI: A Low-Frequency Technosignature Search Pipeline for the LWA Swarm"
+ },
+ "2610.04449": {
+  "first_author": "Croft, Steve",
+  "min_shared_words": 2,
+  "published": "2026-10-03",
+  "title": "The Robots are Coming: Artificial Intelligence Searching for Extraterrestrial Intelligence"
+ },
+ "2610.07065": {
+  "first_author": "Gerrard, Isabel",
+  "min_shared_words": 0,
+  "published": "2026-10-05",
+  "title": "A Technosignature Survey Of The Anti-Solar Point: The SETI Institute's Largest-Ever Campaign With The Allen Telescope Array"
+ },
+ "2610.07482": {
+  "first_author": "MacMahon, David H. E.",
+  "min_shared_words": 0,
+  "published": "2026-10-05",
+  "title": "The First Decade of Breakthrough Listen"
+ },
+ "2610.08861": {
+  "first_author": "Zenil, Hector",
+  "min_shared_words": 2,
+  "published": "2026-10-05",
+  "title": "Reconstruction of Geometric and Structural Aspects of Undeciphered Messages by Information-theoretic Methods"
+ },
+ "2610.10587": {
+  "first_author": "de Paulis, Daniela",
+  "min_shared_words": 7,
+  "published": "2026-10-06",
+  "title": "A Sign in Space part 2, a new simulated First Contact scenario engaging the global scientific SETI network, and integrating deep space technologies into SETI search"
+ },
+ "2610.21645": {
+  "first_author": "Garrett, Michael",
+  "min_shared_words": 34,
+  "published": "2026-10-15",
+  "title": "Beyond the Beacon: State and Corporate Competition after an Information-Rich Technosignature Detection"
+ },
+ "2610.22050": {
+  "first_author": "Imran, Omer",
+  "min_shared_words": 3,
+  "published": "2026-10-15",
+  "title": "Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data"
+ },
+ "2610.31844": {
+  "first_author": "Xu, Yihua",
+  "min_shared_words": 18,
+  "published": "2026-10-22",
+  "title": "SEMPRE: Semantic-Aware Protocol Reverse Engineering via Consistency-Driven Joint Optimization"
+ },
+ "2610.41681": {
+  "first_author": "Harvey, Zoe",
+  "min_shared_words": 2,
+  "published": "2026-10-30",
+  "title": "The Evolution of the Circumgalactic Medium after a starburst in DESI Post-Starburst Galaxies"
+ },
+ "2610.41775": {
+  "first_author": "Korzoun, Nikolas",
+  "min_shared_words": 13,
+  "published": "2026-10-30",
+  "title": "First Light with the Dark100 Array of PANOSETI Telescopes at Palomar Observatory"
+ },
+ "2611.21674": {
+  "first_author": "Thavhana, Pfunzo",
+  "min_shared_words": 12,
+  "published": "2026-11-14",
+  "title": "Improving Early Detection of Scientifically Interesting Radio Sources Using Enhanced Isolation Forest"
  }
 }

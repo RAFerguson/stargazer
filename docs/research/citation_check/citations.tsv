@@ -3,9 +3,9 @@ arxiv_id	status	published	first_author	title	min_shared_words	cited_in
 0706.3838	resolved	2007-06-26	Rob Fender	Eight powers of ten: similarities in black hole accretion on all mass scales	7	quasar_agn_variability_periodicity
 0708.2505	resolved	2007-08-18	T. H. Hankins	Radio Emission Signatures in the Crab Pulsar	1	pulsars_frbs_radio_transients
 0710.1021	resolved	2007-10-04	A. Melatos	Avalanche dynamics of radio pulsar glitches	6	pulsars_frbs_radio_transients
-0711.2368	not checked					decipherment_and_translation_without_a_key
+0711.2368	resolved	2007-11-15	Zaitsev, Alexander	Sending and Searching for Interstellar Messages	2	decipherment_and_translation_without_a_key
 0807.1899	resolved	2008-07-11	Marek Gierlinski	A ~1-hour X-ray periodicity in an active galaxy RE J1034+396	3	quasar_agn_variability_periodicity
-0807.4518	not checked					decipherment_and_translation_without_a_key
+0807.4518	resolved	2008-07-28	Lemarchand, Guillermo A.	Counting on Beauty: The role of aesthetic, ethical, and physical universal principles for interstellar communication	10	decipherment_and_translation_without_a_key
 0809.0339	resolved	2008-09-02	John G. Learned	The Cepheid Galactic Internet	6	quasar_agn_variability_periodicity, technosignature_detection_methods
 0809.1394	resolved	2008-09-08	A. J. Drake	First Results from the Catalina Real-time Transient Survey	7	quasar_agn_variability_periodicity
 0810.3964	resolved	2008-10-22	James Benford	Messaging with Cost Optimized Interstellar Beacons	4	pulsars_frbs_radio_transients, technosignature_detection_methods
@@ -16,275 +16,275 @@ arxiv_id	status	published	first_author	title	min_shared_words	cited_in
 0909.1326	resolved	2009-09-07	Szymon Kozlowski	Quantifying Quasar Variability As Part of a General Approach To Classifying Continuously Varying Sources	1	quasar_agn_variability_periodicity
 0910.2706	resolved	2009-10-14	S. Vaughan	A Bayesian test for periodic signals in red noise	3	quasar_agn_variability_periodicity
 0910.5365	resolved	2009-10-28	I. E. Papadakis	A correlation between the spectral and timing properties of AGN	5	quasar_agn_variability_periodicity
-0911.3976	not checked					decipherment_and_translation_without_a_key
+0911.3976	resolved	2009-11-20	Busch, Michael W.	Testing SETI Message Designs	1	decipherment_and_translation_without_a_key
 0912.4537	resolved	2009-12-22	G. Hobbs	An analysis of the timing irregularities for 366 pulsars	5	pulsars_frbs_radio_transients
-1003.5938	not checked					technosignature_detection_methods
+1003.5938	resolved	2010-03-30	Benford, James	How can we distinguish transient pulsars from SETI beacons?	7	technosignature_detection_methods
 1004.0276	resolved	2010-04-02	C. L. MacLeod	Modeling the Time Variability of SDSS Stripe 82 Quasars as a Damped Random Walk	2	quasar_agn_variability_periodicity
-1005.1891	not checked					technosignature_detection_methods
-1005.4415	not checked					technosignature_detection_methods
+1005.1891	resolved	2010-05-11	Gross, Eilam	Trial factors for the look elsewhere effect in high energy physics	7	technosignature_detection_methods
+1005.4415	resolved	2010-05-24	Eastman, Jason	Achieving better than 1 minute accuracy in the Heliocentric and Barycentric Julian Dates	4	technosignature_detection_methods
 1006.5184	resolved	2010-06-27	Andrew Lyne	Switched magnetospheric regulation of pulsar spin-down	11	pulsars_frbs_radio_transients
 1008.0641	resolved	2010-08-03	Ying Zu	An Alternative Approach To Measuring Reverberation Lags in Active Galactic Nuclei	3	quasar_agn_variability_periodicity
 1102.1743	resolved	2011-02-08	Cristobal M. Espinoza	A study of 315 glitches in the rotation of 102 pulsars	4	pulsars_frbs_radio_transients
 1105.5746	resolved	2011-05-29	G. Hobbs	The Parkes Observatory Pulsar Data Archive	10	pulsars_frbs_radio_transients
-1111.0547	not checked					technosignature_detection_methods
+1111.0547	resolved	2011-11-02	Messerschmitt, David G.	Interstellar Communication: The Case for Spread Spectrum	9	technosignature_detection_methods
 1112.0065	resolved	2011-12-01	Benjamin R. Barsdell	Spotting Radio Transients with the help of GPUs	1	pulsars_frbs_radio_transients
 1112.5519	resolved	2011-12-23	Makoto Inoue	Type III Dyson Sphere of Highly Advanced Civilizations around a Super Massive Black Hole	4	quasar_agn_variability_periodicity
 1201.5380	resolved	2012-01-25	Benjamin R. Barsdell	Accelerating incoherent dedispersion	1	pulsars_frbs_radio_transients
 1202.3783	resolved	2012-02-16	Ying Zu	Is Quasar Optical Variability a Damped Random Walk?	5	quasar_agn_variability_periodicity
 1203.6068	resolved	2012-03-27	S. Burke-Spolaor	The High Time Resolution Universe Survey - V: Single-pulse energetics and modulation properties of 315 pulsars	7	pulsars_frbs_radio_transients
 1205.2550	resolved	2012-05-11	Vishal Gajjar	A survey of nulling pulsars using the Giant Meterwave Radio Telescope	6	pulsars_frbs_radio_transients
-1211.6470	not checked					technosignature_detection_methods
-1303.0347	not checked					decipherment_and_translation_without_a_key
+1211.6470	resolved	2012-11-27	Harp, G. R.	A new class of SETI beacons that contain information (22-aug-2010)	8	technosignature_detection_methods
+1303.0347	resolved	2013-03-02	Amancio, Diego R.	Probing the statistical properties of unknown texts: application to the Voynich Manuscript	16	decipherment_and_translation_without_a_key
 1305.0304	resolved	2013-05-01	D. Emmanoulopoulos	Generating artificial light curves: Revisited and updated	7	quasar_agn_variability_periodicity
-1305.4684	not checked					technosignature_detection_methods
+1305.4684	resolved	2013-05-21	Messerschmitt, David G.	End-to-end interstellar communication system design for power efficiency	28	technosignature_detection_methods
 1309.0776	resolved	2013-09-03	W. W. Zhu	Searching for pulsars using image pattern recognition	8	pulsars_frbs_radio_transients
 1311.4608	resolved	2013-11-19	Jayanth Chennamangalam	Jumping the energetics queue: Modulation of pulsar signals by extraterrestrial civilizations	4	pulsars_frbs_radio_transients, quasar_agn_variability_periodicity, technosignature_detection_methods
 1312.3966	resolved	2013-12-13	Zeljko Ivezic	Optical variability of quasars: a damped random walk	2	quasar_agn_variability_periodicity
-1401.1240	not checked					technosignature_detection_methods
+1401.1240	resolved	2014-01-06	Coughlin, Jeffrey L.	Contamination in the Kepler Field. Identification of 685 KOIs as False Positives Via Ephemeris Matching Based On Q1-Q12 Data	10	technosignature_detection_methods
 1402.5978	resolved	2014-02-24	Brandon C. Kelly	Flexible and Scalable Methods for Quantifying Stochastic Variability in the Era of Massive Time-Domain Astronomical Data Sets	3	quasar_agn_variability_periodicity
 1405.4290	resolved	2014-05-16	A. J. Drake	The Catalina Surveys Periodic Variable Star Catalog	9	optical_highenergy_timedomain_archives
 1406.3627	resolved	2014-06-13	V. Morello	SPINN: a straightforward machine learning solution to the pulsar candidate selection problem	6	pulsars_frbs_radio_transients
 1407.1907	resolved	2014-07-07	E. Breedt	One thousand cataclysmic variables from the Catalina Real-time Transient Survey	4	optical_highenergy_timedomain_archives, quasar_agn_variability_periodicity
-1407.3442	not checked					technosignature_detection_methods
+1407.3442	resolved	2014-07-13	Hippke, Michael	Square root two period ratios in Cepheid and RR Lyrae variable stars	13	technosignature_detection_methods
 1408.1134	resolved	2014-08-05	J. T. Wright	The Ĝ Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. II. Framework, Strategy, and First Result	4	quasar_agn_variability_periodicity, technosignature_detection_methods
 1409.1265	resolved	2014-09-03	Michael Hippke	Pulsation period variations in the RRc Lyrae star KIC 5520878	9	quasar_agn_variability_periodicity, technosignature_detection_methods
-1409.4774	not checked					technosignature_detection_methods
+1409.4774	resolved	2014-09-16	Wright, J. T.	Barycentric Corrections at 1 cm/s for precise Doppler velocities	5	technosignature_detection_methods
 1411.5373	resolved	2014-11-19	Barak Zackay	An accurate and efficient algorithm for detection of radio bursts with an unknown dispersion measure, for single dish telescopes and interferometers	1	pulsars_frbs_radio_transients, technosignature_detection_methods
 1412.4936	resolved	2014-12-16	 MAGIC Collaboration	Black hole lightning due to particle acceleration at subhorizon scales	3	quasar_agn_variability_periodicity
 1501.01375	resolved	2015-01-07	Matthew J. Graham	A possible close supermassive black-hole binary in a quasar with optical periodicity	4	quasar_agn_variability_periodicity
-1501.03715	not checked					decoding_structure_of_unknown_signals
-1502.06197	not checked					technosignature_detection_methods
+1501.03715	resolved	2015-01-15	Tixier, Audrey	Blind identification of an unknown interleaved convolutional code	4	decoding_structure_of_unknown_signals
+1502.06197	resolved	2015-02-22	Javanmard, Adel	On Online Control of False Discovery Rate	8	technosignature_detection_methods
 1503.01509	resolved	2015-03-05	Brian C. Lacki	SETI at Planck Energy: When Particle Physicists Become Cosmic Engineers	6	quasar_agn_variability_periodicity
 1503.02083	resolved	2015-03-06	Tingting Liu	A Periodically Varying Luminous Quasar at z=2 from the Pan-STARRS1 Medium Deep Survey: A Candidate Supermassive Black Hole Binary in the Gravitational Wave-Driven Regime	2	quasar_agn_variability_periodicity
 1503.05245	resolved	2015-03-17	Michael Hippke	Discrete steps in dispersion measures of Fast Radio Bursts	4	pulsars_frbs_radio_transients
 1503.06676	resolved	2015-03-23	S D Connolly	A Python Code for the Emmanoulopoulos et al. [arXiv:1305.0304] Light Curve Simulation Algorithm	7	quasar_agn_variability_periodicity
 1504.02165	resolved	2015-04-09	E. Petroff	Identifying the source of perytons at the Parkes radio telescope	6	pulsars_frbs_radio_transients, technosignature_detection_methods
-1504.03418	not checked					technosignature_detection_methods
+1504.03418	resolved	2015-04-14	Griffith, Roger L.	The \^G Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. III. The Reddest Extended Sources in WISE	2	technosignature_detection_methods
 1507.07603	resolved	2015-07-27	Matthew J. Graham	A systematic search for close supermassive black hole binaries in the Catalina Real-Time Transient Survey	3	quasar_agn_variability_periodicity
 1508.02406	resolved	2015-08-10	E. Zackrisson	Extragalactic SETI: The Tully-Fisher relation as a probe of Dysonian astroengineering in disk galaxies	3	quasar_agn_variability_periodicity
 1508.02624	resolved	2015-08-11	Michael Garrett	The application of the Mid-IR radio correlation to the $\hat{G}$ sample and the search for advanced extraterrestrial civilisations	6	quasar_agn_variability_periodicity
-1509.00689	not checked					decoding_structure_of_unknown_signals
-1509.03622	not checked					technosignature_detection_methods
+1509.00689	resolved	2015-09-02	Borbely, Rebecca Schuller	On Normalized Compression Distance and Large Malware	2	decoding_structure_of_unknown_signals
+1509.03622	resolved	2015-09-11	Boyajian, T. S.	Planet Hunters X. KIC 8462852 - Where's the Flux?	3	technosignature_detection_methods
 1509.04301	resolved	2015-09-14	Daniel J. D'Orazio	Relativistic boost as the cause of periodicity in a massive black-hole binary candidate	3	quasar_agn_variability_periodicity
-1510.04606	not checked					technosignature_detection_methods
-1511.07908	not checked					technosignature_detection_methods
-1602.00987	not checked					optical_highenergy_timedomain_archives
-1602.04105	not checked					decoding_structure_of_unknown_signals
+1510.04606	resolved	2015-10-15	Wright, Jason T.	The \^G Search for Extraterrestrial Civilizations with Large Energy Supplies. IV. The Signatures and Information Content of Transiting Megastructures	8	technosignature_detection_methods
+1511.07908	resolved	2015-11-24	Marengo, Massimo	KIC 8462852 - The Infrared Flux	3	technosignature_detection_methods
+1602.00987	resolved	2016-02-02	Abeysekara, A. U.	A Search for Brief Optical Flashes Associated with the SETI Target KIC 8462852	9	optical_highenergy_timedomain_archives
+1602.04105	resolved	2016-02-12	O'Shea, Timothy J	Convolutional Radio Modulation Recognition Networks	3	decoding_structure_of_unknown_signals
 1603.04171	resolved	2016-03-14	M. J. Valtonen	Primary black hole spin in OJ287 as determined by the General Relativity centenary flare	6	quasar_agn_variability_periodicity
 1603.05166	resolved	2016-03-16	R. J. Lyon	Fifty Years of Pulsar Candidate Selection: From simple filters to a new principled real-time classification approach	5	pulsars_frbs_radio_transients
-1603.09000	not checked					technosignature_detection_methods
+1603.09000	resolved	2016-03-29	Javanmard, Adel	Online Rules for Control of False Discovery Rate and False Discovery Exceedance	9	technosignature_detection_methods
 1604.01020	resolved	2016-04-04	M. Charisi	A Population of Short-Period Variable Quasars from PTF as Supermassive Black Hole Binary Candidates	4	quasar_agn_variability_periodicity
 1604.07844	resolved	2016-04-26	Brian C. Lacki	Type III Societies (Apparently) Do Not Exist	3	quasar_agn_variability_periodicity
 1605.05324	resolved	2016-05-17	The Fermi-LAT Collaboration	Minute-Timescale >100 MeV gamma-ray variability during the giant outburst of quasar 3C 279 observed by Fermi-LAT in 2015 June	3	quasar_agn_variability_periodicity
 1606.02620	resolved	2016-06-08	S. Vaughan	False periodicities in quasar time-domain surveys	2	prior_art_and_engineering, quasar_agn_variability_periodicity
-1606.06737	not checked					technosignature_detection_methods
+1606.06737	resolved	2016-06-21	Lin, Henry W.	Criticality in Formal Languages and Statistical Physics	12	technosignature_detection_methods
 1607.08265	resolved	2016-07-27	T. R. Marsh	A radio pulsing white dwarf binary star	5	pulsars_frbs_radio_transients
-1607.08818	not checked					radio_seti_archives
-1608.01316	not checked					technosignature_detection_methods
-1609.00110	not checked					decoding_structure_of_unknown_signals
+1607.08818	resolved	2016-07-29	Tingay, S. J.	An Opportunistic Search for ExtraTerrestrial Intelligence (SETI) with the Murchison Widefield Array	4	radio_seti_archives
+1608.01316	resolved	2016-08-03	Montet, Benjamin T.	KIC 8462852 Faded Throughout the Kepler Mission	7	technosignature_detection_methods
+1609.00110	resolved	2016-09-01	Zenil, Hector	A Decomposition Method for Global Evaluation of Shannon Entropy and Local Estimations of Algorithmic Complexity	3	decoding_structure_of_unknown_signals
 1609.09503	resolved	2016-09-29	T. Liu	A Systematic Search for Periodically Varying Quasars in Pan-STARRS1: An Extended Baseline Test in Medium Deep Survey Field MD09	6	quasar_agn_variability_periodicity
 1610.03031	resolved	2016-10-10	E. F. Borra	Discovery of peculiar periodic spectral modulations in a small fraction of solar type stars	4	quasar_agn_variability_periodicity
 1701.01109	resolved	2017-01-02	Manasvi Lingam	Fast Radio Bursts from Extragalactic Light Sails	10	pulsars_frbs_radio_transients, technosignature_detection_methods
 1703.09710	resolved	2017-03-28	Daniel Foreman-Mackey	Fast and scalable Gaussian process modeling with applications to astronomical time series	5	quasar_agn_variability_periodicity
 1703.09824	resolved	2017-03-28	Jacob T. VanderPlas	Understanding the Lomb-Scargle Periodogram	2	quasar_agn_variability_periodicity, technosignature_detection_methods
 1703.10611	resolved	2017-03-30	A. Sesana	Testing the binary hypothesis: pulsar timing constraints on supermassive black hole binary candidates	5	prior_art_and_engineering, quasar_agn_variability_periodicity
-1704.02535	not checked					technosignature_detection_methods
+1704.02535	resolved	2017-04-08	Tellis, Nathaniel K.	A Search for Laser Emission with Megawatt Thresholds from 5600 FGKM Stars	5	technosignature_detection_methods
 1704.03316	resolved	2017-04-05	Clement Vidal	Pulsar Positioning System: A quest for evidence of extraterrestrial engineering	21	pulsars_frbs_radio_transients, technosignature_detection_methods
 1705.04881	resolved	2017-05-13	Niels Opperman	On the non-Poissonian repetition pattern of FRB121102	5	pulsars_frbs_radio_transients
-1706.00653	not checked					decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
-1706.04642	not checked					technosignature_detection_methods
-1706.05570	not checked					technosignature_detection_methods
+1706.00653	resolved	2017-06-02	Heller, René	Decryption of Messages from Extraterrestrial Intelligence Using the Power of Social Media - The SETI Decrypt Challenge	2	decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
+1706.04642	resolved	2017-06-14	Paris, Antonio	Hydrogen Clouds from Comets 266P Christensen and P2008 Y2 (Gibbs) are Candidates for the Source of the 1977 WOW!Signal	4	technosignature_detection_methods
+1706.05570	resolved	2017-06-17	Hippke, Michael	Interstellar communication. II. Application to the solar gravitational lens	8	technosignature_detection_methods
 1706.07875	resolved	2017-06-23	Nick Rumbaugh	Extreme variability quasars from the Sloan Digital Sky Survey and the Dark Energy Survey	4	quasar_agn_variability_periodicity
-1708.07556	not checked					technosignature_detection_methods
-1708.07822	not checked					technosignature_detection_methods
-1709.03491	not checked					radio_seti_archives, technosignature_detection_methods
+1708.07556	resolved	2017-08-24	Meng, Huan Y. A.	Extinction and the Dimming of KIC 8462852	7	technosignature_detection_methods
+1708.07822	resolved	2017-08-25	Simon, Joshua D.	Where Is the Flux Going? The Long-Term Photometric Variability of Boyajian's Star	6	technosignature_detection_methods
+1709.03491	resolved	2017-09-11	Enriquez, J. Emilio	The Breakthrough Listen Search for Intelligent Life: 1.1-1.9 GHz observations of 692 Nearby Stars	1	radio_seti_archives, technosignature_detection_methods
 1709.05271	resolved	2017-09-15	Hengxiao Guo	How far is quasar UV/optical variability from damped random walk at low frequency?	2	quasar_agn_variability_periodicity
-1710.04087	not checked					decipherment_and_translation_without_a_key
-1710.06758	not checked					technosignature_detection_methods
-1710.11041	not checked					decipherment_and_translation_without_a_key
-1711.00043	not checked					decipherment_and_translation_without_a_key
-1711.07962	not checked					technosignature_detection_methods
-1712.04578	not checked					decoding_structure_of_unknown_signals, technosignature_detection_methods
-1801.00732	not checked					technosignature_detection_methods
+1710.04087	resolved	2017-10-11	Conneau, Alexis	Word Translation Without Parallel Data	18	decipherment_and_translation_without_a_key
+1710.06758	resolved	2017-10-18	Thompson, Susan E.	Planetary Candidates Observed by Kepler. VIII. A Fully Automated Catalog With Measured Completeness and Reliability Based on Data Release 25	11	technosignature_detection_methods
+1710.11041	resolved	2017-10-30	Artetxe, Mikel	Unsupervised Neural Machine Translation	5	decipherment_and_translation_without_a_key
+1711.00043	resolved	2017-10-31	Lample, Guillaume	Unsupervised Machine Translation Using Monolingual Corpora Only	8	decipherment_and_translation_without_a_key
+1711.07962	resolved	2017-11-21	Hippke, Michael	Interstellar communication. IV. Benchmarking information carriers	11	technosignature_detection_methods
+1712.04578	resolved	2017-12-13	O'Shea, Timothy J.	Over the Air Deep Learning Based Radio Signal Classification	9	decoding_structure_of_unknown_signals, technosignature_detection_methods
+1801.00732	resolved	2018-01-02	Boyajian, Tabetha S.	The First Post-Kepler Brightness Dips of KIC 8462852	14	technosignature_detection_methods
 1801.06189	resolved	2018-01-18	M. Charisi	Testing the relativistic Doppler boost hypothesis for supermassive black hole binary candidates	9	quasar_agn_variability_periodicity
 1803.03084	resolved	2018-03-08	Liam Connor	Applying Deep Learning to Fast Radio Burst Classification	7	pulsars_frbs_radio_transients
-1803.03299	not checked					technosignature_detection_methods
+1803.03299	resolved	2018-03-08	Clemens, Dan P.	Proper Motion of the Faint Star near KIC 8462852 (Boyajian's Star) - Not a Binary System	5	technosignature_detection_methods
 1803.05448	resolved	2018-03-14	Tingting Liu	Did ASAS-SN Kill the Supermassive Black Hole Binary Candidate PG1302-102?	4	quasar_agn_variability_periodicity
 1803.06436	resolved	2018-03-17	Krista Lynne Smith	The Kepler Light Curves of AGN: A Detailed Analysis	3	quasar_agn_variability_periodicity
 1803.11235	resolved	2018-03-29	The CHIME/FRB Collaboration	The CHIME Fast Radio Burst Project: System Overview	1	pulsars_frbs_radio_transients
-1804.01249	not checked					technosignature_detection_methods
+1804.01249	resolved	2018-04-04	Hippke, Michael	Interstellar communication. X. The colors of optical SETI	6	technosignature_detection_methods
 1804.04101	resolved	2018-04-11	V. Gajjar	Highest-frequency detection of FRB 121102 at 4-8 GHz using the Breakthrough Listen Digital Backend at the Green Bank Telescope	4	pulsars_frbs_radio_transients
-1805.03620	not checked					decipherment_and_translation_without_a_key
-1805.06297	not checked					decipherment_and_translation_without_a_key
+1805.03620	resolved	2018-05-09	Søgaard, Anders	On the Limitations of Unsupervised Bilingual Dictionary Induction	20	decipherment_and_translation_without_a_key
+1805.06297	resolved	2018-05-16	Artetxe, Mikel	A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings	12	decipherment_and_translation_without_a_key
 1805.09348	resolved	2018-05-23	Robert Main	Pulsar emission amplified and resolved by plasma lensing in an eclipsing binary	8	pulsars_frbs_radio_transients
-1806.08842	not checked					technosignature_detection_methods
+1806.08842	resolved	2018-06-22	Bodman, Eva	The Variable Wavelength Dependence of the Dipping event of KIC 8462852	5	technosignature_detection_methods
 1806.11111	resolved	2018-06-28	A. Miguel Holgado	Pulsar Timing Constraints on the Fermi Massive Black-Hole Binary Blazar Population	6	quasar_agn_variability_periodicity
 1807.07900	resolved	2018-07-19	Bridget C. Andersen	"A Fourier Domain ""Jerk"" Search for Binary Pulsars"	2	pulsars_frbs_radio_transients
 1808.05772	resolved	2018-08-17	Shelley A. Wright	Panoramic optical and near-infrared SETI instrument: overall specifications and science program	6	prior_art_and_engineering, technosignature_detection_methods
-1808.07232	not checked					decoding_structure_of_unknown_signals
-1809.00013	not checked					decipherment_and_translation_without_a_key
+1808.07232	resolved	2018-08-22	Wang, Kun	Semidefinite Relaxation Based Blind Equalization using Constant Modulus Criterion	2	decoding_structure_of_unknown_signals
+1809.00013	resolved	2018-08-31	Alvarez-Melis, David	Gromov-Wasserstein Alignment of Word Embedding Spaces	12	decipherment_and_translation_without_a_key
 1809.03043	resolved	2018-09-09	Yunfan Gerry Zhang	Fast Radio Burst 121102 Pulse Detection and Periodicity: A Machine Learning Approach	6	pulsars_frbs_radio_transients, technosignature_detection_methods
-1809.06857	not checked					technosignature_detection_methods
-1809.07252	not checked					technosignature_detection_methods
+1809.06857	resolved	2018-09-18	Wright, Jason T.	Recommendations from the Ad Hoc Committee on SETI Nomenclature	12	technosignature_detection_methods
+1809.07252	resolved	2018-09-19	Wright, Jason T.	How Much SETI Has Been Done? Finding Needles in the n-Dimensional Cosmic Haystack	19	technosignature_detection_methods
 1810.02409	resolved	2018-10-04	Stefano Covino	Gamma-ray quasi-periodicities of blazars. A cautious approach	5	quasar_agn_variability_periodicity
-1812.07156	not checked					technosignature_detection_methods
+1812.07156	resolved	2018-12-18	Giles, Daniel	Systematic Serendipity: A Test of Unsupervised Machine Learning as a Method for Anomaly Detection	1	technosignature_detection_methods
 1812.08681	resolved	2018-12-20	NASA Technosignatures Workshop Participants	NASA and the Search for Technosignatures: A Report from the NASA Technosignatures Workshop	3	prior_art_and_engineering, technosignature_detection_methods
-1812.10161	not checked					optical_highenergy_timedomain_archives
-1902.02426	not checked					technosignature_detection_methods
+1812.10161	resolved	2018-12-25	Lipman, David	The Breakthrough Listen Search for Intelligent Life: Searching Boyajian's Star for Laser Line Emission	5	optical_highenergy_timedomain_archives
+1902.02426	resolved	2019-02-06	Harp, G. R.	Machine Vision and Deep Learning for Classification of Radio SETI Signals	8	technosignature_detection_methods
 1902.06343	resolved	2019-02-17	Devansh Agarwal	FETCH: A deep-learning based classifier for fast transient classification	16	pulsars_frbs_radio_transients, technosignature_detection_methods
 1903.05920	resolved	2019-03-14	M. A. Gorbachev	Flares activity of selected stars from GTSh10 catalog by CRTS data	3	quasar_agn_variability_periodicity
-1903.09213	not checked					technosignature_detection_methods
-1904.00536	not checked					technosignature_detection_methods
-1904.03876	not checked					decoding_structure_of_unknown_signals
+1903.09213	resolved	2019-03-21	Wheeler, Adam	The Weird Detector: Flagging periodic, coherent signals of arbitrary shape in time series photometry	13	technosignature_detection_methods
+1904.00536	resolved	2019-04-01	Seto, Naoki	Possibility of a coordinated signaling scheme in the Galaxy and SETI experiments	8	technosignature_detection_methods
+1904.03876	resolved	2019-04-08	Ondel, Lucas	Bayesian Subspace Hidden Markov Model for Acoustic Unit Discovery	3	decoding_structure_of_unknown_signals
 1904.05922	resolved	2019-04-11	J. Nordin	Transient processing and analysis using $\texttt{AMPEL}$: Alert Management, Photometry and Evaluation of Lightcurves	6	prior_art_and_engineering
-1905.00421	not checked					decoding_structure_of_unknown_signals
+1905.00421	resolved	2019-05-01	Yu, Yufeng	A Novel Trend Symbolic Aggregate Approximation for Time Series	3	decoding_structure_of_unknown_signals
 1905.02262	resolved	2019-05-06	Matthew J. Graham	Understanding extreme quasar optical variability with CRTS: II. Changing-state quasars	7	quasar_agn_variability_periodicity
 1905.03225	resolved	2019-05-07	Lev M. Gindilis	SETI in Russia, USSR and the post-Soviet space: a century of research	2	quasar_agn_variability_periodicity
-1905.11516	not checked					technosignature_detection_methods
-1906.06718	not checked					decipherment_and_translation_without_a_key
+1905.11516	resolved	2019-05-27	Pruzhinskaya, Maria V.	Anomaly Detection in the Open Supernova Catalog	16	technosignature_detection_methods
+1906.06718	resolved	2019-06-16	Luo, Jiaming	Neural Decipherment via Minimum-Cost Flow: from Ugaritic to Linear B	2	decipherment_and_translation_without_a_key
 1906.07391	resolved	2019-06-18	Matthew Lebofsky	The Breakthrough Listen Search for Intelligent Life: Public Data, Formats, Reduction and Archiving	4	prior_art_and_engineering, radio_seti_archives, technosignature_detection_methods
-1906.07750	not checked					radio_seti_archives, technosignature_detection_methods
+1906.07750	resolved	2019-06-18	Price, Danny C.	The Breakthrough Listen Search for Intelligent Life: Observations of 1327 Nearby Stars over 1.10-3.45 GHz	1	radio_seti_archives, technosignature_detection_methods
 1906.08315	resolved	2019-06-19	T. Liu	Supermassive Black Hole Binary Candidates from the Pan-STARRS1 Medium Deep Survey	13	quasar_agn_variability_periodicity
-1907.01981	not checked					radio_seti_archives
-1907.04443	not checked					technosignature_detection_methods
+1907.01981	resolved	2019-07-03	Lacy, M.	The Karl G. Jansky Very Large Array Sky Survey (VLASS). Science case and survey design	5	radio_seti_archives
+1907.04443	resolved	2019-07-09	Davenport, James. R. A.	SETI in the Spatio-Temporal Survey Domain	3	technosignature_detection_methods
 1907.06676	resolved	2019-07-15	Hengxiao Guo	Spectral Energy Distributions of Candidate Periodically-Variable Quasars: Testing the Binary Black Hole Hypothesis	8	prior_art_and_engineering
 1907.11246	resolved	2019-07-25	Chengcheng Xin	Testing the relativistic Doppler boost hypothesis for the binary candidate quasar PG1302-102 with multi-band Swift data	4	quasar_agn_variability_periodicity
-1908.00991	not checked					technosignature_detection_methods
-1908.02683	not checked					technosignature_detection_methods
-1908.07251	not checked					technosignature_detection_methods
+1908.00991	resolved	2019-08-02	Tronsgaard, René	Photon-weighted barycentric correction and its importance for precise radial velocities	7	technosignature_detection_methods
+1908.02683	resolved	2019-07-31	Sheikh, Sofia Z.	The Nine Axes of Merit for Technosignature Searches	3	technosignature_detection_methods
+1908.07251	resolved	2019-08-20	Netzel, Henryka	The census of non-radial pulsation in first-overtone RR Lyrae stars of the OGLE Galactic bulge collection	12	technosignature_detection_methods
 1909.04693	resolved	2019-09-10	G. Miniutti	Nine-hour X-ray quasi-periodic eruptions from a low-mass black hole galactic nucleus	3	quasar_agn_variability_periodicity
-1909.13260	not checked					technosignature_detection_methods
-1910.01148	not checked					radio_seti_archives, technosignature_detection_methods
+1909.13260	resolved	2019-09-29	Ishida, Emille E. O.	Active Anomaly Detection for time-domain discoveries	12	technosignature_detection_methods
+1910.01148	resolved	2019-10-02	Sheikh, Sofia Z.	Choosing a Maximum Drift Rate in a SETI Search: Astrophysical Considerations	1	radio_seti_archives, technosignature_detection_methods
 1910.05348	resolved	2019-10-11	Betty X. Hu	Spikey: Self-Lensing Flares from Eccentric SMBH Binaries	5	quasar_agn_variability_periodicity
 1911.05068	resolved	2019-11-12	Beatriz Villarroel	"The Vanishing & Appearing Sources during a Century of Observations project: I. USNO objects missing in modern sky surveys and follow-up observations of a ""missing star"""	4	prior_art_and_engineering, technosignature_detection_methods
 1912.00560	resolved	2019-12-02	Zihao Song	Testing the relativistic Doppler boost hypothesis for supermassive binary black holes candidates via broad emission line profiles	8	quasar_agn_variability_periodicity
-1912.02616	not checked					technosignature_detection_methods
-1912.06116	not checked					technosignature_detection_methods
-2001.01692	not checked					decoding_structure_of_unknown_signals
-2001.11102	not checked					decoding_structure_of_unknown_signals
-2002.03391	not checked					decoding_structure_of_unknown_signals
+1912.02616	resolved	2019-12-02	Hippke, Michael	Interstellar communication network. I. Overview and assumptions	9	technosignature_detection_methods
+1912.06116	resolved	2019-12-12	Vovk, Vladimir	E-values: Calibration, combination, and applications	7	technosignature_detection_methods
+2001.01692	resolved	2020-01-06	Elgenedy, Mahmoud	A Family of Blind Symbol Rate Estimators using Zero Crossing Detection over Unknown Multipath Fading Channels	16	decoding_structure_of_unknown_signals
+2001.11102	resolved	2020-01-29	Gao, Yifeng	Ensemble Grammar Induction For Detecting Anomalies in Time Series	5	decoding_structure_of_unknown_signals
+2002.03391	resolved	2020-02-09	Kleber, Stephan	Message Type Identification of Binary Network Protocols using Continuous Segment Similarity	2	decoding_structure_of_unknown_signals
 2002.08967	resolved	2020-02-20	Margherita Giustini	X-ray quasi-periodic eruptions from the galactic nucleus of RX J1301.9+2747	8	quasar_agn_variability_periodicity
-2003.00109	not checked					technosignature_detection_methods
+2003.00109	resolved	2020-02-28	Giles, Daniel	Density Based Outlier Scoring on Kepler Data	15	technosignature_detection_methods
 2004.03701	resolved	2020-04-07	V. Morello	Optimal periodicity searching: Revisiting the Fast Folding Algorithm for large-scale pulsar surveys	13	pulsars_frbs_radio_transients, technosignature_detection_methods
 2004.10944	resolved	2020-04-23	Xing-Jiang Zhu	Toward the unambiguous identification of supermassive binary black holes through Bayesian inference	4	quasar_agn_variability_periodicity
-2005.09409	not checked					decoding_structure_of_unknown_signals
+2005.09409	resolved	2020-05-19	van Niekerk, Benjamin	Vector-quantized neural networks for acoustic unit discovery in the ZeroSpeech 2020 challenge	1	decoding_structure_of_unknown_signals
 2005.10324	resolved	2020-05-20	The CHIME/FRB Collaboration	A bright millisecond-duration radio burst from a Galactic magnetar	4	pulsars_frbs_radio_transients
 2005.10828	resolved	2020-05-21	Christopher D. Bochenek	A fast radio burst associated with a Galactic magnetar	5	pulsars_frbs_radio_transients
-2006.04362	not checked					technosignature_detection_methods
+2006.04362	resolved	2020-06-08	Brzycki, Bryan	Narrow-Band Signal Localization for SETI on Noisy Synthetic Spectrogram Data	3	technosignature_detection_methods
 2006.11304	resolved	2020-06-19	Brian C. Lacki	One of Everything: The Breakthrough Listen Exotica Catalog	11	quasar_agn_variability_periodicity, technosignature_detection_methods
 2008.03303	resolved	2020-08-07	F. Förster	The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker	11	prior_art_and_engineering
 2008.03311	resolved	2020-08-07	P. Sánchez-Sáez	Alert Classification for the ALeRCE Broker System: The Light Curve Classifier	8	prior_art_and_engineering
 2008.12329	resolved	2020-08-27	Yu-Ching Chen	Candidate Periodically Variable Quasars from the Dark Energy Survey and the Sloan Digital Sky Survey	2	quasar_agn_variability_periodicity
-2009.02824	not checked					technosignature_detection_methods
-2009.03267	not checked					radio_seti_archives
+2009.02824	resolved	2020-09-06	Wang, Ruodu	False discovery rate control with e-values	16	technosignature_detection_methods
+2009.03267	resolved	2020-09-04	Tremblay, Chenoa D.	A SETI Survey of the Vela Region using the Murchison Widefield Array: Orders of Magnitude Expansion in Search Space	5	radio_seti_archives
 2009.03321	resolved	2020-09-07	Anna V. Payne	ASASSN-14ko is a Periodic Nuclear Transient in ESO 253-G003	3	quasar_agn_variability_periodicity
-2009.06760	not checked					technosignature_detection_methods
-2009.07774	not checked					decoding_structure_of_unknown_signals
+2009.06760	resolved	2020-09-14	Martínez-Galarza, Juan Rafael	A method for finding anomalous astronomical light curves and their analogs	4	technosignature_detection_methods
+2009.07774	resolved	2020-09-16	Dehdashtian, Sepehr	Deep-Learning Based Blind Recognition of Channel Code Parameters over Candidate Sets under AWGN and Multi-Path Fading Conditions	2	decoding_structure_of_unknown_signals
 2009.10185	resolved	2020-09-21	Anais Möller	Fink, a new generation of broker for the LSST community	4	prior_art_and_engineering
-2010.00730	not checked					decoding_structure_of_unknown_signals
-2010.11054	not checked					decipherment_and_translation_without_a_key
+2010.00730	resolved	2020-10-02	Fuad, Muhammad Marwan Muhammad	Modifying the Symbolic Aggregate Approximation Method to Capture Segment Trend Information	5	decoding_structure_of_unknown_signals
+2010.11054	resolved	2020-10-21	Luo, Jiaming	Deciphering Undersegmented Ancient Scripts Using Phonetic Prior	25	decipherment_and_translation_without_a_key
 2010.11202	resolved	2020-10-21	Michelle Lochner	Astronomaly: Personalised Active Anomaly Detection in Astronomical Data	12	prior_art_and_engineering, technosignature_detection_methods
-2011.03497	not checked					technosignature_detection_methods
-2011.05265	not checked					technosignature_detection_methods
-2011.11588	not checked					decoding_structure_of_unknown_signals
+2011.03497	resolved	2020-11-06	Nir, Guy	A high-rate foreground of sub-second flares from geosynchronous satellites	7	technosignature_detection_methods
+2011.05265	resolved	2020-11-10	Margot, Jean-Luc	A Search for Technosignatures Around 31 Sun-like Stars with the Green Bank Telescope at 1.15-1.73 GHz	26	technosignature_detection_methods
+2011.11588	resolved	2020-11-23	Nguyen, Tu Anh	The Zero Resource Speech Benchmark 2021: Metrics and baselines for unsupervised spoken language modeling	3	decoding_structure_of_unknown_signals
 2012.00074	resolved	2020-11-30	Jing Luo	PINT: A Modern Software Package for Pulsar Timing	5	pulsars_frbs_radio_transients
-2012.00747	not checked					radio_seti_archives
-2012.01419	not checked					technosignature_detection_methods
+2012.00747	resolved	2020-12-01	McConnell, D.	The Rapid ASKAP Continuum Survey I: Design and First Results	8	radio_seti_archives
+2012.01419	resolved	2020-12-02	Malanchev, K. L.	Anomaly detection in the Zwicky Transient Facility DR3	3	technosignature_detection_methods
 2012.08348	resolved	2020-12-15	Inés Pastor-Marazuela	Chromatic periodic activity down to 120 MHz in a Fast Radio Burst	19	pulsars_frbs_radio_transients
 2012.14452	resolved	2020-12-28	Jackeline Moreno	Properties of a Previously Unidentified Instrumental Signature in $\textit{Kepler/K2}$ that was Confused for AGN Variability	3	quasar_agn_variability_periodicity
-2012.15229	not checked					decipherment_and_translation_without_a_key
-2103.01536	not checked					technosignature_detection_methods
-2104.08614	not checked					decipherment_and_translation_without_a_key
-2104.09564	not checked					technosignature_detection_methods
+2012.15229	resolved	2020-12-30	Aldarrab, Nada	Can Sequence-to-Sequence Models Crack Substitution Ciphers?	11	decipherment_and_translation_without_a_key
+2103.01536	resolved	2021-03-02	Socas-Navarro, Hector	Concepts for future missions to search for technosignatures	5	technosignature_detection_methods
+2104.08614	resolved	2021-04-17	Andreas, Jacob	Cetacean Translation Initiative: a roadmap to deciphering the communication of sperm whales	11	decipherment_and_translation_without_a_key
+2104.09564	resolved	2021-04-19	Hippke, Michael	Interstellar communication network. III. Locating deep space nodes	9	technosignature_detection_methods
 2104.14148	resolved	2021-04-29	Vishal Gajjar	The Breakthrough Listen Search For Intelligent Life Near the Galactic Center I	9	pulsars_frbs_radio_transients, radio_seti_archives, technosignature_detection_methods
-2106.00737	not checked					decipherment_and_translation_without_a_key
+2106.00737	resolved	2021-06-01	Li, Belinda Z.	Implicit Representations of Meaning in Neural Language Models	17	decipherment_and_translation_without_a_key
 2106.04352	resolved	2021-06-08	The CHIME/FRB Collaboration	The First CHIME/FRB Fast Radio Burst Catalog	3	pulsars_frbs_radio_transients
-2106.07447	not checked					decoding_structure_of_unknown_signals
+2106.07447	resolved	2021-06-14	Hsu, Wei-Ning	HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units	8	decoding_structure_of_unknown_signals
 2106.15181	resolved	2021-06-29	Tiger Yu-Yang Hsiao	A Dyson Sphere around a black hole	13	quasar_agn_variability_periodicity
-2107.05381	not checked					decipherment_and_translation_without_a_key
-2107.07283	not checked					technosignature_detection_methods
+2107.05381	resolved	2021-07-07	Hromada, Daniel Devatman	Can Evolutionary Computation Help us to Crib the Voynich Manuscript ?	14	decipherment_and_translation_without_a_key
+2107.07283	resolved	2021-07-15	Wright, Jason T.	Strategies and Advice for the Search for Extraterrestrial Intelligence	5	technosignature_detection_methods
 2107.08205	resolved	2021-07-17	D. Li	A bimodal burst energy distribution of a repeating fast radio burst source	3	pulsars_frbs_radio_transients
 2107.08463	resolved	2021-07-18	The CHIME/FRB Collaboration	Sub-second periodicity in a fast radio burst	9	pulsars_frbs_radio_transients
 2108.05389	resolved	2021-08-11	Colin J. Burke	A characteristic optical variability timescale in astrophysical accretion disks	0	quasar_agn_variability_periodicity
-2108.06039	not checked					radio_seti_archives
+2108.06039	resolved	2021-08-13	Murphy, Tara	The ASKAP Variables and Slow Transients (VAST) Pilot Survey	6	radio_seti_archives
 2109.03896	resolved	2021-09-08	Szymon Kozłowski	A Survey Length for AGN Variability Studies	0	quasar_agn_variability_periodicity
 2110.05542	resolved	2021-10-11	Michelle Kunimoto	Quick-Look Pipeline Lightcurves for 9.1 Million Stars Observed Over the First Year of the TESS Extended Mission	10	prior_art_and_engineering
 2110.07465	resolved	2021-10-14	Caitlin A. Witt	Quasars with Periodic Variability: Capabilities and Limitations of Bayesian Searches for Supermassive Black Hole Binaries in Time-Domain Surveys	3	quasar_agn_variability_periodicity
-2110.15217	not checked					technosignature_detection_methods
+2110.15217	resolved	2021-10-06	Villarroel, Beatriz	A glint in the eye: photographic plate archive searches for non-terrestrial artefacts	8	technosignature_detection_methods
 2111.02436	resolved	2021-11-03	S. O'Neill	The Unanticipated Phenomenology of the Blazar PKS~2131$-$021: A Unique Super-Massive Black Hole Binary Candidate	12	quasar_agn_variability_periodicity
 2111.06350	resolved	2021-11-11	Sofia Z. Sheikh	Analysis of the Breakthrough Listen signal of interest blc1 with a technosignature verification framework	4	prior_art_and_engineering, radio_seti_archives, technosignature_detection_methods
-2111.08007	not checked					radio_seti_archives, technosignature_detection_methods
-2111.11175	not checked					technosignature_detection_methods
+2111.08007	resolved	2021-11-15	Smith, Shane	A radio technosignature search towards Proxima Centauri resulting in a signal-of-interest	1	radio_seti_archives, technosignature_detection_methods
+2111.11175	resolved	2021-11-18	Grassberger, Peter	"On Generalized Sch\""urmann Entropy Estimators"	8	technosignature_detection_methods
 2112.03306	resolved	2021-12-06	H. S. Chan	Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars	9	prior_art_and_engineering
 2201.02762	resolved	2022-01-08	Zachary Stone	Optical Variability of Quasars with 20-Year Photometric Light Curves	7	quasar_agn_variability_periodicity
 2201.08943	resolved	2022-01-22	Weixiang Yu	Examining AGN UV/optical Variability Beyond the Simple Damped Random Walk	9	quasar_agn_variability_periodicity
-2201.10189	not checked					technosignature_detection_methods
-2201.11123	not checked					technosignature_detection_methods
+2201.10189	resolved	2022-01-25	Lochner, Michelle	A Hitchhiker's Guide to Anomaly Detection with Astronomaly	11	technosignature_detection_methods
+2201.11123	resolved	2022-01-26	Suazo, Matías	Project Hephaistos I. Upper limits on partial Dyson spheres in the Milky Way	14	technosignature_detection_methods
 2201.11633	resolved	2022-01-27	Ning Jiang	Tick-Tock: The Imminent Merger of a Supermassive Black Hole Binary	7	quasar_agn_variability_periodicity
-2202.03699	not checked					decoding_structure_of_unknown_signals
-2202.11733	not checked					radio_seti_archives
+2202.03699	resolved	2022-02-08	Bartlett, Stuart	Assessing Planetary Complexity and Potential Agnostic Biosignatures using Epsilon Machines	4	decoding_structure_of_unknown_signals
+2202.11733	resolved	2022-02-23	Shimwell, T. W.	The LOFAR Two-metre Sky Survey -- V. Second data release	3	radio_seti_archives
 2203.04890	resolved	2022-03-09	Maura Pilia	The Low Frequency Perspective on Fast Radio Bursts	5	pulsars_frbs_radio_transients
-2204.06091	not checked					technosignature_detection_methods
-2204.14259	not checked					technosignature_detection_methods
+2204.06091	resolved	2022-04-12	Villarroel, Beatriz	Is there a background population of high-albedo objects in geosynchronous orbits around Earth?	7	technosignature_detection_methods
+2204.14259	resolved	2022-04-29	Clement, Matthew S.	Mathematical encoding within multi-resonant planetary systems as SETI beacons	7	technosignature_detection_methods
 2205.02964	resolved	2022-05-06	Vishal Gajjar	Searching for broadband pulsed beacons from 1883 stars using neural networks	0	pulsars_frbs_radio_transients, technosignature_detection_methods
 2205.06275	resolved	2022-05-12	Massimo Dotti	Optical follow-up of the tick-tock massive black hole binary candidate	14	quasar_agn_variability_periodicity
 2206.00907	resolved	2022-06-02	E. Solano	Discovering vanishing objects in POSS I red images using the Virtual Observatory	4	prior_art_and_engineering, technosignature_detection_methods
 2206.01346	resolved	2022-06-03	Manisha Caleb	Discovery of a radio emitting neutron star with an ultra-long spin period of 76 seconds	2	pulsars_frbs_radio_transients
-2206.04092	not checked					technosignature_detection_methods
+2206.04092	resolved	2022-06-08	Davenport, James R. A.	Searching the SETI Ellipsoid with Gaia	1	technosignature_detection_methods
 2206.05681	resolved	2022-06-12	 Gaia Collaboration	Gaia Data Release 3: The extragalactic content	5	quasar_agn_variability_periodicity
-2206.08374	not checked					technosignature_detection_methods
+2206.08374	resolved	2022-06-16	Kipping, David	"Could the ""Wow"" signal have originated from a stochastic repeating beacon?"	5	technosignature_detection_methods
 2206.11278	resolved	2022-06-22	Anna V. Payne	Chandra, HST/STIS, NICER, Swift, and TESS Detail the Flare Evolution of the Repeating Nuclear Transient ASASSN-14ko	8	quasar_agn_variability_periodicity
 2206.11497	resolved	2022-06-23	Yong-Jie Chen	Searching for quasar candidates with periodic variations from the Zwicky Transient Facility: results and implications	5	quasar_agn_variability_periodicity
-2206.12853	not checked					technosignature_detection_methods
+2206.12853	resolved	2022-06-26	Netzel, H.	Asteroseismology of RR Lyrae stars with non-radial modes	10	technosignature_detection_methods
 2207.06849	resolved	2022-07-14	Maria I. Carnerero	Gaia Data Release 3: The first Gaia catalogue of variable AGN	1	quasar_agn_variability_periodicity
 2208.03508	resolved	2022-08-06	Apostolos Spanakis-Misirlis	FRBSTATS: A web-based platform for visualization of fast radio burst properties	4	pulsars_frbs_radio_transients
-2208.13561	not checked					optical_highenergy_timedomain_archives
-2210.01356	not checked					technosignature_detection_methods
-2210.01948	not checked					technosignature_detection_methods
-2210.12300	not checked					decipherment_and_translation_without_a_key
-2210.13382	not checked					decipherment_and_translation_without_a_key
-2210.14493	not checked					decipherment_and_translation_without_a_key
-2211.11081	not checked					decipherment_and_translation_without_a_key
+2208.13561	resolved	2022-08-26	Marcy, Geoffrey W.	A Search for Monochromatic Light Toward the Galactic Centre	6	optical_highenergy_timedomain_archives
+2210.01356	resolved	2022-10-04	Maire, Jérôme	Panoramic SETI: Program Update and High-Energy Astrophysics Applications	16	technosignature_detection_methods
+2210.01948	resolved	2022-10-04	Ramdas, Aaditya	Game-theoretic statistics and safe anytime-valid inference	13	technosignature_detection_methods
+2210.12300	resolved	2022-10-21	Hagiwara, Masato	BEANS: The Benchmark of Animal Sounds	12	decipherment_and_translation_without_a_key
+2210.13382	resolved	2022-10-24	Li, Kenneth	Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task	8	decipherment_and_translation_without_a_key
+2210.14493	resolved	2022-10-26	Hagiwara, Masato	AVES: Animal Vocalization Encoder based on Self-Supervision	9	decipherment_and_translation_without_a_key
+2211.11081	resolved	2022-11-20	Goldwasser, Shafi	A Theory of Unsupervised Translation Motivated by Understanding Animal Communication	1	decipherment_and_translation_without_a_key
 2212.04648	resolved	2022-12-09	Matthew T. Miles	The MeerKAT Pulsar Timing Array: First Data Release	4	pulsars_frbs_radio_transients
 2301.01607	resolved	2023-01-04	S. Abdollahi	The Fermi-LAT Light Curve Repository	2	optical_highenergy_timedomain_archives, quasar_agn_variability_periodicity
-2301.06971	not checked					optical_highenergy_timedomain_archives, technosignature_detection_methods
+2301.06971	resolved	2023-01-17	Zuckerman, Anna	The Breakthrough Listen Search for Intelligent Life: A Laser Search Pipeline for the Automated Planet Finder	4	optical_highenergy_timedomain_archives, technosignature_detection_methods
 2301.10264	resolved	2023-01-24	Dennis A. Crake	Linking Anomalous Behaviour with Stellar Properties: An Unsupervised Exploration of TESS Light Curves	13	prior_art_and_engineering, technosignature_detection_methods
 2301.12670	resolved	2023-01-30	Peter Xiangyuan Ma	A deep-learning search for technosignatures of 820 nearby stars	7	prior_art_and_engineering, radio_seti_archives, technosignature_detection_methods
 2302.06446	resolved	2023-02-13	K. I. Kellermann	The Search for Extraterrestrial Civilizations: A Scientific, Technical, Political, Social, and Cultural Adventure	0	quasar_agn_variability_periodicity
 2302.11646	resolved	2023-02-22	S. Komossa	Absence of the predicted 2022 October outburst of OJ 287 and implications for binary SMBH scenarios	18	quasar_agn_variability_periodicity
-2303.16045	not checked					decoding_structure_of_unknown_signals
+2303.16045	resolved	2023-03-28	Zenil, Hector	An Optimal, Universal and Agnostic Decoding Method for Message Reconstruction, Bio and Technosignature Detection	0	decoding_structure_of_unknown_signals
 2303.16231	resolved	2023-03-28	Itai Linial	EMRI + TDE = QPE: Periodic X-ray Flares from Star-Disk Collisions in Galactic Nuclei	5	quasar_agn_variability_periodicity
 2303.17279	resolved	2023-03-30	D. J. Zhou	The FAST Galactic Plane Pulsar Snapshot Survey: II. Discovery of 76 Galactic rotating radio transients and their enigma	2	pulsars_frbs_radio_transients
-2304.02756	not checked					radio_seti_archives
+2304.02756	resolved	2023-04-05	Uno, Yuri	Upper limits on transmitter rate of extragalactic civilizations placed by Breakthrough Listen observations	3	radio_seti_archives
 2304.03791	resolved	2023-04-07	K. Hart	ASAS-SN Sky Patrol V2.0	10	optical_highenergy_timedomain_archives
 2305.01014	resolved	2023-05-01	Yue Shen	The Sloan Digital Sky Survey Reverberation Mapping Project: Key Results	5	quasar_agn_variability_periodicity
-2305.11781	not checked					decoding_structure_of_unknown_signals
+2305.11781	resolved	2023-05-19	Shi, Qingkai	Lifting Network Protocol Implementation to Precise Format Specification with Security Applications	3	decoding_structure_of_unknown_signals
 2305.18527	resolved	2023-05-29	Akshay Suresh	A 4-8 GHz Galactic Center Search for Periodic Technosignatures	0	pulsars_frbs_radio_transients, quasar_agn_variability_periodicity, radio_seti_archives, technosignature_detection_methods
-2306.03118	not checked					technosignature_detection_methods
+2306.03118	resolved	2023-06-05	Davenport, James R. A.	Real-Time Technosignature Strategies with SN 2023ixf	6	technosignature_detection_methods
 2306.04053	resolved	2023-06-06	Geraint F. Lewis	Detection of the Cosmological Time Dilation of High Redshift Quasars	5	quasar_agn_variability_periodicity
 2306.07585	resolved	2023-06-13	Yu Sang	The temporally evolving energy and waiting time statistics of two repeating fast radio bursts	4	pulsars_frbs_radio_transients
-2306.10151	not checked					decoding_structure_of_unknown_signals
+2306.10151	resolved	2023-06-16	Hehir, Colin	Calculating the matrix profile from noisy data	4	decoding_structure_of_unknown_signals
 2306.16213	resolved	2023-06-28	Gabriella Agazie	The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background	3	quasar_agn_variability_periodicity
 2306.16222	resolved	2023-06-28	Gabriella Agazie	The NANOGrav 15-year Data Set: Bayesian Limits on Gravitational Waves from Individual Supermassive Black Hole Binaries	9	quasar_agn_variability_periodicity
 2306.16224	resolved	2023-06-28	J. Antoniadis	The second data release from the European Pulsar Timing Array I. The dataset and timing analysis	4	pulsars_frbs_radio_transients
 2306.16230	resolved	2023-06-28	Andrew Zic	The Parkes Pulsar Timing Array Third Data Release	11	pulsars_frbs_radio_transients
-2306.17680	not checked					technosignature_detection_methods
+2306.17680	resolved	2023-06-30	Acharyya, Atreya	A VERITAS/Breakthrough Listen Search for Optical Technosignatures	8	technosignature_detection_methods
 2306.17749	resolved	2023-06-30	Kate Storey-Fisher	Quaia, the Gaia-unWISE Quasar Catalog: An All-Sky Spectroscopic Quasar Sample	4	quasar_agn_variability_periodicity
-2307.02316	not checked					technosignature_detection_methods
+2307.02316	resolved	2023-07-05	Di Vruno, F.	Unintended electromagnetic radiation from Starlink satellites detected with LOFAR between 110 and 188 MHz	9	technosignature_detection_methods
 2307.03344	resolved	2023-07-07	C. J. Law	Deep Synoptic Array Science: First FRB and Host Galaxy Catalog	0	pulsars_frbs_radio_transients
-2307.04721	not checked					decipherment_and_translation_without_a_key
+2307.04721	resolved	2023-07-10	Mirchandani, Suvir	Large Language Models as General Pattern Machines	14	decipherment_and_translation_without_a_key
 2307.05838	resolved	2023-07-11	Silke Britzen	Precession-induced Variability in AGN Jets and OJ 287	2	quasar_agn_variability_periodicity
-2307.08793	not checked					technosignature_detection_methods
-2308.02712	not checked					radio_seti_archives, technosignature_detection_methods
+2307.08793	resolved	2023-07-17	Brzycki, Bryan	On Detecting Interstellar Scintillation in Narrowband Radio SETI	7	technosignature_detection_methods
+2308.02712	resolved	2023-08-04	Margot, Jean-Luc	A Search for Technosignatures Around 11,680 Stars with the Green Bank Telescope at 1.15-1.73 GHz	0	radio_seti_archives, technosignature_detection_methods
 2308.06813	resolved	2023-08-13	Myles B. Sherman	Deep Synoptic Array Science: Polarimetry of 25 New Fast Radio Bursts Provides Insights into their Origins	1	pulsars_frbs_radio_transients
 2308.12709	resolved	2023-08-24	Janeth Valverde	The Fermi-LAT Light Curve Repository: A resource for the time-domain and multi-messenger communities	15	quasar_agn_variability_periodicity
 2309.02544	resolved	2023-09-05	Yunpeng Men	PulsarX: a new pulsar searching package -I. A high performance folding program for pulsar surveys	14	pulsars_frbs_radio_transients
-2309.08660	not checked					technosignature_detection_methods
-2309.10668	not checked					decoding_structure_of_unknown_signals
-2309.15672	not checked					technosignature_detection_methods
-2309.16575	not checked					decipherment_and_translation_without_a_key
+2309.08660	resolved	2023-09-15	Etsebeth, Verlon	Astronomaly at scale: searching for anomalies amongst 4 million galaxies	15	technosignature_detection_methods
+2309.10668	resolved	2023-09-19	Delétang, Grégoire	Language Modeling Is Compression	3	decoding_structure_of_unknown_signals
+2309.15672	resolved	2023-09-27	Grigg, Dylan	Detection of intended and unintended emissions from Starlink satellites in the SKA-Low frequency range, at the SKA-Low site, with an SKA-Low station analog	3	technosignature_detection_methods
+2309.16575	resolved	2023-09-28	Tanzer, Garrett	A Benchmark for Learning to Translate a New Language from One Grammar Book	13	decipherment_and_translation_without_a_key
 2310.08631	resolved	2023-10-12	Krista Lynne Smith	The Rapid Optical Variability of the Nearby Radio-Loud AGN Pictor A: Introducing the Quaver Pipeline for AGN Science with TESS	2	quasar_agn_variability_periodicity
-2310.09035	not checked					technosignature_detection_methods
+2310.09035	resolved	2023-10-13	Solano, Enrique	A bright triple transient that vanished within 50 minutes	5	technosignature_detection_methods
 2310.09414	resolved	2023-10-13	Chenoa D. Tremblay	COSMIC: An Ethernet-based Commensal, Multimode Digital Backend on the Karl G. Jansky Very Large Array for the Search for Extraterrestrial Intelligence	11	prior_art_and_engineering, radio_seti_archives
 2310.12704	resolved	2023-10-19	Yuming Fu	CatNorth: An Improved Gaia DR3 Quasar Candidate Catalog with Pan-STARRS1 and CatWISE	6	quasar_agn_variability_periodicity
 2310.15704	resolved	2023-10-24	Owen A. Johnson	A Simultaneous Dual-site Technosignature Search Using International LOFAR Stations	3	prior_art_and_engineering, radio_seti_archives
@@ -299,94 +299,94 @@ arxiv_id	status	published	first_author	title	min_shared_words	cited_in
 2401.13834	resolved	2024-01-24	Yunpeng Men	TransientX: A high performance single pulse search package	5	pulsars_frbs_radio_transients
 2401.17275	resolved	2024-01-30	R. Arcodia	The more the merrier: SRG/eROSITA discovers two further galaxies showing X-ray quasi-periodic eruptions	2	quasar_agn_variability_periodicity
 2401.17318	resolved	2024-01-24	Atsushi Hoshi	The Variability of the Broad Line Profiles of SDSS J1430+2303	16	quasar_agn_variability_periodicity
-2402.00497	not checked					technosignature_detection_methods
+2402.00497	resolved	2024-02-01	Hambly, Nigel	On the nature of apparent transient sources on the National Geographic Society-Palomar Observatory Sky Survey glass copy plates	7	technosignature_detection_methods
 2402.04352	resolved	2024-02-06	Ashutosh Tripathi	Search for Quasi-Periodic Oscillations in TESS light curves of bright Fermi Blazars	7	quasar_agn_variability_periodicity
-2402.10601	not checked					decipherment_and_translation_without_a_key
-2402.11037	not checked					technosignature_detection_methods
-2403.05530	not checked					decipherment_and_translation_without_a_key
-2403.07815	not checked					decipherment_and_translation_without_a_key
-2403.18941	not checked					technosignature_detection_methods
-2404.07812	not checked					technosignature_detection_methods
-2404.14373	not checked					technosignature_detection_methods
+2402.10601	resolved	2024-02-16	Handa, Divij	"When ""Competency"" in Reasoning Opens the Door to Vulnerability: Jailbreaking LLMs via Novel Complex Ciphers"	10	decipherment_and_translation_without_a_key
+2402.11037	resolved	2024-02-16	Cabrales, Bárbara	Searching the SN 1987A SETI Ellipsoid with TESS	4	technosignature_detection_methods
+2403.05530	resolved	2024-03-08	Gemini Team	Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context	9	decipherment_and_translation_without_a_key
+2403.07815	resolved	2024-03-12	Ansari, Abdul Fatir	Chronos: Learning the Language of Time Series	12	decipherment_and_translation_without_a_key
+2403.18941	resolved	2024-03-27	Contardo, Gabriella	A Data-Driven Search For Mid-Infrared Excesses Among Five Million Main-Sequence FGK Stars	3	technosignature_detection_methods
+2404.07812	resolved	2024-04-11	Voloshina, A. S.	SNAD catalogue of M-dwarf flares from the Zwicky Transient Facility	10	technosignature_detection_methods
+2404.14373	resolved	2024-04-22	Netzel, H.	On the incidence rate of RR Lyrae stars with non-radial modes	7	technosignature_detection_methods
 2404.15395	resolved	2024-04-23	Sean M. O'Brien	Planet Hunters NGTS: New Planet Candidates from a Citizen Science Search of the Next Generation Transit Survey Public Data	4	prior_art_and_engineering
-2405.00736	not checked					decoding_structure_of_unknown_signals
+2405.00736	resolved	2024-04-29	Xing, Huijun	Joint Signal Detection and Automatic Modulation Classification via Deep Learning	6	decoding_structure_of_unknown_signals
 2405.01977	resolved	2024-05-03	Abhimanyu Susobhanan	PINT: Maximum-likelihood estimation of pulsar timing noise parameters	4	pulsars_frbs_radio_transients
-2405.02927	not checked					technosignature_detection_methods
+2405.02927	resolved	2024-05-05	Suazo, Matías	Project Hephaistos - II. Dyson sphere candidates from Gaia DR3, 2MASS, and WISE	5	technosignature_detection_methods
 2405.03721	resolved	2024-05-05	J. I. Katz	Orbital and Precession Periods in Repeating FRB 20121102A	4	pulsars_frbs_radio_transients
 2405.08627	resolved	2024-05-14	Mauri J. Valtonen	Evidence of jet activity from the secondary black hole in the OJ287 binary system	14	quasar_agn_variability_periodicity
 2405.14921	resolved	2024-05-23	Tongtian Ren	Background Contamination of the Project Hephaistos Dyson Spheres Candidates	5	prior_art_and_engineering, technosignature_detection_methods
 2406.03675	resolved	2024-06-06	Ananya Bandopadhyay	Repeating nuclear transients from repeating partial tidal disruption events: reproducing ASASSN-14ko and AT2020vdq	11	quasar_agn_variability_periodicity
-2406.07231	not checked					decipherment_and_translation_without_a_key
+2406.07231	resolved	2024-06-11	Lee, Grandee	Decipherment-Aware Multilingual Learning in Jointly Trained Language Models	14	decipherment_and_translation_without_a_key
 2406.15558	resolved	2024-06-21	Krista Lynne Smith	Rapid multi-band space-based optical timing: revolutionizing accretion physics	1	quasar_agn_variability_periodicity
-2407.01687	not checked					decipherment_and_translation_without_a_key
+2407.01687	resolved	2024-07-01	Prabhakar, Akshara	Deciphering the Factors Influencing the Efficacy of Chain-of-Thought: Probability, Memorization, and Noisy Reasoning	13	decipherment_and_translation_without_a_key
 2407.09647	resolved	2024-07-12	S. Kiehlmann	PKS 2131-021 -- Discovery of Strong Coherent Sinusoidal Variations from Radio to Optical Frequencies: Compelling Evidence for a Blazar Supermassive Black Hole Binary	3	quasar_agn_variability_periodicity
 2407.17565	resolved	2024-07-24	Jakob Robnik	Periodicity significance testing with null-signal templates: reassessment of PTF's SMBH binary candidates	10	quasar_agn_variability_periodicity
-2407.21070	not checked					decipherment_and_translation_without_a_key
+2407.21070	resolved	2024-07-28	Guerzhoy, Michael	Occam's Razor and Bender and Koller's Octopus	5	decipherment_and_translation_without_a_key
 2408.00089	resolved	2024-07-31	S. Komossa	The extremes of AGN variability: outbursts, deep fades, changing looks, exceptional spectral states, and semi-periodicities	4	quasar_agn_variability_periodicity
 2408.02083	resolved	2024-08-04	R. M. Shannon	The Commensal Real-time ASKAP Fast Transient incoherent-sum survey	12	pulsars_frbs_radio_transients
 2408.02203	resolved	2024-08-05	Yu Sang	Quantifying the randomness and scale invariance of the repeating fast radio bursts	6	pulsars_frbs_radio_transients
 2408.07101	resolved	2024-08-12	Arindam Mal	Quantized Redshift and its significance for recent observations	8	quasar_agn_variability_periodicity
-2408.08513	not checked					radio_seti_archives, technosignature_detection_methods
+2408.08513	resolved	2024-08-16	Méndez, Abel	Arecibo Wow! I: An Astrophysical Explanation for the Wow! Signal	1	radio_seti_archives, technosignature_detection_methods
 2408.09795	resolved	2024-08-19	Iuliana Nitu	Periodicity search in the timing of the 25 millisecond pulsars from the second data release of the European Pulsar Timing Array	3	pulsars_frbs_radio_transients
 2408.11536	resolved	2024-08-21	I. de Ruiter	Sporadic radio pulses from a white dwarf binary at the orbital period	6	pulsars_frbs_radio_transients
 2408.12567	resolved	2024-08-22	C. A. Braga	FRB 20121102A monitoring: Updated periodicity in the L band	8	pulsars_frbs_radio_transients
-2408.14390	not checked					decoding_structure_of_unknown_signals
-2409.01994	not checked					decoding_structure_of_unknown_signals
+2408.14390	resolved	2024-08-26	van Niekerk, Benjamin	Spoken-Term Discovery using Discrete Speech Units	5	decoding_structure_of_unknown_signals
+2409.01994	resolved	2024-09-03	Jiang, Jiayi	BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering	5	decoding_structure_of_unknown_signals
 2409.02181	resolved	2024-09-03	M. Nicholl	Quasi-periodic X-ray eruptions years after a nearby tidal disruption event	5	quasar_agn_variability_periodicity
-2409.06109	not checked					decoding_structure_of_unknown_signals
-2409.10256	not checked					technosignature_detection_methods
+2409.06109	resolved	2024-09-09	Yeh, Sung-Lin	Estimating the Completeness of Discrete Speech Units	3	decoding_structure_of_unknown_signals
+2409.10256	resolved	2024-09-16	Semenikhin, T. A.	Real-bogus scores for active anomaly detection	7	technosignature_detection_methods
 2409.13247	resolved	2024-09-20	Qin Wu	Statistical properties and cosmological applications of fast radio bursts	1	pulsars_frbs_radio_transients
-2409.19151	not checked					decipherment_and_translation_without_a_key
+2409.19151	resolved	2024-09-27	Aycock, Seth	Can LLMs Really Learn to Translate a Low-Resource Language from One Grammar Book?	14	decipherment_and_translation_without_a_key
 2410.12905	resolved	2024-10-16	Joshua N. Winn	The Transiting Exoplanet Survey Satellite	2	prior_art_and_engineering
-2410.15280	not checked					decoding_structure_of_unknown_signals
+2410.15280	resolved	2024-10-20	Hurwitz, John	Neural Normalized Compression Distance and the Disconnect Between Compression and Classification	3	decoding_structure_of_unknown_signals
 2410.17142	resolved	2024-10-22	M. V. Kornilov	Coniferest: a complete active anomaly detection framework	2	prior_art_and_engineering, technosignature_detection_methods
-2410.23614	not checked					technosignature_detection_methods
+2410.23614	resolved	2024-10-31	Ramdas, Aaditya	Hypothesis testing with e-values	1	technosignature_detection_methods
 2411.02859	resolved	2024-11-05	Xuerong Guo	Accelerating FRB Search: Dataset and Methods	1	pulsars_frbs_radio_transients
-2411.04188	not checked					technosignature_detection_methods
-2411.07186	not checked					decipherment_and_translation_without_a_key
-2411.09790	not checked					decoding_structure_of_unknown_signals
+2411.04188	resolved	2024-11-06	Lochner, Michelle	Astronomaly Protege: Discovery Through Human-Machine Collaboration	10	technosignature_detection_methods
+2411.07186	resolved	2024-11-11	Robinson, David	NatureLM-audio: an Audio-Language Foundation Model for Bioacoustics	14	decipherment_and_translation_without_a_key
+2411.09790	resolved	2024-11-14	Palencia-Torres, Kelby D.	The Last Arecibo Message	0	decoding_structure_of_unknown_signals
 2411.15961	resolved	2024-11-24	J. L. Han	The FAST Galactic Plane Pulsar Snapshot survey: VI. The discovery of 473 new pulsars	11	pulsars_frbs_radio_transients
-2411.16556	not checked					technosignature_detection_methods
+2411.16556	resolved	2024-11-25	Jacobson-Bell, Ben	Anomaly Detection and Radio-frequency Interference Classification with Unsupervised Learning in Narrowband Radio Technosignature Searches	4	technosignature_detection_methods
 2411.16606	resolved	2024-11-25	Ziteng Wang	Detection of X-ray Emission from a Bright Long-Period Radio Transient	8	pulsars_frbs_radio_transients
 2412.01148	resolved	2024-12-02	Matthew T. Miles	The MeerKAT Pulsar Timing Array: The $4.5$-year data release and the noise and stochastic signals of the millisecond pulsar population	3	pulsars_frbs_radio_transients
-2412.02540	not checked					decoding_structure_of_unknown_signals
+2412.02540	resolved	2024-12-03	Yang, Junhai	Automatic State Machine Inference for Binary Protocol Reverse Engineering	13	decoding_structure_of_unknown_signals
 2412.02744	resolved	2024-12-03	Laurent Eyer	The Variable Sources in the Gaia archive	4	quasar_agn_variability_periodicity
 2412.05786	resolved	2024-12-08	Caleb Painter	A Novel Technosignature Search in the Breakthrough Listen Green Bank Telescope Archive	4	prior_art_and_engineering, radio_seti_archives
 2501.01581	resolved	2025-01-03	Megan Masterson	Millihertz Oscillations Near the Innermost Orbit of a Supermassive Black Hole	1	quasar_agn_variability_periodicity
 2501.02103	resolved	2025-01-03	Neven Caplar	Using LSDB to enable large-scale catalog distribution, cross-matching, and analytics	1	prior_art_and_engineering
 2501.03315	resolved	2025-01-06	Antonio C. Rodriguez	Spectroscopic Detection of a 2.9-hour Orbit in a Long Period Radio Transient	8	pulsars_frbs_radio_transients
-2501.04249	not checked					decipherment_and_translation_without_a_key
+2501.04249	resolved	2025-01-08	Goyal, Satyam	IOLBENCH: Benchmarking LLMs on Linguistic Reasoning	8	decipherment_and_translation_without_a_key
 2501.17997	resolved	2025-01-29	Chenoa D. Tremblay	COSMIC's Large-Scale Search for Technosignatures during the VLA sky Survey: Survey Description and First Results	13	prior_art_and_engineering, radio_seti_archives
 2502.11215	resolved	2025-02-16	Arpan Pal	A Possible Four-Month Periodicity in the Activity of FRB 20240209A	3	pulsars_frbs_radio_transients
 2502.13792	resolved	2025-02-19	Joel Hartman	The T16 Project: Image Subtraction Light Curves from TESS Cycle 1 Full-Frame Images for Stars with T < 16	10	prior_art_and_engineering
-2502.20419	not checked					radio_seti_archives
-2503.09108	not checked					radio_seti_archives
-2503.14745	not checked					optical_highenergy_timedomain_archives
+2502.20419	resolved	2025-02-27	Luan, Xiao-Hang	Multibeam SETI Observations toward Nearby M dwarfs with FAST	2	radio_seti_archives
+2503.09108	resolved	2025-03-12	Filipović, M. D.	ASKAP and VLASS search for a radio-continuum counterpart of ultra-high-energy neutrino event KM3-230213A	1	radio_seti_archives
+2503.14745	resolved	2025-03-18	DESI Collaboration	Data Release 1 of the Dark Energy Spectroscopic Instrument	9	optical_highenergy_timedomain_archives
 2503.17609	resolved	2025-03-22	Ning Jiang	Embers of Active Galactic Nuclei: Tidal Disruption Events and Quasiperiodic Eruptions	3	quasar_agn_variability_periodicity
 2503.22791	resolved	2025-03-28	Erin Kara	Supermassive Black Holes in X-rays: From Standard Accretion to Extreme Transients	3	quasar_agn_variability_periodicity
 2503.24047	resolved	2025-03-31	Shuo Ren	Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents	4	prior_art_and_engineering
 2504.10308	resolved	2025-04-14	P. Peñil	Search for Kink Events in Variable Fermi-LAT Blazars	4	quasar_agn_variability_periodicity
-2504.19395	not checked					decipherment_and_translation_without_a_key
+2504.19395	resolved	2025-04-28	Fang, Zhouxiang	"ICL CIPHERS: Quantifying ""Learning"" in In-Context Learning via Substitution Ciphers"	11	decipherment_and_translation_without_a_key
 2504.21456	resolved	2025-04-30	Andrew Mummery	Collisions with tidal disruption event disks: implications for quasi-periodic X-ray eruptions	1	quasar_agn_variability_periodicity
 2505.06656	resolved	2025-05-10	Vincent Foustoul	A catalogue of candidate milli-parsec separation massive black hole binaries from long term optical photometric monitoring	0	quasar_agn_variability_periodicity
 2505.14778	resolved	2025-05-20	Allison Lin	Lomb-Scargle periodograms struggle with non-sinusoidal supermassive BH binary signatures in quasar lightcurves	3	quasar_agn_variability_periodicity
 2505.16884	resolved	2025-05-22	Pablo Huijse	A search for periodic AGN variability in $\textit{Gaia}$ Data Release 3	1	quasar_agn_variability_periodicity
-2505.17230	not checked					optical_highenergy_timedomain_archives
+2505.17230	resolved	2025-05-22	Dey, Arjun	The Backup Program of the Dark Energy Spectroscopic Instrument's Milky Way Survey	3	optical_highenergy_timedomain_archives
 2505.17497	resolved	2025-05-23	D. R. Scott	High-time-resolution properties of 35 fast radio bursts detected by the Commensal Real-time ASKAP Fast Transients Survey	7	pulsars_frbs_radio_transients
-2506.02831	not checked					technosignature_detection_methods
+2506.02831	resolved	2025-06-03	Grigg, Dylan	The Growing Impact of Unintended Starlink Broadband Emission on Radio Astronomy in the SKA-Low Frequency Range	10	technosignature_detection_methods
 2506.05517	resolved	2025-06-05	Wen-Long Xu	A possible origin of the overlapping light curve of eRO-QPE1	3	quasar_agn_variability_periodicity
 2506.10961	resolved	2025-06-12	Alice P. Curtin	Discovery and Localization of the Swift-Observed FRB 20241228A in a Star-forming Host Galaxy	2	pulsars_frbs_radio_transients
-2506.13459	not checked					radio_seti_archives
+2506.13459	resolved	2025-06-16	Barrett, R.	Breakthrough Listen: A Technosignature Search Around 27 Eclipsing Exoplanets Selected from the Transiting Exoplanet Survey Satellite Catalogue	3	radio_seti_archives
 2506.14417	resolved	2025-06-17	A. J. Goodwin	The radio properties of quasi-periodic X-ray eruption sources	6	quasar_agn_variability_periodicity
 2506.14718	resolved	2025-06-17	Eric J. Korpela	SETI@home: Data Acquisition and Front-End Processing	5	prior_art_and_engineering, radio_seti_archives
 2506.14737	resolved	2025-06-17	David P. Anderson	SETI@home: Data Analysis and Findings	4	prior_art_and_engineering, radio_seti_archives, technosignature_detection_methods
 2506.14744	resolved	2025-06-17	Eleanor M. Gallay	Technosignature Searches with Real-time Alert Brokers	3	optical_highenergy_timedomain_archives, prior_art_and_engineering
-2506.21101	not checked					decipherment_and_translation_without_a_key
+2506.21101	resolved	2025-06-26	Li, Caoshuo	OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography	9	decipherment_and_translation_without_a_key
 2506.23899	resolved	2025-06-30	Maurizio Paolillo	Continuum optical-UV and X-ray variability of AGN: current results and future challenges	4	quasar_agn_variability_periodicity
 2506.23955	resolved	2025-06-30	Konstantin Malanchev	Variability-finding in Rubin Data Preview 1 with LSDB	5	prior_art_and_engineering
 2507.05139	resolved	2025-07-07	Fengqiu Adam Dong	CHIME/FRB Discovery of an Unusual Circularly Polarized Long-Period Radio Transient with an Accelerating Spin Period	5	pulsars_frbs_radio_transients
 2507.05982	resolved	2025-07-08	Inés Pastor-Marazuela	Localisation and host galaxy identification of new Fast Radio Bursts with MeerKAT	7	pulsars_frbs_radio_transients
-2507.06176	not checked					optical_highenergy_timedomain_archives
+2507.06176	resolved	2025-07-08	Zegarelli, Angela	IceCat-2: Updated IceCube Event Catalog of Alert Tracks	14	optical_highenergy_timedomain_archives
 2507.06217	resolved	2025-07-08	Maria V. Pruzhinskaya	What ZTF Saw Where Rubin Looked: Anomaly Hunting in DR23	6	prior_art_and_engineering, technosignature_detection_methods
 2507.07257	resolved	2025-07-09	Licong Xu	Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery	12	prior_art_and_engineering
 2507.11587	resolved	2025-07-15	Kate Genevieve	SETI Post-Detection Futures: Directions for Technosignature Research and Readiness	6	decipherment_and_translation_without_a_key, prior_art_and_engineering, technosignature_detection_methods
@@ -394,23 +394,23 @@ arxiv_id	status	published	first_author	title	min_shared_words	cited_in
 2507.14708	resolved	2025-07-19	Dengke Zhou	A comprehensive search for Long and Short Periodic Features from an Extremely Active Cycle of FRB 20240114A	3	pulsars_frbs_radio_transients
 2507.15352	resolved	2025-07-21	Csanád Horváth	A binary model of long period radio transients and white dwarf pulsars	5	pulsars_frbs_radio_transients
 2507.15790	resolved	2025-07-21	P. Wang	Decadal evolution of a repeating fast radio burst source	3	pulsars_frbs_radio_transients
-2507.15896	not checked					technosignature_detection_methods
+2507.15896	resolved	2025-07-21	Villarroel, Beatriz	On the Image Profiles of Transients in the Palomar Sky Survey	12	technosignature_detection_methods
 2508.05548	resolved	2025-08-07	Nikolas Korzoun	Development of PANOSETI Telescopes for Ultra-High-Energy Gamma-Ray Astronomy	16	optical_highenergy_timedomain_archives, prior_art_and_engineering
 2508.05961	resolved	2025-08-08	Kevin B. Stevenson	K2-18b Does Not Meet The Standards of Evidence For Life	2	prior_art_and_engineering
-2508.08628	not checked					optical_highenergy_timedomain_archives
-2508.10113	not checked					decipherment_and_translation_without_a_key
-2508.10657	not checked					radio_seti_archives, technosignature_detection_methods
-2508.11260	not checked					decipherment_and_translation_without_a_key
+2508.08628	resolved	2025-08-12	Fields, Benjamin	A 2821 Star Optical SETI Survey using ESO HARPS archival data	12	optical_highenergy_timedomain_archives
+2508.10113	resolved	2025-08-13	Peng, Kaixin	Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs	12	decipherment_and_translation_without_a_key
+2508.10657	resolved	2025-08-14	Méndez, Abel	Arecibo Wow! II: Revised Properties of the Wow! Signal from Archival Ohio SETI Data	1	radio_seti_archives, technosignature_detection_methods
+2508.11260	resolved	2025-08-15	Choudhary, Mukund	UNVEILING: What Makes Linguistics Olympiad Puzzles Tricky for LLMs?	16	decipherment_and_translation_without_a_key
 2508.12076	resolved	2025-08-16	Weixiang Yu	Examining AGN UV/Optical Variability Beyond the Simple Damped Random Walk. II. Insights from 22 Years Observations of SDSS, PS1 and ZTF	3	quasar_agn_variability_periodicity
 2508.14742	resolved	2025-08-20	Li-Wen Tian	Targeted search for an individual SMBHB in NANOGrav 15-year and EPTA DR2 data sets	3	quasar_agn_variability_periodicity
 2508.16534	resolved	2025-08-22	Nikita Agarwal	The NANOGrav 15 yr Data Set: Targeted Searches for Supermassive Black Hole Binaries	10	quasar_agn_variability_periodicity
-2508.18079	not checked					optical_highenergy_timedomain_archives
-2508.20193	not checked					decoding_structure_of_unknown_signals
-2509.06310	not checked					radio_seti_archives
-2509.09654	not checked					radio_seti_archives
+2508.18079	resolved	2025-08-25	The LIGO Scientific Collaboration	Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run	3	optical_highenergy_timedomain_archives
+2508.20193	resolved	2025-08-27	Ahmadi, Hossein	Enhancing Automatic Modulation Recognition With a Reconstruction-Driven Vision Transformer Under Limited Labels	2	decoding_structure_of_unknown_signals
+2509.06310	resolved	2025-09-08	Song, Guang-Yuan	A Deep SETI Search for Technosignatures in the TRAPPIST-1 System with FAST	1	radio_seti_archives
+2509.09654	resolved	2025-09-11	Li, Jian-Kang	Dual-Backend Multibeam Position Switching Targeted SETI Observations toward Nearby Active Planet-Hosting Systems with FAST	4	radio_seti_archives
 2509.10601	resolved	2025-09-12	Kareem El-Badry	Active galactic nuclei do not exhibit strictly sinusoidal brightness variations	0	quasar_agn_variability_periodicity
-2509.20718	not checked					technosignature_detection_methods
-2509.21820	not checked					decipherment_and_translation_without_a_key
+2509.20718	resolved	2025-09-25	Seto, Naoki	Hybrid Strategy for Coordinated Interstellar Signaling: Linking the Galactic Center and Extragalactic Bursts	14	technosignature_detection_methods
+2509.21820	resolved	2025-09-26	Majmudar, Neh	Can LLMs Generate and Solve Linguistic Olympiad Puzzles?	13	decipherment_and_translation_without_a_key
 2510.06931	resolved	2025-10-08	Fiorenzo Stoppa	Textual interpretation of transient image classifications from large language models	9	prior_art_and_engineering
 2510.10713	resolved	2025-10-12	Yuan-Sen Ting	Deep Learning in Astrophysics	5	prior_art_and_engineering
 2510.14506	resolved	2025-10-16	Michael A. Garrett	SETI Post-Detection Protocols: Progress Towards a New Version	12	decipherment_and_translation_without_a_key, prior_art_and_engineering, technosignature_detection_methods
@@ -419,99 +419,99 @@ arxiv_id	status	published	first_author	title	min_shared_words	cited_in
 2511.17564	resolved	2025-11-13	Guilherme Grancho D. Fernandes	Classification of Transient Astronomical Object Light Curves Using LSTM Neural Networks	6	prior_art_and_engineering
 2511.17797	resolved	2025-11-21	L. J. M. Houben	The Northern High Time Resolution Universe pulsar survey: II. Single-pulse search set-up and simulations	4	pulsars_frbs_radio_transients
 2511.18975	resolved	2025-11-24	Claudia M. Raiteri	The variability of blazars throughout the electromagnetic spectrum	0	quasar_agn_variability_periodicity
-2511.20231	not checked					radio_seti_archives
+2511.20231	resolved	2025-11-25	Mason, Louisa A.	Simulating the Stellar Bycatch: Constraining the Prevalence of Extraterrestrial Transmitters within Radio SETI Surveys	2	radio_seti_archives
 2511.22702	resolved	2025-11-27	Lawrence Toomey	The Parkes Observatory Pulsar Data Archive	5	pulsars_frbs_radio_transients
 2512.00398	resolved	2025-11-29	Bingzheng Xia	Heimdall++: Optimizing GPU Utilization and Pipeline Parallelism for Efficient Single-Pulse Detection	5	pulsars_frbs_radio_transients
-2512.02206	not checked					decipherment_and_translation_without_a_key
+2512.02206	resolved	2025-12-01	Paradise, Orr	WhAM: Towards A Translative Model of Sperm Whale Vocalization	24	decipherment_and_translation_without_a_key
 2512.07924	resolved	2025-12-08	Shant Baghram	Microlensing Signatures of Dyson Sphere-like Structures around Primordial Black Holes as Technosignatures of Extraterrestrial Advanced Civilizations	9	quasar_agn_variability_periodicity
 2512.10533	resolved	2025-12-11	Ashutosh Tripathi	Application of time-series analysis methods to a multiple-sector TESS observations: the case of the radio-loud blazar 3C 371	4	quasar_agn_variability_periodicity
 2512.11266	resolved	2025-12-12	Ashutosh Tripathi	Probable Quasi-Periodic Oscillations in the {\tt TESS} observations of blazars in the Swift X-ray Survey	6	quasar_agn_variability_periodicity
 2512.16156	resolved	2025-12-18	L. Levin	Understanding the Neutron Star Population with the SKAO telescopes	4	pulsars_frbs_radio_transients
-2512.18142	not checked					radio_seti_archives
-2512.18903	not checked					optical_highenergy_timedomain_archives, technosignature_detection_methods
-2512.19763	not checked					radio_seti_archives, technosignature_detection_methods
+2512.18142	resolved	2025-12-19	Sheikh, Sofia Z.	A Search for Radio Technosignatures from Interstellar Object 3I/ATLAS with the Allen Telescope Array	2	radio_seti_archives
+2512.18903	resolved	2025-12-21	Ivanov, Valenitn D.	Optical SETI at ESO in the 2040s	1	optical_highenergy_timedomain_archives, technosignature_detection_methods
+2512.19763	resolved	2025-12-20	Jacobson-Bell, Ben	Breakthrough Listen Observations of 3I/ATLAS with the Green Bank Telescope at 1-12 GHz	1	radio_seti_archives, technosignature_detection_methods
 2512.24936	resolved	2025-12-31	J. I. Katz	Searching for Periodicity in FRB 20240114A	5	pulsars_frbs_radio_transients
 2601.01912	resolved	2026-01-05	Shi-Jie Gao	Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at $|b|<5°$ and Decl.$<-5°$	2	pulsars_frbs_radio_transients
 2601.09399	resolved	2026-01-14	The CHIME/FRB Collaboration	The Second CHIME/FRB Catalog of Fast Radio Bursts	4	pulsars_frbs_radio_transients
 2601.10393	resolved	2026-01-15	Nanda Rea	Long Period Transients (LPTs): a comprehensive review	0	pulsars_frbs_radio_transients
 2601.14235	resolved	2026-01-20	 LSST Dark Energy Science Collaboration	Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration	6	prior_art_and_engineering
 2601.15379	resolved	2026-01-21	Sebastian Banaszak	Optimizing Optical Searches for Supermassive Black Hole Binaries in AGN Light Curves: Fourier versus Bayesian Periodicity Detection	2	quasar_agn_variability_periodicity
-2601.15903	not checked					decoding_structure_of_unknown_signals
+2601.15903	resolved	2026-01-22	Singh, Pramod	Blind Identification of Channel Codes: A Subspace-Coding Approach	17	decoding_structure_of_unknown_signals
 2601.16048	resolved	2026-01-22	Wan-Peng Sun	Unveiling the spectral morphological division of fast radio bursts with CHIME/FRB Catalog 2	4	pulsars_frbs_radio_transients
 2601.16828	resolved	2026-01-23	Zhecheng Hu	Six New Circumbinary Disk Occultation (CBO) Candidates from the Zwicky Transient Facility	0	quasar_agn_variability_periodicity
-2601.21946	not checked					technosignature_detection_methods
+2601.21946	resolved	2026-01-29	Watters, Wesley Andrés	Critical Evaluation of Studies Alleging Evidence for Technosignatures in the POSS1-E Photographic Plates	0	technosignature_detection_methods
 2602.03932	resolved	2026-02-03	Pietro Baldini	Discovery of crested quasi-periodic eruptions following the most luminous SRG/eROSITA tidal disruption event	10	quasar_agn_variability_periodicity
 2602.14014	resolved	2026-02-15	Kuo Liu	Pulsar Timing Array in the past decade	0	pulsars_frbs_radio_transients
 2602.15171	resolved	2026-02-16	Beatriz Villarroel	A Response to paper Critical Evaluation of Studies Alleging Evidence for Technosignatures in the POSS1-E Photographic Plates by Watters et al. (2026)	5	prior_art_and_engineering
 2602.16776	resolved	2026-02-18	Joheen Chakraborty	A positive period derivative in the quasi-periodic eruptions of ZTF19acnskyy	3	quasar_agn_variability_periodicity
-2602.22739	not checked					radio_seti_archives
+2602.22739	resolved	2026-02-26	de Ruiter, Iris	The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey - Data Release 1	3	radio_seti_archives
 2603.02517	resolved	2026-03-03	Hengxiao Guo	Evidence for a Delayed UV Counterpart to X-ray Quasi-periodic Eruptions in Ansky	7	quasar_agn_variability_periodicity
 2603.04527	resolved	2026-03-04	Elena Madero	Coexistence of Chromatic Flares and an Achromatic QPO in the Gamma-ray Blazar PG 1553+113	3	quasar_agn_variability_periodicity
-2603.09762	not checked					technosignature_detection_methods
-2603.17741	not checked					technosignature_detection_methods
-2603.19023	not checked					radio_seti_archives
+2603.09762	resolved	2026-03-10	A., Semenikhin T.	Supernova scores for active anomaly detection	6	technosignature_detection_methods
+2603.17741	resolved	2026-03-18	Haqq-Misra, Jacob	Framing the Possibility Space for Technosignature Searches	8	technosignature_detection_methods
+2603.19023	resolved	2026-03-19	Li, Jian-Kang	Narrowband Radio Technosignature Search toward 3I/ATLAS with FAST	1	radio_seti_archives
 2603.20407	resolved	2026-03-20	Ivo Busko	Searching for Fast Astronomical Transients in Archival Photographic Plates	6	prior_art_and_engineering, technosignature_detection_methods
 2603.23786	resolved	2026-03-24	 Vera C Rubin Observatory Team	The Vera C. Rubin Observatory Data Preview 1	4	prior_art_and_engineering
 2604.00056	resolved	2026-03-31	Brian Doherty	Independent Replication of Nuclear Test-Transient Correlations and Earth Shadow Deficit in POSS-I Photographic Plates	9	prior_art_and_engineering, technosignature_detection_methods
 2604.01203	resolved	2026-04-01	Devansh Agarwal	The RRATalog: a Galactic census of rotating radio transients	5	pulsars_frbs_radio_transients
 2604.04810	resolved	2026-04-06	Zachary Hayes	Independent Recovery of Vanishing Sources on POSS-I Photographic Plates Using Automated Source Detection and Cross-Epoch Matching	7	prior_art_and_engineering
-2604.04950	not checked					technosignature_detection_methods
+2604.04950	resolved	2026-04-02	Cann, Kevin	Geomagnetic storm suppression of photographic plate transient detections in the POSS-I archive: an independent physical variable strengthening the nuclear test correlation	10	technosignature_detection_methods
 2604.05453	resolved	2026-04-07	Ben Jacobson-Bell	The NANOGrav 15 yr and 20 yr Datasets: Timing Events and Pulse Shape Changes	6	pulsars_frbs_radio_transients
-2604.06234	not checked					technosignature_detection_methods
-2604.17770	not checked					decoding_structure_of_unknown_signals
-2604.17828	not checked					decipherment_and_translation_without_a_key
-2604.18799	not checked					technosignature_detection_methods
+2604.06234	resolved	2026-04-04	Cann, Kevin	Storm-Driven Suppression and Post-Storm Enhancement of Photographic Plate Transient Detections at Geosynchronous Altitude: Empirical Evidence and a Candidate Dusty Plasma Mechanism	8	technosignature_detection_methods
+2604.17770	resolved	2026-04-20	Gajjar, Pranshav	LLM-AUG: Robust Wireless Data Augmentation with In-Context Learning in Large Language Models	2	decoding_structure_of_unknown_signals
+2604.17828	resolved	2026-04-20	Nair, Ashish	How Non-Linguistic Is the Indus Sign System? A Synthetic-Baseline Scorecard	7	decipherment_and_translation_without_a_key
+2604.18799	resolved	2026-04-20	Bruehl, Stephen	Machine Learning Supports Existence of Previously Unrecognized Transient Astronomical Phenomena in Historical Observatory Images	0	technosignature_detection_methods
 2604.21886	resolved	2026-04-23	Olivia Curtis	The Dyson Minds 2025 Workshop: SETI around Black Holes	20	quasar_agn_variability_periodicity
-2605.01190	not checked					technosignature_detection_methods
+2605.01190	resolved	2026-05-02	Doherty, Brian	Statistically Significant Linear Alignments Among High-Confidence Transient Candidates on POSS-I Photographic Plates	0	technosignature_detection_methods
 2605.12098	resolved	2026-05-12	Rui-Nan Li	Periodic Emission Frequency Modulation in a Hyperactive Fast Radio Burst	2	pulsars_frbs_radio_transients
-2605.13331	not checked					decoding_structure_of_unknown_signals
-2605.19040	not checked					optical_highenergy_timedomain_archives
+2605.13331	resolved	2026-05-13	Tu, Changwei	Blind Recognition of Polar Codes Using Successive Cancellation List Decoding	14	decoding_structure_of_unknown_signals
+2605.19040	resolved	2026-05-18	Abbasi, R.	IceCube Second Track Data Release IceTracks-DR2: Data from 2008-2022 for Neutrino Source Searches	18	optical_highenergy_timedomain_archives
 2605.19653	resolved	2026-05-19	Huan Zhou	Evidence for Intermediate-Mass Black Holes From Microlensing Signatures in CHIME/FRB catalog 2	2	pulsars_frbs_radio_transients
 2605.21093	resolved	2026-05-20	Clément Vidal	The Search for Technosignatures: a Review of Possibilities	4	quasar_agn_variability_periodicity, technosignature_detection_methods
-2605.23739	not checked					radio_seti_archives
-2605.27090	not checked					optical_highenergy_timedomain_archives
-2606.04304	not checked					technosignature_detection_methods
-2606.05078	not checked					decipherment_and_translation_without_a_key
+2605.23739	resolved	2026-05-22	Li, Zi-Qi	A Wavelet-Integrated Search Pipeline for Narrowband Technosignatures in FAST Observations of 33 Exoplanet Systems	4	radio_seti_archives
+2605.27090	resolved	2026-05-26	The LIGO Scientific Collaboration	Open Data from LIGO, Virgo, and KAGRA through the Second Part of the Fourth Observing Run	3	optical_highenergy_timedomain_archives
+2606.04304	resolved	2026-06-03	Kosogorov, Nikita	All-Sky Ultra-Narrowband Spectral Imaging with the OVRO-LWA: Technosignature Constraints and Axion-Like Particle Prospects	3	technosignature_detection_methods
+2606.05078	resolved	2026-06-03	Bruton, Micaella	Attention-Augmented LSTMs for Automatic Homophonic Ciphertext Decipherment	13	decipherment_and_translation_without_a_key
 2606.05285	resolved	2026-06-03	C. R. Bom	Toward decision-aware AI for LSST-scale time-domain astronomy	9	prior_art_and_engineering
-2606.17705	not checked					decoding_structure_of_unknown_signals
+2606.17705	resolved	2026-06-16	Tu, Changwei	A Hypothesis-Testing Analysis of Blind Recognition for Polar Codes	3	decoding_structure_of_unknown_signals
 2606.18108	resolved	2026-06-16	P. A. Estevez	Querying an astronomical database using large language models: the ALeRCE text-to-SQL system	7	prior_art_and_engineering
 2606.26572	resolved	2026-06-25	Manisha Caleb	Long-Period Transients as a new frontier in time-domain astronomy	14	pulsars_frbs_radio_transients
 2606.28645	resolved	2026-06-26	Monika Soraisam	GOATS: The next generation software infrastructure for time-domain astronomy at Gemini/NOIRLab. Application to alerts from Vera C. Rubin Observatory's Legacy Survey of Space and Time	10	prior_art_and_engineering
-2607.03619	not checked					technosignature_detection_methods
+2607.03619	resolved	2026-07-03	Ren, Tongtian	Archival Diagnostics for Potential Background Contaminantsof Project Hephaistos Dyson Sphere Candidates	0	technosignature_detection_methods
 2607.07182	resolved	2026-07-08	Chenoa D. Tremblay	A search for narrowband technosignatures from LTT 3780 with the Allen Telescope Array and the Karl G. Jansky Very Large Array	7	prior_art_and_engineering
-2607.09460	not checked					technosignature_detection_methods
+2607.09460	resolved	2026-07-10	Zackrisson, Erik	Project Hephaistos -- IV. James Webb Space Telescope Observations of Two Dyson Sphere Candidates	0	technosignature_detection_methods
 2607.13148	resolved	2026-07-14	Bo Lin Fan	Semi-supervised morphological classification of fast radio bursts from the second CHIME/FRB catalogue	2	pulsars_frbs_radio_transients
-2607.14421	not checked					decoding_structure_of_unknown_signals
+2607.14421	resolved	2026-07-15	Kimpson, Tom	Temporal Memory in Repeating Fast Radio Bursts: Epsilon-Machine Reconstruction of Causal Structure in Burst Timing	9	decoding_structure_of_unknown_signals
 2607.15359	resolved	2026-07-16	Thomas Wevers	Observations of X-ray quasi-periodic eruptions	2	quasar_agn_variability_periodicity
-2607.17480	not checked					decoding_structure_of_unknown_signals
-2607.23014	not checked					decoding_structure_of_unknown_signals
-2607.23651	not checked					radio_seti_archives
-2607.25701	not checked					technosignature_detection_methods
-2607.26149	not checked					optical_highenergy_timedomain_archives
+2607.17480	resolved	2026-07-20	Tu, Changwei	Critical-Set-Aided Simplified Blind SCL Recognition of Polar Codes	2	decoding_structure_of_unknown_signals
+2607.23014	resolved	2026-07-25	Huang, Wei	AI Empowered Communication and Radar Modulation Recognition: A Survey	4	decoding_structure_of_unknown_signals
+2607.23651	resolved	2026-07-26	Czech, Daniel J.	Breakthrough Listen's Automated Commensal Technosignature Survey with MeerKAT	2	radio_seti_archives
+2607.25701	resolved	2026-07-28	Korn, Andreas J.	Project Hephaistos -- III. Characterizing anomalous infrared sources identified as Dyson-sphere candidates	0	technosignature_detection_methods
+2607.26149	resolved	2026-07-28	SDSS Collaboration	The Twentieth Data Release of the Sloan Digital Sky Survey: First All-Sky BOSS Spectra, eROSITA-SDSS-V Mapper Coordinated Observations, and a Preview of the Local Volume Mapper	0	optical_highenergy_timedomain_archives
 2607.27772	resolved	2026-07-30	M. E. Ramos-Ceja	The SRG/eROSITA All-Sky Survey DR2: Cumulative X-ray catalogues from the first three surveys and multi-wavelength counterparts in the western Galactic hemisphere	13	optical_highenergy_timedomain_archives, quasar_agn_variability_periodicity
-2608.02999	not checked					decipherment_and_translation_without_a_key
-2608.05793	not checked					decoding_structure_of_unknown_signals
-2608.12999	not checked					technosignature_detection_methods
-2608.17096	not checked					decipherment_and_translation_without_a_key
+2608.02999	resolved	2026-08-04	Raghavendra, Nikhil	On the Non-Specificity of Statistical Measures Used in Script Decipherment	6	decipherment_and_translation_without_a_key
+2608.05793	resolved	2026-08-06	Zhou, Jinchao	Radio-FM: A Foundation Model for Radio Signal Representation Learning and Its Applications	11	decoding_structure_of_unknown_signals
+2608.12999	resolved	2026-08-13	Indermuehle, Balthasar	SNIFFLES I: Intended Emission, Unwanted Emission, and Unintended Radiation from Low-Earth Orbiting Satellites Impacting Radio Astronomy from 1-26 GHz	13	technosignature_detection_methods
+2608.17096	resolved	2026-08-17	Rozanova, Liudmila	A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space: What the Units of Voynichese Are Not	12	decipherment_and_translation_without_a_key
 2608.18275	resolved	2026-08-18	Talon Myburgh	The VLA and High-Frequency SETI: Expanding the Search for Life	11	prior_art_and_engineering, radio_seti_archives
 2608.19713	resolved	2026-08-20	Wen-Long Zhang	Multi-scale Memory and Regime Shift in the Hyperactive Repeating FRB 20240114A	7	pulsars_frbs_radio_transients
-2608.26371	not checked					technosignature_detection_methods
+2608.26371	resolved	2026-08-26	Yang, Jun	Microscopy assessment of two multiple-transient candidates	0	technosignature_detection_methods
 2609.04118	resolved	2026-09-03	S. Paine	A targeted search for fast radio bursts from magnetars in elliptical galaxies	4	pulsars_frbs_radio_transients
 2609.04998	resolved	2026-09-04	Mauri J. Valtonen	The October 2022 flare in OJ 287 and the mass of its primary black hole	5	quasar_agn_variability_periodicity
-2609.05105	not checked					technosignature_detection_methods
-2609.09461	not checked					technosignature_detection_methods
-2609.20835	not checked					decipherment_and_translation_without_a_key
+2609.05105	resolved	2026-09-04	Villarroel, Beatriz	Modelling Palomar Transients: Constraints from Reflection Geometry and Orbital Altitude	5	technosignature_detection_methods
+2609.09461	resolved	2026-09-08	Bruehl, Stephen	Earth-Projected Clustering of Historical Optical Transients in the Palomar Observatory Sky Survey-I (POSS-I)	3	technosignature_detection_methods
+2609.20835	resolved	2026-07-28	Turenne, Nicolas	A Generative Grammar Underlying the Voynich Manuscript, the Pastiche Hypothesis: Evidence from Large Language Models	8	decipherment_and_translation_without_a_key
 2609.25810	resolved	2026-09-22	Yu Sang	A Brief Review on the Statistical Properties of Fast Radio Bursts	2	pulsars_frbs_radio_transients
-2609.28758	not checked					decoding_structure_of_unknown_signals
-2610.04126	not checked					radio_seti_archives
-2610.04449	not checked					radio_seti_archives
-2610.07065	not checked					radio_seti_archives
-2610.07482	not checked					radio_seti_archives
-2610.08861	not checked					decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
-2610.10587	not checked					decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
-2610.21645	not checked					decipherment_and_translation_without_a_key
-2610.22050	not checked					radio_seti_archives
-2610.31844	not checked					decoding_structure_of_unknown_signals
-2610.41681	not checked					optical_highenergy_timedomain_archives
-2610.41775	not checked					optical_highenergy_timedomain_archives, technosignature_detection_methods
-2611.21674	not checked					technosignature_detection_methods
+2609.28758	resolved	2026-09-23	Subedi, Prakriti	BiMamba2 Masked Discrete-Unit Prediction for Multilingual Speech Representation for Unsupervised Speech in the Wild Challenge	10	decoding_structure_of_unknown_signals
+2610.04126	resolved	2026-10-02	Taylor, Craig A.	LoFreq-SETI: A Low-Frequency Technosignature Search Pipeline for the LWA Swarm	3	radio_seti_archives
+2610.04449	resolved	2026-10-03	Croft, Steve	The Robots are Coming: Artificial Intelligence Searching for Extraterrestrial Intelligence	2	radio_seti_archives
+2610.07065	resolved	2026-10-05	Gerrard, Isabel	A Technosignature Survey Of The Anti-Solar Point: The SETI Institute's Largest-Ever Campaign With The Allen Telescope Array	0	radio_seti_archives
+2610.07482	resolved	2026-10-05	MacMahon, David H. E.	The First Decade of Breakthrough Listen	0	radio_seti_archives
+2610.08861	resolved	2026-10-05	Zenil, Hector	Reconstruction of Geometric and Structural Aspects of Undeciphered Messages by Information-theoretic Methods	2	decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
+2610.10587	resolved	2026-10-06	de Paulis, Daniela	A Sign in Space part 2, a new simulated First Contact scenario engaging the global scientific SETI network, and integrating deep space technologies into SETI search	7	decipherment_and_translation_without_a_key, decoding_structure_of_unknown_signals
+2610.21645	resolved	2026-10-15	Garrett, Michael	Beyond the Beacon: State and Corporate Competition after an Information-Rich Technosignature Detection	34	decipherment_and_translation_without_a_key
+2610.22050	resolved	2026-10-15	Imran, Omer	Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data	3	radio_seti_archives
+2610.31844	resolved	2026-10-22	Xu, Yihua	SEMPRE: Semantic-Aware Protocol Reverse Engineering via Consistency-Driven Joint Optimization	18	decoding_structure_of_unknown_signals
+2610.41681	resolved	2026-10-30	Harvey, Zoe	The Evolution of the Circumgalactic Medium after a starburst in DESI Post-Starburst Galaxies	2	optical_highenergy_timedomain_archives
+2610.41775	resolved	2026-10-30	Korzoun, Nikolas	First Light with the Dark100 Array of PANOSETI Telescopes at Palomar Observatory	13	optical_highenergy_timedomain_archives, technosignature_detection_methods
+2611.21674	resolved	2026-11-14	Thavhana, Pfunzo	Improving Early Detection of Scientifically Interesting Radio Sources Using Enhanced Isolation Forest	12	technosignature_detection_methods

@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
 """Check every arXiv identifier cited in the research notes against arXiv.
 
-For each identifier the script asks the arXiv API whether the paper exists and records its title,
-first author and date. It also counts the vocabulary shared between the paper's title and abstract
-and the note line that cites it; a low count flags the citation for a person to read. A low count
-is not proof of error, and a high count is not proof the claim is right.
+For each identifier the script confirms that the paper exists and records its title, first author
+and date. It also counts the vocabulary shared between the paper's title and abstract and each
+note line that cites it, and keeps the smallest count; a low count flags the citation for a person
+to read. A low count is not proof of error, and a high count is not proof the claim is right.
 
-The script is patient and resumable: it keeps what it has already resolved in a JSON file, asks
-for the rest in small batches, and backs off when arXiv answers 429.
+Two routes are available. The default asks the arXiv API in batches of 20 and backs off when it
+answers 429. With --pages the script reads one abstract page every 15 seconds, the delay arXiv's
+robots.txt asks for; use it when the API is rate-limiting. Either way the script is resumable:
+what has been resolved is kept in a JSON file and never fetched twice.
 
-    python arxiv_citation_check.py ../research_notes/<title>/ resolved.json citations.tsv
+    python arxiv_citation_check.py ../research_notes/<title>/ resolved.json citations.tsv [--pages]
 """
 from __future__ import annotations
 
 import csv
+import html
 import json
 import pathlib
 import re
@@ -26,20 +29,25 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 ID_PATTERNS = (re.compile(r"arxiv\.org/(?:abs|pdf|html)/(\d{4}\.\d{4,5})", re.I), re.compile(r"arXiv:(\d{4}\.\d{4,5})"))
 STOP = set("which their there these those about would could should between through other using based "
            "paper study results result search searches first found shows shown from with that this have".split())
-BATCH, PAUSE_S, MAX_MINUTES = 20, 12, 26
+AGENT = "citation-check/0.1"
+MAX_MINUTES = 80
 
 
 def words(text: str) -> set[str]:
     return {w for w in re.findall(r"[a-z]{5,}", text.lower()) if w not in STOP}
 
 
-def fetch(ids: list[str]) -> dict | None:
-    """Return metadata for the identifiers, or None when the service refuses or the reply is unreadable."""
-    url = "https://export.arxiv.org/api/query?max_results=%d&id_list=%s" % (len(ids), ",".join(ids))
-    run = subprocess.run(["curl", "-sS", "-L", "--max-time", "60", "-A", "citation-check/0.1", "-w", "\n%{http_code}", url],
+def curl(url: str) -> tuple[str, str]:
+    run = subprocess.run(["curl", "-sS", "-L", "--max-time", "60", "-A", AGENT, "-w", "\n%{http_code}", url],
                          capture_output=True, text=True)
     body, _, code = run.stdout.rpartition("\n")
-    if code.strip() != "200":
+    return body, code.strip()
+
+
+def from_api(ids: list[str]) -> dict | None:
+    """Metadata for a batch, or None when the service refuses or the reply is unreadable."""
+    body, code = curl("https://export.arxiv.org/api/query?max_results=%d&id_list=%s" % (len(ids), ",".join(ids)))
+    if code != "200":
         return None
     try:
         root = ET.fromstring(body)
@@ -58,48 +66,74 @@ def fetch(ids: list[str]) -> dict | None:
     return found
 
 
+def from_page(ident: str) -> dict | str:
+    """Metadata from one abstract page, or the HTTP status when the page could not be read."""
+    page, code = curl(f"https://arxiv.org/abs/{ident}")
+    tag = lambda name: [html.unescape(" ".join(m.split()))
+                        for m in re.findall(r'<meta name="%s" content="(.*?)"\s*/?>' % name, page, re.S)]
+    if code != "200" or not tag("citation_title"):
+        return code
+    return {"title": tag("citation_title")[0], "first_author": (tag("citation_author") or [""])[0],
+            "published": (tag("citation_date") or [""])[0].replace("/", "-"), "abstract": (tag("citation_abstract") or [""])[0]}
+
+
 def main() -> None:
-    notes_dir, resolved_path, table_path = (pathlib.Path(arg) for arg in sys.argv[1:4])
-    citations = []
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    use_pages = "--pages" in sys.argv
+    notes_dir, resolved_path, table_path = (pathlib.Path(a) for a in args[:3])
+    lines_citing: dict[str, list[str]] = {}
+    cited_in: dict[str, set[str]] = {}
     for path in sorted(notes_dir.glob("*.md")):
-        for number, line in enumerate(path.read_text().splitlines(), 1):
-            for ident in sorted({m for pattern in ID_PATTERNS for m in pattern.findall(line)}):
-                citations.append({"note": path.name, "line": number, "id": ident, "text": line.strip()})
-    ids = sorted({c["id"] for c in citations})
+        for line in path.read_text().splitlines():
+            for ident in {m for pattern in ID_PATTERNS for m in pattern.findall(line)}:
+                lines_citing.setdefault(ident, []).append(line)
+                cited_in.setdefault(ident, set()).add(path.stem)
+    ids = sorted(lines_citing)
     resolved = json.loads(resolved_path.read_text()) if resolved_path.exists() else {}
+
+    def keep(ident: str, meta: dict) -> None:
+        shared = min(len(words(line) & words(meta["title"] + " " + meta["abstract"])) for line in lines_citing[ident])
+        resolved[ident] = {"title": meta["title"], "first_author": meta["first_author"], "published": meta["published"],
+                           "min_shared_words": shared}
+        resolved_path.write_text(json.dumps(resolved, indent=1, sort_keys=True))
+
     todo = [i for i in ids if i not in resolved]
     deadline = time.time() + MAX_MINUTES * 60
-    for start in range(0, len(todo), BATCH):
-        batch, wait = todo[start:start + BATCH], 90
-        while time.time() < deadline:
-            got = fetch(batch)
-            if got is not None:
-                resolved.update(got)
-                resolved_path.write_text(json.dumps(resolved, indent=1, sort_keys=True))
+    if use_pages:
+        for ident in todo:
+            if time.time() > deadline:
                 break
-            time.sleep(wait)
-            wait = min(wait * 2, 360)
-        time.sleep(PAUSE_S)
+            got = from_page(ident)
+            if got in ("403", "429"):
+                print(f"stopped: arXiv answered {got}")
+                break
+            if isinstance(got, dict):
+                keep(ident, got)
+            time.sleep(15)
+    else:
+        for start in range(0, len(todo), 20):
+            batch, wait = todo[start:start + 20], 90
+            while time.time() < deadline:
+                got = from_api(batch)
+                if got is not None:
+                    for ident, meta in got.items():
+                        if ident in lines_citing:
+                            keep(ident, meta)
+                    break
+                time.sleep(wait)
+                wait = min(wait * 2, 360)
+            time.sleep(12)
 
-    by_id: dict[str, dict] = {}
-    for c in citations:
-        row = by_id.setdefault(c["id"], {"notes": set(), "min_overlap": None})
-        row["notes"].add(c["note"].removesuffix(".md"))
-        meta = resolved.get(c["id"])
-        if meta and meta.get("abstract"):
-            overlap = len(words(c["text"]) & words(meta["title"] + " " + meta["abstract"]))
-            row["min_overlap"] = overlap if row["min_overlap"] is None else min(row["min_overlap"], overlap)
     with table_path.open("w", newline="") as handle:
-        writer = csv.writer(handle, delimiter="\t")
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
         writer.writerow(["arxiv_id", "status", "published", "first_author", "title", "min_shared_words", "cited_in"])
         for ident in ids:
             meta = resolved.get(ident)
             writer.writerow([ident, "resolved" if meta else "not checked", meta["published"] if meta else "",
                              meta["first_author"] if meta else "", meta["title"] if meta else "",
-                             "" if by_id[ident]["min_overlap"] is None else by_id[ident]["min_overlap"],
-                             ", ".join(sorted(by_id[ident]["notes"]))])
+                             meta["min_shared_words"] if meta else "", ", ".join(sorted(cited_in[ident]))])
     done = sum(1 for i in ids if i in resolved)
-    print(f"{len(citations)} citations of {len(ids)} distinct identifiers; {done} resolved; {len(ids) - done} not checked")
+    print(f"{len(ids)} distinct identifiers; {done} resolved; {len(ids) - done} not checked")
 
 
 if __name__ == "__main__":

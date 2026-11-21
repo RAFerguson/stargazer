@@ -33,19 +33,22 @@ from a search summary, or recalled and not re-checked.
 
 ## Citation check
 
-The notes cite 516 distinct arXiv identifiers. `citation_check/arxiv_citation_check.py` looks each one up through
-the arXiv API, records the paper's title, first author and date, and counts the vocabulary its title and abstract
-share with the line that cites it, so that weak matches can be read by a person. The result is in
+The notes cite 516 distinct arXiv identifiers. `citation_check/arxiv_citation_check.py` looks each one up on
+arXiv, records the paper's title, first author and date, and counts the vocabulary its title and abstract share with
+the lines that cite it, so that weak matches can be read by a person. The result is in
 `citation_check/citations.tsv`.
 
-Status on 21 November 2026:
+Result on 21 November 2026: **all 516 identifiers exist.** The 63 citations with the weakest vocabulary match
+(fewer than two shared words, 58 distinct papers) were read by hand against the paper's title, and none was
+misattributed. One wrong identifier had already been caught and corrected while the notes were being written.
 
-- **286 identifiers checked**: every identifier in the notes as they stood that morning (the three notes from the
-  first round and the first half of the archive note). All 286 exist. The 31 citations with the weakest vocabulary
-  match were read by hand, and none was misattributed.
-- **230 identifiers not yet checked.** These were added later the same day, in the notes written with direct arXiv
-  access, whose authors tag each as read in the source. The check stalled when arXiv began rate-limiting the
-  session. The script is resumable: rerunning it fills in the rest.
+The first 286 were confirmed through the arXiv API. The API then began rate-limiting the session, so the other 230
+were confirmed from their abstract pages, one every 15 seconds as arXiv's crawl policy asks; the script's `--pages`
+option does this.
+
+What the check does and does not show: it shows that each cited paper exists and is about the subject it is cited
+for. It does not show that every number attributed to a paper is right; for that, each note tags its findings as
+read in the source, taken from a search summary, or recalled.
 
 One item the consolidated report lists as unverified has since been confirmed directly: arXiv:2509.10601 is by
 El-Badry, Hogg and Rix, and its abstract states the result quoted (all 116 testable Gaia periodic candidates failed

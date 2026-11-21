@@ -1199,8 +1199,8 @@ red-noise model, one survey, broad priors.
 The research ran in two rounds. On 14 November 2026 the environment blocked direct access to papers and archive
 sites, so findings rested on search summaries, package metadata and recall. On 21 November access to arXiv, the
 paper indexes and the core archives was opened, and the load-bearing claims were re-checked against primary
-sources: the archive services were tested with real requests, and the arXiv identifiers cited in the notes are
-being looked up on arXiv and compared with the claims they support (286 of 516 so far, all sound; status in
+sources: the archive services were tested with real requests, and all 516 arXiv identifiers cited in the notes
+were looked up on arXiv and compared with the claims they support (all exist and none was misattributed; detail in
 `docs/research/README.md`). Each note tags every finding by how it was checked.
 
 The items below still rest on search summaries or recall and should be confirmed before the phase that depends on
