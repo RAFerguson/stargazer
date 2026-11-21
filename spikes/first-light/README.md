@@ -1,7 +1,7 @@
 # First light: can we reach real data, and does the method hold up?
 
-This is throwaway exploratory code from the drafting stage, kept so the feasibility claims in
-[`docs/project-draft.md`](../../docs/project-draft.md) can be rerun. It is not the start of the
+This is throwaway exploratory code from the research phase, kept so the feasibility claims in
+[`docs/PLAN.md`](../../docs/PLAN.md) (Appendix D) can be rerun. It is not the start of the
 Stargazer package.
 
 It answers two questions:

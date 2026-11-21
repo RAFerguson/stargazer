@@ -1,0 +1,1718 @@
+{
+ "0706.0797": {
+  "abstract": "",
+  "first_author": "F. Aharonian",
+  "published": "2007-06-06",
+  "title": "An Exceptional VHE Gamma-Ray Flare of PKS 2155-304"
+ },
+ "0706.3838": {
+  "abstract": "",
+  "first_author": "Rob Fender",
+  "published": "2007-06-26",
+  "title": "Eight powers of ten: similarities in black hole accretion on all mass scales"
+ },
+ "0708.2505": {
+  "abstract": "",
+  "first_author": "T. H. Hankins",
+  "published": "2007-08-18",
+  "title": "Radio Emission Signatures in the Crab Pulsar"
+ },
+ "0710.1021": {
+  "abstract": "",
+  "first_author": "A. Melatos",
+  "published": "2007-10-04",
+  "title": "Avalanche dynamics of radio pulsar glitches"
+ },
+ "0807.1899": {
+  "abstract": "",
+  "first_author": "Marek Gierlinski",
+  "published": "2008-07-11",
+  "title": "A ~1-hour X-ray periodicity in an active galaxy RE J1034+396"
+ },
+ "0809.0339": {
+  "abstract": "",
+  "first_author": "John G. Learned",
+  "published": "2008-09-02",
+  "title": "The Cepheid Galactic Internet"
+ },
+ "0809.1394": {
+  "abstract": "",
+  "first_author": "A. J. Drake",
+  "published": "2008-09-08",
+  "title": "First Results from the Catalina Real-time Transient Survey"
+ },
+ "0810.3964": {
+  "abstract": "",
+  "first_author": "James Benford",
+  "published": "2008-10-22",
+  "title": "Messaging with Cost Optimized Interstellar Beacons"
+ },
+ "0810.3966": {
+  "abstract": "",
+  "first_author": "Gregory Benford",
+  "published": "2008-10-22",
+  "title": "Searching for Cost Optimized Interstellar Beacons"
+ },
+ "0811.3046": {
+  "abstract": "",
+  "first_author": "Andrew Siemion",
+  "published": "2008-11-19",
+  "title": "New SETI Sky Surveys for Radio Pulses"
+ },
+ "0901.2573": {
+  "abstract": "",
+  "first_author": "M. Zechmeister",
+  "published": "2009-01-16",
+  "title": "The generalised Lomb-Scargle periodogram. A new formalism for the floating-mean and Keplerian periodograms"
+ },
+ "0903.5315": {
+  "abstract": "",
+  "first_author": "Brandon C. Kelly",
+  "published": "2009-03-30",
+  "title": "Are the Variations in Quasar Optical Flux Driven by Thermal Fluctuations?"
+ },
+ "0909.1326": {
+  "abstract": "",
+  "first_author": "Szymon Kozlowski",
+  "published": "2009-09-07",
+  "title": "Quantifying Quasar Variability As Part of a General Approach To Classifying Continuously Varying Sources"
+ },
+ "0910.2706": {
+  "abstract": "",
+  "first_author": "S. Vaughan",
+  "published": "2009-10-14",
+  "title": "A Bayesian test for periodic signals in red noise"
+ },
+ "0910.5365": {
+  "abstract": "",
+  "first_author": "I. E. Papadakis",
+  "published": "2009-10-28",
+  "title": "A correlation between the spectral and timing properties of AGN"
+ },
+ "0912.4537": {
+  "abstract": "",
+  "first_author": "G. Hobbs",
+  "published": "2009-12-22",
+  "title": "An analysis of the timing irregularities for 366 pulsars"
+ },
+ "1004.0276": {
+  "abstract": "",
+  "first_author": "C. L. MacLeod",
+  "published": "2010-04-02",
+  "title": "Modeling the Time Variability of SDSS Stripe 82 Quasars as a Damped Random Walk"
+ },
+ "1006.5184": {
+  "abstract": "",
+  "first_author": "Andrew Lyne",
+  "published": "2010-06-27",
+  "title": "Switched magnetospheric regulation of pulsar spin-down"
+ },
+ "1008.0641": {
+  "abstract": "",
+  "first_author": "Ying Zu",
+  "published": "2010-08-03",
+  "title": "An Alternative Approach To Measuring Reverberation Lags in Active Galactic Nuclei"
+ },
+ "1102.1743": {
+  "abstract": "",
+  "first_author": "Cristobal M. Espinoza",
+  "published": "2011-02-08",
+  "title": "A study of 315 glitches in the rotation of 102 pulsars"
+ },
+ "1105.5746": {
+  "abstract": "",
+  "first_author": "G. Hobbs",
+  "published": "2011-05-29",
+  "title": "The Parkes Observatory Pulsar Data Archive"
+ },
+ "1112.0065": {
+  "abstract": "",
+  "first_author": "Benjamin R. Barsdell",
+  "published": "2011-12-01",
+  "title": "Spotting Radio Transients with the help of GPUs"
+ },
+ "1112.5519": {
+  "abstract": "",
+  "first_author": "Makoto Inoue",
+  "published": "2011-12-23",
+  "title": "Type III Dyson Sphere of Highly Advanced Civilizations around a Super Massive Black Hole"
+ },
+ "1201.5380": {
+  "abstract": "",
+  "first_author": "Benjamin R. Barsdell",
+  "published": "2012-01-25",
+  "title": "Accelerating incoherent dedispersion"
+ },
+ "1202.3783": {
+  "abstract": "",
+  "first_author": "Ying Zu",
+  "published": "2012-02-16",
+  "title": "Is Quasar Optical Variability a Damped Random Walk?"
+ },
+ "1203.6068": {
+  "abstract": "",
+  "first_author": "S. Burke-Spolaor",
+  "published": "2012-03-27",
+  "title": "The High Time Resolution Universe Survey - V: Single-pulse energetics and modulation properties of 315 pulsars"
+ },
+ "1205.2550": {
+  "abstract": "",
+  "first_author": "Vishal Gajjar",
+  "published": "2012-05-11",
+  "title": "A survey of nulling pulsars using the Giant Meterwave Radio Telescope"
+ },
+ "1305.0304": {
+  "abstract": "",
+  "first_author": "D. Emmanoulopoulos",
+  "published": "2013-05-01",
+  "title": "Generating artificial light curves: Revisited and updated"
+ },
+ "1309.0776": {
+  "abstract": "",
+  "first_author": "W. W. Zhu",
+  "published": "2013-09-03",
+  "title": "Searching for pulsars using image pattern recognition"
+ },
+ "1311.4608": {
+  "abstract": "",
+  "first_author": "Jayanth Chennamangalam",
+  "published": "2013-11-19",
+  "title": "Jumping the energetics queue: Modulation of pulsar signals by extraterrestrial civilizations"
+ },
+ "1312.3966": {
+  "abstract": "",
+  "first_author": "Zeljko Ivezic",
+  "published": "2013-12-13",
+  "title": "Optical variability of quasars: a damped random walk"
+ },
+ "1402.5978": {
+  "abstract": "",
+  "first_author": "Brandon C. Kelly",
+  "published": "2014-02-24",
+  "title": "Flexible and Scalable Methods for Quantifying Stochastic Variability in the Era of Massive Time-Domain Astronomical Data Sets"
+ },
+ "1405.4290": {
+  "abstract": "",
+  "first_author": "A. J. Drake",
+  "published": "2014-05-16",
+  "title": "The Catalina Surveys Periodic Variable Star Catalog"
+ },
+ "1406.3627": {
+  "abstract": "",
+  "first_author": "V. Morello",
+  "published": "2014-06-13",
+  "title": "SPINN: a straightforward machine learning solution to the pulsar candidate selection problem"
+ },
+ "1407.1907": {
+  "abstract": "",
+  "first_author": "E. Breedt",
+  "published": "2014-07-07",
+  "title": "One thousand cataclysmic variables from the Catalina Real-time Transient Survey"
+ },
+ "1408.1134": {
+  "abstract": "",
+  "first_author": "J. T. Wright",
+  "published": "2014-08-05",
+  "title": "The \u011c Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. II. Framework, Strategy, and First Result"
+ },
+ "1409.1265": {
+  "abstract": "",
+  "first_author": "Michael Hippke",
+  "published": "2014-09-03",
+  "title": "Pulsation period variations in the RRc Lyrae star KIC 5520878"
+ },
+ "1411.5373": {
+  "abstract": "",
+  "first_author": "Barak Zackay",
+  "published": "2014-11-19",
+  "title": "An accurate and efficient algorithm for detection of radio bursts with an unknown dispersion measure, for single dish telescopes and interferometers"
+ },
+ "1412.4936": {
+  "abstract": "",
+  "first_author": " MAGIC Collaboration",
+  "published": "2014-12-16",
+  "title": "Black hole lightning due to particle acceleration at subhorizon scales"
+ },
+ "1501.01375": {
+  "abstract": "",
+  "first_author": "Matthew J. Graham",
+  "published": "2015-01-07",
+  "title": "A possible close supermassive black-hole binary in a quasar with optical periodicity"
+ },
+ "1503.01509": {
+  "abstract": "",
+  "first_author": "Brian C. Lacki",
+  "published": "2015-03-05",
+  "title": "SETI at Planck Energy: When Particle Physicists Become Cosmic Engineers"
+ },
+ "1503.02083": {
+  "abstract": "",
+  "first_author": "Tingting Liu",
+  "published": "2015-03-06",
+  "title": "A Periodically Varying Luminous Quasar at z=2 from the Pan-STARRS1 Medium Deep Survey: A Candidate Supermassive Black Hole Binary in the Gravitational Wave-Driven Regime"
+ },
+ "1503.05245": {
+  "abstract": "",
+  "first_author": "Michael Hippke",
+  "published": "2015-03-17",
+  "title": "Discrete steps in dispersion measures of Fast Radio Bursts"
+ },
+ "1503.06676": {
+  "abstract": "",
+  "first_author": "S D Connolly",
+  "published": "2015-03-23",
+  "title": "A Python Code for the Emmanoulopoulos et al. [arXiv:1305.0304] Light Curve Simulation Algorithm"
+ },
+ "1504.02165": {
+  "abstract": "",
+  "first_author": "E. Petroff",
+  "published": "2015-04-09",
+  "title": "Identifying the source of perytons at the Parkes radio telescope"
+ },
+ "1507.07603": {
+  "abstract": "",
+  "first_author": "Matthew J. Graham",
+  "published": "2015-07-27",
+  "title": "A systematic search for close supermassive black hole binaries in the Catalina Real-Time Transient Survey"
+ },
+ "1508.02406": {
+  "abstract": "",
+  "first_author": "E. Zackrisson",
+  "published": "2015-08-10",
+  "title": "Extragalactic SETI: The Tully-Fisher relation as a probe of Dysonian astroengineering in disk galaxies"
+ },
+ "1508.02624": {
+  "abstract": "",
+  "first_author": "Michael Garrett",
+  "published": "2015-08-11",
+  "title": "The application of the Mid-IR radio correlation to the $\\hat{G}$ sample and the search for advanced extraterrestrial civilisations"
+ },
+ "1509.04301": {
+  "abstract": "",
+  "first_author": "Daniel J. D'Orazio",
+  "published": "2015-09-14",
+  "title": "Relativistic boost as the cause of periodicity in a massive black-hole binary candidate"
+ },
+ "1603.04171": {
+  "abstract": "",
+  "first_author": "M. J. Valtonen",
+  "published": "2016-03-14",
+  "title": "Primary black hole spin in OJ287 as determined by the General Relativity centenary flare"
+ },
+ "1603.05166": {
+  "abstract": "",
+  "first_author": "R. J. Lyon",
+  "published": "2016-03-16",
+  "title": "Fifty Years of Pulsar Candidate Selection: From simple filters to a new principled real-time classification approach"
+ },
+ "1604.01020": {
+  "abstract": "",
+  "first_author": "M. Charisi",
+  "published": "2016-04-04",
+  "title": "A Population of Short-Period Variable Quasars from PTF as Supermassive Black Hole Binary Candidates"
+ },
+ "1604.07844": {
+  "abstract": "",
+  "first_author": "Brian C. Lacki",
+  "published": "2016-04-26",
+  "title": "Type III Societies (Apparently) Do Not Exist"
+ },
+ "1605.05324": {
+  "abstract": "",
+  "first_author": "The Fermi-LAT Collaboration",
+  "published": "2016-05-17",
+  "title": "Minute-Timescale >100 MeV gamma-ray variability during the giant outburst of quasar 3C 279 observed by Fermi-LAT in 2015 June"
+ },
+ "1606.02620": {
+  "abstract": "",
+  "first_author": "S. Vaughan",
+  "published": "2016-06-08",
+  "title": "False periodicities in quasar time-domain surveys"
+ },
+ "1607.08265": {
+  "abstract": "",
+  "first_author": "T. R. Marsh",
+  "published": "2016-07-27",
+  "title": "A radio pulsing white dwarf binary star"
+ },
+ "1609.09503": {
+  "abstract": "",
+  "first_author": "T. Liu",
+  "published": "2016-09-29",
+  "title": "A Systematic Search for Periodically Varying Quasars in Pan-STARRS1: An Extended Baseline Test in Medium Deep Survey Field MD09"
+ },
+ "1610.03031": {
+  "abstract": "",
+  "first_author": "E. F. Borra",
+  "published": "2016-10-10",
+  "title": "Discovery of peculiar periodic spectral modulations in a small fraction of solar type stars"
+ },
+ "1701.01109": {
+  "abstract": "",
+  "first_author": "Manasvi Lingam",
+  "published": "2017-01-02",
+  "title": "Fast Radio Bursts from Extragalactic Light Sails"
+ },
+ "1703.09710": {
+  "abstract": "",
+  "first_author": "Daniel Foreman-Mackey",
+  "published": "2017-03-28",
+  "title": "Fast and scalable Gaussian process modeling with applications to astronomical time series"
+ },
+ "1703.09824": {
+  "abstract": "",
+  "first_author": "Jacob T. VanderPlas",
+  "published": "2017-03-28",
+  "title": "Understanding the Lomb-Scargle Periodogram"
+ },
+ "1703.10611": {
+  "abstract": "",
+  "first_author": "A. Sesana",
+  "published": "2017-03-30",
+  "title": "Testing the binary hypothesis: pulsar timing constraints on supermassive black hole binary candidates"
+ },
+ "1704.03316": {
+  "abstract": "",
+  "first_author": "Clement Vidal",
+  "published": "2017-04-05",
+  "title": "Pulsar Positioning System: A quest for evidence of extraterrestrial engineering"
+ },
+ "1705.04881": {
+  "abstract": "",
+  "first_author": "Niels Opperman",
+  "published": "2017-05-13",
+  "title": "On the non-Poissonian repetition pattern of FRB121102"
+ },
+ "1706.07875": {
+  "abstract": "",
+  "first_author": "Nick Rumbaugh",
+  "published": "2017-06-23",
+  "title": "Extreme variability quasars from the Sloan Digital Sky Survey and the Dark Energy Survey"
+ },
+ "1709.05271": {
+  "abstract": "",
+  "first_author": "Hengxiao Guo",
+  "published": "2017-09-15",
+  "title": "How far is quasar UV/optical variability from damped random walk at low frequency?"
+ },
+ "1801.06189": {
+  "abstract": "",
+  "first_author": "M. Charisi",
+  "published": "2018-01-18",
+  "title": "Testing the relativistic Doppler boost hypothesis for supermassive black hole binary candidates"
+ },
+ "1803.03084": {
+  "abstract": "",
+  "first_author": "Liam Connor",
+  "published": "2018-03-08",
+  "title": "Applying Deep Learning to Fast Radio Burst Classification"
+ },
+ "1803.05448": {
+  "abstract": "",
+  "first_author": "Tingting Liu",
+  "published": "2018-03-14",
+  "title": "Did ASAS-SN Kill the Supermassive Black Hole Binary Candidate PG1302-102?"
+ },
+ "1803.06436": {
+  "abstract": "",
+  "first_author": "Krista Lynne Smith",
+  "published": "2018-03-17",
+  "title": "The Kepler Light Curves of AGN: A Detailed Analysis"
+ },
+ "1803.11235": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2018-03-29",
+  "title": "The CHIME Fast Radio Burst Project: System Overview"
+ },
+ "1804.04101": {
+  "abstract": "",
+  "first_author": "V. Gajjar",
+  "published": "2018-04-11",
+  "title": "Highest-frequency detection of FRB 121102 at 4-8 GHz using the Breakthrough Listen Digital Backend at the Green Bank Telescope"
+ },
+ "1805.09348": {
+  "abstract": "",
+  "first_author": "Robert Main",
+  "published": "2018-05-23",
+  "title": "Pulsar emission amplified and resolved by plasma lensing in an eclipsing binary"
+ },
+ "1806.11111": {
+  "abstract": "",
+  "first_author": "A. Miguel Holgado",
+  "published": "2018-06-28",
+  "title": "Pulsar Timing Constraints on the Fermi Massive Black-Hole Binary Blazar Population"
+ },
+ "1807.07900": {
+  "abstract": "",
+  "first_author": "Bridget C. Andersen",
+  "published": "2018-07-19",
+  "title": "A Fourier Domain \"Jerk\" Search for Binary Pulsars"
+ },
+ "1808.05772": {
+  "abstract": "",
+  "first_author": "Shelley A. Wright",
+  "published": "2018-08-17",
+  "title": "Panoramic optical and near-infrared SETI instrument: overall specifications and science program"
+ },
+ "1809.03043": {
+  "abstract": "",
+  "first_author": "Yunfan Gerry Zhang",
+  "published": "2018-09-09",
+  "title": "Fast Radio Burst 121102 Pulse Detection and Periodicity: A Machine Learning Approach"
+ },
+ "1810.02409": {
+  "abstract": "",
+  "first_author": "Stefano Covino",
+  "published": "2018-10-04",
+  "title": "Gamma-ray quasi-periodicities of blazars. A cautious approach"
+ },
+ "1812.08681": {
+  "abstract": "",
+  "first_author": "NASA Technosignatures Workshop Participants",
+  "published": "2018-12-20",
+  "title": "NASA and the Search for Technosignatures: A Report from the NASA Technosignatures Workshop"
+ },
+ "1902.06343": {
+  "abstract": "",
+  "first_author": "Devansh Agarwal",
+  "published": "2019-02-17",
+  "title": "FETCH: A deep-learning based classifier for fast transient classification"
+ },
+ "1903.05920": {
+  "abstract": "",
+  "first_author": "M. A. Gorbachev",
+  "published": "2019-03-14",
+  "title": "Flares activity of selected stars from GTSh10 catalog by CRTS data"
+ },
+ "1904.05922": {
+  "abstract": "",
+  "first_author": "J. Nordin",
+  "published": "2019-04-11",
+  "title": "Transient processing and analysis using $\\texttt{AMPEL}$: Alert Management, Photometry and Evaluation of Lightcurves"
+ },
+ "1905.02262": {
+  "abstract": "",
+  "first_author": "Matthew J. Graham",
+  "published": "2019-05-06",
+  "title": "Understanding extreme quasar optical variability with CRTS: II. Changing-state quasars"
+ },
+ "1905.03225": {
+  "abstract": "",
+  "first_author": "Lev M. Gindilis",
+  "published": "2019-05-07",
+  "title": "SETI in Russia, USSR and the post-Soviet space: a century of research"
+ },
+ "1906.07391": {
+  "abstract": "",
+  "first_author": "Matthew Lebofsky",
+  "published": "2019-06-18",
+  "title": "The Breakthrough Listen Search for Intelligent Life: Public Data, Formats, Reduction and Archiving"
+ },
+ "1906.08315": {
+  "abstract": "",
+  "first_author": "T. Liu",
+  "published": "2019-06-19",
+  "title": "Supermassive Black Hole Binary Candidates from the Pan-STARRS1 Medium Deep Survey"
+ },
+ "1907.06676": {
+  "abstract": "",
+  "first_author": "Hengxiao Guo",
+  "published": "2019-07-15",
+  "title": "Spectral Energy Distributions of Candidate Periodically-Variable Quasars: Testing the Binary Black Hole Hypothesis"
+ },
+ "1907.11246": {
+  "abstract": "",
+  "first_author": "Chengcheng Xin",
+  "published": "2019-07-25",
+  "title": "Testing the relativistic Doppler boost hypothesis for the binary candidate quasar PG1302-102 with multi-band Swift data"
+ },
+ "1909.04693": {
+  "abstract": "",
+  "first_author": "G. Miniutti",
+  "published": "2019-09-10",
+  "title": "Nine-hour X-ray quasi-periodic eruptions from a low-mass black hole galactic nucleus"
+ },
+ "1910.05348": {
+  "abstract": "",
+  "first_author": "Betty X. Hu",
+  "published": "2019-10-11",
+  "title": "Spikey: Self-Lensing Flares from Eccentric SMBH Binaries"
+ },
+ "1911.05068": {
+  "abstract": "",
+  "first_author": "Beatriz Villarroel",
+  "published": "2019-11-12",
+  "title": "The Vanishing & Appearing Sources during a Century of Observations project: I. USNO objects missing in modern sky surveys and follow-up observations of a \"missing star\""
+ },
+ "1912.00560": {
+  "abstract": "",
+  "first_author": "Zihao Song",
+  "published": "2019-12-02",
+  "title": "Testing the relativistic Doppler boost hypothesis for supermassive binary black holes candidates via broad emission line profiles"
+ },
+ "2002.08967": {
+  "abstract": "",
+  "first_author": "Margherita Giustini",
+  "published": "2020-02-20",
+  "title": "X-ray quasi-periodic eruptions from the galactic nucleus of RX J1301.9+2747"
+ },
+ "2004.03701": {
+  "abstract": "",
+  "first_author": "V. Morello",
+  "published": "2020-04-07",
+  "title": "Optimal periodicity searching: Revisiting the Fast Folding Algorithm for large-scale pulsar surveys"
+ },
+ "2004.10944": {
+  "abstract": "",
+  "first_author": "Xing-Jiang Zhu",
+  "published": "2020-04-23",
+  "title": "Toward the unambiguous identification of supermassive binary black holes through Bayesian inference"
+ },
+ "2005.10324": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2020-05-20",
+  "title": "A bright millisecond-duration radio burst from a Galactic magnetar"
+ },
+ "2005.10828": {
+  "abstract": "",
+  "first_author": "Christopher D. Bochenek",
+  "published": "2020-05-21",
+  "title": "A fast radio burst associated with a Galactic magnetar"
+ },
+ "2006.11304": {
+  "abstract": "",
+  "first_author": "Brian C. Lacki",
+  "published": "2020-06-19",
+  "title": "One of Everything: The Breakthrough Listen Exotica Catalog"
+ },
+ "2008.03303": {
+  "abstract": "",
+  "first_author": "F. F\u00f6rster",
+  "published": "2020-08-07",
+  "title": "The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker"
+ },
+ "2008.03311": {
+  "abstract": "",
+  "first_author": "P. S\u00e1nchez-S\u00e1ez",
+  "published": "2020-08-07",
+  "title": "Alert Classification for the ALeRCE Broker System: The Light Curve Classifier"
+ },
+ "2008.12329": {
+  "abstract": "",
+  "first_author": "Yu-Ching Chen",
+  "published": "2020-08-27",
+  "title": "Candidate Periodically Variable Quasars from the Dark Energy Survey and the Sloan Digital Sky Survey"
+ },
+ "2009.03321": {
+  "abstract": "",
+  "first_author": "Anna V. Payne",
+  "published": "2020-09-07",
+  "title": "ASASSN-14ko is a Periodic Nuclear Transient in ESO 253-G003"
+ },
+ "2009.10185": {
+  "abstract": "",
+  "first_author": "Anais M\u00f6ller",
+  "published": "2020-09-21",
+  "title": "Fink, a new generation of broker for the LSST community"
+ },
+ "2010.11202": {
+  "abstract": "",
+  "first_author": "Michelle Lochner",
+  "published": "2020-10-21",
+  "title": "Astronomaly: Personalised Active Anomaly Detection in Astronomical Data"
+ },
+ "2012.00074": {
+  "abstract": "",
+  "first_author": "Jing Luo",
+  "published": "2020-11-30",
+  "title": "PINT: A Modern Software Package for Pulsar Timing"
+ },
+ "2012.08348": {
+  "abstract": "",
+  "first_author": "In\u00e9s Pastor-Marazuela",
+  "published": "2020-12-15",
+  "title": "Chromatic periodic activity down to 120 MHz in a Fast Radio Burst"
+ },
+ "2012.14452": {
+  "abstract": "",
+  "first_author": "Jackeline Moreno",
+  "published": "2020-12-28",
+  "title": "Properties of a Previously Unidentified Instrumental Signature in $\\textit{Kepler/K2}$ that was Confused for AGN Variability"
+ },
+ "2104.14148": {
+  "abstract": "",
+  "first_author": "Vishal Gajjar",
+  "published": "2021-04-29",
+  "title": "The Breakthrough Listen Search For Intelligent Life Near the Galactic Center I"
+ },
+ "2106.04352": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2021-06-08",
+  "title": "The First CHIME/FRB Fast Radio Burst Catalog"
+ },
+ "2106.15181": {
+  "abstract": "",
+  "first_author": "Tiger Yu-Yang Hsiao",
+  "published": "2021-06-29",
+  "title": "A Dyson Sphere around a black hole"
+ },
+ "2107.08205": {
+  "abstract": "",
+  "first_author": "D. Li",
+  "published": "2021-07-17",
+  "title": "A bimodal burst energy distribution of a repeating fast radio burst source"
+ },
+ "2107.08463": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2021-07-18",
+  "title": "Sub-second periodicity in a fast radio burst"
+ },
+ "2108.05389": {
+  "abstract": "",
+  "first_author": "Colin J. Burke",
+  "published": "2021-08-11",
+  "title": "A characteristic optical variability timescale in astrophysical accretion disks"
+ },
+ "2109.03896": {
+  "abstract": "",
+  "first_author": "Szymon Koz\u0142owski",
+  "published": "2021-09-08",
+  "title": "A Survey Length for AGN Variability Studies"
+ },
+ "2110.05542": {
+  "abstract": "",
+  "first_author": "Michelle Kunimoto",
+  "published": "2021-10-11",
+  "title": "Quick-Look Pipeline Lightcurves for 9.1 Million Stars Observed Over the First Year of the TESS Extended Mission"
+ },
+ "2110.07465": {
+  "abstract": "",
+  "first_author": "Caitlin A. Witt",
+  "published": "2021-10-14",
+  "title": "Quasars with Periodic Variability: Capabilities and Limitations of Bayesian Searches for Supermassive Black Hole Binaries in Time-Domain Surveys"
+ },
+ "2111.02436": {
+  "abstract": "",
+  "first_author": "S. O'Neill",
+  "published": "2021-11-03",
+  "title": "The Unanticipated Phenomenology of the Blazar PKS~2131$-$021: A Unique Super-Massive Black Hole Binary Candidate"
+ },
+ "2111.06350": {
+  "abstract": "",
+  "first_author": "Sofia Z. Sheikh",
+  "published": "2021-11-11",
+  "title": "Analysis of the Breakthrough Listen signal of interest blc1 with a technosignature verification framework"
+ },
+ "2112.03306": {
+  "abstract": "",
+  "first_author": "H. S. Chan",
+  "published": "2021-12-06",
+  "title": "Searching for Anomalies in the ZTF Catalog of Periodic Variable Stars"
+ },
+ "2201.02762": {
+  "abstract": "",
+  "first_author": "Zachary Stone",
+  "published": "2022-01-08",
+  "title": "Optical Variability of Quasars with 20-Year Photometric Light Curves"
+ },
+ "2201.08943": {
+  "abstract": "",
+  "first_author": "Weixiang Yu",
+  "published": "2022-01-22",
+  "title": "Examining AGN UV/optical Variability Beyond the Simple Damped Random Walk"
+ },
+ "2201.11633": {
+  "abstract": "",
+  "first_author": "Ning Jiang",
+  "published": "2022-01-27",
+  "title": "Tick-Tock: The Imminent Merger of a Supermassive Black Hole Binary"
+ },
+ "2203.04890": {
+  "abstract": "",
+  "first_author": "Maura Pilia",
+  "published": "2022-03-09",
+  "title": "The Low Frequency Perspective on Fast Radio Bursts"
+ },
+ "2205.02964": {
+  "abstract": "",
+  "first_author": "Vishal Gajjar",
+  "published": "2022-05-06",
+  "title": "Searching for broadband pulsed beacons from 1883 stars using neural networks"
+ },
+ "2205.06275": {
+  "abstract": "",
+  "first_author": "Massimo Dotti",
+  "published": "2022-05-12",
+  "title": "Optical follow-up of the tick-tock massive black hole binary candidate"
+ },
+ "2206.00907": {
+  "abstract": "",
+  "first_author": "E. Solano",
+  "published": "2022-06-02",
+  "title": "Discovering vanishing objects in POSS I red images using the Virtual Observatory"
+ },
+ "2206.01346": {
+  "abstract": "",
+  "first_author": "Manisha Caleb",
+  "published": "2022-06-03",
+  "title": "Discovery of a radio emitting neutron star with an ultra-long spin period of 76 seconds"
+ },
+ "2206.05681": {
+  "abstract": "",
+  "first_author": " Gaia Collaboration",
+  "published": "2022-06-12",
+  "title": "Gaia Data Release 3: The extragalactic content"
+ },
+ "2206.11278": {
+  "abstract": "",
+  "first_author": "Anna V. Payne",
+  "published": "2022-06-22",
+  "title": "Chandra, HST/STIS, NICER, Swift, and TESS Detail the Flare Evolution of the Repeating Nuclear Transient ASASSN-14ko"
+ },
+ "2206.11497": {
+  "abstract": "",
+  "first_author": "Yong-Jie Chen",
+  "published": "2022-06-23",
+  "title": "Searching for quasar candidates with periodic variations from the Zwicky Transient Facility: results and implications"
+ },
+ "2207.06849": {
+  "abstract": "",
+  "first_author": "Maria I. Carnerero",
+  "published": "2022-07-14",
+  "title": "Gaia Data Release 3: The first Gaia catalogue of variable AGN"
+ },
+ "2208.03508": {
+  "abstract": "",
+  "first_author": "Apostolos Spanakis-Misirlis",
+  "published": "2022-08-06",
+  "title": "FRBSTATS: A web-based platform for visualization of fast radio burst properties"
+ },
+ "2212.04648": {
+  "abstract": "",
+  "first_author": "Matthew T. Miles",
+  "published": "2022-12-09",
+  "title": "The MeerKAT Pulsar Timing Array: First Data Release"
+ },
+ "2301.01607": {
+  "abstract": "",
+  "first_author": "S. Abdollahi",
+  "published": "2023-01-04",
+  "title": "The Fermi-LAT Light Curve Repository"
+ },
+ "2301.10264": {
+  "abstract": "",
+  "first_author": "Dennis A. Crake",
+  "published": "2023-01-24",
+  "title": "Linking Anomalous Behaviour with Stellar Properties: An Unsupervised Exploration of TESS Light Curves"
+ },
+ "2301.12670": {
+  "abstract": "",
+  "first_author": "Peter Xiangyuan Ma",
+  "published": "2023-01-30",
+  "title": "A deep-learning search for technosignatures of 820 nearby stars"
+ },
+ "2302.06446": {
+  "abstract": "",
+  "first_author": "K. I. Kellermann",
+  "published": "2023-02-13",
+  "title": "The Search for Extraterrestrial Civilizations: A Scientific, Technical, Political, Social, and Cultural Adventure"
+ },
+ "2302.11646": {
+  "abstract": "",
+  "first_author": "S. Komossa",
+  "published": "2023-02-22",
+  "title": "Absence of the predicted 2022 October outburst of OJ 287 and implications for binary SMBH scenarios"
+ },
+ "2303.16231": {
+  "abstract": "",
+  "first_author": "Itai Linial",
+  "published": "2023-03-28",
+  "title": "EMRI + TDE = QPE: Periodic X-ray Flares from Star-Disk Collisions in Galactic Nuclei"
+ },
+ "2303.17279": {
+  "abstract": "",
+  "first_author": "D. J. Zhou",
+  "published": "2023-03-30",
+  "title": "The FAST Galactic Plane Pulsar Snapshot Survey: II. Discovery of 76 Galactic rotating radio transients and their enigma"
+ },
+ "2304.03791": {
+  "abstract": "",
+  "first_author": "K. Hart",
+  "published": "2023-04-07",
+  "title": "ASAS-SN Sky Patrol V2.0"
+ },
+ "2305.01014": {
+  "abstract": "",
+  "first_author": "Yue Shen",
+  "published": "2023-05-01",
+  "title": "The Sloan Digital Sky Survey Reverberation Mapping Project: Key Results"
+ },
+ "2305.18527": {
+  "abstract": "",
+  "first_author": "Akshay Suresh",
+  "published": "2023-05-29",
+  "title": "A 4-8 GHz Galactic Center Search for Periodic Technosignatures"
+ },
+ "2306.04053": {
+  "abstract": "",
+  "first_author": "Geraint F. Lewis",
+  "published": "2023-06-06",
+  "title": "Detection of the Cosmological Time Dilation of High Redshift Quasars"
+ },
+ "2306.07585": {
+  "abstract": "",
+  "first_author": "Yu Sang",
+  "published": "2023-06-13",
+  "title": "The temporally evolving energy and waiting time statistics of two repeating fast radio bursts"
+ },
+ "2306.16213": {
+  "abstract": "",
+  "first_author": "Gabriella Agazie",
+  "published": "2023-06-28",
+  "title": "The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background"
+ },
+ "2306.16222": {
+  "abstract": "",
+  "first_author": "Gabriella Agazie",
+  "published": "2023-06-28",
+  "title": "The NANOGrav 15-year Data Set: Bayesian Limits on Gravitational Waves from Individual Supermassive Black Hole Binaries"
+ },
+ "2306.16224": {
+  "abstract": "",
+  "first_author": "J. Antoniadis",
+  "published": "2023-06-28",
+  "title": "The second data release from the European Pulsar Timing Array I. The dataset and timing analysis"
+ },
+ "2306.16230": {
+  "abstract": "",
+  "first_author": "Andrew Zic",
+  "published": "2023-06-28",
+  "title": "The Parkes Pulsar Timing Array Third Data Release"
+ },
+ "2306.17749": {
+  "abstract": "",
+  "first_author": "Kate Storey-Fisher",
+  "published": "2023-06-30",
+  "title": "Quaia, the Gaia-unWISE Quasar Catalog: An All-Sky Spectroscopic Quasar Sample"
+ },
+ "2307.03344": {
+  "abstract": "",
+  "first_author": "C. J. Law",
+  "published": "2023-07-07",
+  "title": "Deep Synoptic Array Science: First FRB and Host Galaxy Catalog"
+ },
+ "2307.05838": {
+  "abstract": "",
+  "first_author": "Silke Britzen",
+  "published": "2023-07-11",
+  "title": "Precession-induced Variability in AGN Jets and OJ 287"
+ },
+ "2308.06813": {
+  "abstract": "",
+  "first_author": "Myles B. Sherman",
+  "published": "2023-08-13",
+  "title": "Deep Synoptic Array Science: Polarimetry of 25 New Fast Radio Bursts Provides Insights into their Origins"
+ },
+ "2308.12709": {
+  "abstract": "",
+  "first_author": "Janeth Valverde",
+  "published": "2023-08-24",
+  "title": "The Fermi-LAT Light Curve Repository: A resource for the time-domain and multi-messenger communities"
+ },
+ "2309.02544": {
+  "abstract": "",
+  "first_author": "Yunpeng Men",
+  "published": "2023-09-05",
+  "title": "PulsarX: a new pulsar searching package -I. A high performance folding program for pulsar surveys"
+ },
+ "2310.08631": {
+  "abstract": "",
+  "first_author": "Krista Lynne Smith",
+  "published": "2023-10-12",
+  "title": "The Rapid Optical Variability of the Nearby Radio-Loud AGN Pictor A: Introducing the Quaver Pipeline for AGN Science with TESS"
+ },
+ "2310.09414": {
+  "abstract": "",
+  "first_author": "Chenoa D. Tremblay",
+  "published": "2023-10-13",
+  "title": "COSMIC: An Ethernet-based Commensal, Multimode Digital Backend on the Karl G. Jansky Very Large Array for the Search for Extraterrestrial Intelligence"
+ },
+ "2310.12704": {
+  "abstract": "",
+  "first_author": "Yuming Fu",
+  "published": "2023-10-19",
+  "title": "CatNorth: An Improved Gaia DR3 Quasar Candidate Catalog with Pan-STARRS1 and CatWISE"
+ },
+ "2310.15704": {
+  "abstract": "",
+  "first_author": "Owen A. Johnson",
+  "published": "2023-10-24",
+  "title": "A Simultaneous Dual-site Technosignature Search Using International LOFAR Stations"
+ },
+ "2310.16307": {
+  "abstract": "",
+  "first_author": "Hao-Tian Lan",
+  "published": "2023-10-25",
+  "title": "The physical origin of the periodic activity for FRB 20180916B"
+ },
+ "2310.16896": {
+  "abstract": "",
+  "first_author": "Daniel J. D'Orazio",
+  "published": "2023-10-25",
+  "title": "Observational Signatures of Supermassive Black Hole Binaries"
+ },
+ "2311.00111": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2023-10-31",
+  "title": "Updating the first CHIME/FRB catalog of fast radio bursts with baseband data"
+ },
+ "2311.09201": {
+  "abstract": "",
+  "first_author": "D. Vohl",
+  "published": "2023-11-15",
+  "title": "Topology of Pulsar Profiles (ToPP). I. Graph theory method and classification of the EPN"
+ },
+ "2311.10851": {
+  "abstract": "",
+  "first_author": "Megan C. Davis",
+  "published": "2023-11-17",
+  "title": "Reliable Identification of Binary Supermassive Black Holes from Rubin Observatory Time-Domain Monitoring"
+ },
+ "2312.03943": {
+  "abstract": "",
+  "first_author": "Carmen Choza",
+  "published": "2023-12-06",
+  "title": "The Breakthrough Listen Search for Intelligent Life: Technosignature Search of 97 Nearby Galaxies"
+ },
+ "2312.14144": {
+  "abstract": "",
+  "first_author": "Ashutosh Tripathi",
+  "published": "2023-12-21",
+  "title": "Optical Quasi-periodic Oscillations in the TESS light curves of three blazars"
+ },
+ "2401.04926": {
+  "abstract": "",
+  "first_author": "Ruisong Xia",
+  "published": "2024-01-10",
+  "title": "First Observational Evidence for an Interconnected Evolution between Time Lag and QPO Frequency among AGNs"
+ },
+ "2401.13834": {
+  "abstract": "",
+  "first_author": "Yunpeng Men",
+  "published": "2024-01-24",
+  "title": "TransientX: A high performance single pulse search package"
+ },
+ "2401.17275": {
+  "abstract": "",
+  "first_author": "R. Arcodia",
+  "published": "2024-01-30",
+  "title": "The more the merrier: SRG/eROSITA discovers two further galaxies showing X-ray quasi-periodic eruptions"
+ },
+ "2401.17318": {
+  "abstract": "",
+  "first_author": "Atsushi Hoshi",
+  "published": "2024-01-24",
+  "title": "The Variability of the Broad Line Profiles of SDSS J1430+2303"
+ },
+ "2402.04352": {
+  "abstract": "",
+  "first_author": "Ashutosh Tripathi",
+  "published": "2024-02-06",
+  "title": "Search for Quasi-Periodic Oscillations in TESS light curves of bright Fermi Blazars"
+ },
+ "2404.15395": {
+  "abstract": "",
+  "first_author": "Sean M. O'Brien",
+  "published": "2024-04-23",
+  "title": "Planet Hunters NGTS: New Planet Candidates from a Citizen Science Search of the Next Generation Transit Survey Public Data"
+ },
+ "2405.01977": {
+  "abstract": "",
+  "first_author": "Abhimanyu Susobhanan",
+  "published": "2024-05-03",
+  "title": "PINT: Maximum-likelihood estimation of pulsar timing noise parameters"
+ },
+ "2405.03721": {
+  "abstract": "",
+  "first_author": "J. I. Katz",
+  "published": "2024-05-05",
+  "title": "Orbital and Precession Periods in Repeating FRB 20121102A"
+ },
+ "2405.08627": {
+  "abstract": "",
+  "first_author": "Mauri J. Valtonen",
+  "published": "2024-05-14",
+  "title": "Evidence of jet activity from the secondary black hole in the OJ287 binary system"
+ },
+ "2405.14921": {
+  "abstract": "",
+  "first_author": "Tongtian Ren",
+  "published": "2024-05-23",
+  "title": "Background Contamination of the Project Hephaistos Dyson Spheres Candidates"
+ },
+ "2406.03675": {
+  "abstract": "",
+  "first_author": "Ananya Bandopadhyay",
+  "published": "2024-06-06",
+  "title": "Repeating nuclear transients from repeating partial tidal disruption events: reproducing ASASSN-14ko and AT2020vdq"
+ },
+ "2406.15558": {
+  "abstract": "",
+  "first_author": "Krista Lynne Smith",
+  "published": "2024-06-21",
+  "title": "Rapid multi-band space-based optical timing: revolutionizing accretion physics"
+ },
+ "2407.09647": {
+  "abstract": "",
+  "first_author": "S. Kiehlmann",
+  "published": "2024-07-12",
+  "title": "PKS 2131-021 -- Discovery of Strong Coherent Sinusoidal Variations from Radio to Optical Frequencies: Compelling Evidence for a Blazar Supermassive Black Hole Binary"
+ },
+ "2407.17565": {
+  "abstract": "",
+  "first_author": "Jakob Robnik",
+  "published": "2024-07-24",
+  "title": "Periodicity significance testing with null-signal templates: reassessment of PTF's SMBH binary candidates"
+ },
+ "2408.00089": {
+  "abstract": "",
+  "first_author": "S. Komossa",
+  "published": "2024-07-31",
+  "title": "The extremes of AGN variability: outbursts, deep fades, changing looks, exceptional spectral states, and semi-periodicities"
+ },
+ "2408.02083": {
+  "abstract": "",
+  "first_author": "R. M. Shannon",
+  "published": "2024-08-04",
+  "title": "The Commensal Real-time ASKAP Fast Transient incoherent-sum survey"
+ },
+ "2408.02203": {
+  "abstract": "",
+  "first_author": "Yu Sang",
+  "published": "2024-08-05",
+  "title": "Quantifying the randomness and scale invariance of the repeating fast radio bursts"
+ },
+ "2408.07101": {
+  "abstract": "",
+  "first_author": "Arindam Mal",
+  "published": "2024-08-12",
+  "title": "Quantized Redshift and its significance for recent observations"
+ },
+ "2408.09795": {
+  "abstract": "",
+  "first_author": "Iuliana Nitu",
+  "published": "2024-08-19",
+  "title": "Periodicity search in the timing of the 25 millisecond pulsars from the second data release of the European Pulsar Timing Array"
+ },
+ "2408.11536": {
+  "abstract": "",
+  "first_author": "I. de Ruiter",
+  "published": "2024-08-21",
+  "title": "Sporadic radio pulses from a white dwarf binary at the orbital period"
+ },
+ "2408.12567": {
+  "abstract": "",
+  "first_author": "C. A. Braga",
+  "published": "2024-08-22",
+  "title": "FRB 20121102A monitoring: Updated periodicity in the L band"
+ },
+ "2409.02181": {
+  "abstract": "",
+  "first_author": "M. Nicholl",
+  "published": "2024-09-03",
+  "title": "Quasi-periodic X-ray eruptions years after a nearby tidal disruption event"
+ },
+ "2409.13247": {
+  "abstract": "",
+  "first_author": "Qin Wu",
+  "published": "2024-09-20",
+  "title": "Statistical properties and cosmological applications of fast radio bursts"
+ },
+ "2410.12905": {
+  "abstract": "",
+  "first_author": "Joshua N. Winn",
+  "published": "2024-10-16",
+  "title": "The Transiting Exoplanet Survey Satellite"
+ },
+ "2410.17142": {
+  "abstract": "",
+  "first_author": "M. V. Kornilov",
+  "published": "2024-10-22",
+  "title": "Coniferest: a complete active anomaly detection framework"
+ },
+ "2411.02859": {
+  "abstract": "",
+  "first_author": "Xuerong Guo",
+  "published": "2024-11-05",
+  "title": "Accelerating FRB Search: Dataset and Methods"
+ },
+ "2411.15961": {
+  "abstract": "",
+  "first_author": "J. L. Han",
+  "published": "2024-11-24",
+  "title": "The FAST Galactic Plane Pulsar Snapshot survey: VI. The discovery of 473 new pulsars"
+ },
+ "2411.16606": {
+  "abstract": "",
+  "first_author": "Ziteng Wang",
+  "published": "2024-11-25",
+  "title": "Detection of X-ray Emission from a Bright Long-Period Radio Transient"
+ },
+ "2412.01148": {
+  "abstract": "",
+  "first_author": "Matthew T. Miles",
+  "published": "2024-12-02",
+  "title": "The MeerKAT Pulsar Timing Array: The $4.5$-year data release and the noise and stochastic signals of the millisecond pulsar population"
+ },
+ "2412.02744": {
+  "abstract": "",
+  "first_author": "Laurent Eyer",
+  "published": "2024-12-03",
+  "title": "The Variable Sources in the Gaia archive"
+ },
+ "2412.05786": {
+  "abstract": "",
+  "first_author": "Caleb Painter",
+  "published": "2024-12-08",
+  "title": "A Novel Technosignature Search in the Breakthrough Listen Green Bank Telescope Archive"
+ },
+ "2501.01581": {
+  "abstract": "",
+  "first_author": "Megan Masterson",
+  "published": "2025-01-03",
+  "title": "Millihertz Oscillations Near the Innermost Orbit of a Supermassive Black Hole"
+ },
+ "2501.02103": {
+  "abstract": "",
+  "first_author": "Neven Caplar",
+  "published": "2025-01-03",
+  "title": "Using LSDB to enable large-scale catalog distribution, cross-matching, and analytics"
+ },
+ "2501.03315": {
+  "abstract": "",
+  "first_author": "Antonio C. Rodriguez",
+  "published": "2025-01-06",
+  "title": "Spectroscopic Detection of a 2.9-hour Orbit in a Long Period Radio Transient"
+ },
+ "2501.17997": {
+  "abstract": "",
+  "first_author": "Chenoa D. Tremblay",
+  "published": "2025-01-29",
+  "title": "COSMIC's Large-Scale Search for Technosignatures during the VLA sky Survey: Survey Description and First Results"
+ },
+ "2502.11215": {
+  "abstract": "",
+  "first_author": "Arpan Pal",
+  "published": "2025-02-16",
+  "title": "A Possible Four-Month Periodicity in the Activity of FRB 20240209A"
+ },
+ "2502.13792": {
+  "abstract": "",
+  "first_author": "Joel Hartman",
+  "published": "2025-02-19",
+  "title": "The T16 Project: Image Subtraction Light Curves from TESS Cycle 1 Full-Frame Images for Stars with T < 16"
+ },
+ "2503.17609": {
+  "abstract": "",
+  "first_author": "Ning Jiang",
+  "published": "2025-03-22",
+  "title": "Embers of Active Galactic Nuclei: Tidal Disruption Events and Quasiperiodic Eruptions"
+ },
+ "2503.22791": {
+  "abstract": "",
+  "first_author": "Erin Kara",
+  "published": "2025-03-28",
+  "title": "Supermassive Black Holes in X-rays: From Standard Accretion to Extreme Transients"
+ },
+ "2503.24047": {
+  "abstract": "",
+  "first_author": "Shuo Ren",
+  "published": "2025-03-31",
+  "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents"
+ },
+ "2504.10308": {
+  "abstract": "",
+  "first_author": "P. Pe\u00f1il",
+  "published": "2025-04-14",
+  "title": "Search for Kink Events in Variable Fermi-LAT Blazars"
+ },
+ "2504.21456": {
+  "abstract": "",
+  "first_author": "Andrew Mummery",
+  "published": "2025-04-30",
+  "title": "Collisions with tidal disruption event disks: implications for quasi-periodic X-ray eruptions"
+ },
+ "2505.06656": {
+  "abstract": "",
+  "first_author": "Vincent Foustoul",
+  "published": "2025-05-10",
+  "title": "A catalogue of candidate milli-parsec separation massive black hole binaries from long term optical photometric monitoring"
+ },
+ "2505.14778": {
+  "abstract": "",
+  "first_author": "Allison Lin",
+  "published": "2025-05-20",
+  "title": "Lomb-Scargle periodograms struggle with non-sinusoidal supermassive BH binary signatures in quasar lightcurves"
+ },
+ "2505.16884": {
+  "abstract": "",
+  "first_author": "Pablo Huijse",
+  "published": "2025-05-22",
+  "title": "A search for periodic AGN variability in $\\textit{Gaia}$ Data Release 3"
+ },
+ "2505.17497": {
+  "abstract": "",
+  "first_author": "D. R. Scott",
+  "published": "2025-05-23",
+  "title": "High-time-resolution properties of 35 fast radio bursts detected by the Commensal Real-time ASKAP Fast Transients Survey"
+ },
+ "2506.05517": {
+  "abstract": "",
+  "first_author": "Wen-Long Xu",
+  "published": "2025-06-05",
+  "title": "A possible origin of the overlapping light curve of eRO-QPE1"
+ },
+ "2506.10961": {
+  "abstract": "",
+  "first_author": "Alice P. Curtin",
+  "published": "2025-06-12",
+  "title": "Discovery and Localization of the Swift-Observed FRB 20241228A in a Star-forming Host Galaxy"
+ },
+ "2506.14417": {
+  "abstract": "",
+  "first_author": "A. J. Goodwin",
+  "published": "2025-06-17",
+  "title": "The radio properties of quasi-periodic X-ray eruption sources"
+ },
+ "2506.14718": {
+  "abstract": "",
+  "first_author": "Eric J. Korpela",
+  "published": "2025-06-17",
+  "title": "SETI@home: Data Acquisition and Front-End Processing"
+ },
+ "2506.14737": {
+  "abstract": "",
+  "first_author": "David P. Anderson",
+  "published": "2025-06-17",
+  "title": "SETI@home: Data Analysis and Findings"
+ },
+ "2506.14744": {
+  "abstract": "",
+  "first_author": "Eleanor M. Gallay",
+  "published": "2025-06-17",
+  "title": "Technosignature Searches with Real-time Alert Brokers"
+ },
+ "2506.23899": {
+  "abstract": "",
+  "first_author": "Maurizio Paolillo",
+  "published": "2025-06-30",
+  "title": "Continuum optical-UV and X-ray variability of AGN: current results and future challenges"
+ },
+ "2506.23955": {
+  "abstract": "",
+  "first_author": "Konstantin Malanchev",
+  "published": "2025-06-30",
+  "title": "Variability-finding in Rubin Data Preview 1 with LSDB"
+ },
+ "2507.05139": {
+  "abstract": "",
+  "first_author": "Fengqiu Adam Dong",
+  "published": "2025-07-07",
+  "title": "CHIME/FRB Discovery of an Unusual Circularly Polarized Long-Period Radio Transient with an Accelerating Spin Period"
+ },
+ "2507.05982": {
+  "abstract": "",
+  "first_author": "In\u00e9s Pastor-Marazuela",
+  "published": "2025-07-08",
+  "title": "Localisation and host galaxy identification of new Fast Radio Bursts with MeerKAT"
+ },
+ "2507.06217": {
+  "abstract": "",
+  "first_author": "Maria V. Pruzhinskaya",
+  "published": "2025-07-08",
+  "title": "What ZTF Saw Where Rubin Looked: Anomaly Hunting in DR23"
+ },
+ "2507.07257": {
+  "abstract": "",
+  "first_author": "Licong Xu",
+  "published": "2025-07-09",
+  "title": "Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery"
+ },
+ "2507.11587": {
+  "abstract": "",
+  "first_author": "Kate Genevieve",
+  "published": "2025-07-15",
+  "title": "SETI Post-Detection Futures: Directions for Technosignature Research and Readiness"
+ },
+ "2507.13173": {
+  "abstract": "",
+  "first_author": "Ruisong Xia",
+  "published": "2025-07-17",
+  "title": "First Evidence for a QPO Triplet and Its Relativistic Precession Origin in RE J1034+396"
+ },
+ "2507.14708": {
+  "abstract": "",
+  "first_author": "Dengke Zhou",
+  "published": "2025-07-19",
+  "title": "A comprehensive search for Long and Short Periodic Features from an Extremely Active Cycle of FRB 20240114A"
+ },
+ "2507.15352": {
+  "abstract": "",
+  "first_author": "Csan\u00e1d Horv\u00e1th",
+  "published": "2025-07-21",
+  "title": "A binary model of long period radio transients and white dwarf pulsars"
+ },
+ "2507.15790": {
+  "abstract": "",
+  "first_author": "P. Wang",
+  "published": "2025-07-21",
+  "title": "Decadal evolution of a repeating fast radio burst source"
+ },
+ "2508.05548": {
+  "abstract": "",
+  "first_author": "Nikolas Korzoun",
+  "published": "2025-08-07",
+  "title": "Development of PANOSETI Telescopes for Ultra-High-Energy Gamma-Ray Astronomy"
+ },
+ "2508.05961": {
+  "abstract": "",
+  "first_author": "Kevin B. Stevenson",
+  "published": "2025-08-08",
+  "title": "K2-18b Does Not Meet The Standards of Evidence For Life"
+ },
+ "2508.12076": {
+  "abstract": "",
+  "first_author": "Weixiang Yu",
+  "published": "2025-08-16",
+  "title": "Examining AGN UV/Optical Variability Beyond the Simple Damped Random Walk. II. Insights from 22 Years Observations of SDSS, PS1 and ZTF"
+ },
+ "2508.14742": {
+  "abstract": "",
+  "first_author": "Li-Wen Tian",
+  "published": "2025-08-20",
+  "title": "Targeted search for an individual SMBHB in NANOGrav 15-year and EPTA DR2 data sets"
+ },
+ "2508.16534": {
+  "abstract": "",
+  "first_author": "Nikita Agarwal",
+  "published": "2025-08-22",
+  "title": "The NANOGrav 15 yr Data Set: Targeted Searches for Supermassive Black Hole Binaries"
+ },
+ "2509.10601": {
+  "abstract": "",
+  "first_author": "Kareem El-Badry",
+  "published": "2025-09-12",
+  "title": "Active galactic nuclei do not exhibit strictly sinusoidal brightness variations"
+ },
+ "2510.06931": {
+  "abstract": "",
+  "first_author": "Fiorenzo Stoppa",
+  "published": "2025-10-08",
+  "title": "Textual interpretation of transient image classifications from large language models"
+ },
+ "2510.10713": {
+  "abstract": "",
+  "first_author": "Yuan-Sen Ting",
+  "published": "2025-10-12",
+  "title": "Deep Learning in Astrophysics"
+ },
+ "2510.14506": {
+  "abstract": "",
+  "first_author": "Michael A. Garrett",
+  "published": "2025-10-16",
+  "title": "SETI Post-Detection Protocols: Progress Towards a New Version"
+ },
+ "2510.26887": {
+  "abstract": "",
+  "first_author": "Francisco Villaescusa-Navarro",
+  "published": "2025-10-30",
+  "title": "The Denario project: Deep knowledge AI agents for scientific discovery"
+ },
+ "2511.00164": {
+  "abstract": "",
+  "first_author": "Theophile Jegou du Laz",
+  "published": "2025-10-31",
+  "title": "BOOM and Babamul: a real-time, multi-survey, optical alert broker system operating at scale"
+ },
+ "2511.17564": {
+  "abstract": "",
+  "first_author": "Guilherme Grancho D. Fernandes",
+  "published": "2025-11-13",
+  "title": "Classification of Transient Astronomical Object Light Curves Using LSTM Neural Networks"
+ },
+ "2511.17797": {
+  "abstract": "",
+  "first_author": "L. J. M. Houben",
+  "published": "2025-11-21",
+  "title": "The Northern High Time Resolution Universe pulsar survey: II. Single-pulse search set-up and simulations"
+ },
+ "2511.18975": {
+  "abstract": "",
+  "first_author": "Claudia M. Raiteri",
+  "published": "2025-11-24",
+  "title": "The variability of blazars throughout the electromagnetic spectrum"
+ },
+ "2511.22702": {
+  "abstract": "",
+  "first_author": "Lawrence Toomey",
+  "published": "2025-11-27",
+  "title": "The Parkes Observatory Pulsar Data Archive"
+ },
+ "2512.00398": {
+  "abstract": "",
+  "first_author": "Bingzheng Xia",
+  "published": "2025-11-29",
+  "title": "Heimdall++: Optimizing GPU Utilization and Pipeline Parallelism for Efficient Single-Pulse Detection"
+ },
+ "2512.07924": {
+  "abstract": "",
+  "first_author": "Shant Baghram",
+  "published": "2025-12-08",
+  "title": "Microlensing Signatures of Dyson Sphere-like Structures around Primordial Black Holes as Technosignatures of Extraterrestrial Advanced Civilizations"
+ },
+ "2512.10533": {
+  "abstract": "",
+  "first_author": "Ashutosh Tripathi",
+  "published": "2025-12-11",
+  "title": "Application of time-series analysis methods to a multiple-sector TESS observations: the case of the radio-loud blazar 3C 371"
+ },
+ "2512.11266": {
+  "abstract": "",
+  "first_author": "Ashutosh Tripathi",
+  "published": "2025-12-12",
+  "title": "Probable Quasi-Periodic Oscillations in the {\\tt TESS} observations of blazars in the Swift X-ray Survey"
+ },
+ "2512.16156": {
+  "abstract": "",
+  "first_author": "L. Levin",
+  "published": "2025-12-18",
+  "title": "Understanding the Neutron Star Population with the SKAO telescopes"
+ },
+ "2512.24936": {
+  "abstract": "",
+  "first_author": "J. I. Katz",
+  "published": "2025-12-31",
+  "title": "Searching for Periodicity in FRB 20240114A"
+ },
+ "2601.01912": {
+  "abstract": "",
+  "first_author": "Shi-Jie Gao",
+  "published": "2026-01-05",
+  "title": "Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at $|b|<5\u00b0$ and Decl.$<-5\u00b0$"
+ },
+ "2601.09399": {
+  "abstract": "",
+  "first_author": "The CHIME/FRB Collaboration",
+  "published": "2026-01-14",
+  "title": "The Second CHIME/FRB Catalog of Fast Radio Bursts"
+ },
+ "2601.10393": {
+  "abstract": "",
+  "first_author": "Nanda Rea",
+  "published": "2026-01-15",
+  "title": "Long Period Transients (LPTs): a comprehensive review"
+ },
+ "2601.14235": {
+  "abstract": "",
+  "first_author": " LSST Dark Energy Science Collaboration",
+  "published": "2026-01-20",
+  "title": "Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration"
+ },
+ "2601.15379": {
+  "abstract": "",
+  "first_author": "Sebastian Banaszak",
+  "published": "2026-01-21",
+  "title": "Optimizing Optical Searches for Supermassive Black Hole Binaries in AGN Light Curves: Fourier versus Bayesian Periodicity Detection"
+ },
+ "2601.16048": {
+  "abstract": "",
+  "first_author": "Wan-Peng Sun",
+  "published": "2026-01-22",
+  "title": "Unveiling the spectral morphological division of fast radio bursts with CHIME/FRB Catalog 2"
+ },
+ "2601.16828": {
+  "abstract": "",
+  "first_author": "Zhecheng Hu",
+  "published": "2026-01-23",
+  "title": "Six New Circumbinary Disk Occultation (CBO) Candidates from the Zwicky Transient Facility"
+ },
+ "2602.03932": {
+  "abstract": "",
+  "first_author": "Pietro Baldini",
+  "published": "2026-02-03",
+  "title": "Discovery of crested quasi-periodic eruptions following the most luminous SRG/eROSITA tidal disruption event"
+ },
+ "2602.14014": {
+  "abstract": "",
+  "first_author": "Kuo Liu",
+  "published": "2026-02-15",
+  "title": "Pulsar Timing Array in the past decade"
+ },
+ "2602.15171": {
+  "abstract": "",
+  "first_author": "Beatriz Villarroel",
+  "published": "2026-02-16",
+  "title": "A Response to paper Critical Evaluation of Studies Alleging Evidence for Technosignatures in the POSS1-E Photographic Plates by Watters et al. (2026)"
+ },
+ "2602.16776": {
+  "abstract": "",
+  "first_author": "Joheen Chakraborty",
+  "published": "2026-02-18",
+  "title": "A positive period derivative in the quasi-periodic eruptions of ZTF19acnskyy"
+ },
+ "2603.02517": {
+  "abstract": "",
+  "first_author": "Hengxiao Guo",
+  "published": "2026-03-03",
+  "title": "Evidence for a Delayed UV Counterpart to X-ray Quasi-periodic Eruptions in Ansky"
+ },
+ "2603.04527": {
+  "abstract": "",
+  "first_author": "Elena Madero",
+  "published": "2026-03-04",
+  "title": "Coexistence of Chromatic Flares and an Achromatic QPO in the Gamma-ray Blazar PG 1553+113"
+ },
+ "2603.20407": {
+  "abstract": "",
+  "first_author": "Ivo Busko",
+  "published": "2026-03-20",
+  "title": "Searching for Fast Astronomical Transients in Archival Photographic Plates"
+ },
+ "2603.23786": {
+  "abstract": "",
+  "first_author": " Vera C Rubin Observatory Team",
+  "published": "2026-03-24",
+  "title": "The Vera C. Rubin Observatory Data Preview 1"
+ },
+ "2604.00056": {
+  "abstract": "",
+  "first_author": "Brian Doherty",
+  "published": "2026-03-31",
+  "title": "Independent Replication of Nuclear Test-Transient Correlations and Earth Shadow Deficit in POSS-I Photographic Plates"
+ },
+ "2604.01203": {
+  "abstract": "",
+  "first_author": "Devansh Agarwal",
+  "published": "2026-04-01",
+  "title": "The RRATalog: a Galactic census of rotating radio transients"
+ },
+ "2604.04810": {
+  "abstract": "",
+  "first_author": "Zachary Hayes",
+  "published": "2026-04-06",
+  "title": "Independent Recovery of Vanishing Sources on POSS-I Photographic Plates Using Automated Source Detection and Cross-Epoch Matching"
+ },
+ "2604.05453": {
+  "abstract": "",
+  "first_author": "Ben Jacobson-Bell",
+  "published": "2026-04-07",
+  "title": "The NANOGrav 15 yr and 20 yr Datasets: Timing Events and Pulse Shape Changes"
+ },
+ "2604.21886": {
+  "abstract": "",
+  "first_author": "Olivia Curtis",
+  "published": "2026-04-23",
+  "title": "The Dyson Minds 2025 Workshop: SETI around Black Holes"
+ },
+ "2605.12098": {
+  "abstract": "",
+  "first_author": "Rui-Nan Li",
+  "published": "2026-05-12",
+  "title": "Periodic Emission Frequency Modulation in a Hyperactive Fast Radio Burst"
+ },
+ "2605.19653": {
+  "abstract": "",
+  "first_author": "Huan Zhou",
+  "published": "2026-05-19",
+  "title": "Evidence for Intermediate-Mass Black Holes From Microlensing Signatures in CHIME/FRB catalog 2"
+ },
+ "2605.21093": {
+  "abstract": "",
+  "first_author": "Cl\u00e9ment Vidal",
+  "published": "2026-05-20",
+  "title": "The Search for Technosignatures: a Review of Possibilities"
+ },
+ "2606.05285": {
+  "abstract": "",
+  "first_author": "C. R. Bom",
+  "published": "2026-06-03",
+  "title": "Toward decision-aware AI for LSST-scale time-domain astronomy"
+ },
+ "2606.18108": {
+  "abstract": "",
+  "first_author": "P. A. Estevez",
+  "published": "2026-06-16",
+  "title": "Querying an astronomical database using large language models: the ALeRCE text-to-SQL system"
+ },
+ "2606.26572": {
+  "abstract": "",
+  "first_author": "Manisha Caleb",
+  "published": "2026-06-25",
+  "title": "Long-Period Transients as a new frontier in time-domain astronomy"
+ },
+ "2606.28645": {
+  "abstract": "",
+  "first_author": "Monika Soraisam",
+  "published": "2026-06-26",
+  "title": "GOATS: The next generation software infrastructure for time-domain astronomy at Gemini/NOIRLab. Application to alerts from Vera C. Rubin Observatory's Legacy Survey of Space and Time"
+ },
+ "2607.07182": {
+  "abstract": "",
+  "first_author": "Chenoa D. Tremblay",
+  "published": "2026-07-08",
+  "title": "A search for narrowband technosignatures from LTT 3780 with the Allen Telescope Array and the Karl G. Jansky Very Large Array"
+ },
+ "2607.13148": {
+  "abstract": "",
+  "first_author": "Bo Lin Fan",
+  "published": "2026-07-14",
+  "title": "Semi-supervised morphological classification of fast radio bursts from the second CHIME/FRB catalogue"
+ },
+ "2607.15359": {
+  "abstract": "",
+  "first_author": "Thomas Wevers",
+  "published": "2026-07-16",
+  "title": "Observations of X-ray quasi-periodic eruptions"
+ },
+ "2607.27772": {
+  "abstract": "",
+  "first_author": "M. E. Ramos-Ceja",
+  "published": "2026-07-30",
+  "title": "The SRG/eROSITA All-Sky Survey DR2: Cumulative X-ray catalogues from the first three surveys and multi-wavelength counterparts in the western Galactic hemisphere"
+ },
+ "2608.18275": {
+  "abstract": "",
+  "first_author": "Talon Myburgh",
+  "published": "2026-08-18",
+  "title": "The VLA and High-Frequency SETI: Expanding the Search for Life"
+ },
+ "2608.19713": {
+  "abstract": "",
+  "first_author": "Wen-Long Zhang",
+  "published": "2026-08-20",
+  "title": "Multi-scale Memory and Regime Shift in the Hyperactive Repeating FRB 20240114A"
+ },
+ "2609.04118": {
+  "abstract": "",
+  "first_author": "S. Paine",
+  "published": "2026-09-03",
+  "title": "A targeted search for fast radio bursts from magnetars in elliptical galaxies"
+ },
+ "2609.04998": {
+  "abstract": "",
+  "first_author": "Mauri J. Valtonen",
+  "published": "2026-09-04",
+  "title": "The October 2022 flare in OJ 287 and the mass of its primary black hole"
+ },
+ "2609.25810": {
+  "abstract": "",
+  "first_author": "Yu Sang",
+  "published": "2026-09-22",
+  "title": "A Brief Review on the Statistical Properties of Fast Radio Bursts"
+ }
+}
