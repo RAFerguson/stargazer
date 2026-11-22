@@ -208,9 +208,10 @@ def _analyse_bits(stream: BitStream, reading: Reading, rng_seed: tuple, settings
         reading.tested("volume height", volume.p_bound, volume.detected, f"best height {volume.height}")
         if volume.detected:
             reading.add(ContentTier.LAYOUT, "volume height", volume.p_bound,
-                        f"The rows in turn group into planes of {volume.height} rows: every plane resembles the "
-                        f"one before it, saving a further {volume.gain_bits:,.0f} bits. That is a block "
-                        f"{fold.width} x {volume.height} x {volume.depth_layers}.", height=int(volume.height),
+                        f"The rows in turn repeat in groups of {volume.height}: each group resembles the one "
+                        f"before it, saving a further {volume.gain_bits:,.0f} bits. That is either a block "
+                        f"{fold.width} x {volume.height} x {volume.depth_layers} or a longer unit of "
+                        f"{fold.width * volume.height} bits that recurs.", height=int(volume.height),
                         layers=int(volume.depth_layers))
             reading.layout.update({"kind": "volume", "height": int(volume.height),
                                    "layers": int(volume.depth_layers)})
@@ -305,6 +306,8 @@ def _analyse_bits(stream: BitStream, reading: Reading, rng_seed: tuple, settings
         if rung is not None:
             reading.add(rung, f"anchor: {hit.anchor}", corrected, sentence, parameters=hit.parameters,
                         reading=hit.reading)
+            if hit.anchor == "repeated_block" and not reading.layout:
+                reading.layout = {"kind": "recurring unit", "length": int(hit.parameters["block_length"])}
 
 
 # ------------------------------------------------------------------------------------------------------------

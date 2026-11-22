@@ -64,7 +64,10 @@ def _probability(p: float) -> str:
 
 
 def periodicity_dossier(name: str, search: dict, gates: list[dict], *, promoted: bool, p_final: float,
-                        info: dict | None = None, context: dict | None = None) -> dict:
+                        info: dict | None = None, context: dict | None = None, recalibrated: bool = True,
+                        prediction_recorded: bool | None = None,
+                        units: str = "the standardised units of the merged light curve (1 is the object's own "
+                                     "scatter)") -> dict:
     """The record for one object of a periodicity search.
 
     `search` is `PeriodicityResult.to_dict()`, `gates` the list of `GateResult.to_dict()`, `p_final` the
@@ -81,22 +84,24 @@ def periodicity_dossier(name: str, search: dict, gates: list[dict], *, promoted:
     shape = search.get("harmonic_fraction", float("nan"))
     sentences = [
         f"The best periodic model has a period of {search['period_days']:.1f} days and covers "
-        f"{search['cycles_covered']:.1f} cycles in {search['n_points']} nightly points over "
-        f"{search['span_days']:.0f} days; its fundamental has an amplitude of {search['amplitude']:.2f} in the "
-        "standardised units of the merged light curve (1 is the object's own scatter)"
+        f"{search['cycles_covered']:.1f} cycles in {search['n_points']} points over "
+        f"{search['span_days']:.0f} days; its fundamental has an amplitude of {search['amplitude']:.3g} in "
+        f"{units}"
         + (f", and {100 * shape:.0f}% of its power is in higher harmonics." if np.isfinite(shape) else "."),
         f"Against red noise fitted to this object, with the search over {search['n_frequencies']} trial periods "
         f"included, the probability of a periodic model this good is "
         f"{_probability(decoy.get('p', float('nan')))} ({decoy.get('exceedances', 0)} of "
         f"{decoy.get('draws', 0)} simulated nulls matched it).",
-        f"After recalibration against the whole population searched, the probability is {_probability(p_final)}.",
     ]
+    if recalibrated:
+        sentences.append("After recalibration against the whole population searched, the probability is "
+                         f"{_probability(p_final)}.")
     for flag in search.get("flags", []):
         sentences.append(f"Note: {flag}.")
     if classical:
         sentences.append("For contrast, a test that assumes white noise would have given "
                          f"{_probability(classical.get('white_noise_fap', float('nan')))}; that number is not "
-                         "evidence, because quasar noise is not white.")
+                         "evidence, because the noise is not white.")
     sentences += [g["sentence"] for g in gates]
     if promoted:
         status = ("This object passed every vetting gate that could be evaluated. It is a vetted hit: a periodic "
@@ -109,9 +114,12 @@ def periodicity_dossier(name: str, search: dict, gates: list[dict], *, promoted:
     not_checked = ["other surveys of the same object (independent confirmation)",
                    "neighbouring stars on the same detector (local systematics)",
                    "noise models beyond a single damped random walk"] + [f"gate not evaluable: {g}" for g in untested]
-    would_change = ("New data are the test. If the period is real, a sinusoid of this period and phase, fitted "
-                    "now, will fit data taken later better than red noise alone; if it is a red-noise bump, it "
-                    "will not. The prediction is recorded in the prediction ledger before those data exist.")
+    would_change = ("New data are the test. If the period is real, the periodic model fitted now will fit data "
+                    "taken later better than red noise alone; if it is a red-noise bump, it will not. ")
+    if promoted if prediction_recorded is None else prediction_recorded:
+        would_change += "That prediction is recorded in the prediction ledger before those data exist."
+    else:
+        would_change += "No prediction was recorded for this object, because it was not promoted."
     record = {"name": name, "kind": "periodicity", "reality_tier": int(tier), "reality": reality_phrase(tier),
               "content_tier": int(ContentTier.NONE), "content": content_phrase(ContentTier.NONE),
               "disposition": Disposition.OPEN.value, "promoted": bool(promoted), "p_final": p_final,

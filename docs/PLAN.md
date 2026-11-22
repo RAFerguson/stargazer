@@ -1,7 +1,10 @@
 # Stargazer project plan
 
-**Status:** draft v0.1, 2026-11-21. This is the research-phase draft. Nothing described here is built yet, apart from
-the small feasibility scripts in `spikes/first-light/`.
+**Status:** draft v0.1, 2026-11-21, written before any code. A first build followed on 2026-11-22: the
+optical time-domain search, the decoding workbench, the benchmark and the ledgers exist and have been run once
+on real data. The repository's `README.md` says what was built, what was measured and what remains; where the
+build departs from this plan, the README and the module docstrings are the current word. The radio tiers
+described below are not built.
 **Research basis:** `docs/research/reports/Celestial signal search data and methods.md` (consolidated report) and the
 per-topic notes in `docs/research/research_notes/Celestial signal search data and methods/`. Claims below that depend
 on a paper, dataset or archive are traceable to those notes, which carry the source links and say how each fact was

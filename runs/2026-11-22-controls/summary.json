@@ -1,0 +1,45 @@
+{
+ "KIC 8462852 (Kepler)": {
+  "coherence_p": null,
+  "decoys": 10,
+  "exceedances": 10,
+  "failed_gates": [
+   "seasons",
+   "holdout"
+  ],
+  "flags": [],
+  "nights": 1393,
+  "noise": {
+   "sigma_null": 0.00494535377478066,
+   "sigma_with_signal": 0.004940944367735036,
+   "tau_null_days": 2.6566584377344067,
+   "tau_with_signal_days": 2.6566584377344067
+  },
+  "p": 1.0,
+  "period_days": 79.01771201849483,
+  "promoted": false,
+  "statistic": 2.5433931027018843,
+  "white_noise_fap": 0.11652958185484251
+ },
+ "PG 1553+113 (Fermi-LAT weekly)": {
+  "coherence_p": null,
+  "decoys": 111,
+  "exceedances": 10,
+  "failed_gates": [
+   "holdout"
+  ],
+  "flags": [],
+  "nights": 936,
+  "noise": {
+   "sigma_null": 0.31878709810332057,
+   "sigma_with_signal": 0.2548646590008628,
+   "tau_null_days": 137.1830199362827,
+   "tau_with_signal_days": 94.85722559824032
+  },
+  "p": 0.09009009009009009,
+  "period_days": 773.2558139534888,
+  "promoted": false,
+  "statistic": 24.44145603706272,
+  "white_noise_fap": 7.387593472402465e-36
+ }
+}

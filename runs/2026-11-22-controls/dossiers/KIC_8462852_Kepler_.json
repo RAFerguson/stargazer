@@ -1,0 +1,177 @@
+{
+ "content": "no content analysis",
+ "content_tier": 0,
+ "context": {
+  "population recalibration": "none (single objects)",
+  "run": "controls-2026-11-22",
+  "search id": "ef8ac427d0c5c234a3b544a55692636db346c287b3c655dfe129d868caaed501"
+ },
+ "disposition": "open",
+ "failed_gates": [
+  "seasons",
+  "holdout"
+ ],
+ "gates": [
+  {
+   "detail": {
+    "distance_resolution_elements": 2.5040566118153533,
+    "nearest": "one year / 4",
+    "tolerance": 0.5
+   },
+   "gate": "calendar",
+   "passed": true,
+   "sentence": "The period of 79.0 days is 2.5 resolution elements from the nearest calendar period (one year / 4); that is clear of it."
+  },
+  {
+   "detail": {
+    "limit": 0.25,
+    "window_power": 0.0009450538980351668
+   },
+   "gate": "window",
+   "passed": true,
+   "sentence": "The observing pattern has 0% of its power at this period; the sampling does not explain the signal."
+  },
+  {
+   "detail": {
+    "amplitude_ratio_range": [
+     0.3751172119556478,
+     1.3550349597703755
+    ],
+    "max_phase_shift": 0.02190167449199798,
+    "max_share_of_evidence": 0.8926704818512893,
+    "n_seasons": 5
+   },
+   "gate": "seasons",
+   "passed": false,
+   "sentence": "Removing any one of 5 years moves the phase by at most 0.02 cycles and the amplitude by a factor of 0.38 to 1.36; the most important year carries 89% of the evidence. The signal depends on one year."
+  },
+  {
+   "detail": {
+    "bands": [
+     {
+      "amplitude": 0.0006614321889650629,
+      "band": "Kepler",
+      "n": 1393,
+      "phase_cycles": 0.5773194266254198,
+      "statistic": 3.703522924332774
+     }
+    ]
+   },
+   "gate": "bands",
+   "passed": null,
+   "sentence": "The signal is visible in fewer than two bands: no comparison possible."
+  },
+  {
+   "detail": {
+    "early_period_days": 59.766812069207226,
+    "log_likelihood_gain": 3.9880938194692135,
+    "n_early": 983,
+    "n_late": 410,
+    "same_period": false,
+    "train_fraction": 0.7
+   },
+   "gate": "holdout",
+   "passed": false,
+   "sentence": "Searched alone, the first 70% of the time span prefers a period of 59.8 days, not 79.0: the early data do not find this signal independently."
+  },
+  {
+   "detail": {},
+   "gate": "coherence",
+   "passed": null,
+   "sentence": "The warped-time test was not run."
+  }
+ ],
+ "info": {
+  "points": 56346,
+  "span (days)": 1470
+ },
+ "kind": "periodicity",
+ "name": "KIC 8462852 (Kepler)",
+ "not_checked": [
+  "other surveys of the same object (independent confirmation)",
+  "neighbouring stars on the same detector (local systematics)",
+  "noise models beyond a single damped random walk",
+  "gate not evaluable: bands",
+  "gate not evaluable: coherence"
+ ],
+ "p_final": 1.0,
+ "promoted": false,
+ "reality": "a hit",
+ "reality_tier": 0,
+ "search": {
+  "amplitude": 0.000671566212200182,
+  "band": "Kepler",
+  "classical": {
+   "period_days": 59.74509933105706,
+   "power": 0.009542852443615376,
+   "white_noise_fap": 0.11652958185484251
+  },
+  "coefficients": [
+   0.9996479741312561,
+   -0.0005937268733071879,
+   0.0,
+   0.0,
+   -0.00031383049131939096,
+   0.0,
+   0.0
+  ],
+  "coherence_p": null,
+  "cycles_covered": 18.600000000000016,
+  "decoy": {
+   "draws": 10,
+   "exceedances": 10,
+   "p": 1.0,
+   "resolution": 0.09090909090909091,
+   "sigma": null,
+   "stopped_early": true
+  },
+  "first_pass": 2.543124999440642,
+  "flags": [],
+  "harmonic_fraction": 0.0,
+  "n_frequencies": 169,
+  "n_points": 1393,
+  "noise": {
+   "sigma_null": 0.00494535377478066,
+   "sigma_with_signal": 0.004940944367735036,
+   "tau_null_days": 2.6566584377344067,
+   "tau_with_signal_days": 2.6566584377344067
+  },
+  "null": {
+   "mean_map": 0.9996577575700376,
+   "n": 1393,
+   "sigma_68": [
+    0.006597880839952453,
+    0.006597880839952453
+   ],
+   "sigma_map": 0.006597880839952453,
+   "span_days": 1469.7294435440053,
+   "tau_68_days": [
+    5.4376016449545395,
+    5.4376016449545395
+   ],
+   "tau_constrained": true,
+   "tau_map_days": 5.4376016449545395
+  },
+  "p_tail": null,
+  "period_days": 79.01771201849483,
+  "phase_cycles": 0.5773886371994057,
+  "source_id": "kic:8462852",
+  "span_days": 1469.7294435440053,
+  "statistic": 2.5433931027018843,
+  "status": "searched",
+  "tail": {}
+ },
+ "sentences": [
+  "The best periodic model has a period of 79.0 days and covers 18.6 cycles in 1393 points over 1470 days; its fundamental has an amplitude of 0.000672 in relative flux, and 0% of its power is in higher harmonics.",
+  "Against red noise fitted to this object, with the search over 169 trial periods included, the probability of a periodic model this good is 1.00 (10 of 10 simulated nulls matched it).",
+  "For contrast, a test that assumes white noise would have given 0.12; that number is not evidence, because the noise is not white.",
+  "The period of 79.0 days is 2.5 resolution elements from the nearest calendar period (one year / 4); that is clear of it.",
+  "The observing pattern has 0% of its power at this period; the sampling does not explain the signal.",
+  "Removing any one of 5 years moves the phase by at most 0.02 cycles and the amplitude by a factor of 0.38 to 1.36; the most important year carries 89% of the evidence. The signal depends on one year.",
+  "The signal is visible in fewer than two bands: no comparison possible.",
+  "Searched alone, the first 70% of the time span prefers a period of 59.8 days, not 79.0: the early data do not find this signal independently.",
+  "The warped-time test was not run."
+ ],
+ "status": "This object is not promoted: it failed seasons, holdout.",
+ "what_would_change_this": "New data are the test. If the period is real, the periodic model fitted now will fit data taken later better than red noise alone; if it is a red-noise bump, it will not. No prediction was recorded for this object, because it was not promoted."
+}

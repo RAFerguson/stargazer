@@ -63,7 +63,9 @@ def main() -> None:
         record = dossier.periodicity_dossier(name, result.to_dict(), checks, promoted=promoted, p_final=result.p,
                                              info={"points": len(series), "span (days)": round(series.span)},
                                              context={"run": "controls-2026-11-22", "search id": search_id,
-                                                      "population recalibration": "none (single objects)"})
+                                                      "population recalibration": "none (single objects)"},
+                                             recalibrated=False, prediction_recorded=False,
+                                             units="magnitudes" if series.kind == "mag" else "relative flux")
         if promoted:
             formal = ledger.test(f"controls: {name} is periodic at {result.period_days:.1f} d", result.p,
                                  search_id=search_id)
