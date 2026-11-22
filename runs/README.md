@@ -8,6 +8,7 @@ that was written, committed and pushed before the search ran.
 | [`2026-11-22-quasar-pix2-100`](2026-11-22-quasar-pix2-100/) | Does any of 1,210 ZTF quasars in one patch of sky vary with a strict period? | One object promoted, and explained: an RR Lyrae star whose half-day pulsation aliases to 80 days. No quasar promoted; no decoy promoted |
 | [`2026-11-22-controls`](2026-11-22-controls/) | What does the same search say about a famous periodic candidate and a famous strange star? | Neither promoted |
 | [`2026-11-22-levels`](2026-11-22-levels/) | Does any of the same quasars sit on discrete brightness levels? | 3 real passes against 2 decoy passes: chance level |
+| [`2026-11-22-frb-timing`](2026-11-22-frb-timing/) | Do the bursts of two repeating fast radio bursts fall on a clock or a spacing unit? | No: smallest probability 0.10 against a threshold of 0.0025 |
 
 ## What a blind run directory holds
 

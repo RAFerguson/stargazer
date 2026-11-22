@@ -1,0 +1,54 @@
+{
+ "FRB 20220529": {
+  "bursts": 643,
+  "citation": "Li, Y., Zhang, S. B., Yang, Y. P., et al. 2026, \"A sudden change and recovery in the magnetic environment around a repeating fast radio burst\", Science 391, 280-284, doi:10.1126/science.adq3225, arXiv:2503.04727. Data: Supplementary Table S5, Zenodo, doi:10.5281/zenodo.17446358 (CC-BY-4.0). Based on observations with the Five-hundred-meter Aperture Spherical radio Telescope (FAST).",
+  "clock": {
+   "detected": false,
+   "occupancy": 0.00022597989558170343,
+   "p": 0.09615384615384616,
+   "period_s": 29.845723877686655,
+   "searched_s": [
+    6.718031999981031,
+    134.36063999962062
+   ]
+  },
+  "median_gap_s": 66.18240000028163,
+  "spacing": {
+   "detected": false,
+   "p": 0.5263157894736842,
+   "quantum_s": 65.28291972559454,
+   "searched_s": [
+    0.3863294999981008,
+    12.362543999939225
+   ]
+  },
+  "span_days": 797.9375054999999,
+  "time_standard": "barycentric TDB, extrapolated to infinite frequency"
+ },
+ "FRB 20220912A": {
+  "bursts": 696,
+  "citation": "Konijn, D. C., Hewitt, D. M., Hessels, J. W. T., et al. 2024, \"A Nan\u00e7ay Radio Telescope study of the hyperactive repeating FRB 20220912A\", MNRAS 534, 3331-3348, doi:10.1093/mnras/stae2296, arXiv:2407.10155. Data: Konijn & Hewitt, reproduction package, Zenodo, doi:10.5281/zenodo.13889738 (CC-BY-4.0). The Nan\u00e7ay Radio Observatory is operated by the Paris Observatory, associated with the French CNRS.",
+  "clock": {
+   "detected": false,
+   "occupancy": 0.02842081136832455,
+   "p": 0.7142857142857143,
+   "period_s": 10.037482486593309,
+   "searched_s": [
+    6.569101984938607,
+    131.38203969877213
+   ]
+  },
+  "median_gap_s": 64.88402026717085,
+  "spacing": {
+   "detected": false,
+   "p": 0.43478260869565216,
+   "quantum_s": 51.03753644500014,
+   "searched_s": [
+    0.4500179510825809,
+    14.40057443464259
+   ]
+  },
+  "span_days": 186.47550162203356,
+  "time_standard": "barycentric TDB (astropy built-in ephemeris, NRT ITRF position, EVN source position); not dedispersed: Heimdall reference frequency at each burst's detection DM"
+ }
+}

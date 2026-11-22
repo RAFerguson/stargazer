@@ -5,11 +5,11 @@ much structure an unknown signal carries. It does not assume that anything is th
 question a fair, independent test and to report the outcome honestly, including when the outcome is nothing.
 
 **Status, 22 November 2026: built and run on real data.** The search engine, the decoding workbench and the
-benchmark exist and are tested. Three searches have been registered, run and recorded.
+benchmark exist and are tested. Four searches have been registered, run and recorded.
 
 ## What happened when it was run
 
-Three searches were registered in the ledger, published, and then run. All three are recorded
+Four searches were registered in the ledger, published, and then run. All four are recorded
 ([`runs/`](runs/)).
 
 **1. Do any of 1,210 quasars vary with a strict period?** ([report](runs/2026-11-22-quasar-pix2-100/))
@@ -46,7 +46,11 @@ gives 7 × 10⁻³⁶ for the same peak. For Boyajian's star it finds no period.
 **3. Does any of the same quasars sit on discrete brightness levels?** ([report](runs/2026-11-22-levels/))
 Three of 1,210 pass the test, against two of their 1,210 decoy twins: the false-alarm rate.
 
-The ledger now holds 3 searches, 2,422 objects, 383,794 trial hypotheses and one formal discovery, which is
+**4. Do the bursts of two repeating fast radio bursts keep time?** ([report](runs/2026-11-22-frb-timing/))
+No clock and no unit of spacing in 696 bursts of FRB 20220912A or 643 of FRB 20220529: the smallest
+probability is 0.10 against a threshold of 0.0025.
+
+The ledger now holds 4 searches, 2,424 objects, 383,798 trial hypotheses and one formal discovery, which is
 the star's periodicity.
 
 ## What it does
@@ -119,7 +123,7 @@ pytest                                         # 222 tests; add -m "network or s
 | `stargazer/pipelines/quasar.py` | The blind quasar search, end to end |
 | `stargazer/structure`, `decode` | Sequence statistics and the decoding workbench |
 | `stargazer/bench` | 33 benchmark signals with known answers, damage channels and the scorecard |
-| `stargazer/sources` | ZTF, Gaia, Kepler and Fermi connectors, a HATS catalogue reader, a download cache |
+| `stargazer/sources` | ZTF, Gaia, Kepler, Fermi and fast-radio-burst connectors, a HATS catalogue reader, a download cache |
 | `stargazer/ledger`, `report` | Trials and prediction ledgers, dossiers, figures |
 | [`ledger/`](ledger/) | The project's own record: every search registered and recorded |
 | [`runs/`](runs/) | Each run's configuration, sealed-label proof, results table, dossiers and report |
@@ -145,5 +149,5 @@ pytest                                         # 222 tests; add -m "network or s
 
 Data: the ZTF light-curve catalogue served by IRSA (doi:[10.26131/IRSA598](https://www.ipac.caltech.edu/doi/10.26131/IRSA598))
 and its HATS copy on public cloud storage; Gaia DR3 (ESA/DPAC); the Fermi-LAT Light Curve Repository; Kepler
-(NASA/MAST). Several sequence-analysis functions and the prediction ledger are adapted from the author's
+(NASA/MAST); burst lists from Konijn et al. 2024, Pastor-Marazuela et al. 2021 and Li et al. 2026 (Zenodo). Several sequence-analysis functions and the prediction ledger are adapted from the author's
 SeaQuest project; each file says what was changed.
