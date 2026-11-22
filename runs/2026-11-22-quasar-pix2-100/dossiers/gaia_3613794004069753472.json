@@ -7,6 +7,12 @@
   "real objects searched": 1210,
   "run": "quasar-ztf-gaia-pix2-100"
  },
+ "deep_calibration": {
+  "draws": 20000,
+  "exceedances": 0,
+  "p_final": 9.24564313210986e-06,
+  "p_raw": 2.9881615243862923e-12
+ },
  "disposition": "known natural class",
  "failed_gates": [],
  "follow_up": {
@@ -215,6 +221,7 @@
  "sentences": [
   "The best periodic model has a period of 79.9 days and covers 33.2 cycles in 417 points over 2654 days; its fundamental has an amplitude of 1.23 in the standardised units of the merged light curve (1 is the object's own scatter), and 0% of its power is in higher harmonics.",
   "Against red noise fitted to this object, with the search over 317 trial periods included, the probability of a periodic model this good is 1 in 1,001 (0 of 1000 simulated nulls matched it).",
+  "Calibrated again with 20,000 fresh simulated nulls, as registered: 0 matched it.",
   "After recalibration against the whole population searched, the probability is 1 in 104,966.",
   "Note: a model at 159.9 days fitted best; the period reported is its harmonic at 79.9 days, which fits nearly as well.",
   "For contrast, a test that assumes white noise would have given below 1 in a billion (2.3e-74); that number is not evidence, because the noise is not white.",

@@ -104,6 +104,11 @@ def main() -> None:
         for key in ("project_wide_test", "prediction"):
             if key in old:
                 record[key] = old[key]
+        deep = next((r.get("deep") for r in rows if r["kind"] == "real" and r["name"] == old["name"]), None)
+        if deep:
+            record["deep_calibration"] = deep
+            record["sentences"].insert(2, f"Calibrated again with {deep['draws']:,} fresh simulated nulls, as "
+                                          f"registered: {deep['exceedances']} matched it.")
         dossier.write(record, RUN / "dossiers")
     ledger = TrialsLedger(RUN.parent.parent / "ledger" / "trials.jsonl")
     if not any(e.get("type") == "note" and e.get("object") == NAME for e in ledger.entries()):

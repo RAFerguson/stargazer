@@ -432,6 +432,13 @@ def run(objects: dict[str, list[Series]], config: RunConfig, out_dir: str | path
     else:
         analysed = [_analyse_packed(job) for job in jobs]
 
+    # Keep the sealed results before anything else happens, so that a failure after this point costs nothing.
+    import gzip
+    import json
+
+    with gzip.open(out_dir / "sealed_results.json.gz", "wt") as handle:
+        json.dump(dossier._jsonable(analysed), handle)
+
     # The analysis is final. Only now is the label table opened.
     scored = score(analysed, sealed.unseal(), config)
     summary = scored["summary"]

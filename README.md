@@ -59,8 +59,8 @@ the star's periodicity.
 periodicity, and every optical "periodic quasar" tested on later data has failed. Stargazer fits the red noise
 each object has, searches for a periodic signal of any shape (sine, sawtooth, narrow pulse), and measures
 significance by running the identical search on simulated nulls. On 1,000 simulated pure-noise objects it
-called 5.2% significant at the 5% level and 0.6% at the 1% level. A standard white-noise test calls almost all
-of them significant.
+called 4.1% significant at the 5% level and 0.7% at the 1% level ([validation](docs/validation/)). A standard
+white-noise test calls almost all of them significant.
 
 **Keeps itself blind.** Every real object goes into the search alongside a decoy twin (a simulation of its own
 fitted noise) and, for a fraction, a copy with a known signal planted in it. Labels are hidden until the

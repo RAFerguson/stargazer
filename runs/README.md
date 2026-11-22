@@ -17,6 +17,7 @@ that was written, committed and pushed before the search ran.
 | `config.json` | The full configuration and its hash, as registered |
 | `sealed_commitment.txt` | A hash of the hidden label table, written before the analysis |
 | `sealed_proof.json` | The label table and the salt, published after: anyone can recompute the hash |
+| `sealed_results.json.gz` | The analysis as it stood before the labels were opened (runs made after the first one) |
 | `results.csv` | One line per sealed subject: what it was, its probability, each gate's verdict |
 | `results.json.gz` | Every subject's full record |
 | `summary.json` | Counts, calibration, completeness and upper limits |
