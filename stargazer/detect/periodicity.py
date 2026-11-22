@@ -362,9 +362,14 @@ def tail_probability(observed: float, null_maxima: np.ndarray) -> tuple[float, d
 
     The largest of F independent chi-squared(2) variables scaled by c exceeds s with probability
     1 - (1 - exp(-s / 2c))^F. F (the effective number of independent frequencies) and c are fitted to the
-    decoys' maxima by maximum likelihood, and the formula is evaluated at the observed statistic. This is an
-    extrapolation of a fitted curve, not a measured frequency: it ranks strong candidates and says roughly how
-    strong they are, and it is never used to promote one.
+    decoys' maxima by maximum likelihood, and the formula is evaluated at the observed statistic.
+
+    This is an extrapolation of a fitted curve, not a measured frequency, and the curve is not the true
+    distribution of the joint statistic. Checked against 40,000 simulated nulls for one realistic sampling
+    pattern, fits to 1,000 decoys overstated the probability every time: by a factor of 4 at a true 0.01, 10
+    at 0.001 and 24 at 0.0001. It errs towards calling things less significant, which is the safe direction.
+    It is used only where no simulated null matched the observed statistic, and never to report a probability
+    larger than the simulation's own resolution (see `pipelines.quasar.probability_used`).
     """
     from scipy.optimize import minimize
 

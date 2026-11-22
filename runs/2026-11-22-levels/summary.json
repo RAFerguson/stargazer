@@ -1,0 +1,93 @@
+{
+ "counts": {
+  "decoy": {
+   "hits": 2,
+   "qualified_before_decoys": 3,
+   "searched": 1210
+  },
+  "real": {
+   "hits": 3,
+   "qualified_before_decoys": 3,
+   "searched": 1210
+  }
+ },
+ "hits": [
+  {
+   "detected": true,
+   "k": 2,
+   "kind": "real",
+   "label": "209b9edfc181f999",
+   "levels": [
+    -0.5076021055352943,
+    3.245207397763591
+   ],
+   "name": "gaia:3605204722313354880",
+   "nights": 346,
+   "note": "2 levels, 8.7 error bars apart at the closest, with 8.1% of points off every level; p = 0.00498 against the drw null (200 decoys)",
+   "off_level_fraction": 0.08092485549132944,
+   "p_value": 0.004975124378109453,
+   "parameters": {},
+   "separation": 8.743328419144955
+  },
+  {
+   "detected": true,
+   "k": 2,
+   "kind": "real",
+   "label": "0e4b1771f18ee862",
+   "levels": [
+    -0.4273767845410122,
+    5.567542739295789
+   ],
+   "name": "gaia:3620681516705461376",
+   "nights": 454,
+   "note": "2 levels, 10.2 error bars apart at the closest, with 6.8% of points off every level; p = 0.00498 against the drw null (200 decoys)",
+   "off_level_fraction": 0.06828193832599116,
+   "p_value": 0.004975124378109453,
+   "parameters": {},
+   "separation": 10.244816921848365
+  },
+  {
+   "detected": true,
+   "k": 2,
+   "kind": "real",
+   "label": "c3f9ce37a160bb03",
+   "levels": [
+    -0.5040569766198157,
+    2.0367006752595427
+   ],
+   "name": "gaia:3626277068817735808",
+   "nights": 375,
+   "note": "2 levels, 8.8 error bars apart at the closest, with 8.0% of points off every level; p = 0.00498 against the drw null (200 decoys)",
+   "off_level_fraction": 0.07999999999999996,
+   "p_value": 0.004975124378109453,
+   "parameters": {},
+   "separation": 8.782460442029413
+  }
+ ],
+ "preparation": {
+  "dropped": {
+   "no usable band": 39,
+   "too few nights": 39,
+   "too short a time span": 0
+  },
+  "median_error_scale_applied": {
+   "g": 1.0,
+   "i": 1.0,
+   "r": 1.1173414217100508
+  },
+  "objects_in": 1288,
+  "objects_kept": 1210,
+  "pooled_error_scale": {
+   "g": 0.7580586106473244,
+   "i": 0.9902537736052903,
+   "r": 1.1173414217100508
+  }
+ },
+ "sample": {
+  "after_astrometric_cuts": 1407,
+  "gaia_candidates": 1426,
+  "with_ztf_light_curve": 1288
+ },
+ "sealed_commitment": "7cf1d186475937e7ebae0d8cd40ca28e9964df9e5c3c3c9c9a41fcbc84860fa8",
+ "seconds": 42.76690888404846
+}
