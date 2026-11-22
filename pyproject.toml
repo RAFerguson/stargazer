@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stargazer"
+version = "0.1.0"
+description = "Search public astronomical archives for signals that natural processes do not easily explain, vet them, and recover whatever structure they carry"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "astropy>=6.0",
+  "astropy-healpix>=1.0",
+  "pyarrow>=15",
+  "fsspec>=2024.2",
+  "aiohttp>=3.9",
+  "click>=8.1",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+stargazer = "stargazer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["stargazer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -m 'not network and not slow'"
+markers = [
+  "network: needs a public archive to be reachable",
+  "slow: takes more than a few seconds",
+]

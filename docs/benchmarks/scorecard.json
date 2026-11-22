@@ -1,0 +1,603 @@
+{
+ "items": [
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "control/biased_bits_p30",
+   "seconds": 15.2048659324646,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "control/encrypted_text",
+   "seconds": 17.56383180618286,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "control/fair_bits",
+   "seconds": 15.351294040679932,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "SymbolSequence",
+   "layout": {},
+   "name": "control/iid_symbols_16",
+   "seconds": 12.165689468383789,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "SymbolSequence",
+   "layout": {},
+   "name": "control/iid_symbols_4",
+   "seconds": 11.594591617584229,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "control/markov1_bits",
+   "seconds": 16.276233911514282,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "EventList",
+   "layout": {},
+   "name": "control/poisson_events",
+   "seconds": 0.6053793430328369,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "Series",
+   "layout": {},
+   "name": "control/white_noise_series",
+   "seconds": 0.0019745826721191406,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "control",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "control/zlib_text",
+   "seconds": 10.644764423370361,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 4,
+   "found": [
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "parity checks (tier 3)",
+    "anchor: text_code (tier 4)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "frame_len": 10,
+    "kind": "frames",
+    "marker": "01101000",
+    "marker_bits": 7,
+    "marker_phase": 5
+   },
+   "name": "human/ascii_8n1",
+   "seconds": 9.451476335525513,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "parity checks (tier 3)",
+    "anchor: repeated_block (tier 3)",
+    "anchor: text_code (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "frame_len": 16,
+    "kind": "frames",
+    "marker": "01010110100101",
+    "marker_bits": 14,
+    "marker_phase": 12
+   },
+   "name": "human/ascii_manchester",
+   "seconds": 11.242868185043335,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "parity checks (tier 3)",
+    "anchor: repeated_block (tier 3)",
+    "anchor: text_code (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "frame_len": 14,
+    "kind": "frames",
+    "marker": "0110110000",
+    "marker_bits": 7,
+    "marker_phase": 0
+   },
+   "name": "human/hamming74_text",
+   "seconds": 10.344223976135254,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "human/lfsr_scrambled_text",
+   "seconds": 8.529286861419678,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "short"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 4,
+   "found": [
+    "clock (tier 1)",
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "parity checks (tier 3)",
+    "anchor: text_code (tier 4)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "EventList",
+   "layout": {
+    "kind": "clocked slots",
+    "period": 0.9999962757756052,
+    "slots": 600
+   },
+   "name": "human/ook_pulses",
+   "seconds": 6.946773529052734,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "parity checks (tier 3)",
+    "anchor: text_code (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "frame_len": 8,
+    "kind": "frames",
+    "marker": "110000",
+    "marker_bits": 5,
+    "marker_phase": 0
+   },
+   "name": "human/parity87_text",
+   "seconds": 9.135703802108765,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [
+    "shift register (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "kind": "shift register",
+    "length": 15,
+    "polynomial": "x^15 + x^14 + 1"
+   },
+   "name": "human/prbs15",
+   "seconds": 15.14740252494812,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 3,
+   "found": [
+    "structure battery (tier 2)",
+    "raster width (tier 3)",
+    "volume height (tier 3)",
+    "frame length (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "height": 2,
+    "kind": "volume",
+    "layers": 20,
+    "rows": 40,
+    "width": 496
+   },
+   "name": "human/telemetry_random",
+   "seconds": 16.197168827056885,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "human",
+   "expected_tier": 4,
+   "found": [
+    "structure battery (tier 2)",
+    "frame length (tier 3)",
+    "anchor: repeated_block (tier 3)",
+    "anchor: text_code (tier 4)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "frame_len": 8,
+    "kind": "frames",
+    "marker": "000110",
+    "marker_bits": 5,
+    "marker_phase": 6
+   },
+   "name": "human/telemetry_text",
+   "seconds": 15.276063442230225,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 5,
+   "found": [
+    "structure battery (tier 2)",
+    "raster width (tier 3)",
+    "volume height (tier 3)",
+    "frame length (tier 3)",
+    "anchor: repeated_block (tier 3)",
+    "anchor: functional_relations (tier 5)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "height": 17,
+    "kind": "volume",
+    "layers": 23,
+    "rows": 400,
+    "width": 48
+   },
+   "name": "message/arithmetic_primer",
+   "seconds": 15.785260438919067,
+   "statement": "A specific reading is proposed and has predicted held-out parts of the signal. It is a hypothesis, open to refutation by more of the same signal.",
+   "tier": 5,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 4,
+   "found": [
+    "structure battery (tier 2)",
+    "raster width (tier 3)",
+    "volume height (tier 3)",
+    "frame length (tier 3)",
+    "anchor: field_counting (tier 4)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "height": 4,
+    "kind": "volume",
+    "layers": 63,
+    "rows": 254,
+    "width": 16
+   },
+   "name": "message/binary_count_255",
+   "seconds": 8.703401565551758,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 3,
+   "found": [
+    "raster width (tier 3)",
+    "volume height (tier 3)",
+    "frame length (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "height": 13,
+    "kind": "volume",
+    "layers": 11,
+    "rows": 143,
+    "width": 17
+   },
+   "name": "message/raster3d_11x13x17",
+   "seconds": 8.119972229003906,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 3,
+   "found": [
+    "structure battery (tier 2)",
+    "raster width (tier 3)",
+    "frame length (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "kind": "raster",
+    "rows": 127,
+    "width": 127
+   },
+   "name": "message/raster_127x127",
+   "seconds": 15.109209060668945,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 3,
+   "found": [
+    "raster width (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 0,
+    "kind": "raster",
+    "rows": 73,
+    "width": 23
+   },
+   "name": "message/raster_23x73",
+   "seconds": 7.834252595901489,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 3,
+   "found": [
+    "raster width (tier 3)",
+    "anchor: repeated_block (tier 3)"
+   ],
+   "kind": "BitStream",
+   "layout": {
+    "header_bits": 40,
+    "kind": "raster",
+    "rows": 74,
+    "width": 23
+   },
+   "name": "message/raster_23x73_framed",
+   "seconds": 7.38935399055481,
+   "statement": "A layout was recovered: how the signal is organised is known. What it says is not. Nothing in it matched the fixed library of shared knowledge.",
+   "tier": 3,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 4,
+   "found": [
+    "anchor: run_length_sequence (tier 4)"
+   ],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "message/unary_count_1_40",
+   "seconds": 7.566587686538696,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "message",
+   "expected_tier": 4,
+   "found": [
+    "anchor: run_length_sequence (tier 4)"
+   ],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "message/unary_primes_300",
+   "seconds": 9.216289758682251,
+   "statement": "Part of the content matches shared knowledge from the fixed library, with the probability of a chance match corrected for everything in that library.",
+   "tier": 4,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "Series",
+   "layout": {},
+   "name": "natural/drw_plus_weak_sine",
+   "seconds": 0.0030579566955566406,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "Series",
+   "layout": {},
+   "name": "natural/drw_quasar",
+   "seconds": 0.0025305747985839844,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 1,
+   "found": [
+    "discrete levels (tier 1)"
+   ],
+   "kind": "Series",
+   "layout": {
+    "explained": 0.9935185185185185,
+    "kind": "repeating cycle",
+    "period": 355
+   },
+   "name": "natural/eclipsing_binary",
+   "seconds": 2.0962891578674316,
+   "statement": "The signal takes discrete states, so it can be written down as a sequence of symbols. The sequence shows no order beyond what a short-memory or repeating natural process produces.",
+   "tier": 1,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 1,
+   "found": [
+    "clock (tier 1)"
+   ],
+   "kind": "EventList",
+   "layout": {
+    "kind": "clocked slots",
+    "period": 0.7139999351209627,
+    "slots": 5000
+   },
+   "name": "natural/pulsar_nulling",
+   "seconds": 18.787160634994507,
+   "statement": "The signal takes discrete states, so it can be written down as a sequence of symbols. The sequence shows no order beyond what a short-memory or repeating natural process produces.",
+   "tier": 1,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "BitStream",
+   "layout": {},
+   "name": "natural/pulsar_nulling_bits",
+   "seconds": 14.287708282470703,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "EventList",
+   "layout": {},
+   "name": "natural/repeating_burster",
+   "seconds": 5.216808319091797,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  },
+  {
+   "collection": "natural",
+   "expected_tier": 0,
+   "found": [],
+   "kind": "Series",
+   "layout": {},
+   "name": "natural/variable_star_p180",
+   "seconds": 0.004395008087158203,
+   "statement": "No structure was found. By these tests the signal cannot be told from its null model. That is not proof that it carries nothing: well-compressed or encrypted content looks exactly like this.",
+   "tier": 0,
+   "verdict": "reached"
+  }
+ ],
+ "summary": {
+  "control": {
+   "items": 9,
+   "overclaim": 0,
+   "reached": 9,
+   "short": 0
+  },
+  "human": {
+   "items": 9,
+   "overclaim": 0,
+   "reached": 8,
+   "short": 1
+  },
+  "message": {
+   "items": 8,
+   "overclaim": 0,
+   "reached": 8,
+   "short": 0
+  },
+  "natural": {
+   "items": 7,
+   "overclaim": 0,
+   "reached": 7,
+   "short": 0
+  },
+  "overclaims": [],
+  "seed": 0,
+  "short": [
+   "human/lfsr_scrambled_text (tier 0 of 3)"
+  ],
+  "size": "small"
+ }
+}
