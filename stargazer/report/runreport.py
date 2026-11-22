@@ -23,9 +23,15 @@ def _probability(p: float) -> str:
 
 
 def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str, figures: dict | None = None,
-                       notes: list[str] | None = None) -> str:
+                       notes: list[str] | None = None, after_answer: list[str] | None = None,
+                       sections: list[tuple[str, list[str]]] | None = None,
+                       limits_apply: bool | None = None, limits_note: str = "") -> str:
     """Markdown for one run. `figures` maps "calibration" and "completeness" to (light path, dark path) relative
-    to the report; `notes` are extra paragraphs for the caveats section."""
+    to the report; `after_answer` are paragraphs placed right after the answer (for follow-up findings);
+    `sections` are extra (heading, lines) sections placed before the caveats; `notes` are extra caveats.
+    Upper limits are given when nothing real was promoted; `limits_apply=True` gives them anyway, for the case
+    where what was promoted turned out not to belong to the population the limits are about, and `limits_note`
+    says why."""
     run_dir = pathlib.Path(run_dir)
     s = json.loads((run_dir / "summary.json").read_text())
     n, hits, promoted = s["searched"], s["hits"], s["promoted"]
@@ -40,9 +46,10 @@ def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str
         answer = (f"**Answer.** No. Of {n['real']:,} quasars searched, none was promoted. {hits['real']} reached the "
                   f"hit level and all of them failed vetting or fell short of the promotion threshold.")
     else:
-        answer = (f"**Answer.** {promoted['real']} of {n['real']:,} quasars searched were promoted to vetted hits. "
-                  "A vetted hit is a periodic component that red noise as modelled, the calendar and the sampling "
-                  "do not explain. It is not a confirmed signal.")
+        answer = (f"**Answer.** {promoted['real']} of {n['real']:,} objects searched "
+                  + ("was" if promoted["real"] == 1 else "were") + " promoted to a vetted hit: a periodic "
+                  "component that red noise as modelled, the calendar and the sampling do not explain. A vetted "
+                  "hit is not yet a confirmed signal, and says nothing about cause.")
     answer += (f" Of the {n['decoy']:,} decoy twins, which contain nothing by construction, {promoted['decoy']} "
                f"were promoted, so about {estimate['expected_false_among_real']:.0f} false promotions are expected "
                "among the real objects.")
@@ -52,6 +59,8 @@ def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str
     answer += (f" Of {trials} signals planted in real light curves, {recovered} ({_pct(recovered / trials)}) were "
                "promoted at the right period; the table below says which kinds.")
     lines += [answer, ""]
+    for paragraph in after_answer or []:
+        lines += [paragraph, ""]
 
     # ---- the sample --------------------------------------------------------------------------------------
     lines += ["## The sample", ""]
@@ -95,7 +104,8 @@ def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str
     pile = s.get("period_distribution_real_vs_decoy")
     if pile:
         lines.append("Do real objects prefer particular periods more than their decoys do? Kolmogorov–Smirnov "
-                     f"probability {pile['ks_p']:.2f} (a small value would point to an instrumental period).")
+                     f"probability {_probability(pile['ks_p'])} (a small value means they do, which points "
+                     "to instrumental periods or to trends the noise model lacks).")
         lines.append("")
 
     # ---- the most significant real objects -----------------------------------------------------------------
@@ -115,6 +125,7 @@ def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str
         lines += ["<picture>", f'  <source media="(prefers-color-scheme: dark)" srcset="{dark}">',
                   '  <img alt="Three grids, one per signal shape, giving the share of planted signals recovered for each '
                   f'amplitude and period." src="{light}">', "</picture>", ""]
+    give_limits = promoted["real"] == 0 if limits_apply is None else limits_apply
     lines += ["| Shape | Amplitude (mag) | Period (days) | Planted | Right period | Promoted | 95% interval | "
               "Share of quasars that could carry it unseen |", "|---|---|---|---|---|---|---|---|"]
     for c in planted:
@@ -123,13 +134,16 @@ def periodicity_report(run_dir: str | pathlib.Path, *, title: str, question: str
         lines.append(f"| {c['label']} | {c['amplitude_mag']:.2f} | {c['period_days']:.0f} | {c['trials']} | "
                      f"{c['period_found']} | {c['recovered']} ({_pct(c['completeness'])}) | "
                      f"{_pct(c['low95'])}–{_pct(c['high95'])} | "
-                     + (f"below {100 * limit:.1f}%" if limit is not None and promoted["real"] == 0 and limit < 1
+                     + (f"below {100 * limit:.1f}%" if limit is not None and give_limits and limit < 1
                         else "not constrained")
                      + " |")
     lines += ["", "The last column is an upper limit, at 95% confidence, on the fraction of quasars in this sample that "
               "carry such a signal, given that none was promoted. It uses the lower end of the recovery interval, "
               "so it errs on the side of a weaker limit. Where the recovery interval reaches zero, the search says "
-              "nothing about that kind of signal.", ""]
+              "nothing about that kind of signal." + (f" {limits_note}" if limits_note else ""), ""]
+
+    for heading, body in sections or []:
+        lines += [f"## {heading}", ""] + body + [""]
 
     # ---- caveats -----------------------------------------------------------------------------------------
     lines += ["## What this does and does not mean", "",

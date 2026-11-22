@@ -1,0 +1,70 @@
+{
+ "alias_gate": {
+  "detail": {
+   "bands": [
+    {
+     "alias_distance_resolution_elements": 0.013968660161671356,
+     "band": "g",
+     "candidate_power": 0.4940209178715397,
+     "cycles_per_day": 2,
+     "cycles_per_year": 1,
+     "is_alias": true,
+     "n": 261,
+     "short_period_days": 0.4962181229257735,
+     "short_power": 0.7137077587216057
+    },
+    {
+     "alias_distance_resolution_elements": 0.05280211261869444,
+     "band": "r",
+     "candidate_power": 0.5931518284921917,
+     "cycles_per_day": 2,
+     "cycles_per_year": 1,
+     "is_alias": true,
+     "n": 345,
+     "short_period_days": 0.4962217519823724,
+     "short_power": 0.7479773563996225
+    },
+    {
+     "alias_distance_resolution_elements": 0.16581010840982735,
+     "band": "i",
+     "candidate_power": 0.5792629001471586,
+     "cycles_per_day": 2,
+     "cycles_per_year": 1,
+     "is_alias": true,
+     "n": 97,
+     "short_period_days": 0.49623507129370514,
+     "short_power": 0.6748373643028748
+    }
+   ]
+  },
+  "gate": "alias",
+  "passed": false,
+  "sentence": "The unbinned r-band data are fitted better by a period of 0.49622 days than by 79.9 days, and the two are related by the nightly sampling (2 cycles a day): the candidate period is an alias of the fast one."
+ },
+ "alias_of_two_cycles_per_day_plus_one_per_year_days": 80.11478368475825,
+ "candidate_period_days": 79.9350580598099,
+ "gaia_dr3": {
+  "bp_rp": 0.5249138,
+  "parallax_error_mas": 0.13376585,
+  "parallax_mas": 0.09704830719075325,
+  "peak_to_peak_g_mag": 0.8961577,
+  "quasar_probability": 0.9586063,
+  "vari_classifier_best_class": "RR",
+  "vari_rrlyrae_class": "RRab",
+  "vari_rrlyrae_period_days": 0.49624387617665844,
+  "vari_rrlyrae_period_error_days": 1.789751e-05
+ },
+ "object": "gaia:3613794004069753472",
+ "unbinned_ztf": {
+  "g": {
+   "period_days": 0.49622373735840103,
+   "points": 261,
+   "power": 0.7211342542639179
+  },
+  "r": {
+   "period_days": 0.49622373735840103,
+   "points": 345,
+   "power": 0.7491019945547728
+  }
+ }
+}

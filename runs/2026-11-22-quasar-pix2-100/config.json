@@ -1,0 +1,53 @@
+{
+ "config": {
+  "clip_sigma": 6.0,
+  "deep_decoys": 20000,
+  "gate_below_p": 0.05,
+  "hit_p": 0.01,
+  "min_nights": 60,
+  "min_points_band": 20,
+  "min_span_days": 1000.0,
+  "name": "quasar-ztf-gaia-pix2-100",
+  "pair_gap_days": 0.5,
+  "period_tolerance": 0.05,
+  "plant_amplitudes_mag": [
+   0.05,
+   0.1,
+   0.2
+  ],
+  "plant_fraction": 0.4,
+  "plant_periods_days": [
+   150.0,
+   300.0,
+   600.0
+  ],
+  "plant_shapes": [
+   "sinusoid",
+   "sawtooth",
+   "flare"
+  ],
+  "promote_p": 0.001,
+  "search": {
+   "batch": 50,
+   "bin_days": 1.0,
+   "calendar_tolerance": 0.5,
+   "candidates": 2,
+   "coherence_below_p": 0.05,
+   "coherence_jitter": 0.2,
+   "coherence_templates": 200,
+   "harmonic_margin": 8.0,
+   "harmonics": 3,
+   "max_decoys": 1000,
+   "min_cycles": 3.0,
+   "min_period_days": 40.0,
+   "min_points": 40,
+   "n_sigma": 16,
+   "n_tau": 24,
+   "oversample": 5.0,
+   "stop_exceedances": 10
+  },
+  "seed": 20261122,
+  "workers": 4
+ },
+ "config_hash": "630f6b4980d15c009c5921b1eb9522723d6c33c0690f294e6667faab51f5ed06"
+}

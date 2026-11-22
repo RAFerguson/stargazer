@@ -1,0 +1,230 @@
+{
+ "content": "no content analysis",
+ "content_tier": 0,
+ "context": {
+  "configuration hash": "630f6b4980d15c009c5921b1eb9522723d6c33c0690f294e6667faab51f5ed06",
+  "decoy twins promoted": "0 of 1210",
+  "real objects searched": 1210,
+  "run": "quasar-ztf-gaia-pix2-100"
+ },
+ "disposition": "known natural class",
+ "failed_gates": [],
+ "follow_up": {
+  "disposition": "known natural class",
+  "reality_tier": 3,
+  "sentences": [
+   "The unbinned ZTF measurements are fitted far better by a period of 0.49622 days (r band; 0.49622 days in g) than by 79.9 days.",
+   "Gaia DR3 lists this source as an RR Lyrae star of type RRab with a pulsation period of 0.49624 days and a peak-to-peak range of 0.90 magnitudes. Two instruments and two pipelines agree on the period to 4 parts in 100,000.",
+   "A 0.4962-day pulsation seen about once a night, at an hour that drifts through the year, beats at 80.1 days. The 79.9-day cycle is that beat.",
+   "The object is a pulsating star in the Galactic halo that Gaia's classifier gave a 96% chance of being a quasar. The search was right that it is strictly periodic and wrong, through no test it then had, about the period. An alias gate has since been added to the pipeline; it fails this object."
+  ],
+  "sources": [
+   "Gaia DR3 tables gaia_source, vari_classifier_result and vari_rrlyrae, fetched 22 November 2026 (files beside follow_up.py)",
+   "ZTF light curves, unbinned, all three bands"
+  ],
+  "status": "The registered analysis promoted this object: it passed every gate the pipeline then had. Follow-up shows what it is: an RR Lyrae star, a known kind of pulsating star, whose half-day pulsation appears as an 80-day cycle under nightly sampling. The signal is real, celestial and explained.",
+  "what_would_change_this": "Nothing needs to. The variation is explained: an RR Lyrae star, with the long period an alias of its pulsation."
+ },
+ "gates": [
+  {
+   "detail": {
+    "distance_resolution_elements": 4.136064588531242,
+    "nearest": "one year / 4",
+    "tolerance": 0.5
+   },
+   "gate": "calendar",
+   "passed": true,
+   "sentence": "The period of 79.9 days is 4.1 resolution elements from the nearest calendar period (one year / 4); that is clear of it."
+  },
+  {
+   "detail": {
+    "limit": 0.25,
+    "window_power": 0.04480010701602375
+   },
+   "gate": "window",
+   "passed": true,
+   "sentence": "The observing pattern has 4% of its power at this period; the sampling does not explain the signal."
+  },
+  {
+   "detail": {
+    "amplitude_ratio_range": [
+     0.9653843923189168,
+     1.0325079594881665
+    ],
+    "max_phase_shift": 0.0083425037939584,
+    "max_share_of_evidence": 0.18211623558333023,
+    "n_seasons": 8
+   },
+   "gate": "seasons",
+   "passed": true,
+   "sentence": "Removing any one of 8 years moves the phase by at most 0.01 cycles and the amplitude by a factor of 0.97 to 1.03; the most important year carries 18% of the evidence. The signal does not hang on one year."
+  },
+  {
+   "detail": {
+    "bands": [
+     {
+      "amplitude": 0.3553135682349189,
+      "band": "g",
+      "n": 258,
+      "phase_cycles": 0.45695373428191194,
+      "statistic": 38.12485672324398
+     },
+     {
+      "amplitude": 0.25430616996336386,
+      "band": "r",
+      "n": 268,
+      "phase_cycles": 0.44038481954474035,
+      "statistic": 67.83855803524415
+     },
+     {
+      "amplitude": 0.2223591776445301,
+      "band": "i",
+      "n": 97,
+      "phase_cycles": 0.3926395585586398,
+      "statistic": 23.473047004841444
+     }
+    ],
+    "max_phase_difference": 0.06431417572327214
+   },
+   "gate": "bands",
+   "passed": true,
+   "sentence": "The 3 bands in which the signal is visible agree in phase to within 0.06 cycles."
+  },
+  {
+   "detail": {
+    "early_period_days": 79.99899391288452,
+    "log_likelihood_gain": 53.42200983948203,
+    "n_early": 278,
+    "n_late": 139,
+    "same_period": true,
+    "train_fraction": 0.7
+   },
+   "gate": "holdout",
+   "passed": true,
+   "sentence": "Searched alone, the first 70% of the time span finds the same period (80.0 days), and its periodic model predicts the remaining 139 points better than no periodic model (log-likelihood gain +53.4)."
+  },
+  {
+   "detail": {
+    "coherence_p": 0.004975124378109453,
+    "limit": 0.05
+   },
+   "gate": "coherence",
+   "passed": true,
+   "sentence": "With the time axis warped at random, the search does as well as in true time 0.5% of the time; the variation keeps time."
+  }
+ ],
+ "info": {
+  "Dec (deg)": -10.911535,
+  "Gaia DR3 source_id": 3613794004069753472,
+  "Gaia G (mag)": 17.68,
+  "Gaia quasar probability": 0.959,
+  "RA (deg)": 208.518067,
+  "ZTF light curves (band: points)": "g: 261, r: 345, i: 97",
+  "ZTF object ids": "374107300000825, 374207300001128, 374307300001025"
+ },
+ "kind": "periodicity",
+ "name": "gaia:3613794004069753472",
+ "not_checked": [
+  "other surveys of the same object (independent confirmation)",
+  "neighbouring stars on the same detector (local systematics)",
+  "noise models beyond a single damped random walk"
+ ],
+ "p_final": 9.526867836384955e-06,
+ "prediction": {
+  "entry_id": "d66a3f74873fb89bbc48e48c47cac0794cddb0c9b79a0771d8aab6703147fc91",
+  "salt": "",
+  "utc": "2026-11-22T03:38:15+00:00"
+ },
+ "project_wide_test": {
+  "discovery": true,
+  "level": 0.0013379192728150216,
+  "p": 9.526867836384955e-06
+ },
+ "promoted": true,
+ "reality": "a confirmed celestial signal",
+ "reality_tier": 3,
+ "search": {
+  "amplitude": 1.2300234741385065,
+  "band": "g+r+i",
+  "classical": {
+   "period_days": 79.93505805980992,
+   "power": 0.5739314133372132,
+   "white_noise_fap": 2.276318978873693e-74
+  },
+  "coefficients": [
+   0.46669919873409216,
+   -1.1718663503773288,
+   0.0,
+   0.0,
+   0.3737472458561816,
+   0.0,
+   0.0
+  ],
+  "coherence_p": 0.004975124378109453,
+  "cycles_covered": 33.19999999999998,
+  "decoy": {
+   "draws": 1000,
+   "exceedances": 0,
+   "p": 0.000999000999000999,
+   "resolution": 0.000999000999000999,
+   "sigma": 3.0905291379252677,
+   "stopped_early": false
+  },
+  "first_pass": 0.13719137608630863,
+  "flags": [
+   "a model at 159.9 days fitted best; the period reported is its harmonic at 79.9 days, which fits nearly as well"
+  ],
+  "harmonic_fraction": 0.0,
+  "n_frequencies": 317,
+  "n_points": 417,
+  "noise": {
+   "sigma_null": 1.2026003659685278,
+   "sigma_with_signal": 0.8133724561015243,
+   "tau_null_days": 7.138197396711417,
+   "tau_with_signal_days": 2.4777378848886387
+  },
+  "null": {
+   "mean_map": 0.4624564947080595,
+   "n": 417,
+   "sigma_68": [
+    1.2393279192140012,
+    1.2393279192140012
+   ],
+   "sigma_map": 1.2393279192140012,
+   "span_days": 2653.843927585687,
+   "tau_68_days": [
+    6.786478955755776,
+    6.786478955755776
+   ],
+   "tau_constrained": true,
+   "tau_map_days": 6.786478955755776
+  },
+  "p_tail": 3.2214452620230495e-12,
+  "period_days": 79.9350580598099,
+  "phase_cycles": 0.45086328865276404,
+  "source_id": "c13fd9f377e87e91",
+  "span_days": 2653.843927585687,
+  "statistic": 130.1695658719625,
+  "status": "searched",
+  "tail": {
+   "effective_frequencies": 23.325996234332536,
+   "n_decoys": 1000,
+   "scale": 2.198011266528004
+  }
+ },
+ "sentences": [
+  "The best periodic model has a period of 79.9 days and covers 33.2 cycles in 417 points over 2654 days; its fundamental has an amplitude of 1.23 in the standardised units of the merged light curve (1 is the object's own scatter), and 0% of its power is in higher harmonics.",
+  "Against red noise fitted to this object, with the search over 317 trial periods included, the probability of a periodic model this good is 1 in 1,001 (0 of 1000 simulated nulls matched it).",
+  "After recalibration against the whole population searched, the probability is 1 in 104,966.",
+  "Note: a model at 159.9 days fitted best; the period reported is its harmonic at 79.9 days, which fits nearly as well.",
+  "For contrast, a test that assumes white noise would have given below 1 in a billion (2.3e-74); that number is not evidence, because the noise is not white.",
+  "The period of 79.9 days is 4.1 resolution elements from the nearest calendar period (one year / 4); that is clear of it.",
+  "The observing pattern has 4% of its power at this period; the sampling does not explain the signal.",
+  "Removing any one of 8 years moves the phase by at most 0.01 cycles and the amplitude by a factor of 0.97 to 1.03; the most important year carries 18% of the evidence. The signal does not hang on one year.",
+  "The 3 bands in which the signal is visible agree in phase to within 0.06 cycles.",
+  "Searched alone, the first 70% of the time span finds the same period (80.0 days), and its periodic model predicts the remaining 139 points better than no periodic model (log-likelihood gain +53.4).",
+  "With the time axis warped at random, the search does as well as in true time 0.5% of the time; the variation keeps time."
+ ],
+ "status": "The registered analysis promoted this object: it passed every gate the pipeline then had. Follow-up shows what it is: an RR Lyrae star, a known kind of pulsating star, whose half-day pulsation appears as an 80-day cycle under nightly sampling. The signal is real, celestial and explained.",
+ "what_would_change_this": "Nothing needs to. The variation is explained: an RR Lyrae star, with the long period an alias of its pulsation."
+}

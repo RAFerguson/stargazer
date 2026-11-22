@@ -1,0 +1,3 @@
+source_id,ra,dec,parallax,parallax_error,pmra,pmdec,pm,ruwe,phot_g_mean_mag,bp_rp,phot_variable_flag,in_qso_candidates,classprob_dsc_combmod_quasar,classprob_dsc_combmod_star,has_epoch_photometry,teff_gspphot,radial_velocity
+3613794004069753472,208.51806677697698,-10.911535139195141,0.09704830719075325,0.13376585,-0.9596378744438456,-1.419899997896754,1.7137738,0.9814569,17.68173,0.5249138,VARIABLE,true,0.9586063,0.04139004,true,6263.386,
+

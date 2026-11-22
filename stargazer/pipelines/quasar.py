@@ -290,7 +290,7 @@ def _write_results(rows: list[dict], out_dir: pathlib.Path) -> None:
 
     with gzip.open(out_dir / "results.json.gz", "wt") as handle:
         json.dump(dossier._jsonable(rows), handle)
-    gate_names = ("calendar", "window", "seasons", "bands", "holdout", "coherence")
+    gate_names = ("calendar", "window", "seasons", "bands", "holdout", "coherence", "alias")
     with open(out_dir / "results.csv", "w", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(["label", "kind", "name", "status", "nights", "period_days", "statistic", "p_raw",
@@ -350,7 +350,7 @@ def score(analysed: list[dict], key: dict[str, dict], config: RunConfig) -> dict
     gated = [r for r in searched if r["kind"] == "decoy" and r["gates"]]
     summary["decoy_gate_pass_rate"] = {
         gate: float(np.mean([g["passed"] is not False for r in gated for g in r["gates"] if g["gate"] == gate]))
-        for gate in ("calendar", "window", "seasons", "bands", "holdout", "coherence")} if gated else {}
+        for gate in ("calendar", "window", "seasons", "bands", "holdout", "coherence", "alias")} if gated else {}
     # Completeness: a plant is recovered if it is promoted with the right period.
     cells = []
     for amplitude, period, shape in itertools.product(config.plant_amplitudes_mag, config.plant_periods_days,

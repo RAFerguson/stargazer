@@ -1,0 +1,203 @@
+{
+ "content": "no content analysis",
+ "content_tier": 0,
+ "context": {
+  "configuration hash": "630f6b4980d15c009c5921b1eb9522723d6c33c0690f294e6667faab51f5ed06",
+  "decoy twins promoted": "0 of 1210",
+  "real objects searched": 1210,
+  "run": "quasar-ztf-gaia-pix2-100"
+ },
+ "disposition": "open",
+ "failed_gates": [
+  "coherence"
+ ],
+ "gates": [
+  {
+   "detail": {
+    "distance_resolution_elements": 1.079734127933892,
+    "nearest": "one year",
+    "tolerance": 0.5
+   },
+   "gate": "calendar",
+   "passed": true,
+   "sentence": "The period of 428.8 days is 1.1 resolution elements from the nearest calendar period (one year); that is clear of it."
+  },
+  {
+   "detail": {
+    "limit": 0.25,
+    "window_power": 0.18753515287072792
+   },
+   "gate": "window",
+   "passed": true,
+   "sentence": "The observing pattern has 19% of its power at this period; the sampling does not explain the signal."
+  },
+  {
+   "detail": {
+    "amplitude_ratio_range": [
+     0.966248541259681,
+     1.0408834877164101
+    ],
+    "max_phase_shift": 0.017436757271172665,
+    "max_share_of_evidence": 0.19259417386953026,
+    "n_seasons": 8
+   },
+   "gate": "seasons",
+   "passed": true,
+   "sentence": "Removing any one of 8 years moves the phase by at most 0.02 cycles and the amplitude by a factor of 0.97 to 1.04; the most important year carries 19% of the evidence. The signal does not hang on one year."
+  },
+  {
+   "detail": {
+    "bands": [
+     {
+      "amplitude": 0.4343204428520895,
+      "band": "g",
+      "n": 191,
+      "phase_cycles": 0.9343619474437687,
+      "statistic": 31.73179702224504
+     },
+     {
+      "amplitude": 0.3272700570295779,
+      "band": "r",
+      "n": 189,
+      "phase_cycles": 0.9748652167620255,
+      "statistic": 23.052690961095937
+     },
+     {
+      "amplitude": 0.06500289259972544,
+      "band": "i",
+      "n": 38,
+      "phase_cycles": 0.8522964756602025,
+      "statistic": 1.6850687460502831
+     }
+    ],
+    "max_phase_difference": 0.040503269318256874
+   },
+   "gate": "bands",
+   "passed": true,
+   "sentence": "The 2 bands in which the signal is visible agree in phase to within 0.04 cycles."
+  },
+  {
+   "detail": {
+    "early_period_days": 422.94730228352233,
+    "log_likelihood_gain": 36.28536558893239,
+    "n_early": 177,
+    "n_late": 116,
+    "same_period": true,
+    "train_fraction": 0.7
+   },
+   "gate": "holdout",
+   "passed": true,
+   "sentence": "Searched alone, the first 70% of the time span finds the same period (422.9 days), and its periodic model predicts the remaining 116 points better than no periodic model (log-likelihood gain +36.3)."
+  },
+  {
+   "detail": {
+    "coherence_p": 0.05472636815920398,
+    "limit": 0.05
+   },
+   "gate": "coherence",
+   "passed": false,
+   "sentence": "With the time axis warped at random, the search does as well as in true time 5.5% of the time; the variation does not clearly keep time."
+  }
+ ],
+ "info": {
+  "Dec (deg)": -6.898797,
+  "Gaia DR3 source_id": 3630864952883432064,
+  "Gaia G (mag)": 18.93,
+  "Gaia quasar probability": 1.0,
+  "RA (deg)": 203.288441,
+  "ZTF light curves (band: points)": "g: 197, r: 214, r: 6, i: 38",
+  "ZTF object ids": "373114200009414, 373214200020444, 1418206200016302, 373314200029288"
+ },
+ "kind": "periodicity",
+ "name": "gaia:3630864952883432064",
+ "not_checked": [
+  "other surveys of the same object (independent confirmation)",
+  "neighbouring stars on the same detector (local systematics)",
+  "noise models beyond a single damped random walk"
+ ],
+ "p_final": 1.3150616507639034e-05,
+ "promoted": false,
+ "reality": "a hit",
+ "reality_tier": 0,
+ "search": {
+  "amplitude": 0.9495207164245383,
+  "band": "g+r+i",
+  "classical": {
+   "period_days": 428.8493723067188,
+   "power": 0.5393350246578311,
+   "white_noise_fap": 1.6225245822826643e-46
+  },
+  "coefficients": [
+   0.6921782068350416,
+   0.8913856242009239,
+   0.0448438775084216,
+   -0.08299049719199912,
+   -0.3271410397478398,
+   0.27655748703892163,
+   -0.14624789541564878
+  ],
+  "coherence_p": 0.05472636815920398,
+  "cycles_covered": 6.199999999999998,
+  "decoy": {
+   "draws": 1000,
+   "exceedances": 0,
+   "p": 0.000999000999000999,
+   "resolution": 0.000999000999000999,
+   "sigma": 3.0905291379252677,
+   "stopped_early": false
+  },
+  "first_pass": 42.78072131127482,
+  "flags": [],
+  "harmonic_fraction": 0.10588563208622057,
+  "n_frequencies": 318,
+  "n_points": 293,
+  "noise": {
+   "sigma_null": 1.0167778020102154,
+   "sigma_with_signal": 0.637286099134683,
+   "tau_null_days": 7.726853382253745,
+   "tau_with_signal_days": 1.200822173399709
+  },
+  "null": {
+   "mean_map": 0.6063476589076865,
+   "n": 293,
+   "sigma_68": [
+    0.9651013186128911,
+    0.9651013186128911
+   ],
+   "sigma_map": 0.9651013186128911,
+   "span_days": 2658.866108301656,
+   "tau_68_days": [
+    5.908442952405252,
+    5.908442952405252
+   ],
+   "tau_constrained": true,
+   "tau_map_days": 5.908442952405252
+  },
+  "p_tail": 7.229488942200992e-12,
+  "period_days": 428.8493723067188,
+  "phase_cycles": 0.9440186685699609,
+  "source_id": "9e8f242b427216c3",
+  "span_days": 2658.866108301656,
+  "statistic": 125.79313556828947,
+  "status": "searched",
+  "tail": {
+   "effective_frequencies": 22.985692234986253,
+   "n_decoys": 1000,
+   "scale": 2.1848398374615168
+  }
+ },
+ "sentences": [
+  "The best periodic model has a period of 428.8 days and covers 6.2 cycles in 293 points over 2659 days; its fundamental has an amplitude of 0.95 in the standardised units of the merged light curve (1 is the object's own scatter), and 11% of its power is in higher harmonics.",
+  "Against red noise fitted to this object, with the search over 318 trial periods included, the probability of a periodic model this good is 1 in 1,001 (0 of 1000 simulated nulls matched it).",
+  "After recalibration against the whole population searched, the probability is 1 in 76,042.",
+  "For contrast, a test that assumes white noise would have given below 1 in a billion (1.6e-46); that number is not evidence, because the noise is not white.",
+  "The period of 428.8 days is 1.1 resolution elements from the nearest calendar period (one year); that is clear of it.",
+  "The observing pattern has 19% of its power at this period; the sampling does not explain the signal.",
+  "Removing any one of 8 years moves the phase by at most 0.02 cycles and the amplitude by a factor of 0.97 to 1.04; the most important year carries 19% of the evidence. The signal does not hang on one year.",
+  "The 2 bands in which the signal is visible agree in phase to within 0.04 cycles.",
+  "Searched alone, the first 70% of the time span finds the same period (422.9 days), and its periodic model predicts the remaining 116 points better than no periodic model (log-likelihood gain +36.3).",
+  "With the time axis warped at random, the search does as well as in true time 5.5% of the time; the variation does not clearly keep time."
+ ],
+ "status": "This object is not promoted: it failed coherence.",
+ "what_would_change_this": "New data are the test. If the period is real, the periodic model fitted now will fit data taken later better than red noise alone; if it is a red-noise bump, it will not. No prediction was recorded for this object, because it was not promoted."
+}

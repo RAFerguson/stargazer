@@ -1,0 +1,569 @@
+{
+ "completeness": [
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sinusoid",
+   "low95": 0.0,
+   "period_days": 150.0,
+   "period_found": 11,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 150.0,
+   "period_found": 5,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "flare",
+   "low95": 0.0,
+   "period_days": 150.0,
+   "period_found": 8,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sinusoid",
+   "low95": 0.0,
+   "period_days": 300.0,
+   "period_found": 7,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 300.0,
+   "period_found": 4,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "flare",
+   "low95": 0.0,
+   "period_days": 300.0,
+   "period_found": 1,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sinusoid",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 3,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 0,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.05,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "flare",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 0,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.3888888888888889,
+   "fraction_upper95_if_none_found": 0.006346150773992254,
+   "high95": 0.6138133141934384,
+   "label": "sinusoid",
+   "low95": 0.20304991926931162,
+   "period_days": 150.0,
+   "period_found": 18,
+   "recovered": 7,
+   "significant_before_gates": 7,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.0,
+   "high95": 0.18432366037156456,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 150.0,
+   "period_found": 17,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 17
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.05555555555555555,
+   "fraction_upper95_if_none_found": 0.04358619803070041,
+   "high95": 0.2575779980200754,
+   "label": "flare",
+   "low95": 0.009874935830924539,
+   "period_days": 150.0,
+   "period_found": 13,
+   "recovered": 1,
+   "significant_before_gates": 1,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.16666666666666666,
+   "fraction_upper95_if_none_found": 0.0147450814925566,
+   "high95": 0.3922249963835924,
+   "label": "sinusoid",
+   "low95": 0.05836470400465754,
+   "period_days": 300.0,
+   "period_found": 15,
+   "recovered": 3,
+   "significant_before_gates": 3,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 300.0,
+   "period_found": 14,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.05555555555555555,
+   "fraction_upper95_if_none_found": 0.04358619803070041,
+   "high95": 0.2575779980200754,
+   "label": "flare",
+   "low95": 0.009874935830924539,
+   "period_days": 300.0,
+   "period_found": 7,
+   "recovered": 1,
+   "significant_before_gates": 1,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.0,
+   "high95": 0.18432366037156456,
+   "label": "sinusoid",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 8,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 17
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.05555555555555555,
+   "fraction_upper95_if_none_found": 0.04358619803070041,
+   "high95": 0.2575779980200754,
+   "label": "sawtooth",
+   "low95": 0.009874935830924539,
+   "period_days": 600.0,
+   "period_found": 3,
+   "recovered": 1,
+   "significant_before_gates": 1,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.1,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "flare",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 2,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.7222222222222222,
+   "fraction_upper95_if_none_found": 0.003422178057505554,
+   "high95": 0.8750043085364452,
+   "label": "sinusoid",
+   "low95": 0.49126922453805477,
+   "period_days": 150.0,
+   "period_found": 17,
+   "recovered": 13,
+   "significant_before_gates": 14,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 150.0,
+   "period_found": 17,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.16666666666666666,
+   "fraction_upper95_if_none_found": 0.0147450814925566,
+   "high95": 0.3922249963835924,
+   "label": "flare",
+   "low95": 0.05836470400465754,
+   "period_days": 150.0,
+   "period_found": 18,
+   "recovered": 3,
+   "significant_before_gates": 3,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.4444444444444444,
+   "fraction_upper95_if_none_found": 0.005555089650544298,
+   "high95": 0.6628393057174837,
+   "label": "sinusoid",
+   "low95": 0.24559231101389126,
+   "period_days": 300.0,
+   "period_found": 15,
+   "recovered": 8,
+   "significant_before_gates": 8,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.1111111111111111,
+   "fraction_upper95_if_none_found": 0.022035889222257965,
+   "high95": 0.3280024486660421,
+   "label": "sawtooth",
+   "low95": 0.031018868453582787,
+   "period_days": 300.0,
+   "period_found": 14,
+   "recovered": 2,
+   "significant_before_gates": 2,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.05555555555555555,
+   "fraction_upper95_if_none_found": 0.04358619803070041,
+   "high95": 0.2575779980200754,
+   "label": "flare",
+   "low95": 0.009874935830924539,
+   "period_days": 300.0,
+   "period_found": 14,
+   "recovered": 1,
+   "significant_before_gates": 1,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.05555555555555555,
+   "fraction_upper95_if_none_found": 0.04358619803070041,
+   "high95": 0.2575779980200754,
+   "label": "sinusoid",
+   "low95": 0.009874935830924539,
+   "period_days": 600.0,
+   "period_found": 14,
+   "recovered": 1,
+   "significant_before_gates": 1,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "sawtooth",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 13,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  },
+  {
+   "amplitude_mag": 0.2,
+   "completeness": 0.0,
+   "high95": 0.1758845505823749,
+   "label": "flare",
+   "low95": 0.0,
+   "period_days": 600.0,
+   "period_found": 6,
+   "recovered": 0,
+   "significant_before_gates": 0,
+   "trials": 18
+  }
+ ],
+ "config_hash": "630f6b4980d15c009c5921b1eb9522723d6c33c0690f294e6667faab51f5ed06",
+ "decoy_estimate": {
+  "decoy_promoted": 0,
+  "estimated_fdr": 1.0,
+  "expected_false_among_real": 0.0,
+  "false_alarm_probability_upper95": 0.0024727495020429595,
+  "n_decoy": 1210,
+  "n_real": 1210,
+  "real_promoted": 1
+ },
+ "decoy_gate_pass_rate": {
+  "bands": 1.0,
+  "calendar": 1.0,
+  "coherence": 0.6181818181818182,
+  "holdout": 0.2727272727272727,
+  "seasons": 0.8727272727272727,
+  "window": 0.9818181818181818
+ },
+ "dossiers": [
+  "runs/2026-11-22-quasar-pix2-100/dossiers/gaia_3613794004069753472.md",
+  "runs/2026-11-22-quasar-pix2-100/dossiers/gaia_3630864952883432064.md",
+  "runs/2026-11-22-quasar-pix2-100/dossiers/gaia_3629553823921510144.md",
+  "runs/2026-11-22-quasar-pix2-100/dossiers/gaia_3615884244394408960.md",
+  "runs/2026-11-22-quasar-pix2-100/dossiers/gaia_3619385570456033152.md"
+ ],
+ "empirical_null": {
+  "decoy": {
+   "centre": -0.020125114079524553,
+   "centre_used": 0.0,
+   "n": 1210,
+   "width": 1.005154130822718,
+   "width_used": 1.005154130822718
+  },
+  "real": {
+   "centre": -0.9190237661508253,
+   "centre_used": 0.0,
+   "n": 1210,
+   "width": 1.6066365542252763,
+   "width_used": 1.6066365542252763
+  }
+ },
+ "hits": {
+  "decoy": 8,
+  "plant": 90,
+  "real": 4
+ },
+ "hypotheses_examined": 381598,
+ "not_searched": 0,
+ "period_distribution_real_vs_decoy": {
+  "ks_p": 7.420817241221873e-20,
+  "ks_statistic": 0.19173553719008263
+ },
+ "preparation": {
+  "dropped": {
+   "no usable band": 39,
+   "too few nights": 39,
+   "too short a time span": 0
+  },
+  "median_error_scale_applied": {
+   "g": 1.0,
+   "i": 1.0,
+   "r": 1.1173414217100508
+  },
+  "objects_in": 1288,
+  "objects_kept": 1210,
+  "pooled_error_scale": {
+   "g": 0.7580586106473244,
+   "i": 0.9902537736052903,
+   "r": 1.1173414217100508
+  }
+ },
+ "promoted": {
+  "decoy": 0,
+  "plant": 43,
+  "real": 1
+ },
+ "promoted_before_deep_calibration": {
+  "decoy": 0,
+  "plant": 43,
+  "real": 1
+ },
+ "promoted_real": [
+  {
+   "name": "gaia:3613794004069753472",
+   "p_final": 9.526867836384955e-06,
+   "period_days": 79.9350580598099
+  }
+ ],
+ "raw_p_uniformity": {
+  "decoy": {
+   "below_0.01": 9,
+   "below_0.05": 55,
+   "expected_below_0.01": 12.1,
+   "expected_below_0.05": 60.5,
+   "n": 1210,
+   "z_below_0.01": -0.8956769777761624,
+   "z_below_0.05": -0.7254762501100117
+  },
+  "real": {
+   "below_0.01": 46,
+   "below_0.05": 75,
+   "expected_below_0.01": 12.1,
+   "expected_below_0.05": 60.5,
+   "n": 1210,
+   "z_below_0.01": 9.794661144068357,
+   "z_below_0.05": 1.9126192048354855
+  }
+ },
+ "run": "quasar-ztf-gaia-pix2-100",
+ "sample": {
+  "after_astrometric_cuts": 1407,
+  "gaia_candidates": 1426,
+  "with_ztf_light_curve": 1288
+ },
+ "sealed_commitment": "804478da3cc6d73dcc0b65fe606daf89e9abdec0c5f8561ee8edcd27f9d5c541",
+ "searched": {
+  "decoy": 1210,
+  "plant": 484,
+  "real": 1210
+ },
+ "seconds": 1607.262255191803,
+ "top_real": [
+  {
+   "failed_gates": [],
+   "name": "gaia:3613794004069753472",
+   "p_final": 9.526867836384955e-06,
+   "p_raw": 3.2214452620230495e-12,
+   "period_days": 79.9350580598099,
+   "promoted": true
+  },
+  {
+   "failed_gates": [
+    "coherence"
+   ],
+   "name": "gaia:3630864952883432064",
+   "p_final": 1.3150616507639034e-05,
+   "p_raw": 7.229488942200992e-12,
+   "period_days": 428.8493723067188,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "window",
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3629553823921510144",
+   "p_final": 0.0007983521569859087,
+   "p_raw": 1.9748998022528978e-07,
+   "period_days": 340.8784052776581,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3615884244394408960",
+   "p_final": 0.008353565103015726,
+   "p_raw": 6.0318930996300696e-05,
+   "period_days": 884.6166389254092,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "seasons",
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3619385570456033152",
+   "p_final": 0.013602467719524381,
+   "p_raw": 0.00019381847367543715,
+   "period_days": 829.3304950031506,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3616394628242930560",
+   "p_final": 0.014144231577110086,
+   "p_raw": 0.00021272195649135083,
+   "period_days": 511.3206762172445,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "coherence"
+   ],
+   "name": "gaia:3621974752833502464",
+   "p_final": 0.015306628575113593,
+   "p_raw": 0.00025671440953466314,
+   "period_days": 884.6403396775324,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "seasons",
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3604619614623791104",
+   "p_final": 0.01567182089900761,
+   "p_raw": 0.0002715171488714005,
+   "period_days": 886.28929178213,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "holdout",
+    "coherence"
+   ],
+   "name": "gaia:3631286168915689856",
+   "p_final": 0.01612173653094959,
+   "p_raw": 0.00029040814231962405,
+   "period_days": 886.2895450517439,
+   "promoted": false
+  },
+  {
+   "failed_gates": [
+    "coherence"
+   ],
+   "name": "gaia:3604098991572142464",
+   "p_final": 0.027202250987623345,
+   "p_raw": 0.000999000999000999,
+   "period_days": 441.14892754571457,
+   "promoted": false
+  }
+ ]
+}

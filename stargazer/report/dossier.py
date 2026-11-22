@@ -67,7 +67,7 @@ def periodicity_dossier(name: str, search: dict, gates: list[dict], *, promoted:
                         info: dict | None = None, context: dict | None = None, recalibrated: bool = True,
                         prediction_recorded: bool | None = None,
                         units: str = "the standardised units of the merged light curve (1 is the object's own "
-                                     "scatter)") -> dict:
+                                     "scatter)", follow_up: dict | None = None) -> dict:
     """The record for one object of a periodicity search.
 
     `search` is `PeriodicityResult.to_dict()`, `gates` the list of `GateResult.to_dict()`, `p_final` the
@@ -126,7 +126,18 @@ def periodicity_dossier(name: str, search: dict, gates: list[dict], *, promoted:
               "sentences": sentences, "status": status, "failed_gates": failed, "not_checked": not_checked,
               "what_would_change_this": would_change, "search": search, "gates": gates, "info": info or {},
               "context": context or {}}
-    check_wording(" ".join(sentences + [status, would_change]), ContentTier.NONE)
+    if follow_up:
+        # What was learned after the registered analysis: {"reality_tier", "disposition", "sentences", "sources"}.
+        record["follow_up"] = follow_up
+        record["reality_tier"] = int(follow_up.get("reality_tier", record["reality_tier"]))
+        record["reality"] = reality_phrase(record["reality_tier"])
+        record["disposition"] = Disposition(follow_up.get("disposition", record["disposition"])).value
+        if "what_would_change_this" in follow_up:
+            record["what_would_change_this"] = follow_up["what_would_change_this"]
+        if "status" in follow_up:
+            record["status"] = follow_up["status"]
+    check_wording(" ".join(sentences + [record["status"], record["what_would_change_this"]]
+                           + (follow_up or {}).get("sentences", [])), ContentTier.NONE)
     return record
 
 
@@ -139,6 +150,9 @@ def to_markdown(record: dict) -> str:
              f"{record['disposition']}.", "", record["status"], ""]
     if info:
         lines += ["## Object", ""] + [f"- {key}: {value}" for key, value in info.items()] + [""]
+    if record.get("follow_up"):
+        lines += ["## Follow-up", ""] + [f"- {s}" for s in record["follow_up"].get("sentences", [])]
+        lines += [f"- Source: {s}" for s in record["follow_up"].get("sources", [])] + [""]
     lines += ["## Evidence", ""] + [f"- {s}" for s in record["sentences"]] + [""]
     lines += ["## Not checked", ""] + [f"- {s}" for s in record["not_checked"]] + [""]
     lines += ["## What would change this", "", record["what_would_change_this"], ""]

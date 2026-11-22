@@ -71,7 +71,7 @@ def calibration_figure(rows: list[dict], out: str | pathlib.Path, theme: str = "
     colour = THEMES[theme]
     plt.rcParams["font.family"] = ["DejaVu Sans", "sans-serif"]
     fig, ax = plt.subplots(figsize=(8.0, 4.6), dpi=200, facecolor=colour["surface"])
-    fig.subplots_adjust(left=0.095, right=0.80, top=0.80, bottom=0.14)
+    fig.subplots_adjust(left=0.095, right=0.965, top=0.80, bottom=0.14)
     _style(ax, colour)
     grid = np.geomspace(1e-3, 1.0, 400)
     ax.plot(grid, grid, color=colour["muted"], linewidth=1.5 * PX, linestyle=(0, (4, 3)), zorder=2)
@@ -96,11 +96,11 @@ def calibration_figure(rows: list[dict], out: str | pathlib.Path, theme: str = "
     ax.set_yticks([1e-3, 1e-2, 1e-1, 1])
     ax.set_yticklabels(["0.1%", "1%", "10%", "100%"])
     ax.minorticks_off()
-    ax.annotate("a calibrated null\nfollows this line", xy=(0.03, 0.03), xytext=(0.06, 0.004), fontsize=9,
+    ax.annotate("a calibrated null\nfollows this line", xy=(0.0025, 0.0025), xytext=(0.0045, 0.0011), fontsize=9,
                 color=colour["ink2"], ha="left", va="center",
                 arrowprops={"arrowstyle": "-", "color": colour["muted"], "linewidth": PX})
-    legend = ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False, fontsize=9,
-                       labelcolor=colour["ink2"], handlelength=1.6, borderaxespad=0.0)
+    legend = ax.legend(loc="lower right", frameon=False, fontsize=9, labelcolor=colour["ink2"], handlelength=1.6,
+                       borderaxespad=0.8)
     for handle in legend.legend_handles:
         handle.set_linewidth(2 * PX * 1.4)
     fig.text(0.095, 0.93, title or "Real objects behave like their decoys", color=colour["ink"], fontsize=13,

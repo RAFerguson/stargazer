@@ -42,11 +42,29 @@ def test_gates_pass_a_strong_real_signal():
     result = per.search(merged, rng_for(1, "gates"), FAST)
     assert result.period_days == pytest.approx(230.0, rel=0.05)
     results = {g.gate: g for g in gates.run_gates(merged, bands, result, FAST)}
-    assert set(results) == {"calendar", "window", "seasons", "bands", "holdout", "coherence"}
+    assert set(results) == {"calendar", "window", "seasons", "bands", "holdout", "coherence", "alias"}
+    assert results["alias"].passed
     for name in ("calendar", "window", "seasons", "bands", "holdout"):
         assert results[name].passed, results[name].sentence
     assert gates.verdict(list(results.values()))[0] in (True, False)
     assert all(isinstance(g.sentence, str) and g.sentence for g in results.values())
+
+
+def test_alias_gate_catches_a_fast_pulsator_seen_once_a_night():
+    rng = np.random.default_rng(5)
+    nights = np.sort(rng.choice(2600, 420, replace=False)).astype(float)
+    time = 58000.0 + nights + rng.uniform(0.15, 0.40, nights.size)          # one visit a night, at varying hours
+    fast = 0.49624
+    value = 17.7 + 0.35 * np.sin(2 * np.pi * time / fast) + 0.03 * rng.standard_normal(time.size)
+    star = Series(time, value, np.full(time.size, 0.03), "r", "sim:rrlyrae")
+    result = per.search(per.merge_bands([star]), rng_for(2, "alias"), FAST)
+    assert result.p <= 0.02 and result.period_days > 40          # the search sees a slow, clean cycle
+    gate = gates.alias_gate([star], result.period_days)
+    assert gate.passed is False
+    assert abs(gate.detail["bands"][0]["short_period_days"] - fast) < 1e-3
+    slow = Series(time, 17.7 + 0.2 * np.sin(2 * np.pi * time / 230.0) + 0.03 * rng.standard_normal(time.size),
+                  np.full(time.size, 0.03), "r", "sim:slow")
+    assert gates.alias_gate([slow], 230.0).passed is True
 
 
 def test_quality_rules():

@@ -14,6 +14,7 @@ measured, not assumed, and no single threshold here has to be exactly right.
 | bands     | Do the bands agree in phase?                                    | a fault in one filter or one chip      |
 | holdout   | Do the early data alone find it, and predict the late data?     | red noise, which does not keep time    |
 | coherence | Does the search do worse when the time axis is warped?          | noise the model got wrong, flicker     |
+| alias     | Is it the beat of a much faster variation with the nightly cycle?| short-period variable stars            |
 """
 from __future__ import annotations
 
@@ -22,7 +23,7 @@ from dataclasses import asdict, dataclass, field
 import numpy as np
 
 from ..core import Series
-from ..detect.calendar import calendar_periods
+from ..detect.calendar import YEAR, calendar_periods
 from ..detect.periodicity import (PeriodicityResult, SearchConfig, evaluate, fit_sinusoid, frequency_grid,
                                    harmonic_design, resolve_period)
 from ..nulls import drw
@@ -193,6 +194,57 @@ def holdout_gate(series: Series, period_days: float, *, train_fraction: float = 
                                                     "n_late": late_n, "train_fraction": train_fraction})
 
 
+def alias_gate(bands: list[Series], period_days: float, *, min_short_days: float = 0.08,
+               max_short_days: float = 2.0, min_points: int = 60, tolerance: float = 2.0) -> GateResult:
+    """Is the candidate the beat of a much faster variation against the nightly observing cycle?
+
+    A star that pulsates twice a day, observed about once a night, looks through nightly sampling like a star
+    that varies slowly: the fast frequency f shows up at |f - n - k / year| for whole numbers n of cycles per
+    day and small k. The first blind run promoted exactly this: an RR Lyrae star with a period of 0.4962 days
+    appeared as a clean 79.9-day cycle. This gate searches the unbinned measurements of each band for periods
+    between `min_short_days` and `max_short_days`. It fails the candidate if the best short period fits the
+    unbinned data better than the candidate period does and the two are related by the alias formula to within
+    `tolerance` frequency-resolution elements.
+    """
+    from astropy.timeseries import LombScargle
+
+    long_freq = 1.0 / period_days
+    findings = []
+    for band in bands:
+        if len(band) < min_points:
+            continue
+        resolution = 1.0 / band.span
+        freq = np.arange(1.0 / max_short_days, 1.0 / min_short_days, resolution / 5.0)
+        periodogram = LombScargle(band.time, band.value, band.error)
+        power = periodogram.power(freq)
+        best = int(np.argmax(power))
+        short_freq, short_power = float(freq[best]), float(power[best])
+        long_power = float(periodogram.power(np.array([long_freq]))[0])
+        distance, relation = np.inf, None
+        for n in range(1, int(np.ceil(short_freq)) + 2):
+            for k in range(-2, 3):
+                d = abs(abs(short_freq - n - k / YEAR) - long_freq) / resolution
+                if d < distance:
+                    distance, relation = d, (n, k)
+        findings.append({"band": band.band, "n": len(band), "short_period_days": 1.0 / short_freq,
+                         "short_power": short_power, "candidate_power": long_power,
+                         "alias_distance_resolution_elements": float(distance), "cycles_per_day": relation[0],
+                         "cycles_per_year": relation[1],
+                         "is_alias": bool(short_power > long_power and distance <= tolerance)})
+    if not findings:
+        return GateResult("alias", None, "Too few unbinned measurements to look for a faster variation.", {})
+    aliased = [f for f in findings if f["is_alias"]]
+    if aliased:
+        worst = max(aliased, key=lambda f: f["short_power"])
+        sentence = (f"The unbinned {worst['band']}-band data are fitted better by a period of "
+                    f"{worst['short_period_days']:.5f} days than by {period_days:.1f} days, and the two are related "
+                    f"by the nightly sampling ({worst['cycles_per_day']} cycles a day): the candidate period is an "
+                    "alias of the fast one.")
+        return GateResult("alias", False, sentence, {"bands": findings})
+    return GateResult("alias", True, f"No faster variation in the unbinned data accounts for the "
+                      f"{period_days:.1f}-day period.", {"bands": findings})
+
+
 def coherence_gate(result: PeriodicityResult, limit: float = 0.05) -> GateResult:
     """Pass if searches of the same data in warped time rarely do as well as the search in true time."""
     p = result.coherence_p
@@ -216,7 +268,8 @@ def run_gates(merged: Series, bands: list[Series], result: PeriodicityResult,
             season_gate(series, period, sigma, tau),
             band_gate(bands, period, config),
             holdout_gate(series, period, config=config),
-            coherence_gate(result)]
+            coherence_gate(result),
+            alias_gate(bands, period)]
 
 
 def verdict(gates: list[GateResult]) -> tuple[bool, list[str]]:
