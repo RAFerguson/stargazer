@@ -117,7 +117,9 @@ _ENTRIES = [
     _info("atnf", "ATNF Pulsar Catalogue", "www.atnf.csiro.au", "ATNF Pulsar Catalogue", "api"),
     _info("csiro_dap", "CSIRO Data Access Portal", "data.csiro.au", "CSIRO Data Access Portal (Parkes pulsar data)",
           "api"),
-    _info("chime_frb", "CHIME/FRB", "www.chime-frb.ca", "CHIME/FRB catalogues", "api"),
+    _info("chime_frb", "CHIME/FRB", "www.chime-frb.ca", "CHIME/FRB catalogues", "api", "",
+          "On 22 Nov 2026 www.chime-frb.ca redirected every path to chime-frb.ca, a host this environment does "
+          "not allow; burst lists come from the Zenodo deposits used by stargazer.sources.frb instead."),
     _info("tns", "Transient Name Server", "www.wis-tns.org", "Transient Name Server", "api"),
     _info("gwosc", "GWOSC", "gwosc.org", "Gravitational Wave Open Science Center", "api"),
     _info("icecube", "IceCube", "icecube.wisc.edu", "IceCube public data releases", "api"),
@@ -161,6 +163,21 @@ SOURCES["kepler_lc"] = _info(
     "kepler_lc", "Kepler long-cadence light curves", "stpubdata.s3.amazonaws.com",
     "Kepler light-curve FITS files at kepler/public/lightcurves", "cloud", KEPLER_CITATION,
     "Used by stargazer.sources.kepler.")
+
+# Burst arrival times of repeating fast radio bursts, from data deposits on Zenodo (see stargazer.sources.frb,
+# which carries the full citations).
+SOURCES["frb_nrt_20220912a"] = _info(
+    "frb_nrt_20220912a", "FRB 20220912A bursts (Nançay)", "zenodo.org", "Zenodo deposit 10.5281/zenodo.13889738",
+    "api", "Konijn et al. 2024, MNRAS 534, 3331, doi:10.1093/mnras/stae2296; data doi:10.5281/zenodo.13889738",
+    "Used by stargazer.sources.frb.")
+SOURCES["frb_r3_compilation"] = _info(
+    "frb_r3_compilation", "FRB 20180916B burst compilation", "zenodo.org", "Zenodo deposit 10.5281/zenodo.4559593",
+    "api", "Pastor-Marazuela et al. 2021, Nature 596, 505, doi:10.1038/s41586-021-03724-8; data "
+    "doi:10.5281/zenodo.4559593", "Used by stargazer.sources.frb.")
+SOURCES["frb_fast_20220529"] = _info(
+    "frb_fast_20220529", "FRB 20220529 bursts (FAST)", "zenodo.org", "Zenodo deposit 10.5281/zenodo.17446358",
+    "api", "Li et al. 2026, Science 391, 280, doi:10.1126/science.adq3225; data doi:10.5281/zenodo.17446358",
+    "Used by stargazer.sources.frb.")
 
 
 def probe(host: str, timeout: float = 20.0) -> tuple[str, str]:

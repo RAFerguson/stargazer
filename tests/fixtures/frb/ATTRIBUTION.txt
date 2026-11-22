@@ -1,0 +1,17 @@
+Trimmed copies of public deposits, used by tests/test_frb.py. Rows were removed; none were changed.
+
+nrt_bursts_excerpt.csv, nrt_supplementary_excerpt.csv, nrt_observation_times_excerpt.txt
+  From "NRT_bursts_with_corrected_drift.csv", "Supplementary Material (online).csv" and "Observation times.txt" in
+  Konijn & Hewitt, reproduction package for "A Nancay Radio Telescope study of the hyperactive repeating
+  FRB 20220912A", Zenodo, doi:10.5281/zenodo.13889738, licence CC-BY-4.0. Paper: Konijn et al. 2024, MNRAS 534, 3331.
+
+r3_package_excerpt.zip
+  README.md, LICENSE and files/r3all_data.json (CHIME window list cut to its first 120 entries) from
+  Pastor-Marazuela et al., reproduction package for "Chromatic periodic activity down to 120MHz in a Fast Radio
+  Burst", Zenodo, doi:10.5281/zenodo.4559593, licence Apache-2.0 (copy inside the zip). Paper: Nature 596, 505 (2021).
+
+fast_frb20220529_table_s5_excerpt.csv
+  From "FRB20220529_TableS5.csv", Li et al., Zenodo, doi:10.5281/zenodo.17446358, licence CC-BY-4.0.
+  Paper: Li et al. 2026, Science 391, 280.
+
+Retrieved 22 Nov 2026.
