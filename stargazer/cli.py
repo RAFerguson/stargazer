@@ -5,6 +5,7 @@
     stargazer search lc.json                periodicity search and vetting gates on saved light curves
     stargazer quasar register|run           the blind quasar search (register first, publish, then run)
     stargazer decode FILE                   content ladder for a bit stream
+    stargazer drift FILE.fil                narrowband drift search on a filterbank spectrum
     stargazer bench                         the benchmark scorecard
     stargazer ledger                        what has been tested so far, and whether the record is intact
 """
@@ -188,6 +189,41 @@ def decode(path: str, as_bytes: bool, seed: int, out: str | None) -> None:
         click.echo(f"content tier {reading.tier} of 5: {reading.tier_phrase} -> {out}")
     else:
         click.echo(text)
+
+
+# ---- radio ----------------------------------------------------------------------------------------------------
+
+@main.command()
+@click.argument("path", type=click.Path(exists=True))
+@click.option("--max-drift", default=4.0, show_default=True, help="largest drift rate searched, Hz per second")
+@click.option("--snr", default=10.0, show_default=True, help="hit threshold")
+@click.option("--f-min", type=float, default=None, help="lower frequency to read, Hz")
+@click.option("--f-max", type=float, default=None, help="upper frequency to read, Hz")
+@click.option("--seed", default=0, show_default=True)
+def drift(path: str, max_drift: float, snr: float, f_min: float | None, f_max: float | None, seed: int) -> None:
+    """Search a SIGPROC filterbank file for narrowband tones that drift in frequency.
+
+    A hit here is a narrowband signal, and nearly all narrowband signals are human interference. Telling the
+    two apart needs an ON/OFF cadence of scans (see stargazer.detect.narrowband.cadence_search).
+    """
+    from .detect import narrowband
+    from .sources import filterbank
+
+    f_range = (f_min, f_max) if f_min is not None and f_max is not None else None
+    spectrum = filterbank.read(path, f_range=f_range)
+    config = narrowband.DriftConfig(max_drift_hz_per_s=max_drift, snr_threshold=snr)
+    result = narrowband.search(spectrum, rng_for(seed, "cli-drift", path), config)
+    click.echo(f"{spectrum.n_time} integrations x {spectrum.n_freq} channels; {result.n_trials:,} trials")
+    for flag in result.flags:
+        click.echo(f"note: {flag}")
+    if not result.hits:
+        click.echo("no hits")
+        return
+    if result.decoy is not None:
+        click.echo(f"strongest hit against row-rotated decoys: probability {result.p:.3g} (noise only, not "
+                   "interference)")
+    for hit in result.hits[:50]:
+        click.echo(f"  {hit.frequency_hz:16.3f} Hz  drift {hit.drift_hz_per_s:+8.4f} Hz/s  S/N {hit.snr:7.1f}")
 
 
 # ---- bench ----------------------------------------------------------------------------------------------------

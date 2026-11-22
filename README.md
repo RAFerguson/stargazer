@@ -56,7 +56,8 @@ the star's periodicity.
 ## What it does
 
 **Finds periodic signals without being fooled by red noise.** Quasars flicker in a way that imitates
-periodicity, and every optical "periodic quasar" tested on later data has failed. Stargazer fits the red noise
+periodicity, and claimed periodic quasars have a poor record: all 116 candidates from Gaia that could be
+checked against later ZTF data failed (El-Badry, Hogg & Rix 2025). Stargazer fits the red noise
 each object has, searches for a periodic signal of any shape (sine, sawtooth, narrow pulse), and measures
 significance by running the identical search on simulated nulls. On 1,000 simulated pure-noise objects it
 called 4.1% significant at the 5% level and 0.7% at the 1% level ([validation](docs/validation/)). A standard
@@ -78,6 +79,15 @@ raster pictures by exact code length, frames and sync words, parity checks, shif
 and arithmetic, and it reports everything it tried. On 33 benchmark signals with known answers it placed 32 at
 exactly the justified tier and overclaimed on none, on the development seed and on three held-out seeds
 ([scorecard](docs/benchmarks/scorecard.md), [example readings](docs/benchmarks/readings/)).
+
+**Searches radio spectra for drifting tones.** The classic technosignature search looks for a narrow tone
+whose frequency drifts as the transmitter accelerates. The standard method loses a tone that drifts by more
+than one channel per integration; this one sums along the channels the tone actually crosses. On injected
+tones at a signal-to-noise ratio of 15 it recovers 95 to 100% across the whole drift range, where the
+one-channel method falls to 10% at 0.6 Hz/s and to nothing beyond 1 Hz/s. It gave no false alarm on 200
+noise-only spectra, and its ON/OFF cadence filter rejects interference that sits just below threshold in the
+OFF scans, the failure behind the best-known false alarm of this kind. It has been run on synthetic spectra
+only; no real telescope file has been searched yet.
 
 **Keeps count.** Every search is registered in a hash-chained ledger before it runs and recorded after, so
 the number of things ever tested is known, and discoveries are controlled across the whole history of the
@@ -108,18 +118,19 @@ stargazer sources check                        # which archives answer from here
 stargazer fetch ztf 196.38754 -10.555389 -o pg1302.json
 stargazer search pg1302.json                   # periodicity search and gates on one object
 stargazer decode bits.txt                      # content ladder for a file of 0s and 1s
+stargazer drift scan.fil                       # narrowband drift search on a filterbank spectrum
 stargazer bench                                # the benchmark scorecard
 stargazer quasar register --name my-run        # write a blind run's definition to the ledger ...
 stargazer quasar run --name my-run --search-id <id> --out runs/my-run     # ... publish it, then run
 stargazer ledger                               # what has been tested so far
-pytest                                         # 222 tests; add -m "network or slow" for 15 more
+pytest                                         # 251 tests; add -m "network or slow" for 21 more
 ```
 
 ## What is here
 
 | Path | What it is |
 |---|---|
-| `stargazer/nulls`, `detect`, `vet`, `trust` | Red-noise model, periodicity and event-timing searches, vetting gates, blind analysis, error control |
+| `stargazer/nulls`, `detect`, `vet`, `trust` | Red-noise model; periodicity, event-timing and narrowband radio searches; vetting gates; blind analysis; error control |
 | `stargazer/pipelines/quasar.py` | The blind quasar search, end to end |
 | `stargazer/structure`, `decode` | Sequence statistics and the decoding workbench |
 | `stargazer/bench` | 33 benchmark signals with known answers, damage channels and the scorecard |
@@ -129,6 +140,20 @@ pytest                                         # 222 tests; add -m "network or s
 | [`runs/`](runs/) | Each run's configuration, sealed-label proof, results table, dossiers and report |
 | [`docs/PLAN.md`](docs/PLAN.md), [`docs/INNOVATION_AGENDA.md`](docs/INNOVATION_AGENDA.md) | The plan and the list of tools to invent, written before the code |
 | [`docs/research/`](docs/research/) | The research behind the plan: a report, eight topic notes, 516 checked citations |
+
+## What comes next
+
+1. **A better noise model.** The first search showed that a single damped random walk is too simple for a few
+   percent of quasars, and that this, not the data, limits the sensitivity. Candidates: a second, slower noise
+   component; wider masks around the year; a recalibration that depends on period. Each has to be registered
+   as a new search on a new patch of sky.
+2. **More sky.** The first sample is one cell of 192. The pipeline handles 1,200 objects in under half an hour.
+3. **Independent confirmation built in.** The first promoted object was settled by Gaia's own variability
+   tables. That look-up should be a standard step for every promoted object.
+4. **Radio on real data.** The drift search is built and tested on synthetic spectra. Next: public
+   Breakthrough Listen files with ON/OFF cadences, and millisecond timing of fast-radio-burst repeaters.
+5. **Peeling layers in the decoding workbench.** When a code is found (parity checks, a scrambler), remove it
+   and look again underneath. This is what the one missed benchmark item needs.
 
 ## What it cannot do
 
@@ -142,7 +167,8 @@ pytest                                         # 222 tests; add -m "network or s
   sensitivity there.
 - The noise model is a single damped random walk. Real quasars are more varied. The population recalibration
   and the warped-time test guard against this; they do not remove it.
-- Radio data (filterbank spectra, pulsar timing, fast radio bursts) are planned and not yet connected.
+- The radio drift search has seen only synthetic spectra. Real ones bring interference, bandpass ripple and
+  quantisation that the synthetic ones lack. Pulsar timing data are not connected.
 - One benchmark item is still missed: text hidden under an additive scrambler.
 
 ## Credit
